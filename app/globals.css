@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+/* Bridge the Fen & Ink tokens (and next/font variables) into Tailwind v4 so
+   utilities like bg-parchment, text-fen, border-hairline, font-serif work. */
+@theme inline {
+  --color-parchment: var(--parchment);
+  --color-ivory: var(--ivory);
+  --color-sunken: var(--bg-sunken);
+  --color-fen: var(--fen);
+  --color-fen-mist: var(--fen-mist);
+  --color-ink: var(--ink);
+  --color-reed: var(--reed);
+  --color-reed-deep: var(--reed-deep);
+  --color-hairline: var(--slate-100);
+  --color-hairline-strong: var(--slate-200);
+  --color-quiet: var(--slate-300);
+  --color-muted: var(--slate-600);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-danger: var(--danger);
+  --color-info: var(--info);
+
+  --font-sans: var(--sans);
+  --font-serif: var(--serif);
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-xl: 14px;
+}
+
+/* next/font sets --font-serif-src / --font-sans-src on <html>; point the
+   token families at them with the brief's fallbacks. */
+:root {
+  --serif: var(--font-serif-src), "Adobe Garamond Pro", Garamond, Georgia, serif;
+  --sans: var(--font-sans-src), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Quiet, bookish defaults beyond the token element styles. */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { min-height: 100dvh; }
+
+a.unstyled { text-decoration: none; color: inherit; }
+a.unstyled:hover { color: inherit; }
