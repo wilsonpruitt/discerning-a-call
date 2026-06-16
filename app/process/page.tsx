@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ladder } from "@/content";
-import { Container, PageHeader, Card, Pill, Eyebrow } from "@/components/ui";
+import { Container, PageHeader, Card, Eyebrow } from "@/components/ui";
+import { DisciplineRef } from "@/components/discipline-ref";
 
 export const metadata: Metadata = {
   title: "The candidacy process",
@@ -47,7 +48,7 @@ export default function ProcessPage() {
                 <div className="flex flex-wrap items-center gap-2">
                   <Eyebrow>{TRACK_LABELS[stage.track] ?? stage.trackLabel}</Eyebrow>
                   {stage.disciplineRefs?.map((ref) => (
-                    <Pill key={ref}>{ref}</Pill>
+                    <DisciplineRef key={ref} refLabel={ref} />
                   ))}
                 </div>
                 <h2 className="mt-2 font-serif text-[26px] font-medium text-fen">
