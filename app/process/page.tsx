@@ -28,9 +28,9 @@ export default function ProcessPage() {
             lead="Everyone begins the same way: a conversation. From there the road branches toward licensed, ordained, or lay ministry. Here is the shape of it, in plain language."
           />
           <p className="mt-6 max-w-2xl rounded-lg border border-hairline bg-ivory p-4 text-[14px] text-muted">
-            Paragraph references (¶) point to the Book of Discipline as a
-            courtesy. Your own annual conference adds its own steps and timing —
-            always treat your Board of Ordained Ministry as the final word.
+            Paragraph references (¶) are to the 2020/2024 Book of Discipline.
+            Your own annual conference adds its own steps and timing — always
+            treat your Board of Ordained Ministry as the final word.
           </p>
         </Container>
       </section>

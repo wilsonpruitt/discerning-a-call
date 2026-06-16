@@ -65,7 +65,7 @@ export const ladder: LadderStage[] = [
     ],
     whoToTalkTo:
       "Your candidacy mentor and your district Committee on Ordained Ministry.",
-    disciplineRefs: ["¶311", "¶313"],
+    disciplineRefs: ["¶310"],
   },
   {
     id: "licensed",
@@ -87,7 +87,7 @@ export const ladder: LadderStage[] = [
     ],
     whoToTalkTo:
       "Your district superintendent and the Board of Ordained Ministry's local pastor registrar.",
-    disciplineRefs: ["¶315", "¶318"],
+    disciplineRefs: ["¶311", "¶315"],
   },
   {
     id: "provisional",
@@ -117,18 +117,18 @@ export const ladder: LadderStage[] = [
     track: "ordained",
     trackLabel: "Ordained · Word, Sacrament, Order, Service",
     summary:
-      "Elders are ordained to Word, Sacrament, Order, and Service, and are appointed itinerantly across the conference.",
+      "Elders are “ordained to a lifetime ministry of Word, Sacrament, Order, and Service” (¶332), appointed itinerantly across the conference.",
     whatItIs: [
       "Elders preach, preside at the sacraments, and lead congregations and ministries.",
-      "They are itinerant — willing to be appointed wherever the bishop sends them.",
-      "After a fruitful residency, the Board recommends you, the clergy session votes, and you are ordained and received into full membership.",
+      "They are itinerant — they “offer themselves without reserve to be appointed and to serve... as the appointive authority may determine” (¶333).",
+      "After at least two years as a provisional member, the Board recommends you, the clergy session votes by three-fourths majority, and you are ordained and received into full connection.",
     ],
     requirements: [
-      "Effective service as a provisional member.",
-      "Approval by the Board of Ordained Ministry and clergy session.",
+      "At least two years of effective service as a provisional member.",
+      "Three-fourths-majority approval by the Board of Ordained Ministry and the clergy session.",
     ],
     whoToTalkTo: "The Board of Ordained Ministry.",
-    disciplineRefs: ["¶333", "¶335"],
+    disciplineRefs: ["¶332", "¶335"],
   },
   {
     id: "deacon",
@@ -137,15 +137,15 @@ export const ladder: LadderStage[] = [
     track: "ordained",
     trackLabel: "Ordained · Word, Service, Compassion, Justice",
     summary:
-      "Deacons are ordained to Word, Service, Compassion, and Justice, connecting the church to the world's need.",
+      "Deacons are “ordained by a bishop to a lifetime ministry of Word, Service, Compassion, and Justice... in a ministry that connects” church and world (¶329).",
     whatItIs: [
       "Deacons lead in ministries of compassion, justice, teaching, music, chaplaincy, and more — building bridges between worship and the world.",
       "They are not itinerant in the same way elders are; deacons often seek out and hold their own appointments.",
       "The educational path allows a Master of Divinity or a professional degree plus required theological study.",
     ],
     requirements: [
-      "Effective service as a provisional member.",
-      "Approval by the Board of Ordained Ministry and clergy session.",
+      "At least two years of effective service as a provisional member.",
+      "Three-fourths-majority approval by the Board of Ordained Ministry and the clergy session.",
     ],
     whoToTalkTo: "The Board of Ordained Ministry's deacon registrar.",
     disciplineRefs: ["¶329", "¶330"],
