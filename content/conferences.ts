@@ -44,6 +44,47 @@ export const conferences: ConferencePack[] = [
     ],
     source: "riotexas.org/candidacy-summit",
   },
+  {
+    slug: "north-georgia",
+    name: "North Georgia Annual Conference",
+    region: "North Georgia",
+    intro: [
+      "North Georgia's discernment is coordinated through the Center for Clergy Excellence, which frames the call broadly: we are all called by God — some to ordained ministry, others to lay ministry, and some to other service to God and the world.",
+      "Their front door is myUMcall: a brief interest form that puts you in touch with someone who can walk with you.",
+    ],
+    onRamps: [
+      {
+        title: "myUMcall — tell them you're discerning",
+        body: "Complete the short myUMcall interest form and the Center for Clergy Excellence will be in touch with resources tailored to how you're sensing a call — ordained, lay, or otherwise.",
+        link: "https://www.ngumc.org/myumcall",
+      },
+      {
+        title: "Candidacy Summit",
+        body: "As in every annual conference, formal candidacy in North Georgia runs through the Board of Ordained Ministry, with a Candidacy Summit as an entry point. Confirm the current schedule with the Center for Clergy Excellence.",
+        link: "https://www.ngumc.org/myumcall",
+      },
+      {
+        title: "Call Sunday & a Culture of Call",
+        body: "For churches and youth leaders: North Georgia offers Call Sunday resources and a Call Curriculum for Children and Youth — practical tools for naming and nurturing a call in the young people around you, rather than waiting for them to come forward alone.",
+        link: "https://www.ngumc.org/myumcall",
+      },
+    ],
+    contacts: [
+      {
+        name: "Center for Clergy Excellence",
+        role: "North Georgia Conference — discernment & candidacy",
+      },
+      {
+        name: "Your district superintendent",
+        role: "The other doorway into candidacy",
+      },
+    ],
+    localNotes: [
+      "Candler School of Theology (Emory) and Gammon Theological Seminary (ITC) are both in Atlanta, close to home for many North Georgia candidates.",
+      "Details here are drawn from the conference's public myUMcall page; confirm specifics, dates, and contacts with the Center for Clergy Excellence.",
+    ],
+    source: "ngumc.org/myumcall",
+  },
 ];
 
 export const conferenceBySlug = Object.fromEntries(

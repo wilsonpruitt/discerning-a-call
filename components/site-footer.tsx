@@ -40,10 +40,10 @@ export function SiteFooter() {
             Resources &amp; mentorship
           </Link>
           <Link
-            href="/conferences/rio-texas"
+            href="/conferences"
             className="unstyled text-muted hover:text-ink"
           >
-            Rio Texas Conference
+            Conferences
           </Link>
         </div>
       </div>

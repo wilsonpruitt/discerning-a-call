@@ -243,12 +243,13 @@ export default async function PathPage({
                 Your annual conference is the on-ramp.
               </h2>
               <p className="prose mt-2 text-[15px] text-muted">
-                Candidacy is run by your conference. If you&apos;re in Rio Texas,
-                we&apos;ve laid out the Candidacy Summit and who to contact.
+                Candidacy is run by your annual conference. We&apos;ve mapped the
+                on-ramps for Rio Texas and North Georgia — and how to find yours
+                if it isn&apos;t listed yet.
               </p>
             </div>
-            <ButtonLink href="/conferences/rio-texas" variant="secondary">
-              Rio Texas on-ramp
+            <ButtonLink href="/conferences" variant="secondary">
+              Find your on-ramp
             </ButtonLink>
           </div>
         </Card>
