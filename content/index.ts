@@ -5,4 +5,5 @@ export { ministries, ministryById } from "./ministries";
 export { seminaries } from "./seminaries";
 export { resources } from "./resources";
 export { conferences, conferenceBySlug } from "./conferences";
+export { mentorGuide } from "./mentors";
 export { disciplineSnippets, type DisciplineSnippet } from "./discipline-snippets";

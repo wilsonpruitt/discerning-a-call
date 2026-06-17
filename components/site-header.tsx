@@ -9,6 +9,7 @@ const NAV = [
   { href: "/process", label: "The process" },
   { href: "/ministries", label: "Forms of ministry" },
   { href: "/seminaries", label: "Seminaries" },
+  { href: "/mentors", label: "For mentors" },
   { href: "/resources", label: "Resources" },
 ];
 

@@ -107,6 +107,43 @@ export interface Contact {
   email?: string;
 }
 
+export interface MentorBeat {
+  title: string;
+  body: string;
+}
+
+export interface MentorLifeStageNote {
+  stage: LifeStageSlug;
+  label: string;
+  body: string;
+}
+
+export interface MentorTrainingItem {
+  title: string;
+  body: string;
+  url?: string;
+}
+
+// The mentor module. Built to *complement* GBHEM's official role definition
+// (Book of Discipline ¶349; BOM Handbook ch. 7) — not restate it — by surfacing
+// the practical "how" of accompaniment and adapting it to life stage.
+export interface MentorGuide {
+  intro: string[];
+  whoFor: string[];
+  isNot: string[]; // what a mentor is NOT (¶ Ch.17: not supervisor/expert/counselor/"just friends")
+  is: string[]; // co-discerner, consultant, catalyst
+  boundaryNote: string; // why the separation from evaluation matters
+  lenses: MentorBeat[]; // the four things a mentor helps a candidate test the call against
+  covenantIntro: string;
+  covenant: MentorBeat[]; // presence, prayer, hospitality, confidentiality
+  rhythm: MentorBeat[]; // the shape of a meeting
+  report: string[]; // the consent-gated report to the dCOM
+  groupVsOneOnOne: string[];
+  lifeStageNotes: MentorLifeStageNote[];
+  trainingIntro: string;
+  training: MentorTrainingItem[];
+}
+
 export interface ConferencePack {
   slug: string; // "rio-texas"
   name: string;
