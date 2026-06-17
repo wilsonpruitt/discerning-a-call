@@ -97,6 +97,94 @@ export default function ProcessPage() {
           ))}
         </ol>
 
+        <Card className="mt-12 p-7">
+          <Eyebrow>A little history</Eyebrow>
+          <h2 className="mt-2 font-serif text-[26px] font-medium text-fen">
+            How this path has changed.
+          </h2>
+          <p className="title-italic mt-1 text-[17px]">
+            The ladder above is today&apos;s. It hasn&apos;t always looked like
+            this.
+          </p>
+          <p className="prose mt-4 text-[16px]">
+            The single biggest change came at the 1996 General Conference. If a
+            pastor or mentor who was ordained before then describes the path a
+            little differently than what you read above, this is usually why —
+            the older vocabulary still circulates.
+          </p>
+
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            <div className="rounded-md border border-hairline bg-parchment p-4">
+              <Eyebrow>Before 1996</Eyebrow>
+              <ul className="mt-2 space-y-2 text-[14px] text-muted">
+                <li className="flex gap-2">
+                  <span aria-hidden className="text-reed-deep">·</span>
+                  <span>
+                    <span className="font-medium text-fen">Two ordinations.</span>{" "}
+                    Almost everyone was ordained a deacon first, then ordained an
+                    elder years later. The deacon was a step you passed{" "}
+                    <em>through</em> on the way to elder.
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span aria-hidden className="text-reed-deep">·</span>
+                  <span>
+                    The in-between stage was called{" "}
+                    <span className="font-medium text-fen">
+                      probationary membership.
+                    </span>
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span aria-hidden className="text-reed-deep">·</span>
+                  <span>
+                    Servant-ministry roles were carried by a separate consecrated
+                    lay office, the <em>diaconal minister.</em>
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="rounded-md border border-hairline bg-parchment p-4">
+              <Eyebrow>Since 1996</Eyebrow>
+              <ul className="mt-2 space-y-2 text-[14px] text-muted">
+                <li className="flex gap-2">
+                  <span aria-hidden className="text-reed-deep">·</span>
+                  <span>
+                    <span className="font-medium text-fen">One ordination.</span>{" "}
+                    You are <em>commissioned</em> (not ordained) as a provisional
+                    member, then ordained once — as either a deacon or an elder.
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span aria-hidden className="text-reed-deep">·</span>
+                  <span>
+                    Deacon and elder are now equal, permanent{" "}
+                    <span className="font-medium text-fen">orders.</span> A deacon
+                    is a destination, not a stepping-stone.
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span aria-hidden className="text-reed-deep">·</span>
+                  <span>
+                    That in-between stage is now called{" "}
+                    <span className="font-medium text-fen">
+                      provisional membership.
+                    </span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <p className="mt-5 text-[14px] text-muted">
+            So if you hear someone talk about being &ldquo;ordained deacon&rdquo;
+            on the way to elder, or about &ldquo;probationary&rdquo; membership,
+            they&apos;re describing the pre-1996 path. The steps above are the
+            current ones.
+          </p>
+        </Card>
+
         <Card editorial className="mt-12 p-7">
           <Eyebrow>A reminder</Eyebrow>
           <p className="prose mt-2 text-[16px]">
