@@ -89,14 +89,39 @@ file annual mentor reports; attend the initial certification interview with the 
 mentors and runs **group candidacy mentoring** "wherever possible" — i.e. group is the GBHEM default,
 1:1 the fallback.
 
-### The honest re-read of the "wide lane"
+## The guidebook + its Mentor Guide (Appendix A) — primary "how" source
 
-GBHEM defines **who** a mentor is and **what duties** they carry quite fully. What it *doesn't* supply
-is the **practical "how" of mentoring well** — the actual discernment conversations, how to test a
-call, how to adapt to a youth vs. a second-career mentee, how to run a healthy group. The Handbook
-even *says* training should cover "theological grounding for mentoring" but provides none. **That gap
-— formation practice, life-stage adaptation, ready-to-use conversation guides — is Discern's lane,**
-and it's wide. We complement the Handbook's role definition; we don't restate it.
+*Answering the Call: Candidacy Guidebook* (GBHEM 2016) is the actual workbook a mentor and candidate
+(or candidacy **group**) study together. Structure: **Part I — Discerning the Call** (Ch.1 Mentoring
+& Candidacy Groups · UM beliefs ×2 · Spiritual Disciplines · Vocation/Call/Gifts · Same Spirit, Many
+Callings) → **Part II — Yes, No, Maybe** (Health & Wholeness · Financial Literacy · Next Steps) →
+**Appendix A: Mentor Guide** · **B: Process Checklists** · **C: Retreat Examples**.
+
+**Appendix A (Mentor Guide) is the gold** — a *meeting-by-meeting facilitation guide* for the mentor.
+For each chapter it gives: how to prepare, an opening devotion, discussion prompts, and a closing
+ritual. Notable transferable mechanics:
+- **The group covenant** — built around four components: **presence, prayer, hospitality,
+  confidentiality.** Group members + mentor sign it; revisit each meeting.
+- **The mentor's one-page report to the dCOM** — covers the candidate's self-awareness, gifts,
+  articulation of call, faith journey — and **the candidate must read, sign, and approve it first**
+  (the confidentiality covenant in action). This is the relationship's spine.
+- **"What a mentor is (and is not)"** opens the very first meeting — same boundary as Ch. 17.
+- Per-meeting rhythm: devotion → check-in → reading discussion → progress check → closing prayer.
+
+### The honest re-read of the "wide lane" (final)
+
+So GBHEM provides *more* than first appeared: the Handbook defines the **role** (Ch. 7) and the
+guidebook's Mentor Guide provides a real **facilitation how**. The lane is therefore narrower than
+"no how exists" — but still real and worth occupying, because the existing "how" is:
+1. **Buried** in a print book candidates buy and conferences gatekeep — not openly discoverable.
+2. **Generic** — one rhythm for everyone; **not life-stage-differentiated** (Discern's whole premise).
+3. **Print/linear, not interactive** — no online, no quick-reference, no per-stage prompts.
+
+**Discern's lane: surface, modernize, and life-stage-adapt this** — an openly accessible mentor
+resource that (a) translates the Mentor Guide's mechanics (covenant, prompts, the report) into the
+web, (b) layers youth / college / second-career / in-seminary variants on top, and (c) points mentors
+to the official guidebook + their conference's training for the authoritative track. We complement;
+we don't restate or replace.
 
 ## The four lenses (the spine of the module)
 
@@ -142,8 +167,9 @@ mentor-training specifics (e.g. Rio Texas Group Mentoring) the way they already 
 ## Open items before building
 
 - [x] ~~Pull GBHEM's *Candidacy Mentoring* content~~ — DONE 2026-06-17 (BOM Handbook Ch. 7, above).
-- [ ] Get *Answering the Call: Candidacy Guidebook* itself (the mentor↔candidate workbook) — it's the
-      actual study text mentors use; would show what the conversations cover.
+- [x] ~~Get *Answering the Call: Candidacy Guidebook*~~ — DONE 2026-06-17. Saved:
+      `~/Downloads/Answering the Call - Candidacy Guidebook (GBHEM 2016).pdf` (192pp, ISBN
+      978-0-938162-67-4, eds. Lassiat/Masi/Neinast). See note below.
 - [ ] Read the BoD ¶349 (mentoring) + ¶310 ff. in `~/church-documents/.../bod-2024.json` for the
       mentor's formal place in the process and exact quotable text.
 - [ ] Check the **1997 Hunt _Ministry Inquiry Process_** workbook (`~/Downloads`) — most
