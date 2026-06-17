@@ -144,6 +144,23 @@ export interface MentorGuide {
   training: MentorTrainingItem[];
 }
 
+// A realistic look at what a ministry career has actually looked like in a
+// conference, by order — drawn from its journal's clergy records. Helps a
+// discerner picture the road ahead honestly. See the rio-texas-journal
+// /careers analysis for the source numbers.
+export interface CareerOrderSnapshot {
+  order: string; // "Elders", "Deacons", "Licensed local pastors"
+  blurb: string; // one honest line about the shape of this vocation
+  fullCareer: string; // e.g. "6 churches over ~29 years"
+  appointment: string; // e.g. "~3 years each; a third last only 1–2 years"
+}
+export interface CareerSnapshot {
+  lead: string;
+  orders: CareerOrderSnapshot[];
+  note: string; // source + honest caveat (incl. demographics not recorded)
+  sourceUrl?: string;
+}
+
 export interface ConferencePack {
   slug: string; // "rio-texas"
   name: string;
@@ -153,4 +170,5 @@ export interface ConferencePack {
   contacts: Contact[];
   localNotes?: string[];
   source?: string; // where this was drawn from, for honesty
+  careerSnapshot?: CareerSnapshot; // what a ministry career has looked like here
 }

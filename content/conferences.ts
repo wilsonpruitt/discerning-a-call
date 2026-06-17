@@ -43,6 +43,30 @@ export const conferences: ConferencePack[] = [
       "Details here are drawn from the conference's public candidacy page and may change — confirm dates and costs with the conference office.",
     ],
     source: "riotexas.org/candidacy-summit",
+    careerSnapshot: {
+      lead: "Numbers help discernment feel less abstract. Here is what a ministry career has actually looked like in Rio Texas — drawn from the appointment histories of every clergyperson in the 2025 conference journal. The shape depends almost entirely on which order you are called to.",
+      orders: [
+        {
+          order: "Elders",
+          blurb: "Ordained and itinerant — you agree to be sent. The classic moving career.",
+          fullCareer: "a median of 6 churches over a ~29-year career (those now retired)",
+          appointment: "about 3 years per appointment; roughly a third last only 1–2 years",
+        },
+        {
+          order: "Deacons",
+          blurb: "Ordained to a specialized ministry, and far less itinerant — most settle into one setting.",
+          fullCareer: "often just 1–2 appointments across a whole career",
+          appointment: "the longest tenures of any order (a 5-year median)",
+        },
+        {
+          order: "Licensed local pastors",
+          blurb: "Licensed rather than ordained, often part-time and bivocational; many begin as a second career.",
+          fullCareer: "a median of 3 churches over a shorter conference career (~11 years)",
+          appointment: "about 3 years each, but nearly half last only 1–2 years — the most frequent moves",
+        },
+      ],
+      note: "Source: Rio Texas Annual Conference Journal 2025 clergy records. Figures describe the past, not a promise. Gender and race are not shown — the journal does not record them.",
+    },
   },
   {
     slug: "north-georgia",

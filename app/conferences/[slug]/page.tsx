@@ -131,6 +131,45 @@ export default async function ConferencePage({
           </aside>
         </div>
 
+        {c.careerSnapshot ? (
+          <section className="mt-14 border-t border-hairline pt-12">
+            <Eyebrow>What the road ahead looks like</Eyebrow>
+            <h2 className="mt-2 font-serif text-[26px] font-medium text-fen">
+              A ministry career here, by the numbers.
+            </h2>
+            <p className="prose mt-3 max-w-2xl text-[16px] text-muted">
+              {c.careerSnapshot.lead}
+            </p>
+            <div className="mt-6 grid gap-4 md:grid-cols-3">
+              {c.careerSnapshot.orders.map((o) => (
+                <Card key={o.order} className="p-6">
+                  <h3 className="font-serif text-[21px] font-medium text-fen">
+                    {o.order}
+                  </h3>
+                  <p className="title-italic mt-1 text-[15px]">{o.blurb}</p>
+                  <dl className="mt-4 space-y-3 text-[14px]">
+                    <div>
+                      <dt className="text-[12px] uppercase tracking-wide text-reed-deep">
+                        Over a career
+                      </dt>
+                      <dd className="mt-0.5 text-muted">{o.fullCareer}</dd>
+                    </div>
+                    <div>
+                      <dt className="text-[12px] uppercase tracking-wide text-reed-deep">
+                        Each appointment
+                      </dt>
+                      <dd className="mt-0.5 text-muted">{o.appointment}</dd>
+                    </div>
+                  </dl>
+                </Card>
+              ))}
+            </div>
+            <p className="mt-4 text-[12px] text-[var(--fg-quiet)]">
+              {c.careerSnapshot.note}
+            </p>
+          </section>
+        ) : null}
+
         <div className="mt-12 flex flex-wrap items-center gap-3">
           <Pill tone="reed">Tip</Pill>
           <p className="text-[14px] text-muted">
