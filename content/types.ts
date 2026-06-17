@@ -151,10 +151,13 @@ export interface MentorGuide {
 export interface CareerOrderSnapshot {
   order: string; // "Elders", "Deacons", "Licensed local pastors"
   blurb: string; // one honest line about the shape of this vocation
-  fullCareer: string; // e.g. "6 churches over ~29 years"
-  appointment: string; // e.g. "~3 years each; a third last only 1–2 years"
+  stat1: string; // history: full-career summary · snapshot: who's serving now
+  stat2: string; // history: appointment length · snapshot: current-church tenure
 }
 export interface CareerSnapshot {
+  // "history" = full career service records (e.g. Rio Texas); "snapshot" =
+  // only a current appointment book (e.g. North Georgia). Drives the labels.
+  kind: "history" | "snapshot";
   lead: string;
   orders: CareerOrderSnapshot[];
   note: string; // source + honest caveat (incl. demographics not recorded)

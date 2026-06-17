@@ -30,6 +30,7 @@ export default async function ConferencePage({
   const { slug } = await params;
   const c = conferenceBySlug[slug];
   if (!c) notFound();
+  const snap = c.careerSnapshot;
 
   return (
     <>
@@ -131,17 +132,17 @@ export default async function ConferencePage({
           </aside>
         </div>
 
-        {c.careerSnapshot ? (
+        {snap ? (
           <section className="mt-14 border-t border-hairline pt-12">
             <Eyebrow>What the road ahead looks like</Eyebrow>
             <h2 className="mt-2 font-serif text-[26px] font-medium text-fen">
               A ministry career here, by the numbers.
             </h2>
             <p className="prose mt-3 max-w-2xl text-[16px] text-muted">
-              {c.careerSnapshot.lead}
+              {snap.lead}
             </p>
             <div className="mt-6 grid gap-4 md:grid-cols-3">
-              {c.careerSnapshot.orders.map((o) => (
+              {snap.orders.map((o) => (
                 <Card key={o.order} className="p-6">
                   <h3 className="font-serif text-[21px] font-medium text-fen">
                     {o.order}
@@ -150,22 +151,22 @@ export default async function ConferencePage({
                   <dl className="mt-4 space-y-3 text-[14px]">
                     <div>
                       <dt className="text-[12px] uppercase tracking-wide text-reed-deep">
-                        Over a career
+                        {snap.kind === "snapshot" ? "Who's serving" : "Over a career"}
                       </dt>
-                      <dd className="mt-0.5 text-muted">{o.fullCareer}</dd>
+                      <dd className="mt-0.5 text-muted">{o.stat1}</dd>
                     </div>
                     <div>
                       <dt className="text-[12px] uppercase tracking-wide text-reed-deep">
-                        Each appointment
+                        {snap.kind === "snapshot" ? "At their current church" : "Each appointment"}
                       </dt>
-                      <dd className="mt-0.5 text-muted">{o.appointment}</dd>
+                      <dd className="mt-0.5 text-muted">{o.stat2}</dd>
                     </div>
                   </dl>
                 </Card>
               ))}
             </div>
             <p className="mt-4 text-[12px] text-[var(--fg-quiet)]">
-              {c.careerSnapshot.note}
+              {snap.note}
             </p>
           </section>
         ) : null}
