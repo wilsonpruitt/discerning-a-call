@@ -25,6 +25,10 @@ export const conferences: ConferencePack[] = [
         title: "Group Candidacy Mentoring",
         body: "After the summit, you join a small group that meets over five sessions (via Zoom) for prayerful reflection, conversation, and communal discernment. This is the second half of the conference's two-part candidacy pathway.",
       },
+      {
+        title: "Lay Servant Ministries",
+        body: "If your call may be a lay one rather than an ordained or licensed one, Rio Texas certifies lay servants, lay speakers, and certified lay ministers under ¶¶266–268. Ask your pastor to connect you with your district's Committee on Lay Servant Ministries for the current Basic Course schedule.",
+      },
     ],
     contacts: [
       {

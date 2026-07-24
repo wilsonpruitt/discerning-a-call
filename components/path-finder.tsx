@@ -93,6 +93,7 @@ export function PathFinder({ data }: { data: WizardData }) {
       .slice(0, 3) as Pick<LadderStage, "id" | "name" | "summary">[];
     const steps = path.firstSteps.slice(0, serious === "wondering" ? 2 : 3);
     const conference = data.conferences.find((c) => c.slug === conf);
+    const towardLay = formIds.includes("lay");
 
     return (
       <div className="rounded-xl border border-hairline bg-ivory p-7 md:p-10">
@@ -104,6 +105,21 @@ export function PathFinder({ data }: { data: WizardData }) {
           {SERIOUS_HEADLINE[serious]}
         </h2>
         <p className="title-italic mt-2 text-[18px]">{path.tagline}</p>
+
+        {towardLay ? (
+          <div className="mt-5 rounded-md border-l-[3px] border-l-reed border border-hairline bg-parchment p-4">
+            <p className="text-[15px] text-fen">
+              Your call may be to lead as laity — and that&apos;s not a
+              smaller calling.{" "}
+              <Link
+                href="/lay-ministry"
+                className="unstyled font-medium underline decoration-hairline-strong underline-offset-2"
+              >
+                Here&apos;s what that looks like →
+              </Link>
+            </p>
+          </div>
+        ) : null}
 
         <div className="mt-7 grid gap-6 md:grid-cols-[1.5fr_1fr]">
           <div>

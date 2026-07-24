@@ -1,6 +1,7 @@
 export * from "./types";
 export { paths, pathBySlug } from "./paths";
 export { ladder, ladderById } from "./ladder";
+export { layTrack, layTrackById } from "./lay-track";
 export { ministries, ministryById } from "./ministries";
 export { seminaries } from "./seminaries";
 export { resources } from "./resources";
