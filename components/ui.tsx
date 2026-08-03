@@ -109,8 +109,8 @@ export function ButtonLink({
 }) {
   const styles =
     variant === "primary"
-      ? "bg-fen text-[var(--fg-on-fen)] hover:bg-fen-mist"
-      : "border border-hairline-strong bg-ivory text-fen hover:bg-sunken";
+      ? "bg-fen !text-[var(--fg-on-fen)] hover:bg-fen-mist"
+      : "border border-hairline-strong bg-ivory !text-fen hover:bg-sunken";
   return (
     <Link
       href={href}
