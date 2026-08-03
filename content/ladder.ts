@@ -15,9 +15,16 @@ export const ladder: LadderStage[] = [
     summary:
       "You sense something. You name it out loud to a pastor and begin to test it in community.",
     whatItIs: [
+      {
+        text: "Read The Christian as Minister. It is the book candidacy is built on, and nothing stops you from reading it now — it lays out the forms of United Methodist ministry and asks the questions you will be asked later.",
+        link: {
+          label: "Find it at Cokesbury",
+          url: "https://www.cokesbury.com/The-Christian-as-Minister-2",
+        },
+      },
       "There is no form to file yet. This stage is about honesty and conversation.",
       "Tell your pastor you are wondering about a call. Ask them to walk with you.",
-      "Read, pray, serve, and pay attention to where you come alive and where the church affirms you.",
+      "Pray, serve, and pay attention to where you come alive and where the church affirms you.",
     ],
     whoToTalkTo:
       "Your home pastor first. They are your doorway into everything that follows.",
@@ -33,7 +40,7 @@ export const ladder: LadderStage[] = [
     whatItIs: [
       "You write to your district superintendent (DS) to declare your candidacy.",
       "You enroll in the candidacy process and are assigned a trained candidacy mentor who meets with you over several months.",
-      "You work through The Christian as Minister and the candidacy studies, reflecting on call, gifts, and the forms of ministry.",
+      "You work back through The Christian as Minister with your mentor, plus the candidacy studies, reflecting on call, gifts, and the forms of ministry.",
     ],
     requirements: [
       "Be a professing member of a United Methodist church (typically for at least one year).",

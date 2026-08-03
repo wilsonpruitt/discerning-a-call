@@ -121,6 +121,35 @@ export function ButtonLink({
   );
 }
 
+// Inline link attached to a step or ladder bullet. Internal hrefs route through
+// next/link; anything else opens in a new tab and gets the ↗ affordance.
+export function ContentLinkInline({
+  label,
+  url,
+  className = "",
+}: {
+  label: string;
+  url: string;
+  className?: string;
+}) {
+  const cls = `unstyled font-medium underline decoration-hairline-strong underline-offset-2 ${className}`;
+  const isInternal = url.startsWith("/");
+
+  if (isInternal) {
+    return (
+      <Link href={url} className={cls}>
+        {label} →
+      </Link>
+    );
+  }
+
+  return (
+    <a href={url} target="_blank" rel="noopener noreferrer" className={cls}>
+      {label} ↗
+    </a>
+  );
+}
+
 export function SectionTitle({
   eyebrow,
   title,

@@ -12,10 +12,29 @@ export type LifeStageSlug =
 
 export type LadderTrack = "shared" | "ordained" | "licensed" | "lay";
 
+// An outbound link attached to a piece of content. Used sparingly — a step or
+// bullet earns one only when there is a single obvious place to go next.
+export interface ContentLink {
+  label: string;
+  url: string;
+}
+
 export interface Step {
   title: string;
   body: string;
   optional?: boolean;
+  link?: ContentLink;
+}
+
+// A ladder bullet. Plain strings stay valid; use the object form only when the
+// bullet needs a link.
+export interface Bullet {
+  text: string;
+  link?: ContentLink;
+}
+
+export function toBullet(b: string | Bullet): Bullet {
+  return typeof b === "string" ? { text: b } : b;
 }
 
 export interface Reality {
@@ -46,7 +65,7 @@ export interface LadderStage {
   track: LadderTrack;
   trackLabel: string; // human label for the track
   summary: string;
-  whatItIs: string[];
+  whatItIs: (string | Bullet)[];
   requirements?: string[];
   whoToTalkTo?: string;
   disciplineRefs?: string[]; // Book of Discipline paragraph references

@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { layTrack } from "@/content";
-import { Container, PageHeader, Card, Eyebrow } from "@/components/ui";
+import { toBullet } from "@/content/types";
+import {
+  Container,
+  PageHeader,
+  Card,
+  Eyebrow,
+  ContentLinkInline,
+} from "@/components/ui";
 import { DisciplineRef } from "@/components/discipline-ref";
 
 export const metadata: Metadata = {
@@ -69,14 +76,28 @@ export default function LayMinistryPage() {
                 <p className="title-italic mt-1 text-[17px]">{stage.summary}</p>
 
                 <ul className="mt-5 space-y-2.5">
-                  {stage.whatItIs.map((line, i) => (
-                    <li key={i} className="flex gap-3 text-[15px]">
-                      <span aria-hidden className="mt-1 text-reed-deep">
-                        ·
-                      </span>
-                      <span className="text-muted">{line}</span>
-                    </li>
-                  ))}
+                  {stage.whatItIs.map((raw, i) => {
+                    const line = toBullet(raw);
+                    return (
+                      <li key={i} className="flex gap-3 text-[15px]">
+                        <span aria-hidden className="mt-1 text-reed-deep">
+                          ·
+                        </span>
+                        <span className="text-muted">
+                          {line.text}
+                          {line.link ? (
+                            <>
+                              {" "}
+                              <ContentLinkInline
+                                label={line.link.label}
+                                url={line.link.url}
+                              />
+                            </>
+                          ) : null}
+                        </span>
+                      </li>
+                    );
+                  })}
                 </ul>
 
                 {stage.requirements ? (

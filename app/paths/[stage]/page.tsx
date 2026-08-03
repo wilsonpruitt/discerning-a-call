@@ -8,7 +8,14 @@ import {
   ministryById,
   resources,
 } from "@/content";
-import { Container, Card, Pill, ButtonLink, Eyebrow } from "@/components/ui";
+import {
+  Container,
+  Card,
+  Pill,
+  ButtonLink,
+  Eyebrow,
+  ContentLinkInline,
+} from "@/components/ui";
 
 export function generateStaticParams() {
   return paths.map((p) => ({ stage: p.slug }));
@@ -109,6 +116,14 @@ export default async function PathPage({
                         <p className="mt-1.5 text-[15px] text-muted">
                           {step.body}
                         </p>
+                        {step.link ? (
+                          <p className="mt-2 text-[14px]">
+                            <ContentLinkInline
+                              label={step.link.label}
+                              url={step.link.url}
+                            />
+                          </p>
+                        ) : null}
                       </div>
                     </Card>
                   </li>

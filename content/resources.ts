@@ -5,6 +5,15 @@ import type { Resource } from "./types";
 
 export const resources: Resource[] = [
   {
+    id: "christian-as-minister",
+    category: "official",
+    title: "The Christian as Minister",
+    by: "GBHEM",
+    url: "https://www.cokesbury.com/The-Christian-as-Minister-2",
+    blurb:
+      "Start here. The standard entry book for candidacy — an overview of the forms of United Methodist ministry and the questions you will be asked to reflect on. You can read it long before you file anything.",
+  },
+  {
     id: "umcares",
     category: "official",
     title: "UMCARES — the candidacy system",
@@ -21,15 +30,6 @@ export const resources: Resource[] = [
     url: "https://www.gbhem.org/ministry/explore-your-call-to-ministry/",
     blurb:
       "The denomination's overview of the steps toward licensed and ordained ministry.",
-  },
-  {
-    id: "christian-as-minister",
-    category: "book",
-    title: "The Christian as Minister",
-    by: "GBHEM",
-    url: "https://www.cokesbury.com/",
-    blurb:
-      "The standard entry book for candidacy — an overview of the forms of UMC ministry and the questions you will be asked to reflect on.",
   },
   {
     id: "listening-hearts",

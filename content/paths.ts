@@ -36,6 +36,14 @@ export const paths: LifeStagePath[] = [
         body: "Say out loud, to one trusted adult at your church, that you're wondering about a call. That single conversation is the real first step.",
       },
       {
+        title: "Read The Christian as Minister",
+        body: "It's the book every United Methodist candidate works through, and no one has to give you permission to read it. Ask your pastor for a copy — it will show you what the different kinds of ministry actually are.",
+        link: {
+          label: "Find it at Cokesbury",
+          url: "https://www.cokesbury.com/The-Christian-as-Minister-2",
+        },
+      },
+      {
         title: "Tell your family",
         body: "Let your parents or guardians know you came forward. You don't have to have answers — just let them walk with you.",
       },
@@ -85,6 +93,14 @@ export const paths: LifeStagePath[] = [
       },
     ],
     firstSteps: [
+      {
+        title: "Read The Christian as Minister",
+        body: "The standard GBHEM entry book for candidacy. Read it now, before any paperwork — it names the forms of United Methodist ministry and asks the questions a district committee will eventually ask you.",
+        link: {
+          label: "Find it at Cokesbury",
+          url: "https://www.cokesbury.com/The-Christian-as-Minister-2",
+        },
+      },
       {
         title: "Find your campus minister",
         body: "Connect with the Wesley Foundation or United Methodist campus ministry at or near your school. If there isn't one, your home pastor can help you find a guide.",
@@ -140,6 +156,14 @@ export const paths: LifeStagePath[] = [
     ],
     firstSteps: [
       {
+        title: "Read The Christian as Minister",
+        body: "The standard GBHEM entry book for candidacy, and the cheapest way to find out what you'd actually be signing up for. Read it before you write the letter, not after.",
+        link: {
+          label: "Find it at Cokesbury",
+          url: "https://www.cokesbury.com/The-Christian-as-Minister-2",
+        },
+      },
+      {
         title: "Talk with your pastor and your district superintendent",
         body: "Your pastor opens the door; a letter to your district superintendent formally begins candidacy.",
       },
@@ -194,6 +218,14 @@ export const paths: LifeStagePath[] = [
     ],
     firstSteps: [
       {
+        title: "Read The Christian as Minister",
+        body: "The standard GBHEM entry book for candidacy. For a second-career call it does double duty: it lays out the forms of ministry — including the local-pastor route — so the conversation at home can be about something concrete.",
+        link: {
+          label: "Find it at Cokesbury",
+          url: "https://www.cokesbury.com/The-Christian-as-Minister-2",
+        },
+      },
+      {
         title: "Have the honest conversation at home",
         body: "Before anything official, talk with your spouse or family about what this could ask of all of you.",
       },
@@ -247,6 +279,14 @@ export const paths: LifeStagePath[] = [
       },
     ],
     firstSteps: [
+      {
+        title: "Read The Christian as Minister",
+        body: "Yes, even in seminary. It's the candidacy text, not a theology text — your mentor will work through it with you, and reading it early keeps the process from lagging a year behind your degree.",
+        link: {
+          label: "Find it at Cokesbury",
+          url: "https://www.cokesbury.com/The-Christian-as-Minister-2",
+        },
+      },
       {
         title: "Contact your home conference's Board now",
         body: "If you haven't entered candidacy, write to your district superintendent and begin — don't wait until you graduate.",

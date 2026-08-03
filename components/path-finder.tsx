@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { LifeStagePath, MinistryForm, LadderStage } from "@/content/types";
+import { ContentLinkInline } from "@/components/ui";
 
 type DrawKey = "preach-lead" | "serve-world" | "serve-working" | "unsure";
 type SeriousKey = "wondering" | "exploring" | "ready";
@@ -138,6 +139,14 @@ export function PathFinder({ data }: { data: WizardData }) {
                       {s.title}
                     </p>
                     <p className="mt-1 text-[14px] text-muted">{s.body}</p>
+                    {s.link ? (
+                      <p className="mt-1.5 text-[13px]">
+                        <ContentLinkInline
+                          label={s.link.label}
+                          url={s.link.url}
+                        />
+                      </p>
+                    ) : null}
                   </div>
                 </li>
               ))}
