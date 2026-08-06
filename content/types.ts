@@ -237,7 +237,19 @@ export const basicStudyAreaLabels: Record<BasicStudyArea, string> = {
 };
 
 export type CoverageStatus =
-  | "required" // in the core — you can't graduate without it
+  | "required" // in the core every MDiv student takes — nobody graduates without it
+  // Not in the universal core, but the school itself binds UMC ordination-track
+  // students to cover this area. Duke and Phillips both do this; scoring it as
+  // "required" flatters the school and scoring it "elective" understates what a
+  // UMC candidate is actually held to, so it gets its own value.
+  //
+  // The test is whether the obligation exists, NOT whether the school names the
+  // course. Duke names PARISH 777/778 for UM studies but names nothing for
+  // evangelism or mission — yet a UMC student is bound to all four alike. An
+  // earlier draft of this comment said "to a named course" and cost Duke two
+  // rows. Where no course is named, say so in the note; that is a fact about how
+  // hard the requirement is to plan around, not about whether it binds.
+  | "required-umc-track"
   | "elective" // offered, but you must choose it
   | "occasional" // offered irregularly; verify for the term you need
   | "absent"; // not offered here; must be covered elsewhere
@@ -286,6 +298,12 @@ export interface CostPicture {
   fees?: { label: string; amount: string }[];
   pctReceivingAid?: Sourced<string>;
   typicalAward?: Sourced<string>;
+  // Aid attached to a named programme rather than to the general pool — and in
+  // particular aid a UMC candidate qualifies for *because* they are a candidate.
+  // Candler's 100%-of-tuition-for-certified-candidates and Duke's Rural Ministry
+  // Fellowships are the two found so far, and they are the strongest link this
+  // site can draw between the ¶310 certification rung and what seminary costs.
+  namedScholarships?: { name: string; blurb: string; url?: string }[];
   aidContact?: { name: string; role: string; email?: string; phone?: string };
   honestNote?: string;
 }

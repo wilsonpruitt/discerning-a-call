@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { seminaries } from "@/content";
 import { Container, PageHeader, Card, Eyebrow } from "@/components/ui";
 import { SeminaryDirectory } from "@/components/seminary-directory";
@@ -25,6 +26,27 @@ export default function SeminariesPage() {
 
       <Container className="py-12 md:py-14">
         <SeminaryDirectory seminaries={seminaries} />
+
+        <Card className="mt-10 p-6 md:p-7">
+          <Eyebrow>Start from the subject instead</Eyebrow>
+          <h2 className="mt-2 font-serif text-[22px] font-medium text-fen">
+            Who teaches what, across schools.
+          </h2>
+          <p className="prose mt-3 text-[15px] text-muted">
+            Every seminary publishes its own faculty; none of them publishes the
+            others&rsquo;. If you know the subject you care about but not the
+            school, the cross-school index groups every professor at the schools
+            profiled here by what they work on — including the subjects taught by
+            only a handful of people anywhere.{" "}
+            <Link
+              href="/seminaries/faculty"
+              className="text-fen underline decoration-hairline underline-offset-2"
+            >
+              Browse by subject
+            </Link>
+            .
+          </p>
+        </Card>
 
         <Card editorial className="mt-12 p-7">
           <Eyebrow>Before you assume you need a degree</Eyebrow>

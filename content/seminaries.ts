@@ -36,6 +36,28 @@ export const seminaries: Seminary[] = [
     note: "Senate-approved but not United Methodist — yet it teaches UM history, doctrine, mission, and polity in house, with denominational approval.",
   },
 
+  {
+    slug: "phillips",
+    name: "Phillips Theological Seminary",
+    city: "Tulsa",
+    state: "OK",
+    umcAffiliated: false,
+    modalities: ["residential", "hybrid", "online"],
+    url: "https://ptstulsa.edu/",
+    note: "The one school on the roster under University Senate Monitoring with Public Warning — still approved, but say the phrase to your registrar. All nine ¶324.4 areas are covered, and Phillips itself limits UM ordination-track students to in-residence courses.",
+  },
+
+  {
+    slug: "vanderbilt",
+    name: "Vanderbilt University Divinity School",
+    city: "Nashville",
+    state: "TN",
+    umcAffiliated: false,
+    modalities: ["residential"],
+    url: "https://divinity.vanderbilt.edu/",
+    note: "Methodist by origin, not by affiliation since 1914. Two chairs in Wesleyan Studies and three named UM courses — all electives, and Vanderbilt claims no denominational approval for them.",
+  },
+
   // --- The thirteen United Methodist schools of theology ---
   {
     name: "Boston University School of Theology",
@@ -74,6 +96,7 @@ export const seminaries: Seminary[] = [
     url: "https://drew.edu/theological-school/",
   },
   {
+    slug: "duke",
     name: "Duke Divinity School",
     city: "Durham",
     state: "NC",
@@ -81,6 +104,7 @@ export const seminaries: Seminary[] = [
     modalities: ["residential", "hybrid"],
     courseOfStudy: true,
     url: "https://divinity.duke.edu/",
+    note: "Five of the nine ¶324.4 areas are in the core everyone takes; the other four Duke requires of United Methodist students specifically.",
   },
   {
     name: "Gammon Theological Seminary (Interdenominational Theological Center)",
@@ -92,6 +116,7 @@ export const seminaries: Seminary[] = [
     note: "The historically Black UMC seminary, within the ITC consortium.",
   },
   {
+    slug: "garrett",
     name: "Garrett Seminary",
     city: "Evanston",
     state: "IL",
@@ -99,7 +124,7 @@ export const seminaries: Seminary[] = [
     modalities: ["residential", "hybrid", "online"],
     courseOfStudy: true,
     url: "https://www.garrett.edu/",
-    note: "Goes by Garrett Seminary now; Garrett-Evangelical Theological Seminary remains the legal name.",
+    note: "Goes by Garrett Seminary now; Garrett-Evangelical Theological Seminary remains the legal name. Eight of the nine ¶324.4 areas are required — the best coverage found so far.",
   },
   {
     name: "Iliff School of Theology",
@@ -129,6 +154,7 @@ export const seminaries: Seminary[] = [
     note: "Home seminary for much of the South Central Jurisdiction, including Rio Texas, with a Houston-Galveston extension.",
   },
   {
+    slug: "saint-paul",
     name: "Saint Paul School of Theology",
     city: "Leawood",
     state: "KS",
@@ -136,7 +162,7 @@ export const seminaries: Seminary[] = [
     modalities: ["residential", "hybrid", "online"],
     courseOfStudy: true,
     url: "https://www.spst.edu/",
-    note: "Campuses in Kansas and Oklahoma; strong hybrid offerings.",
+    note: "Campuses in Kansas and Oklahoma — same degree plan and tuition at both, but most of the faculty are in Kansas.",
   },
   {
     name: "United Theological Seminary",
@@ -147,11 +173,13 @@ export const seminaries: Seminary[] = [
     url: "https://united.edu/",
   },
   {
+    slug: "wesley",
     name: "Wesley Theological Seminary",
     city: "Washington",
     state: "DC",
     umcAffiliated: true,
     modalities: ["residential", "hybrid"],
     url: "https://www.wesleyseminary.edu/",
+    note: "Six of the nine ¶324.4 areas are in the required core; Wesley states plainly that the other three are the church's requirement rather than its own, and lists which electives satisfy them.",
   },
 ];

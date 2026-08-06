@@ -1,0 +1,225 @@
+{
+  "slug": "saint-paul",
+  "name": "Saint Paul School of Theology",
+  "city": "Leawood",
+  "state": "KS",
+  "url": "https://www.spst.edu/",
+  "lastVerified": "2026-08-06",
+  "ordination": {
+    "senateStanding": {
+      "value": "approved-umc",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "One of the 13 United Methodist schools of theology. GBHEM lists it as \"Saint Paul School of Theology (Kansas and Oklahoma)\" — the roster itself names both campuses as one approved school, not two."
+    },
+    "onlineCredit": {
+      "value": "fully-counts",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "GBHEM: all thirteen United Methodist schools of theology are approved to provide a fully online M.Div. that meets UM ordination requirements. Saint Paul's own catalog independently confirms its MDiv is offered in \"asynchronous online, synchronous online, hybrid, and on-campus\" formats, with courses of every format accepted toward the same 79-credit degree."
+    },
+    "coverageSource": "https://www.spst.edu/wp-content/uploads/2025/08/2025-2026_Student-HANDBOOK-and-CATALOG080725.pdf",
+    "coverageAsOf": "2025-08-07",
+    "coverage": [
+      {
+        "area": "old-testament",
+        "status": "required",
+        "note": "Introduction to the Hebrew Bible (HBS 301) and an Upper-Level Hebrew Bible course (HBS 4**) are both required lines in the MDiv Curricular Requirements table, for every student."
+      },
+      {
+        "area": "new-testament",
+        "status": "required",
+        "note": "Introduction to the New Testament (NTS 301) and an Upper-Level New Testament course (NTS 4**) are both required lines in the MDiv Curricular Requirements table, for every student."
+      },
+      {
+        "area": "theology",
+        "status": "required",
+        "note": "Introduction to Systematic Theology (THL 301) and an Upper-Level Theology course (THL 4**) are both required lines in the MDiv Curricular Requirements table, for every student."
+      },
+      {
+        "area": "church-history",
+        "status": "required",
+        "note": "Traditions I and Traditions II (HST 301, HST 302) are both required lines in the MDiv Curricular Requirements table, for every student."
+      },
+      {
+        "area": "mission-of-the-church",
+        "status": "elective",
+        "note": "No course on this subject is a required line in the MDiv Curricular Requirements table. \"Mission of the Church in the Contemporary World\" (CHS 330) and \"Mission of the Church in the World\" (CHS 355) are real courses, but they sit inside the degree's 13.5-hour unrestricted-elective pool (\"Electives (may include Denominational Studies)\"). The table's only mention of it for United Methodist students is a footnote — \"United Methodist students may be expected to take approved courses in ... Mission of the Church\" — advisory language (\"may be expected,\" directing the student to \"check with their appropriate judicatories for specific course requirements\"), not a Saint Paul-stated obligation the way Duke's or Phillips' bulletins state theirs. Scored elective rather than required-umc-track on that basis; see the harvest report for the judgment call."
+      },
+      {
+        "area": "evangelism",
+        "status": "required",
+        "note": "Evangelism (EVN 3**) is a required line in the MDiv Curricular Requirements table for every student, regardless of denomination — notably, Saint Paul does not treat this as UMC-specific the way Duke and Phillips do."
+      },
+      {
+        "area": "worship-liturgy",
+        "status": "required",
+        "note": "Worship (WOR 301) is a required line in the MDiv Curricular Requirements table for every student, regardless of denomination."
+      },
+      {
+        "area": "preaching",
+        "status": "required",
+        "note": "Introduction to Preaching (PRE 401) is a required line in the MDiv Curricular Requirements table for every student."
+      },
+      {
+        "area": "um-studies",
+        "status": "elective",
+        "note": "UM History and the Arc of Justice (DST 310), United Methodist Doctrine (DST 311), and United Methodist Polity (DST 330) are real, named courses — but they sit in the same 13.5-hour unrestricted-elective pool as Mission of the Church, not in the required core. The catalog's own language is the same advisory footnote as above: \"United Methodist students may be expected to take approved courses in UM History, Polity and Doctrine...\" — \"may be expected\" and \"should check with their appropriate judicatories,\" not a stated Saint Paul requirement. Compare Perkins, scored elective on nearly identical permissive language (\"may include United Methodist Studies\"), against Duke and Phillips, scored required-umc-track on binding language (\"must fulfill,\" \"required to take\"). If a UM student takes DST 311 (3 hrs) and DST 330 (2 hrs), that alone clears ¶324.4's 6-hour UM-studies floor; DST 320 (UM History, 2–3 hrs) is a third named course in the same pool."
+      }
+    ],
+    "gapSummary": "Seven of the nine ¶324.4 areas are in Saint Paul's required MDiv core, including evangelism and worship — areas several other UMC schools leave to UM-specific tracks or electives. The two areas not in the core are mission of the church and United Methodist studies (history, doctrine, polity) itself, which the catalog names as real, specific courses (CHS 330/355 for mission; DST 310/311/330 for UM studies) but places entirely inside the degree's unrestricted-elective pool, with only an advisory footnote pointing United Methodist students toward them. Nothing forces a student to choose those specific electives, and the catalog explicitly punts the specific-course question to \"your appropriate judicatories\" rather than answering it itself. Plan the 13.5 elective hours with UM doctrine, UM polity, and mission of the church in mind from the start, and confirm the exact course choices with your conference's Board of Ordained Ministry registrar — Saint Paul's own wording is deliberately non-committal about which electives satisfy your board.",
+    "gapRemedies": [
+      {
+        "blurb": "United Methodist Doctrine (DST 311, 3 hrs) and United Methodist Polity (DST 330, 2 hrs) alone clear ¶324.4's 6-semester-hour UM-studies floor; add UM History and the Arc of Justice (DST 310, 3 hrs) or Mission of the Church in the World (CHS 355, 2 hrs) from the same elective pool and you've covered both remaining areas without adding to the 79-credit total.",
+        "url": "https://www.spst.edu/registrar/"
+      },
+      {
+        "blurb": "Saint Paul's Master of Arts in Christian Ministry offers a dedicated UM Studies specialization (Evangelism, Worship, Mission of the Church, UM Doctrine, UM Polity, UM History — 16 credit hours) built explicitly to satisfy the Advanced Course of Study / deacon-track requirement. It is not the MDiv, but its course list is the clearest evidence of exactly which Saint Paul courses the school itself maps to the nine ¶324.4 areas.",
+        "url": "https://www.spst.edu/deacon-studies/"
+      },
+      {
+        "blurb": "Ask the Saint Paul Registrar for the current MDiv degree-progress tracking form, and ask your conference's Board of Ordained Ministry registrar which specific electives they will accept for mission of the church and UM studies. The catalog explicitly defers this decision to your judicatory rather than naming it itself — they make the call, not the catalogue and not us.",
+        "url": "https://www.spst.edu/registrar/"
+      }
+    ]
+  },
+  "scale": {
+    "totalEnrollment": {
+      "value": "97 students (63.40 FTE)",
+      "source": "https://www.ats.edu/member-schools/saint-paul-school-of-theology",
+      "asOf": "2025-11-01",
+      "note": "ATS's Fall 2025 report, all degree programs combined, not MDiv only. ATS reports \"Number of Full-Time Faculty (FTE): 5 (10.75)\" for the same period — an FTE figure higher than the headcount, the same kind of internal-arithmetic oddity Phillips' catalog showed with its UM-studies hours. It also does not match this profile's own count of 10 named full-time faculty from Saint Paul's current directory; ATS's Standard Data Form category boundaries (e.g., which titles count as \"full-time\") may differ from Saint Paul's own directory heading. Reported as ATS states it rather than reconciled by guess."
+    }
+  },
+  "cost": {
+    "tuitionPerCredit": {
+      "value": "$685 per credit hour (MDiv, MATS, and MACM); $685 per credit hour (DMin)",
+      "source": "https://www.spst.edu/wp-content/uploads/2025/08/2025-2026_Student-HANDBOOK-and-CATALOG080725.pdf",
+      "asOf": "2025-08-07",
+      "note": "2025–2026 rate. This is a single, flat rate — the catalog states no separate rate for the Kansas Campus, the Oklahoma Campus, or online delivery. 79 credit hours × this rate is roughly $54,115 in gross MDiv tuition before aid."
+    },
+    "fees": [
+      {
+        "label": "Application fee (master's level)",
+        "amount": "$50 one-time"
+      },
+      {
+        "label": "Application fee (DMin)",
+        "amount": "$60 one-time"
+      },
+      {
+        "label": "Transcript fee",
+        "amount": "$10 per transcript ($25 if expedited)"
+      }
+    ],
+    "typicalAward": {
+      "value": "The \"Each One, Reach One\" scholarship: 50% off tuition, automatic for every admitted degree-seeking student, for the duration of the degree",
+      "source": "https://www.spst.edu/financial-aid/",
+      "asOf": "2026-08-06",
+      "note": "Saint Paul's own phrasing: \"Every admitted degree-seeking student who plans to enroll at Saint Paul will receive a scholarship of 50% off (tuition only) for the duration of their degree program.\" No separate published percentage of applicants who receive aid — this is a universal award, not a subset figure."
+    },
+    "namedScholarships": [
+      {
+        "name": "Advance Course of Study Award",
+        "blurb": "A need-based award tied specifically to the Advanced Course of Study — the GBHEM-defined path by which a UMC licensed local pastor completes the graduate theological studies required for provisional membership and ordination as an elder. Saint Paul's own page: students' application to Saint Paul \"acts as the application for the scholarship,\" with no separate form. The clearest named, UMC-ordination-track-specific aid this school publishes.",
+        "url": "https://www.spst.edu/financial-aid/"
+      },
+      {
+        "name": "Fellows Program (Full Tuition Scholarship)",
+        "blurb": "A full-time tuition scholarship for master's students entering in the fall semester, covering three years of tuition plus books and educational fees. Saint Paul's own financial-aid page does not state a United Methodist-candidacy eligibility requirement for this award (a secondary aggregator site names it the \"Presidential Fellows Scholarship\" and claims a candidacy requirement; that claim could not be verified on spst.edu itself and is not repeated here — see harvest report).",
+        "url": "https://www.spst.edu/financial-aid/"
+      }
+    ],
+    "honestNote": "The 50% Each One, Reach One award is automatic and unconditional on admission, which is unusually generous as a baseline — but it is also the ceiling for most students; Saint Paul's other named awards (General Scholarships, Named Endowed Scholarships) are reviewed from undergraduate transcripts after acceptance, not guaranteed. Ask the Financial Aid Office directly whether UMC candidacy status affects eligibility for any award beyond the Advance Course of Study Award named above; the public pages don't say either way for the MDiv itself."
+  },
+  "degrees": [
+    {
+      "name": "Master of Divinity",
+      "abbr": "MDiv",
+      "credits": 79,
+      "typicalYears": "3 years full-time; up to 10 calendar years allowed",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "79 credit hours: contextual education and formation components (orientation, spiritual formation retreats, ministry practica, collaboration groups, mid-degree and summative seminars), Hebrew Bible, New Testament, ethics, Christian religious education, church history, systematic theology, church leadership, pastoral care, preaching, worship, church and society, world religions, and evangelism, plus 13.5 unrestricted elective hours. One curriculum, one credit total, one tuition rate — offered identically at the Kansas Campus (Leawood), the Oklahoma Campus (Oklahoma City), and via distance education; the catalog names no campus-specific requirement, course list, or price.",
+      "url": "https://www.spst.edu/master-of-divinity-m-div-degree-program/"
+    },
+    {
+      "name": "Master of Arts in Christian Ministry",
+      "abbr": "MACM",
+      "credits": 38,
+      "typicalYears": "2 years full-time; up to 8 calendar years allowed",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "The academic path to deacon ordination (or Advanced Course of Study) in the United Methodist Church. Students choose a specialization; the UM Studies specialization (Evangelism, Worship, Mission of the Church, UM Doctrine, UM Polity, UM History — 16 credit hours) is built explicitly to satisfy the deacon/ACOS educational requirement.",
+      "url": "https://www.spst.edu/master-of-arts-in-christian-ministry-macm-degree-program/"
+    },
+    {
+      "name": "Master of Arts (Theological Studies)",
+      "abbr": "MA(TS)",
+      "credits": 38,
+      "typicalYears": "2 years full-time",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "Not an ordination degree — a thesis-culminating academic degree in religion and theology.",
+      "url": "https://www.spst.edu/master-of-arts-in-theological-studies/"
+    },
+    {
+      "name": "Doctor of Ministry",
+      "abbr": "DMin",
+      "credits": 30,
+      "typicalYears": "3–6 years",
+      "modalities": [
+        "hybrid"
+      ],
+      "blurb": "For MDiv holders with substantial ministerial leadership experience; a collaborative-focus model with no electives once a focus is chosen.",
+      "url": "https://www.spst.edu/registrar/"
+    }
+  ],
+  "concentrations": [
+    "Social Justice and Advocacy (MDiv specialization)",
+    "Spirituality and Prophetic Leadership (MDiv specialization)",
+    "Women, Society, and Church Studies (MDiv specialization)",
+    "Modern Worship Music (MACM specialization)",
+    "Prophetic Witness and Service (MACM specialization)",
+    "UM Studies (MACM specialization)"
+  ],
+  "partnerships": [
+    {
+      "kind": "host-university",
+      "partner": "Oklahoma City University",
+      "blurb": "Saint Paul's Oklahoma Campus operates on OCU's campus (Bishop W. Angie Smith Chapel); Saint Paul students, faculty, and staff there use OCU's Dulaney-Browne Library and are subject to OCU policy for IRB review and campus conduct. A \"Three Plus Three\" pathway lets an OCU Religion major finish a bachelor's in three years and move directly into the Saint Paul MDiv without relocating.",
+      "url": "https://www.spst.edu/three-plus-three/"
+    },
+    {
+      "kind": "host-university",
+      "partner": "Church of the Resurrection",
+      "blurb": "Saint Paul's Kansas Campus occupies Building C on the Church of the Resurrection campus in Leawood, KS — a United Methodist congregation, not a university, hosting the school's other physical location.",
+      "url": "https://www.spst.edu/contact/"
+    },
+    {
+      "kind": "cross-registration",
+      "partner": "Kansas City Association of Theological Schools (KCATS)",
+      "blurb": "Full-time master's students may cross-register for up to six elective credit hours at Central Baptist Theological Seminary, Midwestern Baptist Theological Seminary, or Nazarene Theological Seminary. Flagged exception: the KCATS schools' own agreement excludes United Methodist denominational studies from cross-registration, so this route cannot be used to close the UM-studies gap above.",
+      "url": "https://www.spst.edu/"
+    }
+  ],
+  "courseOfStudy": {
+    "blurb": "Saint Paul operates the United Methodist Church Course of Study School under GBHEM — all 20 required courses, offered multiple times a year in a 7-week online format — for licensed local pastors, plus the Advanced Course of Study for those seeking provisional membership and ordination as an elder.",
+    "url": "https://www.spst.edu/cos/"
+  },
+  "facultyNote": "Limited to Saint Paul's 10 named full-time faculty on its current directory page (\"Full-Time Faculty\" heading); the same page separately lists a Rabbi-in-Residence, a Visiting Assistant Professor, 9 adjunct faculty, and 7 emeritus/emerita faculty, all excluded here per the core-full-time-only scope this project uses for every school. Of the 10, each has an individual bio page (all linked below). Campus assignment is not published by Saint Paul as a declared roster field; it is inferred here from each person's own direct office phone line and address on their own bio page (a 913 Leawood, KS line vs. a 405 Oklahoma City, OK line) — 8 of 10 core faculty carry a Kansas-campus line (Betsworth, Hartley, Howell, Kamudzandu, Kvam, Liantonio, Sigmon, Stauffer); 2 carry an Oklahoma-campus line (Randolph, explicitly titled 'Academic Director of the Oklahoma Campus,' and Robinson). A student choosing to attend in person at the Oklahoma City site specifically, rather than online or at Leawood, would meet a noticeably smaller in-person faculty than at the Kansas Campus — the MDiv curriculum is identical either way (see ordination/degrees notes), but who teaches it in person is not evenly split.",
+  "contact": {
+    "admissionsUrl": "https://www.spst.edu/apply-now/",
+    "visitUrl": "https://www.spst.edu/considering-seminary/",
+    "phone": "913-253-5000"
+  }
+}

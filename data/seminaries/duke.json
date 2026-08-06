@@ -1,0 +1,245 @@
+{
+  "slug": "duke",
+  "name": "Duke University Divinity School",
+  "city": "Durham",
+  "state": "NC",
+  "url": "https://divinity.duke.edu/",
+  "lastVerified": "2026-08-06",
+  "ordination": {
+    "senateStanding": {
+      "value": "approved-umc",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "One of the 13 United Methodist schools of theology."
+    },
+    "onlineCredit": {
+      "value": "fully-counts",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "GBHEM: all thirteen United Methodist schools of theology are approved to provide a fully online M.Div. that meets UM ordination requirements. Duke's own Hybrid M.Div. — online coursework plus in-person immersion weeks — is a separate, even more residential, delivery than the 'fully online' case this rule covers."
+    },
+    "coverageSource": "https://divinity.bulletins.duke.edu/allprograms/masters/d-div-mdv",
+    "coverageAsOf": "2026-08-06",
+    "coverage": [
+      {
+        "area": "old-testament",
+        "status": "required",
+        "note": "OLDTEST 752 and 753, two of the nine required core courses."
+      },
+      {
+        "area": "new-testament",
+        "status": "required",
+        "note": "NEWTEST 754 is one of the nine required core courses."
+      },
+      {
+        "area": "theology",
+        "status": "required",
+        "note": "XTIANTHE 755 (Christian Theology) is one of the nine required core courses."
+      },
+      {
+        "area": "church-history",
+        "status": "required",
+        "note": "CHURHST 750 and 751 are two of the nine required core courses; AMXTIAN 756 (American Christianity) is a third required course touching the same territory."
+      },
+      {
+        "area": "preaching",
+        "status": "required",
+        "note": "PREACHNG 758 is one of the nine required core courses."
+      },
+      {
+        "area": "worship-liturgy",
+        "status": "required-umc-track",
+        "note": "Duke's bulletin, under its 'Ordination Requirements' heading — a section distinct from, and prior to, the separately-labelled 'Recommended Curricular Paradigms' that follow it — states as a flat obligation: 'United Methodist (UMC) students must fulfill educational requirements as set forth by the Book of Discipline by completing... one course in worship (LTS 730) or approved elective...' The 'or approved elective' clause allows a substitute, the way Phillips' 'normally fulfilled by taking PL 725' does — but the binding language ('must fulfill... by completing') and the named default course (LTS 730) both sit in the requirements section itself, not in the scheduling advice that comes after it. UMC-track students are held to this; students of other denominations are not."
+      },
+      {
+        "area": "evangelism",
+        "status": "required-umc-track",
+        "note": "The same 'Ordination Requirements' sentence that binds UM studies and worship also binds this one, in the same must-fulfill language: 'United Methodist (UMC) students must fulfill educational requirements as set forth by the Book of Discipline by completing... one course in evangelism.' That obligation is what required-umc-track tracks — not whether Duke names a course. It doesn't, here: unlike PARISH 777/778 for UM studies or LTS 730 for worship, no specific evangelism course is ever named in the bulletin. The curricular paradigm labels the slot only generically, as 'Elective (Mission or Evangelism),' and a footnote confirms evangelism and mission are two distinct required electives, not a shared bucket: 'UMC students are encouraged to consider the area in which they are most likely to desire further advanced coursework when deciding the order in which to take the mission of the church, worship, and evangelism required electives.' A UMC student cannot graduate without a course here, but has to identify one themselves from unrestricted electives and should confirm the specific course with their conference's Board of Ordained Ministry registrar."
+      },
+      {
+        "area": "mission-of-the-church",
+        "status": "required-umc-track",
+        "note": "Bound by the same sentence as evangelism above ('...and one course in mission'), and the same paradigm footnote confirms it is a separate, distinct requirement from evangelism, not an either/or. The obligation binds the same way UM studies and worship do — but as with evangelism, Duke never names a specific mission course anywhere in the bulletin, only the generic 'Elective (Mission or Evangelism)' slot in its scheduling paradigm. A UMC student is bound to take some course here and has to identify and choose it themselves, then confirm it with their conference's Board of Ordained Ministry registrar."
+      },
+      {
+        "area": "um-studies",
+        "status": "required-umc-track",
+        "note": "The strongest-worded line in Duke's 'Ordination Requirements' section: 'United Methodist (UMC) students must fulfill educational requirements as set forth by the Book of Discipline by completing the year-long course on Methodist doctrine, history, and polity (PARISH 777 and 778)...' No substitute is offered, unlike worship's 'or approved elective' — PARISH 777 and 778 are the course, named by number, in a binding-requirements section that stands on its own independent of the separately-labelled 'Recommended Curricular Paradigms' that merely schedule when to take it. A United Methodist student cannot graduate from Duke's M.Div. without it."
+      }
+    ]
+  },
+  "scale": {
+    "totalEnrollment": {
+      "value": "599 students (592.20 FTE)",
+      "source": "https://www.ats.edu/member-schools/duke-university-divinity-school",
+      "asOf": "2025-11-01",
+      "note": "ATS's Fall 2025 report for the whole school, not M.Div. only. ATS also reports 45 full-time faculty (FTE) for the same period — roughly 13 students per faculty FTE, though Duke does not publish that ratio itself."
+    }
+  },
+  "cost": {
+    "tuitionPerCredit": {
+      "value": "$30,600/year ($15,300 per semester) for the two-year-pace residential M.Div.; $22,950/year ($11,475/semester) for the four-year-pace residential M.Div.; $22,950/year ($7,650/term) for the Hybrid M.Div.",
+      "source": "https://divinity.duke.edu/admissions/financial-aid/tuition",
+      "asOf": "2026-08-06",
+      "note": "2026–2027 rates, full-time enrollment. Duke prices its M.Div. by pace and delivery mode rather than a flat per-credit rate — the 'per-credit' figure moves depending which of the three tracks you're on."
+    },
+    "fees": [
+      {
+        "label": "Student Health Fee",
+        "amount": "$524.00 per term (residential)"
+      },
+      {
+        "label": "Transcript Fee",
+        "amount": "$120.00 one-time"
+      },
+      {
+        "label": "Student Life Ministry / Graduate Activity / Graduate Services / Divinity Government Dues",
+        "amount": "$86.50 per term (residential)"
+      },
+      {
+        "label": "Recreational Facilities Fee",
+        "amount": "$204.00 per term (residential)"
+      },
+      {
+        "label": "Mandatory health insurance (SMIP)",
+        "amount": "$4,290.00/year, residential students only; hybrid students must show proof of existing coverage instead"
+      }
+    ],
+    "pctReceivingAid": {
+      "value": "All students admitted to the M.Div., M.T.S., M.A. in Christian Practice, D.Min., and Th.D. programs receive institutional scholarship support",
+      "source": "https://divinity.duke.edu/admissions/financial-aid/scholarships",
+      "asOf": "2026-08-06",
+      "note": "Duke's own wording, not a rounded percentage it publishes. The school reports awarding more than $11 million in scholarship support a year, plus roughly $1.5 million more in external scholarships."
+    },
+    "typicalAward": {
+      "value": "Divinity Dean's Scholarship: 50%–100% of tuition (M.Div./M.T.S.); Divinity Tuition Award: 25% of tuition for M.Div./M.T.S. entrants not awarded a Dean's Scholarship, and for M.A. in Christian Practice and D.Min. students",
+      "source": "https://divinity.duke.edu/admissions/financial-aid/scholarships",
+      "asOf": "2026-08-06"
+    },
+    "namedScholarships": [
+      {
+        "name": "Rural Ministry Fellowships",
+        "blurb": "Full merit-based scholarships, funded through The Duke Endowment and administered by Duke's Thriving Rural Communities initiative, specifically for Duke Divinity students from North Carolina's two United Methodist conferences who show a calling to ordained leadership in rural UMC churches in the state. Geographically narrow, but a direct, named link between UMC ordination and full funding.",
+        "url": "https://divinity.duke.edu/admissions/financial-aid/scholarships"
+      },
+      {
+        "name": "Black Church Studies and Latinx Studies Fellowships",
+        "blurb": "Full-tuition scholarships tied to the Office of Black Church Studies and the Hispanic House of Studies, with mentoring and professional-formation programming attached.",
+        "url": "https://divinity.duke.edu/admissions/financial-aid/scholarships"
+      }
+    ],
+    "honestNote": "Duke's headline scholarship promise is real but not automatically full-ride: the Dean's Scholarship band runs 50%–100% based on the strength of your application, and most M.Div./M.T.S. entrants who don't land it get a flat 25% Tuition Award instead. Compare that against Candler's stated policy of covering 100% of tuition for certified UMC candidacy applicants who hit the priority deadline — Duke has no published equivalent blanket commitment tied specifically to candidacy status, only the narrower, rural-and-NC-specific Rural Ministry Fellowship. If you are a certified UMC candidate weighing Duke against a school with that kind of guarantee, ask Duke's Office of Financial Aid directly whether candidacy status affects your award; the public pages don't say either way."
+  },
+  "degrees": [
+    {
+      "name": "Master of Divinity",
+      "abbr": "M.Div.",
+      "credits": 24,
+      "typicalYears": "3 years full-time (six semesters); up to 6 years allowed",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "24 courses: nine required core courses, five limited electives (one each from Church Ministry, Black Church Studies, World Christianity, New Testament Exegesis, and Practicing Theology in Ministry), ten electives, two units of Field Education, spiritual formation, and two portfolio reviews.",
+      "url": "https://divinity.bulletins.duke.edu/allprograms/masters/d-div-mdv"
+    },
+    {
+      "name": "Master of Divinity (Four-Year and Student Pastor pacing)",
+      "abbr": "M.Div. (MDV4)",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "The same 24-course degree spread over four years, including a track built for licensed student pastors serving a church while in school.",
+      "url": "https://divinity.bulletins.duke.edu/allprograms/masters/d-div-mdv"
+    },
+    {
+      "name": "Hybrid Master of Divinity",
+      "abbr": "M.Div. (Hybrid)",
+      "modalities": [
+        "hybrid"
+      ],
+      "blurb": "Online coursework combined with in-person immersion weeks, for students who need to stay in their current appointment or job while in seminary.",
+      "url": "https://divinity.duke.edu/academics/masters/mdiv"
+    },
+    {
+      "name": "Master of Theological Studies",
+      "abbr": "M.T.S.",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "Not an ordination degree — for doctoral preparation, nonprofit work, lay ministry, teaching, or research.",
+      "url": "https://divinity.duke.edu/academics/masters"
+    },
+    {
+      "name": "Master of Arts in Christian Practice",
+      "abbr": "M.A.",
+      "modalities": [
+        "hybrid"
+      ],
+      "blurb": "Built for working professionals who need to keep their job while studying — vocational discernment, spiritual disciplines, and a Duke master's degree without relocating.",
+      "url": "https://divinity.duke.edu/academics/masters"
+    },
+    {
+      "name": "Master of Theology",
+      "abbr": "Th.M.",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "An advanced theological degree for specialized ministerial or academic preparation, often a step toward a Th.D. or Ph.D.",
+      "url": "https://divinity.duke.edu/academics/masters"
+    },
+    {
+      "name": "Doctor of Ministry",
+      "abbr": "D.Min.",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "Charged as a flat term rate rather than per course; recent cohorts split into Traditional Leadership and Missional Innovation tracks.",
+      "url": "https://divinity.duke.edu/academics/doctoral/dmin"
+    }
+  ],
+  "concentrations": [
+    "Anglican Studies",
+    "Baptist Studies",
+    "Black Church Studies",
+    "Catholic Studies",
+    "Chaplaincy",
+    "Faith, Food, and Environmental Justice",
+    "Faith-Rooted Advocacy and Conflict Transformation",
+    "Gender, Sexuality, Theology, and Ministry",
+    "Latinx Studies",
+    "Methodist/Wesleyan Studies",
+    "Missional Innovation",
+    "Preaching",
+    "Prison Studies",
+    "Reflective and Faithful Teaching",
+    "Theology and the Arts",
+    "Theology, Medicine, and Culture",
+    "Worship"
+  ],
+  "partnerships": [
+    {
+      "kind": "host-university",
+      "partner": "Duke University",
+      "blurb": "Duke Divinity School sits on Duke's Durham campus, with dual-degree routes into Duke's Sanford School of Public Policy, Nicholas School of the Environment, and Fuqua/Law/Medicine programs.",
+      "url": "https://divinity.duke.edu/"
+    },
+    {
+      "kind": "joint-degree",
+      "partner": "UNC-Chapel Hill School of Social Work",
+      "blurb": "The M.Div./M.S.W. dual degree shares four courses between the two schools and can be started from either campus, reducing the M.Div. side to 20 (or 19 with advanced standing) required courses.",
+      "url": "https://divinity.bulletins.duke.edu/allprograms/masters/d-div-mdv"
+    },
+    {
+      "kind": "consortium",
+      "partner": "Houses of Study",
+      "blurb": "Duke runs denominational Houses of Study inside a UMC-founded school — Anglican Episcopal, Asian, Baptist, Hispanic, Methodist, and Presbyterian/Reformed — each with its own scholarships and certificate program, alongside a standalone Office of Black Church Studies.",
+      "url": "https://divinity.duke.edu/"
+    }
+  ],
+  "facultyNote": "Filtered to Duke's own 'Regular Rank Faculty' category in its directory (49 people) — this excludes Adjunct/Visiting, Administrative, Consulting, and Emeritus faculty, all of which Duke lists separately. A few Regular Rank titles (e.g., 'Professor of Food, Economics, and Community') sit outside this site's field vocabulary; where a title alone gave the area normalizer nothing to match, the area below was read from that person's own Duke bio rather than left blank or guessed from outside knowledge.",
+  "contact": {
+    "admissionsUrl": "https://divinity.duke.edu/admissions",
+    "email": "admissions@div.duke.edu",
+    "phone": "(919) 660-3436"
+  }
+}

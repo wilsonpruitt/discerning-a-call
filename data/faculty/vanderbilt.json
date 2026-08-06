@@ -1,0 +1,469 @@
+[
+  {
+    "id": "vanderbilt-victor-anderson",
+    "seminarySlug": "vanderbilt",
+    "name": "Victor Anderson",
+    "title": "Professor of Ethics and Society",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/victor-anderson",
+    "otherRoles": [
+      "Oberlin Theological School Chair Professor of Ethics and Society"
+    ],
+    "degrees": [
+      "A.B., Trinity Christian (1982)",
+      "M.Div., Th.M., Calvin Theological Seminary (1986, 1990)",
+      "M.A., Ph.D., Princeton University (1991, 1992)"
+    ]
+  },
+  {
+    "id": "vanderbilt-ellen-armour",
+    "seminarySlug": "vanderbilt",
+    "name": "Ellen Armour",
+    "title": "E. Rhodes and Leona B. Carpenter Professor of Feminist Theology",
+    "areas": [
+      "womanist-feminist-theology"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/ellen-armour",
+    "otherRoles": [
+      "Professor of Feminist Theology",
+      "Director of the Carpenter Program in Religion, Gender and Sexuality"
+    ],
+    "degrees": [
+      "B.A., Stetson University (1980)",
+      "M.A., Ph.D., Vanderbilt University (1989, 1993)"
+    ],
+    "publications": [
+      {
+        "title": "Signs and Wonders: Theology After Modernity (Columbia University Press, 2016)",
+        "kind": "book",
+        "year": 2016
+      },
+      {
+        "title": "Deconstruction, Feminist Theology, and the Problem Of Difference: Subverting the Race/Gender Divide (Chicago: University of Chicago Press, 1999)",
+        "kind": "book",
+        "year": 1999
+      },
+      {
+        "title": "Bodily Citations: Judith Butler and Religion (Columbia University Press, 2006)",
+        "kind": "book",
+        "year": 2006
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/ellen-armour",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "vanderbilt-annalisa-azzoni",
+    "seminarySlug": "vanderbilt",
+    "name": "Annalisa Azzoni",
+    "title": "Senior Lecturer in Hebrew Bible",
+    "areas": [
+      "hebrew-bible"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/annalisa-azzoni",
+    "degrees": [
+      "Laurea, Istituto di Glottologia, Universita degli Studi di Milano (1989)",
+      "Ph.D., Johns Hopkins (2001)"
+    ]
+  },
+  {
+    "id": "vanderbilt-jimmy-byrd",
+    "seminarySlug": "vanderbilt",
+    "name": "James P. Byrd",
+    "title": "Cal Turner Chancellor's Chair of Wesleyan Studies",
+    "areas": [
+      "church-history",
+      "wesleyan-studies"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/jimmy-byrd",
+    "otherRoles": [
+      "Professor of American Religious History",
+      "Associate Dean & Chair of Graduate Department of Religion"
+    ],
+    "degrees": [
+      "B.A., Gardner-Webb (1988)",
+      "M.Div., Duke (1991)",
+      "M.A., Ph.D., Vanderbilt (1997, 1999)"
+    ],
+    "workingOn": "Holds one of Vanderbilt's two Cal Turner Chancellor's Chairs in Wesleyan Studies and is UMC-ordained himself. He teaches History of the United Methodist Tradition and co-leads the new Turner-Barnett Program for Pastoral Formation alongside Bishop William McAlilly (retired, Tennessee-Western Kentucky Conference). His own scholarship is on the Bible in American religious and political history, not Methodism specifically — the UM teaching is a role he holds, not the center of his research.",
+    "publications": [
+      {
+        "title": "“A Holy Baptism of Fire and Blood”: The Bible and the American Civil War (Oxford University Press, 2021)",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "The Story of Religion in America: An Introduction (Louisville: Westminster John Knox Press, 2021)",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "Sacred Scripture, Sacred War: The Bible and the American Revolution (Oxford University Press, 2013)",
+        "kind": "book",
+        "year": 2013
+      },
+      {
+        "title": "Jonathan Edwards for Armchair Theologians (WJK)",
+        "kind": "book"
+      },
+      {
+        "title": "The Challenges of Roger Williams: Religious Liberty, Violent Persecution, and the Bible (Mercer University Press)",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/jimmy-byrd",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "vanderbilt-paul-dehart",
+    "seminarySlug": "vanderbilt",
+    "name": "Paul DeHart",
+    "title": "Professor of Theology",
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/paul-dehart",
+    "otherRoles": [
+      "Associate Dean of Academic Affairs"
+    ],
+    "degrees": [
+      "A.B., Chicago (1987)",
+      "M.A.R., Yale (1990)",
+      "Ph.D., Chicago (1997)"
+    ]
+  },
+  {
+    "id": "vanderbilt-juan-floyd-thomas",
+    "seminarySlug": "vanderbilt",
+    "name": "Juan Floyd-Thomas",
+    "title": "Associate Professor of African American Religious History",
+    "areas": [
+      "church-history",
+      "black-church-studies"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/juan-floyd-thomas",
+    "degrees": [
+      "B.A., Rutgers University (1993)",
+      "M.A., Temple University (1996)",
+      "Ph.D., University of Pennsylvania (2000)"
+    ],
+    "publications": [
+      {
+        "title": "The Origins of Black Humanism: Reverend Ethelred Brown and the Unitarian Church (Palgrave Macmillan, 2008)",
+        "kind": "book",
+        "year": 2008
+      },
+      {
+        "title": "Liberating Black Church History: Making It Plain (Abingdon Press, 2014)",
+        "kind": "book",
+        "year": 2014
+      },
+      {
+        "title": "Black Church Studies: An Introduction (Abingdon Press, 2007)",
+        "kind": "book",
+        "year": 2007
+      },
+      {
+        "title": "Between Pandemonium and Pandemethics: Responses to Covid-19 from Theology and Religions (Leipzig, Germany: Evangelische Verlagsanstalt GmbH, 2022)",
+        "kind": "book",
+        "year": 2022
+      },
+      {
+        "title": "Introduction to Contemporary Theories of Religion (London: Bloomsbury Press, 2018)",
+        "kind": "book",
+        "year": 2018
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/juan-floyd-thomas",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "vanderbilt-stacey-floyd-thomas",
+    "seminarySlug": "vanderbilt",
+    "name": "Stacey Floyd-Thomas",
+    "title": "E. Rhodes and Leona B. Carpenter Professor of Ethics and Society",
+    "areas": [
+      "ethics-public-theology",
+      "womanist-feminist-theology",
+      "black-church-studies"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/stacey-floyd-thomas",
+    "degrees": [
+      "B.A., Vassar College (1991)",
+      "M.T.S., Emory University (1993)",
+      "M.A., Ph.D. Temple University (1995, 1998)",
+      "M.B.A., Tennessee State University (2019)"
+    ],
+    "publications": [
+      {
+        "title": "Mining the Motherlode: Methods in Womanist Ethics (Pilgrim Press, 2006)",
+        "kind": "book",
+        "year": 2006
+      },
+      {
+        "title": "Deeper Shades of Purple: Womanism in Religion and Society (New York University Press, 2006)",
+        "kind": "book",
+        "year": 2006
+      },
+      {
+        "title": "Black Church Studies: An Introduction (Abingdon Press, 2007)",
+        "kind": "book",
+        "year": 2007
+      },
+      {
+        "title": "U. S. Liberation Theologies: An Introduction (New York University Press, 2010)",
+        "kind": "book",
+        "year": 2010
+      },
+      {
+        "title": "Beyond the Pale: Reading Ethics from the Margins (Westminister John Knox Press, 2011)",
+        "kind": "book",
+        "year": 2011
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/stacey-floyd-thomas",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "vanderbilt-yara-gonzlez-justiniano",
+    "seminarySlug": "vanderbilt",
+    "name": "Yara González-Justiniano",
+    "title": "Assistant Professor of Religion, Psychology, and Culture with emphasis on Latinx Studies",
+    "areas": [
+      "latino-hispanic-ministry",
+      "practical-theology"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/yara-gonzlez-justiniano",
+    "otherRoles": [
+      "Affiliated Faculty of the Center for Latin American, Caribbean, and Latinx Studies"
+    ],
+    "degrees": [
+      "B.A. University of Puerto Rico (2010)",
+      "M.Div. Boston University (2014)",
+      "PhD Boston University (2019)"
+    ]
+  },
+  {
+    "id": "vanderbilt-jaco-hamman",
+    "seminarySlug": "vanderbilt",
+    "name": "Jaco Hamman",
+    "title": "Professor of Religion, Psychology, and Culture",
+    "areas": [
+      "pastoral-care-counseling",
+      "practical-theology"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/jaco-hamman",
+    "otherRoles": [
+      "Director of the Program in Theology and Practice"
+    ],
+    "degrees": [
+      "PhD, Princeton Theological Seminary, 2000.",
+      "Certificates in Pastoral Psychotherapy, Marriage and Family Therapy, and Group Psychotherapy, Blanton-Peale Graduate Institute, 2001.",
+      "MTh Clinical Pastoral Care (cum laude), Stellenbosch University Seminary School, 1993.",
+      "BTh, Stellenbosch University Seminary School, 1991.",
+      "BA (Theology and Psychology), Nelson Mandela Metropolitan University, 1988."
+    ]
+  },
+  {
+    "id": "vanderbilt-forrest-harris",
+    "seminarySlug": "vanderbilt",
+    "name": "Forrest Harris",
+    "title": "Professor of the Practice of Ministry",
+    "areas": [
+      "practical-theology",
+      "black-church-studies"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/forrest-harris",
+    "otherRoles": [
+      "Director of the Kelly Miller Smith Center for Black Faith in Public Life"
+    ],
+    "degrees": [
+      "B.A., Knoxville (1971)",
+      "B.Th., American Baptist (1979)",
+      "M.Div., D.Min., Vanderbilt (1983, 1991)"
+    ]
+  },
+  {
+    "id": "vanderbilt-eunjoo-kim",
+    "seminarySlug": "vanderbilt",
+    "name": "Eunjoo Kim (Eun J. Lee)",
+    "title": "The Charles G. Finney Chair, Professor of Homiletics and Liturgics",
+    "areas": [
+      "preaching",
+      "liturgy-worship"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/eunjoo-kim"
+  },
+  {
+    "id": "vanderbilt-herbert-marbury",
+    "seminarySlug": "vanderbilt",
+    "name": "Herbert R. Marbury",
+    "title": "Associate Professor of the Hebrew Bible and Black Religious Studies",
+    "areas": [
+      "hebrew-bible",
+      "black-church-studies"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/herbert-marbury",
+    "degrees": [
+      "B.A., Emory (1991)",
+      "M.Div., Interdemoninational Theological Center (1994)",
+      "M.A., Ph.D., Vanderbilt University (1999, 2003)"
+    ],
+    "workingOn": "UMC-ordained and teaches Hebrew Bible and Black Religious Studies. Not a Methodist-studies appointment, but worth knowing if you are a UMC candidate looking for ordained UM faculty outside the two Wesleyan chairs.",
+    "publications": [
+      {
+        "title": "Imperial Dominion and Priestly Genius (Sopher Press, September, 2012)",
+        "kind": "book",
+        "year": 2012
+      },
+      {
+        "title": "Pillars of Cloud and Fire: The Politics of Exodus in African American Biblical Interpretation (New York University Press, 2015)",
+        "kind": "book",
+        "year": 2015
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/herbert-marbury",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "vanderbilt-david-michelson",
+    "seminarySlug": "vanderbilt",
+    "name": "David Michelson",
+    "title": "Associate Professor of the History of Christianity and Associate Professor of Classical and Mediterranean Studies",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/david-michelson",
+    "degrees": [
+      "B.A. Hillsdale College (1998)",
+      "M.A. Trinity Evangelical Divinity School (2001)",
+      "M.A. & Ph.D. Princeton University (2003, 2007)"
+    ]
+  },
+  {
+    "id": "vanderbilt-bruce-morrill",
+    "seminarySlug": "vanderbilt",
+    "name": "Bruce Morrill",
+    "title": "Edward A. Malloy Chair in Roman Catholic Studies Distinguished Professor of Theology",
+    "areas": [
+      "systematic-theology",
+      "liturgy-worship"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/bruce-morrill",
+    "degrees": [
+      "B.A., College of the Holy Cross (1981)",
+      "M.A., Columbia University (1986)",
+      "M.Div., Jesuit School of Theology at Berkeley, California (1991)",
+      "Ph.D., Emory University (1996)"
+    ],
+    "publications": [
+      {
+        "title": "Practical Sacramental Theology: At the Intersection of Liturgy and Ethics (Cascade Books, 2021)",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "Divine Worship and Human Healing: Liturgical Theology at the Margins of Life and Death (Pueblo/Liturgical Press, 2009)",
+        "kind": "book",
+        "year": 2009
+      },
+      {
+        "title": "Anamnesis as Dangerous Memory: Political and Liturgical Theology in Dialogue (Pueblo/Liturgical Press, 2000)",
+        "kind": "book",
+        "year": 2000
+      },
+      {
+        "title": "Encountering Christ in the Eucharist: The Paschal Mystery in People, Word, and Sacrament (Paulist Press, 2012)",
+        "kind": "book",
+        "year": 2012
+      },
+      {
+        "title": "The Essential Writings of Bernard Cooke: A Narrative Theology of Church, Sacrament, and Ministry (Paulist Press, 2016)",
+        "kind": "book",
+        "year": 2016
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/bruce-morrill",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "vanderbilt-yolanda-pierce",
+    "seminarySlug": "vanderbilt",
+    "name": "Yolanda Pierce",
+    "title": "Dean of the Divinity School",
+    "areas": [
+      "black-church-studies",
+      "church-history",
+      "womanist-feminist-theology"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/yolanda-pierce",
+    "otherRoles": [
+      "University Distinguished Professor of Religion & Literature",
+      "University Distinguished Professor of African American & Diaspora Studies"
+    ]
+  },
+  {
+    "id": "vanderbilt-graham-reside",
+    "seminarySlug": "vanderbilt",
+    "name": "Graham Reside",
+    "title": "Assistant Professor of the Practice of Ethics",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/graham-reside"
+  },
+  {
+    "id": "vanderbilt-joerg-rieger",
+    "seminarySlug": "vanderbilt",
+    "name": "Joerg Rieger",
+    "title": "Distinguished Professor of Theology",
+    "areas": [
+      "wesleyan-studies",
+      "systematic-theology",
+      "mission-social-justice"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/joerg-rieger",
+    "otherRoles": [
+      "Cal Turner Chancellor's Chair in Wesleyan Studies",
+      "Director of the Wendland-Cook Program in Religion and Justice"
+    ],
+    "workingOn": "Holds the other Cal Turner Chancellor's Chair in Wesleyan Studies and is UMC-ordained. He also directs the Wendland-Cook Program in Religion and Justice, and his own research center is theology and economic/political justice movements, with Wesleyan studies as one lens among several rather than his primary output."
+  },
+  {
+    "id": "vanderbilt-fernando-segovia",
+    "seminarySlug": "vanderbilt",
+    "name": "Fernando Segovia",
+    "title": "Oberlin Graduate Professor of New Testament and Early Christianity",
+    "areas": [
+      "new-testament",
+      "church-history"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/fernando-segovia",
+    "degrees": [
+      "B.A., Pontifical College Josephinum (1970)",
+      "M.A., Ph.D., Notre Dame (1976, 1978)"
+    ]
+  },
+  {
+    "id": "vanderbilt-phillisi-sheppard",
+    "seminarySlug": "vanderbilt",
+    "name": "Phillis Isabella Sheppard",
+    "title": "E. Rhodes and Leona B. Carpenter Chair",
+    "areas": [
+      "womanist-feminist-theology",
+      "pastoral-care-counseling"
+    ],
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/phillisi-sheppard",
+    "otherRoles": [
+      "Professor of Religion, Psychology, and Culture and Womanist Thought",
+      "Faculty Liaison for Education and Research at the James Lawson Institute for the Research and Study of Nonviolent Movements"
+    ],
+    "degrees": [
+      "Ph. D., 1997 Theology, Ethics, and the Human Sciences, Chicago Theological Seminary",
+      "M. A., 1988 Theology, Colgate Rochester Divinity School",
+      "B. A., 1981 Political Science, Edinboro University of Pennsylvania"
+    ]
+  }
+]

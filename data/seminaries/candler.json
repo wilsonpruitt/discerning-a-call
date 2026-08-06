@@ -93,9 +93,16 @@
       "value": "M.Div. scholarships begin at 50% of tuition and range to full tuition plus a stipend",
       "source": "https://candler.emory.edu/admissions/affording-candler/scholarships-and-aid/",
       "asOf": "2026-08-06",
-      "note": "Candler states that M.Div. students who are certified candidates for UMC ordination, or in the process of becoming certified, and who apply by the priority deadline, receive scholarships covering 100% of tuition."
+      "note": "Certified UMC candidates who apply by the priority deadline are treated separately — see named scholarships."
     },
-    "honestNote": "This is the strongest link between the candidacy process and the cost of seminary that any school on this site publishes. Getting certified as a candidate — the ¶310 rung — is not only a step toward ordination at Candler; it is worth full tuition, provided you also make the priority deadline. If Candler is on your list, that turns certification from something to get around to into something with a date attached. Confirm the current terms with admissions before relying on it."
+    "honestNote": "This is the strongest link between the candidacy process and the cost of seminary that any school on this site publishes. Getting certified as a candidate — the ¶310 rung — is not only a step toward ordination at Candler; it is worth full tuition, provided you also make the priority deadline. If Candler is on your list, that turns certification from something to get around to into something with a date attached. Confirm the current terms with admissions before relying on it.",
+    "namedScholarships": [
+      {
+        "name": "Full tuition for certified UMC candidates",
+        "blurb": "Candler states that M.Div. students who are certified candidates for UMC ordination, or in the process of becoming certified, and who apply by the priority deadline, receive scholarships covering 100% of tuition. Certification is the ¶310 rung — here it carries a price tag and a date. Confirm current terms with admissions before relying on it.",
+        "url": "https://candler.emory.edu/admissions/affording-candler/scholarships-and-aid/"
+      }
+    ]
   },
   "degrees": [
     {

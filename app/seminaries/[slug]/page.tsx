@@ -37,6 +37,7 @@ export async function generateMetadata({
 
 const COVERAGE_TONE: Record<CoverageStatus, "ok" | "reed" | "info" | "neutral"> = {
   required: "ok",
+  "required-umc-track": "ok",
   elective: "reed",
   occasional: "reed",
   absent: "neutral",
@@ -44,6 +45,10 @@ const COVERAGE_TONE: Record<CoverageStatus, "ok" | "reed" | "info" | "neutral"> 
 
 const COVERAGE_LABEL: Record<CoverageStatus, string> = {
   required: "In the core",
+  // Deliberately not "In the core". It is required of you, but only because you
+  // are United Methodist — a distinction the school's own catalogue makes and
+  // the reader is entitled to see.
+  "required-umc-track": "Required of UMC candidates",
   elective: "Elective — you must choose it",
   occasional: "Unclear — ask",
   absent: "Not offered here",
@@ -91,7 +96,13 @@ export default async function SeminaryProfilePage({
   const byArea = groupByArea(roster);
   const { ordination, cost, degrees, concentrations, partnerships, scale } = profile;
 
-  const gaps = ordination.coverage?.filter((c) => c.status !== "required") ?? [];
+  // Mirrors the validator: a UMC-track requirement is not a gap for this reader.
+  const gaps =
+    ordination.coverage?.filter(
+      (c) => c.status !== "required" && c.status !== "required-umc-track",
+    ) ?? [];
+  const umcTrack =
+    ordination.coverage?.filter((c) => c.status === "required-umc-track") ?? [];
   const pubSource = roster.find((m) => m.publicationsSource)?.publicationsSource;
 
   return (
@@ -179,6 +190,28 @@ export default async function SeminaryProfilePage({
                 asOf={ordination.coverageAsOf}
               />
             ) : null}
+          </Card>
+        ) : null}
+
+        {/* Rows that bind you only because you are United Methodist used to count
+            as gaps and so inherited the gap card's guidance. They no longer do —
+            correctly, since a UMC candidate cannot skip them — but that left a
+            school like Duke, where four of the nine sit outside the universal
+            core, saying nothing at all about it. This is that guidance. */}
+        {umcTrack.length ? (
+          <Card className="mt-5 p-5">
+            <Eyebrow>
+              {umcTrack.length} of 9 are required of you, but not of everyone
+            </Eyebrow>
+            <p className="prose mt-3 text-[15px] text-ink">
+              Every M.Div. student here takes the other{" "}
+              {(ordination.coverage?.length ?? 9) - umcTrack.length}. These{" "}
+              {umcTrack.length} are required because you are a United Methodist
+              on an ordination track, so they sit outside the courses the school
+              schedules for everyone — which means nobody will schedule them for
+              you. Name them early with your advisor, and confirm the choices
+              with your board of ordained ministry registrar.
+            </p>
           </Card>
         ) : null}
 
@@ -407,6 +440,28 @@ export default async function SeminaryProfilePage({
                   {cost.fees.map((f) => (
                     <li key={f.label} className="text-[14px] text-muted">
                       <span className="text-ink">{f.label}</span> — {f.amount}
+                    </li>
+                  ))}
+                </ul>
+              </Card>
+            ) : null}
+            {cost.namedScholarships?.length ? (
+              <Card className="mt-4 p-5">
+                <Eyebrow>Named scholarships</Eyebrow>
+                <ul className="mt-3 space-y-3">
+                  {cost.namedScholarships.map((s) => (
+                    <li key={s.name} className="text-[14px] leading-snug text-muted">
+                      {s.url ? (
+                        <a
+                          href={s.url}
+                          className="text-ink underline decoration-hairline underline-offset-2"
+                        >
+                          {s.name}
+                        </a>
+                      ) : (
+                        <span className="text-ink">{s.name}</span>
+                      )}{" "}
+                      — {s.blurb}
                     </li>
                   ))}
                 </ul>

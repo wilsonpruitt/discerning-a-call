@@ -1,0 +1,196 @@
+[
+  {
+    "id": "phillips-barnett",
+    "seminarySlug": "phillips",
+    "name": "Lisa Barnett",
+    "title": "Associate Professor of American Religious History",
+    "otherRoles": [
+      "Director of Formation for Disciples Students"
+    ],
+    "areas": [
+      "church-history"
+    ],
+    "email": "lisa.barnett@ptstulsa.edu",
+    "degrees": [
+      "PhD in U.S. History, Texas Christian University",
+      "Master of Theology (ThM) in American Religious History, Brite Divinity School",
+      "Master of Divinity, Brite Divinity School",
+      "BA in Oral Communication Education, University of Central Oklahoma"
+    ],
+    "publications": [
+      {
+        "title": "Peyote Politics: The Making of the Native American Church, 1880–1937",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "University of Oklahoma Press"
+      }
+    ],
+    "publicationsSource": "https://ptstulsa.edu/lisa-barnett-2/",
+    "publicationsAsOf": "2026-08-06",
+    "profileUrl": "https://ptstulsa.edu/lisa-barnett-2/"
+  },
+  {
+    "id": "phillips-bessler",
+    "seminarySlug": "phillips",
+    "name": "Joe Bessler",
+    "title": "Robert Travis Peake Professor of Theology",
+    "areas": [
+      "systematic-theology"
+    ],
+    "email": "joe.bessler@ptstulsa.edu",
+    "profileUrl": "https://ptstulsa.edu/faculty-directory/"
+  },
+  {
+    "id": "phillips-capretto",
+    "seminarySlug": "phillips",
+    "name": "Peter Capretto",
+    "title": "Associate Professor of Psychology, Culture, and Religion",
+    "areas": [
+      "pastoral-care-counseling"
+    ],
+    "email": "peter.capretto@ptstulsa.edu",
+    "degrees": [
+      "PhD, Vanderbilt University, 2019",
+      "MA, Vanderbilt University, 2016",
+      "MTS, Vanderbilt Divinity School, 2012",
+      "BA, Allegheny College, 2010"
+    ],
+    "publications": [
+      {
+        "title": "Beyond the Empathy Trap: Cultivating Freedom and Solidarity in an Ethic of Care",
+        "kind": "book",
+        "year": 2026,
+        "publisher": "Fordham University Press"
+      },
+      {
+        "title": "Spiritual Direction and the Other: Interdisciplinary Explorations of Accompaniment",
+        "kind": "edited-volume",
+        "year": 2026,
+        "publisher": "Routledge"
+      },
+      {
+        "title": "Trauma and Transcendence: Suffering and the Limits of Theory",
+        "kind": "edited-volume",
+        "year": 2018,
+        "publisher": "Fordham University Press"
+      }
+    ],
+    "publicationsSource": "https://ptstulsa.edu/peter-capretto/",
+    "publicationsAsOf": "2026-08-06",
+    "profileUrl": "https://ptstulsa.edu/peter-capretto/"
+  },
+  {
+    "id": "phillips-carter-arthur",
+    "seminarySlug": "phillips",
+    "name": "Arthur Carter",
+    "title": "Assistant Professor of New Testament",
+    "otherRoles": [
+      "Director of Black Church Studies and African American Faith-Life",
+      "Director of Formation for Baptist Students"
+    ],
+    "areas": [
+      "new-testament",
+      "black-church-studies"
+    ],
+    "email": "arthur.carter@ptstulsa.edu",
+    "profileUrl": "https://ptstulsa.edu/faculty-directory/"
+  },
+  {
+    "id": "phillips-carter-warren",
+    "seminarySlug": "phillips",
+    "name": "Warren Carter",
+    "title": "LaDonna Kramer Meinders Professor of New Testament",
+    "areas": [
+      "new-testament"
+    ],
+    "email": "warren.carter@ptstulsa.edu",
+    "degrees": [
+      "PhD, Princeton Theological Seminary",
+      "ThM, Melbourne College of Divinity",
+      "BD, Melbourne College of Divinity",
+      "BA, Victoria University of Wellington"
+    ],
+    "profileUrl": "https://ptstulsa.edu/warren-carter-2/"
+  },
+  {
+    "id": "phillips-davison",
+    "seminarySlug": "phillips",
+    "name": "Lisa W. Davison",
+    "title": "Johnnie Eargle Cadieux Professor of Hebrew Bible",
+    "otherRoles": [
+      "Vice President of Academic Affairs and Dean"
+    ],
+    "areas": [
+      "hebrew-bible"
+    ],
+    "email": "lisa.davison@ptstulsa.edu",
+    "degrees": [
+      "PhD, Vanderbilt University",
+      "MA, Vanderbilt University",
+      "MDiv, Brite Divinity School",
+      "BA, Lynchburg College"
+    ],
+    "publications": [
+      {
+        "title": "Preaching the Women of the Bible",
+        "kind": "book",
+        "year": 2006
+      },
+      {
+        "title": "More Than a Womb: Childfree Women as Agents of the Holy",
+        "kind": "book",
+        "note": "Publication year not stated on Phillips' bio page."
+      }
+    ],
+    "publicationsSource": "https://ptstulsa.edu/lisa-davison/",
+    "publicationsAsOf": "2026-08-06",
+    "profileUrl": "https://ptstulsa.edu/lisa-davison/"
+  },
+  {
+    "id": "phillips-mccallie",
+    "seminarySlug": "phillips",
+    "name": "Kathleen McCallie",
+    "title": "Associate Professor of Ministerial Leadership and Ethics",
+    "otherRoles": [
+      "Director of Formation for UCC Students"
+    ],
+    "areas": [
+      "congregational-leadership",
+      "ethics-public-theology"
+    ],
+    "email": "kathy.mccallie@ptstulsa.edu",
+    "degrees": [
+      "PhD, Political Science, University of Oklahoma, 2006",
+      "MDiv, Southern Methodist University, Perkins School of Theology, 1998",
+      "MA, Oklahoma State University, 1984",
+      "BA, Oklahoma State University, 1981"
+    ],
+    "profileUrl": "https://ptstulsa.edu/kathleen-mccallie/"
+  },
+  {
+    "id": "phillips-powe",
+    "seminarySlug": "phillips",
+    "name": "F. Douglas Powe Jr.",
+    "title": "Mouzon Biggs, Jr. Professor of Methodist Studies",
+    "otherRoles": [
+      "President"
+    ],
+    "areas": [
+      "wesleyan-studies"
+    ],
+    "email": "douglas.powe@ptstulsa.edu",
+    "profileUrl": "https://ptstulsa.edu/faculty-directory/"
+  },
+  {
+    "id": "phillips-utley",
+    "seminarySlug": "phillips",
+    "name": "Allie Utley",
+    "title": "Assistant Professor of Liturgy and Practical Theology",
+    "areas": [
+      "liturgy-worship",
+      "practical-theology"
+    ],
+    "email": "allie.utley@ptstulsa.edu",
+    "profileUrl": "https://ptstulsa.edu/faculty-directory/"
+  }
+]

@@ -1,0 +1,232 @@
+{
+  "slug": "wesley",
+  "name": "Wesley Theological Seminary",
+  "city": "Washington",
+  "state": "DC",
+  "url": "https://www.wesleyseminary.edu/",
+  "lastVerified": "2026-08-06",
+  "ordination": {
+    "senateStanding": {
+      "value": "approved-umc",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "One of the 13 United Methodist schools of theology."
+    },
+    "onlineCredit": {
+      "value": "fully-counts",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "GBHEM: all thirteen United Methodist schools of theology are approved to provide a fully online M.Div. that meets UM ordination requirements."
+    },
+    "coverageSource": "https://www.wesleyseminary.edu/wp-content/uploads/2026/07/WTS-Course-Catalog-AY-2026-2027_Final.pdf",
+    "coverageAsOf": "2026-08-06",
+    "coverage": [
+      {
+        "area": "old-testament",
+        "status": "required",
+        "note": "BI-101 and BI-102, Introduction to the Hebrew Bible (6 credit hours), are two of the fixed courses every M.Div. candidate takes in the first 27 hours of study."
+      },
+      {
+        "area": "new-testament",
+        "status": "required",
+        "note": "BI-171 and BI-172, Introduction to the New Testament (6 credit hours), are two of the fixed courses every M.Div. candidate takes in the first 27 hours of study."
+      },
+      {
+        "area": "theology",
+        "status": "required",
+        "note": "ST-305 and ST-306, Systematic Theology (6 credit hours), are required of every M.Div. candidate (taken after the first 27 credit hours)."
+      },
+      {
+        "area": "church-history",
+        "status": "required",
+        "note": "CH-101 and CH-102, The Church in History (6 credit hours), are two of the fixed courses every M.Div. candidate takes in the first 27 hours of study."
+      },
+      {
+        "area": "worship-liturgy",
+        "status": "required",
+        "note": "PW-101, Foundations in Christian Worship (3 credit hours), is a fixed required course for every M.Div. candidate (in the first 27 hours), on top of the further “Preaching and Worship Distribution Requirement” (any two 300-level PW courses) taken later."
+      },
+      {
+        "area": "preaching",
+        "status": "required",
+        "note": "PW-125, Foundations of Preaching (3 credit hours), is a fixed required course for every M.Div. candidate (in the first 27 hours), on top of the further “Preaching and Worship Distribution Requirement” taken later."
+      },
+      {
+        "area": "evangelism",
+        "status": "elective",
+        "note": "Wesley's catalog, under “Denominational Requirements,” disclaims rather than asserts this one: “For those students seeking ordination and commissioning as a deacon or elder in The United Methodist Church... [a]dditional courses must be taken as well. These are church requirements for ordination and NOT A SEMINARY REQUIREMENT for the professional Master's degree. Accordingly, Wesley students take these courses AS ELECTIVES toward their degree program.” That is Wesley stepping back from the obligation, not taking it up — the ¶324.4 requirement is real, but it is the Discipline's and your Board's, not Wesley's degree program's. Helpfully, though, Wesley DOES name exactly which electives satisfy it: a menu of six courses — CM-129, CM-222, CM-270, CM-271, CM-273, or CM-470 (2–3 credit hours) — any one of which does the job."
+      },
+      {
+        "area": "mission-of-the-church",
+        "status": "elective",
+        "note": "The same disclaiming sentence covers this row too: these are “church requirements for ordination and not a Seminary requirement,” taken “as electives.” Wesley names its menu just as specifically as it does for evangelism: CM-150, CM-205, WR-204, or WR-294 (2–3 credit hours), any one of which satisfies Mission of the Church in the World."
+      },
+      {
+        "area": "um-studies",
+        "status": "elective",
+        "note": "Same disclaimer again: not a Seminary requirement, taken as electives. Wesley's named menu here is a fixed pair rather than a choice: Polity of the United Methodist Church CM-251 (2 credit hours) and History and Doctrine in Methodist Traditions ST-463 and ST-464 (4 credit hours) — 6 credit hours total, landing exactly on ¶324.4's 6-hour UM-studies floor with nothing to spare."
+      }
+    ],
+    "gapSummary": "Six of the nine ¶324.4 areas are built into every Wesley M.Div. candidate's required core — no planning needed. The other three — evangelism, mission of the church, and United Methodist studies — sit in elective space: Wesley's own catalog says so directly, calling them “church requirements for ordination and not a Seminary requirement,” taken “as electives.” That is a real gap in the degree's required core, but a narrow and well-marked one: Wesley doesn't leave you guessing which electives to pick. It names exactly six courses for evangelism (any one), four for mission of the church (any one), and a fixed pair for UM studies (CM-251 plus ST-463/464, totaling precisely the 6 hours ¶324.4 asks for). Treat these three as electives you choose on purpose, early, rather than ones that happen automatically.",
+    "gapRemedies": [
+      {
+        "blurb": "Register for CM-251 (Polity of the United Methodist Church) and ST-463/ST-464 (History and Doctrine in Methodist Traditions) as three of your elective slots — together they're exactly the 6 hours ¶324.4 asks for in United Methodist studies, and Wesley names them by course number so there's nothing to guess."
+      },
+      {
+        "blurb": "Pick one evangelism elective (CM-129, CM-222, CM-270, CM-271, CM-273, or CM-470) and one mission elective (CM-150, CM-205, WR-204, or WR-294) — any one from each menu satisfies that area, so choose based on timing or topic rather than worrying which one 'counts.'"
+      },
+      {
+        "blurb": "Bring this list to your faculty advisor when you plan your elective schedule, and confirm it with your District Superintendent or conference Board of Ordained Ministry — Wesley's own catalog points you there directly, since these are the church's requirements for certification, not the seminary's for graduation."
+      }
+    ]
+  },
+  "scale": {
+    "totalEnrollment": {
+      "value": "410 students (275.20 FTE)",
+      "source": "https://www.ats.edu/member-schools/wesley-theological-seminary",
+      "asOf": "2026-08-06",
+      "note": "ATS's member-school page reports this as of Fall 2025, for the whole school, not M.Div. only. ATS also reports 11 full-time faculty (11.00 FTE) for the same period."
+    },
+    "studentFacultyRatio": {
+      "value": "11 full-time faculty (11.00 FTE) against 410 students (275.20 FTE)",
+      "source": "https://www.ats.edu/member-schools/wesley-theological-seminary",
+      "asOf": "2026-08-06",
+      "note": "Raw counts, not a computed ratio — ATS does not publish one directly, and Wesley's own “Meet Our Faculty” grid lists more than 11 people once visiting/administrative faculty and the president are included, so the ATS full-time-faculty figure is narrower than this profile's faculty roster."
+    }
+  },
+  "cost": {
+    "tuitionPerCredit": {
+      "value": "$870 per credit hour (Academic Credit Master level — M.Div., M.A., M.T.S.); $774 per credit hour (Doctor of Ministry level)",
+      "source": "https://www.wesleyseminary.edu/wp-content/uploads/2026/07/WTS-Course-Catalog-AY-2026-2027_Final.pdf",
+      "asOf": "2026-08-01",
+      "note": "Stated for the 2026–27 academic year. An 81-credit M.Div. at $870/credit is roughly $70,470 in gross tuition before aid."
+    },
+    "fees": [
+      {
+        "label": "Student Fee (5+ credit hours/semester)",
+        "amount": "$712 per semester"
+      },
+      {
+        "label": "Student Fee (4 or fewer credit hours/semester)",
+        "amount": "$293 per semester"
+      },
+      {
+        "label": "Application Fee",
+        "amount": "$60, non-refundable"
+      },
+      {
+        "label": "Confirmation of Admission and Orientation Fee",
+        "amount": "$125, due within 30 days of acceptance, non-refundable"
+      },
+      {
+        "label": "Graduation Fee",
+        "amount": "$250"
+      }
+    ],
+    "pctReceivingAid": {
+      "value": "All Wesley students receive automatic tuition assistance made possible by the Ministerial Education Fund of The United Methodist Church and by endowment income and grants",
+      "source": "https://www.wesleyseminary.edu/wp-content/uploads/2026/07/WTS-Course-Catalog-AY-2026-2027_Final.pdf",
+      "asOf": "2026-08-01",
+      "note": "Wesley's own wording, not a rounded percentage it publishes. The same passage states this assistance “enable[s] us to charge a tuition rate that is less than a third of the actual cost” — a benefit built into the sticker tuition rate above for every student, regardless of denomination, not a separate award applied for."
+    },
+    "typicalAward": {
+      "value": "Merit scholarships awarded during admissions, tiered by name: Bishop's (100% of tuition), Oxnam (75%), Governor's (60%), Next Call (50%), Presidential (40%), Wesley Merit (25%) — each up to 81 credit hours for the M.Div.",
+      "source": "https://www.wesleyseminary.edu/admissions/scholarships/",
+      "asOf": "2026-08-06",
+      "note": "Open to students of all denominations based on prior academic achievement and demonstrated leadership potential; apply for admission by February 1 for that fall's cohort to be considered. Not conditioned on UMC candidacy status."
+    },
+    "namedScholarships": [
+      {
+        "name": "Ellura Harvey Winters Award",
+        "blurb": "A first-year-only award covering tuition for an entering student who “exhibits potential for academic excellence and for leadership in The United Methodist Church.” Recipients may be considered for further aid after a successful first year.",
+        "url": "https://www.wesleyseminary.edu/admissions/scholarships/"
+      },
+      {
+        "name": "United Methodist Student Scholarships",
+        "blurb": "Wesley states that students from United Methodist annual conferences “are considered for special matching scholarships awarded by Wesley DC and their home conference” — a direct, named link between UMC ordination-track standing and funding, on top of (not instead of) the denomination-neutral merit scholarships above.",
+        "url": "https://www.wesleyseminary.edu/admissions/scholarships/"
+      }
+    ],
+    "honestNote": "Wesley's scholarships page also directs United Methodist students to the General Board of Higher Education and Ministry, the United Methodist Higher Education Foundation, their conference's Ministerial Education Fund tuition grants, and a long list of named annual-conference scholarships — all administered outside Wesley itself, so this profile does not attempt to price them; ask your conference's Board of Ordained Ministry registrar what applies to you. The Ministerial Education Fund subsidy folded into Wesley's sticker tuition rate benefits every student, not UMC candidates specifically — it is the reason Wesley's per-credit rate looks low next to schools without that denominational subsidy, but it is not a named, candidacy-conditioned award the way the Winters Award and the conference-matching scholarships are."
+  },
+  "degrees": [
+    {
+      "name": "Master of Divinity",
+      "abbr": "M.Div.",
+      "credits": 81,
+      "typicalYears": "4 years minimum full-time; must be completed within 10 years of admission",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "81 credit hours: foundational courses (Hebrew Bible, New Testament, church history, worship, preaching, pastoral care, leadership, religion and the arts, and more) in the first 27 hours, systematic theology and ethics after, a Preaching and Worship distribution requirement, and Contextual Education (Spiritual Formation for the Practice of Ministry plus a supervised internship). Roughly 21–25 credit hours are open electives.",
+      "url": "https://www.wesleyseminary.edu/academics/master-of-divinity/"
+    },
+    {
+      "name": "Master of Arts",
+      "abbr": "M.A.",
+      "credits": 36,
+      "modalities": [
+        "residential",
+        "hybrid"
+      ],
+      "blurb": "A basic understanding of theological disciplines for existing careers in public life or general theological education — not a full ordination-track degree.",
+      "url": "https://www.wesleyseminary.edu/academics/master-of-arts/"
+    },
+    {
+      "name": "Master of Theological Studies",
+      "abbr": "M.T.S.",
+      "credits": 60,
+      "modalities": [
+        "residential",
+        "hybrid"
+      ],
+      "blurb": "Multi-disciplinary theological education, including a final M.T.S. paper; can support certification for various forms of lay ministry.",
+      "url": "https://www.wesleyseminary.edu/academics/master-of-theological-studies/"
+    },
+    {
+      "name": "Doctor of Ministry",
+      "abbr": "D.Min.",
+      "credits": 30,
+      "typicalYears": "3 years minimum; within 6 years of admission",
+      "modalities": [
+        "hybrid"
+      ],
+      "blurb": "Intensive-term and online coursework plus a D.Min. project and project paper, for clergy already experienced in ministry practice. A separate Global Track is also offered.",
+      "url": "https://www.wesleyseminary.edu/academics/doctor-of-ministry/"
+    }
+  ],
+  "concentrations": [
+    "African-American Church Studies",
+    "Children, Youth Ministry, and Advocacy",
+    "Urban Ministry",
+    "Chaplaincy",
+    "Military Chaplaincy",
+    "Public Theology",
+    "Theology and the Arts"
+  ],
+  "partnerships": [
+    {
+      "kind": "consortium",
+      "partner": "Washington Theological Consortium",
+      "blurb": "Cross-registration among Consortium member schools; students pay their home institution's tuition rate for courses taken through it.",
+      "url": "https://www.wesleyseminary.edu/"
+    },
+    {
+      "kind": "joint-degree",
+      "partner": "American University School of International Service",
+      "blurb": "Dual-degree routes combining Wesley's M.Div., M.A., or M.T.S. with American University's Master of Public Policy, Master of Public Administration, or M.A. in International Peace and Conflict Resolution.",
+      "url": "https://www.wesleyseminary.edu/academics/dual-degree-and-specialized-programs/"
+    }
+  ],
+  "courseOfStudy": {
+    "blurb": "Wesley hosts a United Methodist Course of Study School, run mostly online with in-person weekend intensives (Fall/Winter/Spring) plus a July on-campus intensive term, for licensed local pastors working toward the Basic and Advanced Course of Study.",
+    "url": "https://www.wesleyseminary.edu/academics/course-of-study/"
+  },
+  "facultyNote": "Covers the 17 people in Wesley's own “Meet Our Faculty” grid (bios read from Elementor popups embedded in the same page's HTML — see the harvest script for how) plus the 15 people in its separate “Emeriti Faculty” list (name and title only, no bio). Roughly 40 more names appear under “Adjunct Faculty” (Masters and D.Min. tracks) with a name and terminal degree only — no title and no subject stated anywhere on the page — and are excluded here because there is nothing to assign a study area from; this mirrors Phillips' exclusion of its own affiliate-instructor list for the same reason, though unlike Phillips' case, nothing on Wesley's adjunct list is specifically a United Methodist Studies appointment.",
+  "contact": {
+    "admissionsUrl": "https://www.wesleyseminary.edu/apply/",
+    "phone": "202.885.8600"
+  }
+}

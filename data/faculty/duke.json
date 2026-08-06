@@ -1,0 +1,888 @@
+[
+  {
+    "id": "duke-nina-balmaceda",
+    "seminarySlug": "duke",
+    "name": "Nina Balmaceda",
+    "title": "Irene and William McCutchen Associate Professor of the Practice of Reconciliation",
+    "areas": [
+      "congregational-leadership",
+      "mission-social-justice"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/nina-balmaceda",
+    "otherRoles": [
+      "Director of the Center for Reconciliation"
+    ],
+    "degrees": [
+      "Licentiate in Law, Pontifical Catholic University of Peru",
+      "Master of Arts in International Peace Studies, University of Notre Dame du Lac",
+      "Master of Arts in Government, University of Notre Dame du Lac",
+      "Ph.D. in Political Science, University of Notre Dame du Lac"
+    ]
+  },
+  {
+    "id": "duke-sarah-jean-barton",
+    "seminarySlug": "duke",
+    "name": "Sarah Jean Barton",
+    "title": "Assistant Professor of Occupational Therapy and Theological Ethics",
+    "areas": [
+      "ethics-public-theology",
+      "liturgy-worship",
+      "pastoral-care-counseling"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/sarah-jean-barton",
+    "degrees": [
+      "B.S. (Seattle Pacific University)",
+      "M.S. in Occupational Therapy (Boston University)"
+    ]
+  },
+  {
+    "id": "duke-jeremy-begbie",
+    "seminarySlug": "duke",
+    "name": "Jeremy Begbie",
+    "title": "Thomas A. Langford Distinguished Research Professor of Theology",
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/jeremy-begbie",
+    "otherRoles": [
+      "The McDonald Agape Director of Duke Initiatives in Theology and the Arts"
+    ],
+    "degrees": [
+      "B.A. (University of Edinburgh)",
+      "B.D. (University of Aberdeen)",
+      "Ph.D. (University of Aberdeen)",
+      "A.R.C.M. (Royal College of Music)",
+      "L.R.A.M. (Royal Academy of Music)",
+      "F.R.S.C.M. (Royal School of Church Music)"
+    ]
+  },
+  {
+    "id": "duke-kate-bowler",
+    "seminarySlug": "duke",
+    "name": "Kate Bowler",
+    "title": "Associate Professor of American Religious History",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/kate-bowler",
+    "degrees": [
+      "Ph.D., Duke University",
+      "M.A.R., Yale Divinity School",
+      "B.A., Macalester College"
+    ]
+  },
+  {
+    "id": "duke-douglas-campbell",
+    "seminarySlug": "duke",
+    "name": "Douglas Campbell",
+    "title": "Professor of New Testament",
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/douglas-campbell"
+  },
+  {
+    "id": "duke-natalie-carnes",
+    "seminarySlug": "duke",
+    "name": "Natalie Carnes",
+    "title": "Professor of Theology",
+    "areas": [
+      "systematic-theology",
+      "womanist-feminist-theology"
+    ],
+    "profileUrl": "https://divinity.duke.edu/people/natalie-carnes",
+    "degrees": [
+      "A.B. Harvard University (2002), Comparative Religious Studies",
+      "M.A. University of Chicago (2006), Constructive Theology",
+      "Ph.D. Duke University (2011), Christian Theological Studies"
+    ]
+  },
+  {
+    "id": "duke-peter-casarella",
+    "seminarySlug": "duke",
+    "name": "Peter Casarella",
+    "title": "Professor of Theology",
+    "areas": [
+      "systematic-theology",
+      "ethics-public-theology",
+      "world-christianity",
+      "latino-hispanic-ministry",
+      "interreligious",
+      "spiritual-formation"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/peter-casarella",
+    "degrees": [
+      "B.A., M.A., Ph.D. (Yale University)"
+    ]
+  },
+  {
+    "id": "duke-daniel-castelo",
+    "seminarySlug": "duke",
+    "name": "Daniel Castelo",
+    "title": "Associate Dean for Academic Formation, William Kellon Quick Professor of Theology and Methodist Studies",
+    "areas": [
+      "wesleyan-studies",
+      "systematic-theology",
+      "ethics-public-theology",
+      "spiritual-formation"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/daniel-castelo",
+    "degrees": [
+      "Ph.D., Duke University",
+      "M.Div., Church of God Theological Seminary",
+      "B.S., Washington University in St. Louis",
+      "B.A., Lee University"
+    ]
+  },
+  {
+    "id": "duke-stephen-b-chapman",
+    "seminarySlug": "duke",
+    "name": "Stephen B. Chapman",
+    "title": "Professor of Old Testament and Biblical Interpretation",
+    "areas": [
+      "hebrew-bible"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/stephen-b-chapman",
+    "degrees": [
+      "B.A. 1984 (Yale)",
+      "M.Div. 1990 (Yale)",
+      "M.Phil. 1994 (Yale)",
+      "Ph.D. 1998 (Yale)"
+    ]
+  },
+  {
+    "id": "duke-mark-chaves",
+    "seminarySlug": "duke",
+    "name": "Mark Chaves",
+    "title": "Anne Firor Scott Distinguished Professor of Sociology",
+    "areas": [
+      "congregational-leadership"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/mark-chaves",
+    "degrees": [
+      "A.B., Dartmouth College",
+      "M.Div., Harvard Divinity School",
+      "A.M., Harvard University",
+      "Ph.D., Harvard University"
+    ]
+  },
+  {
+    "id": "duke-edgardo-colon-emeric",
+    "seminarySlug": "duke",
+    "name": "Edgardo Colón-Emeric",
+    "title": "Dean of Duke Divinity School",
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/edgardo-colon-emeric",
+    "otherRoles": [
+      "Ruth and A. Morris Williams, Jr. Professor of Theology and Christian Ministry"
+    ],
+    "degrees": [
+      "M.Div., Duke Divinity School (1997)",
+      "Ph.D., Duke University (2007)"
+    ]
+  },
+  {
+    "id": "duke-valerie-cooper",
+    "seminarySlug": "duke",
+    "name": "Valerie Cooper",
+    "title": "Associate Professor of Religion and Society and Black Church Studies",
+    "areas": [
+      "ethics-public-theology",
+      "black-church-studies"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/valerie-cooper",
+    "degrees": [
+      "B.S. (Howard University)",
+      "M.Div. (Howard University)",
+      "Th.D. (Harvard University)"
+    ]
+  },
+  {
+    "id": "duke-farr-curlin",
+    "seminarySlug": "duke",
+    "name": "Farr Curlin",
+    "title": "Josiah C. Trent Professor of Medical Humanities",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/farr-curlin",
+    "degrees": [
+      "BA and MD, University of North Carolina at Chapel Hill"
+    ]
+  },
+  {
+    "id": "duke-ellen-davis",
+    "seminarySlug": "duke",
+    "name": "Ellen Davis",
+    "title": "Amos Ragan Kearns Distinguished Professor of Bible and Practical Theology",
+    "areas": [
+      "hebrew-bible",
+      "preaching",
+      "practical-theology",
+      "interreligious"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/ellen-davis",
+    "degrees": [
+      "A.B., University of California, Berkeley",
+      "Cert. Theo., Oxford University",
+      "M.Div., Church Divinity School of the Pacific",
+      "Ph.D., Yale University"
+    ],
+    "publications": [
+      {
+        "title": "Preaching the Luminous Word, Eerdmans, 2016",
+        "kind": "book",
+        "year": 2016
+      },
+      {
+        "title": "Biblical Prophecy: Perspectives for Christian Theology, Discipleship and Ministry , Westminster John Knox, 2014",
+        "kind": "book",
+        "year": 2014
+      },
+      {
+        "title": "Scripture, Culture, and Agriculture: An Agrarian Reading of the Bible , Cambridge University Press, 2009",
+        "kind": "book",
+        "year": 2009
+      },
+      {
+        "title": "Wondrous Depth: Old Testament Preaching, Westminster John Knox, 2005",
+        "kind": "book",
+        "year": 2005
+      },
+      {
+        "title": "“Who Are You, My Daughter?”: Reading Ruth through Image and Text , my translation and commentary, with woodcuts by Margaret Adams Parker, Westminster John Knox Press, 2003.",
+        "kind": "book",
+        "year": 2003
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/ellen-davis",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "duke-quinton-dixie",
+    "seminarySlug": "duke",
+    "name": "Quinton Dixie",
+    "title": "Associate Research Professor of the History of Christianity in the United States and Black Church Studies",
+    "areas": [
+      "church-history",
+      "black-church-studies"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/quinton-dixie",
+    "otherRoles": [
+      "Director of the Office of Black Church Studies"
+    ],
+    "degrees": [
+      "B.A. (James Madison College, Michigan State University)",
+      "M.A. and Ph.D. (Union Theological Seminary)"
+    ]
+  },
+  {
+    "id": "duke-frederick-edie",
+    "seminarySlug": "duke",
+    "name": "Frederick Edie",
+    "title": "Associate Professor of the Practice of Christian Education",
+    "areas": [
+      "liturgy-worship",
+      "practical-theology",
+      "congregational-leadership",
+      "christian-education-formation",
+      "youth-ministry"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/frederick-edie",
+    "degrees": [
+      "B.A., Furman University",
+      "M.Div., Vanderbilt Divinity School",
+      "Ph.D., Emory University"
+    ]
+  },
+  {
+    "id": "duke-curtis-freeman",
+    "seminarySlug": "duke",
+    "name": "Curtis Freeman",
+    "title": "Ruth D. Duncan Director of the Baptist House of Studies and Research Professor of Theology and Baptist Studies",
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/curtis-freeman",
+    "degrees": [
+      "B.A., Ph.D., Baylor University",
+      "M.Div., Southwestern Baptist Theological Seminary"
+    ]
+  },
+  {
+    "id": "duke-aaron-griffith",
+    "seminarySlug": "duke",
+    "name": "Aaron Griffith",
+    "title": "Assistant Professor of American Church History",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/aaron-griffith",
+    "degrees": [
+      "B.A., Philosophy, Wheaton College",
+      "M.Div., Duke Divinity School)",
+      "Th.D., Duke Divinity School)"
+    ]
+  },
+  {
+    "id": "duke-polly-ha",
+    "seminarySlug": "duke",
+    "name": "Polly Ha",
+    "title": "Associate Professor of the History of Christianity",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/polly-ha",
+    "otherRoles": [
+      "Director of the Transformative Ideas Program"
+    ],
+    "degrees": [
+      "B.A. (Yale University)",
+      "Ph.D. (University of Cambridge)"
+    ]
+  },
+  {
+    "id": "duke-amy-laura-hall",
+    "seminarySlug": "duke",
+    "name": "Amy Laura Hall",
+    "title": "Associate Professor of Christian Ethics and Gender, Sexuality, and Feminist Studies",
+    "areas": [
+      "ethics-public-theology",
+      "black-church-studies",
+      "womanist-feminist-theology",
+      "religion-and-science"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/amy-laura-hall",
+    "degrees": [
+      "B.A., Emory University",
+      "M.Div., Yale University",
+      "Ph.D., Yale University"
+    ]
+  },
+  {
+    "id": "duke-kevin-hart",
+    "seminarySlug": "duke",
+    "name": "Kevin Hart",
+    "title": "Jo Rae Wright University Distinguished Professor",
+    "areas": [
+      "spiritual-formation"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/kevin-hart",
+    "degrees": [
+      "B.A. (Hons. div. 1), Australian National University, 1976",
+      "Ph.D. University of Melbourne, 1986",
+      "Ph.D. (honoris causa), Inst. Cath. de Paris, 2013"
+    ]
+  },
+  {
+    "id": "duke-zebulon-m-highben",
+    "seminarySlug": "duke",
+    "name": "Zebulon M. Highben",
+    "title": "Associate Professor of the Practice of Church Music",
+    "areas": [
+      "ethics-public-theology",
+      "liturgy-worship",
+      "church-music"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/zebulon-m-highben",
+    "otherRoles": [
+      "Director of Chapel Music at Duke University Chapel"
+    ],
+    "degrees": [
+      "B.M.E. (Ohio State University)",
+      "M.S.M. (Luther Seminary with St. Olaf College)",
+      "D.M.A. (Michigan State University)"
+    ]
+  },
+  {
+    "id": "duke-jan-holton",
+    "seminarySlug": "duke",
+    "name": "Jan Holton",
+    "title": "Associate Professor of the Practice of Pastoral Theology and Care",
+    "areas": [
+      "world-christianity",
+      "pastoral-care-counseling",
+      "chaplaincy"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/jan-holton",
+    "degrees": [
+      "B.A., Randolph Macon College",
+      "M.Div., Union Presbyterian Seminary",
+      "Ph.D., Vanderbilt University"
+    ]
+  },
+  {
+    "id": "duke-timothy-kimbrough",
+    "seminarySlug": "duke",
+    "name": "Timothy Kimbrough",
+    "title": "Director of AEHS",
+    "areas": [
+      "wesleyan-studies",
+      "liturgy-worship"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/timothy-kimbrough",
+    "otherRoles": [
+      "Jack and Barbara Bovender Professor of the Practice of Anglican Studies"
+    ],
+    "degrees": [
+      "B.A. (Duke University)",
+      "M.Div. (Duke University)",
+      "Certificate of Anglican Studies (The General Theological Seminary)",
+      "Honorary Degree"
+    ]
+  },
+  {
+    "id": "duke-warren-kinghorn",
+    "seminarySlug": "duke",
+    "name": "Warren Kinghorn",
+    "title": "Esther Colliflower Professor of the Practice of Pastoral and Moral Theology",
+    "areas": [
+      "congregational-leadership",
+      "religion-and-science"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/warren-kinghorn",
+    "otherRoles": [
+      "Co-Director, Theology, Medicine, and Culture Initiative",
+      "Professor of Psychiatry, Duke University Medical Center"
+    ]
+  },
+  {
+    "id": "duke-xi-lian",
+    "seminarySlug": "duke",
+    "name": "Xi Lian",
+    "title": "David C. Steinmetz Distinguished Professor of World Christianity",
+    "areas": [
+      "ethics-public-theology",
+      "world-christianity"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/xi-lian",
+    "degrees": [
+      "B.A. (Fujian Normal University)",
+      "M.A. (Fujian Normal University)",
+      "D.A. (State University of New York at Albany)"
+    ],
+    "publications": [
+      {
+        "title": "Cartas de sangre: La historia jamás contada de Lin Zhao, martir en la China de Mao (Madrid: Encuentro, 2020).",
+        "kind": "book",
+        "year": 2020
+      },
+      {
+        "title": "Blood Letters: The Untold Story of Lin Zhao, a Martyr in Mao’s China (New York: Basic Books, March 2018).",
+        "kind": "book",
+        "year": 2018
+      },
+      {
+        "title": "Redeemed by Fire: The Rise of Popular Christianity in Modern China (New Haven and London: Yale University Press, 2010).",
+        "kind": "book",
+        "year": 2010
+      },
+      {
+        "title": "Yuhuo dejiu: Xiandai Zhongguo minjian Jidujiao de xingqi 浴火得救---現代中國民間基督教的興起 (Hong Kong: Chinese University Press, 2011).",
+        "kind": "book",
+        "year": 2011
+      },
+      {
+        "title": "The Conversion of Missionaries: Liberalism in American Protestant Missions in China, 1907-1932 (University Park, Penn.: Pennsylvania State University Press, 1997).",
+        "kind": "book",
+        "year": 1907
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/xi-lian",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "duke-brett-mccarty",
+    "seminarySlug": "duke",
+    "name": "Brett McCarty",
+    "title": "Assistant Research Professor of Theological Ethics",
+    "areas": [
+      "ethics-public-theology",
+      "religion-and-science",
+      "spiritual-formation"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/brett-mccarty",
+    "otherRoles": [
+      "Associate Director of the Theology, Medicine, and Culture Initiative",
+      "Assistant Professor in Population Health Sciences, Duke School of Medicine"
+    ]
+  },
+  {
+    "id": "duke-jerusha-matsen-neal",
+    "seminarySlug": "duke",
+    "name": "Jerusha Matsen Neal",
+    "title": "Associate Professor of Homiletics",
+    "areas": [
+      "preaching"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/jerusha-matsen-neal",
+    "degrees": [
+      "B.A. (University of Chicago)",
+      "M.Div. (Princeton Theological Seminary)",
+      "Ph.D. (Princeton Theological Seminary)"
+    ]
+  },
+  {
+    "id": "duke-anathea-portier-young",
+    "seminarySlug": "duke",
+    "name": "Anathea Portier-Young",
+    "title": "Professor of Old Testament",
+    "areas": [
+      "hebrew-bible",
+      "preaching",
+      "mission-social-justice"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/anathea-portier-young",
+    "degrees": [
+      "B.A., Yale University",
+      "M.A.B.L, Graduate Theological Union/Jesuit School of Theology at Berkeley",
+      "Ph.D., Duke University"
+    ]
+  },
+  {
+    "id": "duke-luke-powery",
+    "seminarySlug": "duke",
+    "name": "Luke Powery",
+    "title": "Professor of Homiletics",
+    "areas": [
+      "preaching",
+      "liturgy-worship",
+      "black-church-studies",
+      "religion-and-science"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/luke-powery"
+  },
+  {
+    "id": "duke-ronald-k-rittgers",
+    "seminarySlug": "duke",
+    "name": "Ronald K. Rittgers",
+    "title": "Duke Divinity School Professor of Reformation Studies, Professor of the History of Christianity",
+    "areas": [
+      "church-history",
+      "ethics-public-theology",
+      "pastoral-care-counseling",
+      "spiritual-formation"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/ronald-k-rittgers",
+    "degrees": [
+      "B.A. (Wheaton College)",
+      "M.T.S. (Regent College, Vancouver, BC)",
+      "Ph.D. (Harvard University)"
+    ]
+  },
+  {
+    "id": "duke-c-kavin-rowe",
+    "seminarySlug": "duke",
+    "name": "C. Kavin Rowe",
+    "title": "Vice Dean for Faculty",
+    "areas": [
+      "new-testament",
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/c-kavin-rowe",
+    "otherRoles": [
+      "George Washington Ivey Distinguished Professor of New Testament"
+    ],
+    "degrees": [
+      "B.A. Wake Forest University",
+      "M.Div. Princeton Theological Seminary",
+      "Ph.D. Duke University"
+    ]
+  },
+  {
+    "id": "duke-lester-ruth",
+    "seminarySlug": "duke",
+    "name": "Lester Ruth",
+    "title": "Research Professor of Christian Worship",
+    "areas": [
+      "wesleyan-studies",
+      "ethics-public-theology",
+      "liturgy-worship"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/lester-ruth",
+    "degrees": [
+      "Ph.D. University of Notre Dame",
+      "M.A. University of Notre Dame",
+      "Th.M. Candler School of Theology, Emory University",
+      "M.Div. Asbury Theological Seminary",
+      "B.B.A. Stephen F. Austin State University"
+    ]
+  },
+  {
+    "id": "duke-j-warren-smith",
+    "seminarySlug": "duke",
+    "name": "J. Warren Smith",
+    "title": "Professor of Historical Theology, Director of the Th.D. Program",
+    "areas": [
+      "church-history",
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/j-warren-smith",
+    "degrees": [
+      "B.A., Emory University",
+      "M. Div., S.T.M., Ph.D., Yale University"
+    ]
+  },
+  {
+    "id": "duke-patrick-t-smith",
+    "seminarySlug": "duke",
+    "name": "Patrick T. Smith",
+    "title": "Associate Research Professor of Theological Ethics and Bioethics",
+    "areas": [
+      "ethics-public-theology",
+      "religion-and-science",
+      "spiritual-formation"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/patrick-t-smith",
+    "otherRoles": [
+      "Senior Fellow, Kenan Institute for Ethics at Duke University"
+    ],
+    "degrees": [
+      "B.S. in Business Administration, Auburn University",
+      "M.Div., Trinity International University",
+      "M.A. in Philosophy, Wayne State University",
+      "Ph.D. in Philosophy, Wayne State University"
+    ]
+  },
+  {
+    "id": "duke-brent-a-strawn",
+    "seminarySlug": "duke",
+    "name": "Brent A. Strawn",
+    "title": "D. Moody Smith Distinguished Professor of Old Testament",
+    "areas": [
+      "hebrew-bible",
+      "preaching",
+      "religion-and-science"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/brent-strawn",
+    "otherRoles": [
+      "Professor of Law"
+    ],
+    "degrees": [
+      "B.A. (Point Loma Nazarene University), 1992",
+      "M.Div. (Princeton Theological Seminary), 1995",
+      "Ph.D. (Princeton Theological Seminary), 2001"
+    ]
+  },
+  {
+    "id": "duke-alma-tinoco-ruiz",
+    "seminarySlug": "duke",
+    "name": "Alma Tinoco Ruiz",
+    "title": "Royce and Jane Reynolds Assistant Professor of the Practice of Homiletics and Evangelism, Director of the Hispanic House of Studies, and Foundation For Evangelism Fellow",
+    "areas": [
+      "preaching",
+      "pastoral-care-counseling",
+      "evangelism-church-planting",
+      "latino-hispanic-ministry"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/alma-tinoco-ruiz",
+    "degrees": [
+      "B.S. (Sonora Estate University)",
+      "Math Teaching Certification (North Carolina State University)",
+      "M.Div. (Duke Divinity School)",
+      "Th.D. (Duke Divinity School)"
+    ]
+  },
+  {
+    "id": "duke-david-toole",
+    "seminarySlug": "duke",
+    "name": "David Toole",
+    "title": "Associate Professor of the Practice of Theology, Ethics, and Global Health",
+    "areas": [
+      "ethics-public-theology",
+      "world-christianity"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/david-toole",
+    "degrees": [
+      "B.A. (University of Montana)",
+      "M.T..S (Duke University)",
+      "M.P.H. (University of North Carolina, Chapel Hill)",
+      "Ph.D. (Duke University)"
+    ]
+  },
+  {
+    "id": "duke-jonathan-tran",
+    "seminarySlug": "duke",
+    "name": "Jonathan Tran",
+    "title": "Professor of Theological Ethics",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://divinity.duke.edu/people/jonathan-tran",
+    "degrees": [
+      "Ph.D., Duke University",
+      "M.Div., Duke Divinity School",
+      "B.A., University of California at Riverside"
+    ]
+  },
+  {
+    "id": "duke-j-ross-wagner",
+    "seminarySlug": "duke",
+    "name": "J. Ross Wagner",
+    "title": "Associate Professor of New Testament",
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/j-ross-wagner",
+    "degrees": [
+      "B.A. (Michigan State University)",
+      "M.Di.v, M.A. (Trinity Evangelical Divinity School)",
+      "Ph.D. (Duke University)"
+    ]
+  },
+  {
+    "id": "duke-laceye-warner",
+    "seminarySlug": "duke",
+    "name": "Laceye Warner",
+    "title": "Professor of the Practice of Church Ministry and Methodist Studies",
+    "areas": [
+      "wesleyan-studies",
+      "congregational-leadership"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/laceye-warner",
+    "otherRoles": [
+      "Associate Dean for Wesleyan Engagement"
+    ],
+    "degrees": [
+      "B.A., Trinity University",
+      "M.Div., Duke University",
+      "Ph.D., Trinity College, University of Bristol"
+    ]
+  },
+  {
+    "id": "duke-matthew-philipp-whelan",
+    "seminarySlug": "duke",
+    "name": "Matthew Philipp Whelan",
+    "title": "Associate Research Professor of Theology",
+    "areas": [
+      "systematic-theology",
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://divinity.duke.edu/people/matthew-philipp-whelan",
+    "degrees": [
+      "Ph.D., Duke University",
+      "M.T.S., Duke Divinity School"
+    ]
+  },
+  {
+    "id": "duke-eric-lewis-williams",
+    "seminarySlug": "duke",
+    "name": "Eric Lewis Williams",
+    "title": "Assistant Professor of Theology and Black Church Studies",
+    "areas": [
+      "systematic-theology",
+      "preaching",
+      "congregational-leadership",
+      "black-church-studies"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/eric-lewis-williams",
+    "degrees": [
+      "Ph.D. in Religious Studies (University of Edinburgh)",
+      "M.Div. (Duke Divinity)",
+      "M.A.T.S. (McCormick Theological Seminary)",
+      "B.A. (University of Illinois at Chicago)"
+    ]
+  },
+  {
+    "id": "duke-william-willimon",
+    "seminarySlug": "duke",
+    "name": "William Willimon",
+    "title": "Professor of the Practice of Christian Ministry",
+    "areas": [
+      "liturgy-worship",
+      "pastoral-care-counseling",
+      "congregational-leadership"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/william-willimon",
+    "degrees": [
+      "B.A., Wofford College",
+      "M.Div., Yale Divinity School",
+      "S.T.D., Emory University"
+    ]
+  },
+  {
+    "id": "duke-brittany-e-wilson",
+    "seminarySlug": "duke",
+    "name": "Brittany E. Wilson",
+    "title": "Associate Professor of New Testament",
+    "areas": [
+      "new-testament",
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/brittany-e-wilson",
+    "degrees": [
+      "Ph.D., Princeton Theological Seminary",
+      "M.T.S., Duke University Divinity School",
+      "B.A., The University of Texas at Austin"
+    ]
+  },
+  {
+    "id": "duke-norbert-l-w-wilson",
+    "seminarySlug": "duke",
+    "name": "Norbert L. W. Wilson",
+    "title": "Professor of Food, Economics, and Community",
+    "areas": [
+      "mission-social-justice"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/norbert-l-w-wilson",
+    "degrees": [
+      "B.S.A. in Agricultural Economics (University of Georgia)",
+      "M.Sc. in Agricultural Economics (University of London, Wye College)",
+      "Ph.D. in Agricultural and Resource Economics (University of California, Davis)"
+    ]
+  },
+  {
+    "id": "duke-wylin-d-wilson",
+    "seminarySlug": "duke",
+    "name": "Wylin D. Wilson",
+    "title": "Associate Professor of Theological Ethics",
+    "areas": [
+      "ethics-public-theology",
+      "pastoral-care-counseling",
+      "black-church-studies",
+      "religion-and-science",
+      "interreligious"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/wylin-d-wilson",
+    "degrees": [
+      "B.S. in Agricultural Business (Florida Agricultural and Mechanical University)",
+      "M.Div. (Interdenominational Theological Center)",
+      "M.S. Agricultural, Resource, and Managerial Economics (Cornell University)",
+      "Ph.D. Religious Social Ethics (Emory University)"
+    ]
+  },
+  {
+    "id": "duke-lauren-winner",
+    "seminarySlug": "duke",
+    "name": "Lauren Winner",
+    "title": "Associate Professor of Christian Spirituality",
+    "areas": [
+      "church-history",
+      "ethics-public-theology",
+      "church-music",
+      "spiritual-formation"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/lauren-winner",
+    "degrees": [
+      "B.A., Columbia University",
+      "M.Phil., Clare College, Cambridge",
+      "M.Div., Duke Divinity School",
+      "Ph.D., Columbia University"
+    ]
+  },
+  {
+    "id": "duke-norman-wirzba",
+    "seminarySlug": "duke",
+    "name": "Norman Wirzba",
+    "title": "Gilbert T. Rowe Distinguished Professor of Christian Theology",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://divinity.duke.edu/faculty/norman-wirzba",
+    "otherRoles": [
+      "Senior Fellow at the Kenan Institute for Ethics"
+    ]
+  }
+]

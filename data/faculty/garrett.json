@@ -1,0 +1,801 @@
+[
+  {
+    "id": "garrett-ahyun-lee",
+    "seminarySlug": "garrett",
+    "name": "AHyun Lee",
+    "title": "Associate Professor of Pastoral Theology, Care, and Psychotherapy",
+    "areas": [
+      "pastoral-care-counseling"
+    ],
+    "degrees": [
+      "Ph.D., Garrett-Evangelical Theological Seminary",
+      "M.Div., Wesley Theological Seminary",
+      "M.Theo., The Graduate School of Methodist Theological University, Seoul, Korea",
+      "B.Theo., The Methodist Theological University, Seoul, Korea"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/ahyun-lee/"
+  },
+  {
+    "id": "garrett-andrew-wymer",
+    "seminarySlug": "garrett",
+    "name": "Andrew Wymer",
+    "title": "Associate Professor of Preaching and Worship",
+    "areas": [
+      "preaching",
+      "liturgy-worship"
+    ],
+    "degrees": [
+      "B.A., Faith College",
+      "M.A., The Southern Baptist Theological Seminary",
+      "Ph.D., Garrett-Evangelical Theological Seminary"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/andrew-wymer/"
+  },
+  {
+    "id": "garrett-angela-n-parker",
+    "seminarySlug": "garrett",
+    "name": "Angela N. Parker",
+    "title": "Associate Professor of New Testament and Womanist Thought",
+    "areas": [
+      "new-testament",
+      "womanist-feminist-theology"
+    ],
+    "degrees": [
+      "Ph.D., Chicago Theological Seminary",
+      "M.A., Duke University Divinity School",
+      "B.A., Shaw University"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/angela-n-parker/"
+  },
+  {
+    "id": "garrett-anna-m-johnson",
+    "seminarySlug": "garrett",
+    "name": "Anna M. Johnson",
+    "title": "Associate Professor of Reformation Church History",
+    "areas": [
+      "church-history"
+    ],
+    "degrees": [
+      "B.A., St. Olaf College",
+      "M.Div., Ph.D., Princeton Theological Seminary"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/anna-m-johnson/",
+    "publications": [
+      {
+        "title": "Beyond Indulgences: Luther's Reform of Late Medieval Piety, 1518-1520",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-arelis-benitez",
+    "seminarySlug": "garrett",
+    "name": "Arelis Benítez",
+    "title": "Assistant Professor of Pastoral Theology, Psychology, and Latiné Studies",
+    "areas": [
+      "pastoral-care-counseling"
+    ],
+    "degrees": [
+      "Ph.D., Vanderbilt University",
+      "M.A., Loma Linda University School of Religion"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/arelis-benitez/"
+  },
+  {
+    "id": "garrett-barry-e-bryant",
+    "seminarySlug": "garrett",
+    "name": "Barry E. Bryant",
+    "title": "Associate Professor of United Methodist and Wesleyan Studies",
+    "areas": [
+      "wesleyan-studies"
+    ],
+    "degrees": [
+      "B.A., Trevecca Nazarene College",
+      "M.Div., Duke Divinity School",
+      "Ph.D., King’s College, London"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/barry-e-bryant/"
+  },
+  {
+    "id": "garrett-brent-p-waters",
+    "seminarySlug": "garrett",
+    "name": "Brent P. Waters",
+    "title": "Faculty Emeritus, Christian Social Ethics",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/brent-p-waters/",
+    "publications": [
+      {
+        "title": "Common Callings and Ordinary Virtues: Christian Ethics for Everyday Life",
+        "kind": "book"
+      },
+      {
+        "title": "Just Capitalism: A Christian Ethic of Globalization",
+        "kind": "book"
+      },
+      {
+        "title": "Christian Moral Theology in the Emerging Technoculture: From Posthuman Back to Human",
+        "kind": "book"
+      },
+      {
+        "title": "This Mortal Flesh: Incarnation and Bioethics",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/directories/brent-p-waters/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-brian-bantum",
+    "seminarySlug": "garrett",
+    "name": "Brian Bantum",
+    "title": "Neal F. and Ila A. Fisher Professor of Theology",
+    "areas": [
+      "systematic-theology"
+    ],
+    "degrees": [
+      "BA, Houghton College",
+      "MTS, Duke University",
+      "PhD, Duke University"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/brian-bantum/"
+  },
+  {
+    "id": "garrett-charles-cosgrove",
+    "seminarySlug": "garrett",
+    "name": "Charles H. Cosgrove",
+    "title": "Emeritus Professor of Early Christian Literature",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/charles-cosgrove/",
+    "publications": [
+      {
+        "title": "Music at Social Meals in Greek and Roman Antiquity: From the Archaic Period to the Age of Augustus",
+        "kind": "book",
+        "year": 2022,
+        "publisher": "Cambridge University Press"
+      },
+      {
+        "title": "Fortune and Faith: A Dual Biography of Mayor Augustus Garrett and Seminary Founder Eliza Clark Garrett",
+        "kind": "book",
+        "year": 2020,
+        "publisher": "Southern Illinois University Press"
+      },
+      {
+        "title": "An Ancient Christian Hymn with Musical Notation: Papyrus Oxyrhynchus 1786",
+        "kind": "book",
+        "year": 2011,
+        "publisher": "Mohr Siebeck"
+      },
+      {
+        "title": "Appealing to Scripture in Moral Debate: Five Hermeneutical Rules",
+        "kind": "book",
+        "year": 2002,
+        "publisher": "Eerdmans"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/directories/charles-cosgrove/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-cheryl-anderson",
+    "seminarySlug": "garrett",
+    "name": "Cheryl B. Anderson",
+    "title": "Professor Emerita of Old Testament",
+    "areas": [
+      "hebrew-bible"
+    ],
+    "degrees": [
+      "B.A., Hampshire College",
+      "J.D., Wayne State University",
+      "M.Div., Wesley Theological Seminary",
+      "Ph.D., Vanderbilt University"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/cheryl-anderson/"
+  },
+  {
+    "id": "garrett-debora-b-a-junker",
+    "seminarySlug": "garrett",
+    "name": "Débora B. A. Junker",
+    "title": "Associate Professor of Critical Pedagogies",
+    "otherRoles": [
+      "Founder and Director of Cátedra Paulo Freire"
+    ],
+    "areas": [
+      "christian-education-formation"
+    ],
+    "degrees": [
+      "B.A., Methodist University of São Paulo",
+      "M.R.S., Methodist University of São Paulo",
+      "M.A., Christian Theological Seminary",
+      "Ph.D., Garrett-Evangelical Theological Seminary"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/debora-b-a-junker/"
+  },
+  {
+    "id": "garrett-dong-hyeon-jeong",
+    "seminarySlug": "garrett",
+    "name": "Dong Hyeon Jeong",
+    "title": "Associate Professor of New Testament Interpretation",
+    "otherRoles": [
+      "Director of the Center for Asian/Asian American Ministry"
+    ],
+    "areas": [
+      "new-testament"
+    ],
+    "degrees": [
+      "B.A., University of Santo Tomas",
+      "M.Div., Candler School of Theology at Emory University",
+      "Th.M., Candler School of Theology at Emory University",
+      "Ph.D., Drew University Graduate Division of Religion"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/dong-hyeon-jeong/"
+  },
+  {
+    "id": "garrett-e-byron-ron-anderson",
+    "seminarySlug": "garrett",
+    "name": "E. Byron (Ron) Anderson",
+    "title": "Associate Dean of Institutional and Educational Assessment, Ernest and Bernice Styberg Professor of Worship",
+    "areas": [
+      "liturgy-worship"
+    ],
+    "degrees": [
+      "B.A., Carthage College",
+      "M.Div., Yale University Divinity School and Yale Institute of Sacred Music",
+      "Ph.D., Emory University"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/e-byron-ron-anderson/",
+    "publications": [
+      {
+        "title": "Common Worship: Tradition, Formation, Mission",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-emma-a-escobar",
+    "seminarySlug": "garrett",
+    "name": "Emma Arely Escobar",
+    "title": "Assistant Professor of Faith-Based Organizing",
+    "otherRoles": [
+      "Director of the Centro Raíces Latinas"
+    ],
+    "areas": [
+      "mission-social-justice"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/emma-a-escobar/"
+  },
+  {
+    "id": "garrett-esther-e-acolatse",
+    "seminarySlug": "garrett",
+    "name": "Esther E. Acolatse",
+    "title": "Harry S. Kendall Professor of Practical Theology and World Christianity",
+    "areas": [
+      "world-christianity",
+      "practical-theology"
+    ],
+    "degrees": [
+      "Ph.D., Princeton Theological Seminary",
+      "M.T.S., Harvard University",
+      "B.A., University of Ghana"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/esther-e-acolatse/"
+  },
+  {
+    "id": "garrett-frederick-w-schmidt",
+    "seminarySlug": "garrett",
+    "name": "Frederick W. Schmidt",
+    "title": "Senior Scholar",
+    "areas": [
+      "spiritual-formation"
+    ],
+    "degrees": [
+      "B.A., Asbury College",
+      "M.Div., Asbury Theological Seminary",
+      "Ph.D., University of Oxford"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/frederick-w-schmidt/"
+  },
+  {
+    "id": "garrett-g-brooke-lester",
+    "seminarySlug": "garrett",
+    "name": "G. Brooke Lester",
+    "title": "Associate Professor of Hebrew Scriptures and Director of Digital Learning",
+    "areas": [
+      "hebrew-bible"
+    ],
+    "degrees": [
+      "B.F.A., Drake University",
+      "M.T.S., Seabury Western Theological Seminary",
+      "Ph.D., Princeton Theological Seminary"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/g-brooke-lester/"
+  },
+  {
+    "id": "garrett-gennifer-b-brooks",
+    "seminarySlug": "garrett",
+    "name": "Gennifer B. Brooks",
+    "title": "Ernest and Bernice Styberg Professor of Preaching",
+    "otherRoles": [
+      "Director of the Styberg Preaching Institute"
+    ],
+    "areas": [
+      "preaching"
+    ],
+    "degrees": [
+      "B.B.A., M.B.A., Pace University",
+      "M.Div., D.Min., New Brunswick Theological Seminary",
+      "Ph.D., Drew University"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/gennifer-b-brooks/",
+    "publications": [
+      {
+        "title": "Good News Preaching",
+        "kind": "book",
+        "note": "Garrett faculty-page highlight; full citation not given there."
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-hendrik-r-pieterse",
+    "seminarySlug": "garrett",
+    "name": "Hendrik R. Pieterse",
+    "title": "Emeritus Professor of Global Christianity and Intercultural Theology",
+    "areas": [
+      "world-christianity"
+    ],
+    "degrees": [
+      "B.Th., Canadian Nazarene College",
+      "M.Div., Nazarene Theological Seminary",
+      "D.Phil., University of Port Elizabeth (Nelson Mandela Metropolitan University)"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/hendrik-r-pieterse/"
+  },
+  {
+    "id": "garrett-jaeyeon-lucy-chung",
+    "seminarySlug": "garrett",
+    "name": "Jaeyeon Lucy Chung",
+    "title": "Associate Professor of Pastoral Theology and Care",
+    "otherRoles": [
+      "Director of the Styberg Library"
+    ],
+    "areas": [
+      "pastoral-care-counseling"
+    ],
+    "degrees": [
+      "B.A. & M.A., Ewha Womans University (South Korea)",
+      "S.T.M., Boston University",
+      "M.L.I.S., Dominican University",
+      "Ph.D., Emory University"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/jaeyeon-lucy-chung/",
+    "publications": [
+      {
+        "title": "Korean Women, Self-Esteem, and Practical Theology: Transformative Care",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-james-l-papandrea",
+    "seminarySlug": "garrett",
+    "name": "James L. Papandrea",
+    "title": "Professor of Church History and Historical Theology",
+    "areas": [
+      "church-history"
+    ],
+    "degrees": [
+      "B.A., University of Minnesota",
+      "M.Div., Fuller Theological Seminary",
+      "Ph.D., Northwestern University (in conjunction with Garrett-Evangelical Theological Seminary)"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/james-l-papandrea/",
+    "publications": [
+      {
+        "title": "Reading the Early Church Fathers",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-javier-a-viera",
+    "seminarySlug": "garrett",
+    "name": "Javier A. Viera",
+    "title": "President and Professor of Education and Leadership",
+    "areas": [
+      "congregational-leadership"
+    ],
+    "degrees": [
+      "B.A., Florida Southern College",
+      "M.Div., Duke University",
+      "S.T.M., Yale University",
+      "Ed.D., Columbia University",
+      "Ph.D., Universidad Interamericana de Puerto Rico"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/javier-a-viera/"
+  },
+  {
+    "id": "garrett-jen-harvey",
+    "seminarySlug": "garrett",
+    "name": "Jen Harvey",
+    "title": "Professor of Christian Ethics",
+    "otherRoles": [
+      "Vice President for Academic Affairs and Academic Dean"
+    ],
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "degrees": [
+      "BA, Westmont College",
+      "MDiv, Union Theological Seminary",
+      "PhD, Union Theological Seminary"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/jen-harvey/",
+    "publications": [
+      {
+        "title": "Anti-Racism as Daily Practice: Refuse Shame, Change White Communities, and Help Create a Just World",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-julie-a-duncan",
+    "seminarySlug": "garrett",
+    "name": "Julie A. Duncan",
+    "title": "Associate Professor of Old Testament",
+    "areas": [
+      "hebrew-bible"
+    ],
+    "degrees": [
+      "B.A., Wheaton College",
+      "M.T.S., Garrett-Evangelical Theological Seminary",
+      "Ph.D., Harvard University"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/julie-a-duncan/",
+    "publications": [
+      {
+        "title": "Ecclesiastes (Abingdon Old Testament Commentaries)",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-kate-ott",
+    "seminarySlug": "garrett",
+    "name": "Kate Ott",
+    "title": "Jerre and Mary Joy Stead Professor of Christian Social Ethics",
+    "otherRoles": [
+      "Director of the Stead Center for Ethics and Values"
+    ],
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "degrees": [
+      "M.Phil., Ph.D. Union Theological Seminary",
+      "M.A.R., Yale University Divinity School",
+      "B.A., University of Wisconsin at Madison"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/kate-ott/",
+    "publications": [
+      {
+        "title": "Sex, Tech & Faith: Ethics for a Digital Age",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-kenneth-ngwa",
+    "seminarySlug": "garrett",
+    "name": "Kenneth Ngwa",
+    "title": "Donald J. Casper Professor of Hebrew Bible and African Biblical Hermeneutics",
+    "otherRoles": [
+      "Director of the Religion and Global Health Forum"
+    ],
+    "areas": [
+      "hebrew-bible"
+    ],
+    "degrees": [
+      "Ph.D., Princeton Theological Seminary",
+      "Th. M, Princeton Theological Seminary",
+      "Maîtrise en Théologie, Faculty of Protestant Theology, Cameroon"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/kenneth-ngwa/"
+  },
+  {
+    "id": "garrett-lallene-j-rector",
+    "seminarySlug": "garrett",
+    "name": "Lallene J. Rector",
+    "title": "Professor of Psychology of Religion and Pastoral Psychotherapy and President Emerita",
+    "areas": [
+      "pastoral-care-counseling"
+    ],
+    "degrees": [
+      "B.A., Texas Christian University",
+      "M.T.S., Ph.D., Boston University"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/lallene-j-rector/"
+  },
+  {
+    "id": "garrett-luis-r-rivera",
+    "seminarySlug": "garrett",
+    "name": "Luis R. Rivera",
+    "title": "Senior Scholar of Theology",
+    "areas": [
+      "systematic-theology"
+    ],
+    "degrees": [
+      "M.Div., Evangelical Theological Seminary",
+      "Th.M., Th.D., Harvard Divinity School"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/luis-r-rivera/"
+  },
+  {
+    "id": "garrett-mai-anh-le-tran",
+    "seminarySlug": "garrett",
+    "name": "Mai-Anh Le Tran",
+    "title": "Associate Professor of Religious Education and Practical Theology",
+    "areas": [
+      "practical-theology",
+      "christian-education-formation"
+    ],
+    "degrees": [
+      "BS, Texas Wesleyan University",
+      "MRE, Southern Methodist University, Perkins School of Theology",
+      "PhD, Garrett-Evangelical Theological Seminary",
+      "Learn and interact across cultures and traditions;",
+      "Engage in consciousness-raising and anti-oppressive teaching and learning;",
+      "Explore local and marginalized sources of cultural and theological wisdom that vitalize religious beliefs and practices;",
+      "Critique mainstream (including Mainline) educational structures that privilege the values and interests of the few at the expense of the many and the vulnerable; and",
+      "Imagine faith praxis that enable us toward visions and commitments of common life in pluralistic society."
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/mai-anh-le-tran/",
+    "publications": [
+      {
+        "title": "Reset the Heart: Unlearning Violence, Relearning Hope",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-michael-washington",
+    "seminarySlug": "garrett",
+    "name": "Michael Washington",
+    "title": "Assistant Professor of Pastoral Theology and Chaplaincy Studies",
+    "areas": [
+      "pastoral-care-counseling",
+      "chaplaincy"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/michael-washington/"
+  },
+  {
+    "id": "garrett-nancy-e-bedford",
+    "seminarySlug": "garrett",
+    "name": "Nancy E. Bedford",
+    "title": "Georgia Harkness Professor of Theology",
+    "areas": [
+      "systematic-theology"
+    ],
+    "degrees": [
+      "B.J., University of Texas at Austin",
+      "M.Div., Southwestern Baptist Theological Seminary",
+      "D.Th., Karl-Ludwigs-Universitat Tubingen"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/nancy-e-bedford/",
+    "publications": [
+      {
+        "title": "Who Was Jesus and What Does It Mean to Follow Him?",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-osvaldo-vena",
+    "seminarySlug": "garrett",
+    "name": "Osvaldo Vena",
+    "title": "Faculty Emeritus, New Testament Interpretation",
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/osvaldo-vena/",
+    "publications": [
+      {
+        "title": "Latinx Perspectives on the New Testament",
+        "kind": "edited-volume",
+        "year": 2022,
+        "publisher": "Lexington Books/Fortress Academic",
+        "note": "Co-edited with Leticia A. Guardiola-Sáenz."
+      },
+      {
+        "title": "Postcards from Egypt: Reimagining Jesus in the Gospel of Mark",
+        "kind": "book",
+        "year": 2020,
+        "publisher": "Resource Publications"
+      },
+      {
+        "title": "Jesus, Disciple of the Kingdom: Mark's Christology for a Community in Crisis",
+        "kind": "book",
+        "year": 2014,
+        "publisher": "Pickwick Publications"
+      },
+      {
+        "title": "Evangelio de Marcos: Comentario para Exegesis y Traducción",
+        "kind": "book",
+        "year": 2008,
+        "publisher": "United Bible Societies"
+      },
+      {
+        "title": "Apocalipsis (Revelation)",
+        "kind": "book",
+        "year": 2008,
+        "publisher": "Augsburg Fortress"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/directories/osvaldo-vena/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-reginald-blount",
+    "seminarySlug": "garrett",
+    "name": "Reginald Blount",
+    "title": "Murray H. Leiffer Associate Professor of Formation, Leadership and Culture",
+    "otherRoles": [
+      "Director of the Center for the Church and the Black Experience"
+    ],
+    "areas": [
+      "congregational-leadership"
+    ],
+    "degrees": [
+      "B.S., Tuskegee University",
+      "M.Div., Candler School of Theology",
+      "Ph.D., Northwestern University (in cooperation with Garrett-Evangelical Theological Seminary)"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/reginald-blount/",
+    "publications": [
+      {
+        "title": "Let Your Light Shine: Mobilizing for Justice with Children and Youth",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-rolf-nolasco",
+    "seminarySlug": "garrett",
+    "name": "Rolf Nolasco",
+    "title": "Rueben P. Job Professor of Spiritual Formation and Pastoral Theology",
+    "otherRoles": [
+      "Director of the Rueben P. Job Institute for Spiritual Formation"
+    ],
+    "areas": [
+      "pastoral-care-counseling",
+      "spiritual-formation"
+    ],
+    "degrees": [
+      "B.A., University of the Philippines",
+      "M.Div., Fuller Seminary",
+      "Th.D., Boston University"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/rolf-nolasco/",
+    "publications": [
+      {
+        "title": "God's Beloved Queer: Identity, Spirituality, and Practice",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-timothy-r-eberhart",
+    "seminarySlug": "garrett",
+    "name": "Timothy R. Eberhart",
+    "title": "Robert and Marilyn Degler McClean Associate Professor of Ecological Theology and Practice",
+    "otherRoles": [
+      "Director of the Center for Ecological Regeneration"
+    ],
+    "areas": [
+      "ethics-public-theology",
+      "mission-social-justice"
+    ],
+    "degrees": [
+      "B.A., St. Olaf College",
+      "M.Div., Ph.D., Vanderbilt University"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/timothy-r-eberhart/",
+    "publications": [
+      {
+        "title": "Rooted and Grounded in Love: Holy Communion for the Whole Creation",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-virginia-a-lee",
+    "seminarySlug": "garrett",
+    "name": "Virginia A. Lee",
+    "title": "Associate Professor of Christian Education",
+    "otherRoles": [
+      "Director of Deacon Studies"
+    ],
+    "areas": [
+      "christian-education-formation"
+    ],
+    "degrees": [
+      "B.A., College of William and Mary",
+      "M.R.E., Duke Divinity School",
+      "Ed.D., Union Theological Seminary and Presbyterian School of Christian Education"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/virginia-a-lee/"
+  },
+  {
+    "id": "garrett-wonhee-anne-joh",
+    "seminarySlug": "garrett",
+    "name": "Wonhee Anne Joh",
+    "title": "Harry R. Kendall Professor of Christian Theology and Postcolonial Studies",
+    "areas": [
+      "systematic-theology"
+    ],
+    "degrees": [
+      "B.A., North Central College",
+      "M.Div., Princeton Theological Seminary",
+      "Ph.D., Drew University"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/wonhee-anne-joh/",
+    "publications": [
+      {
+        "title": "Critical Theology Against US Militarism in Asia: Decolonization and Deimperalization",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  },
+  {
+    "id": "garrett-k-k-yeo",
+    "seminarySlug": "garrett",
+    "name": "Yeo Khiok-Khng (K. K.)",
+    "title": "Emeritus Professor of New Testament",
+    "areas": [
+      "new-testament"
+    ],
+    "degrees": [
+      "B.A., St. Paul Bible College",
+      "M.Div., Garrett-Evangelical Theological Seminary",
+      "Ph.D., Northwestern University (in cooperation with Garrett-Evangelical Theological Seminary)"
+    ],
+    "profileUrl": "https://www.garrett.edu/directories/k-k-yeo/",
+    "publications": [
+      {
+        "title": "The Spirit Hovers: Journeying through Chaos with Prayers",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/academics/faculty/",
+    "publicationsAsOf": "2026-08-06"
+  }
+]

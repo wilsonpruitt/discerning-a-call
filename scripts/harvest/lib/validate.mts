@@ -34,11 +34,36 @@ function checkSourced(
   else if (daysSince(v.asOf) > STALE_DAYS) p.push({ file, where, message: `asOf is ${Math.round(daysSince(v.asOf))} days old — re-harvest or the page will state a stale figure confidently`, severity: "warn" });
 }
 
+// A harvest that invents a field loses it silently: the JSON validates, the type
+// has no such property, and the renderer never reads it. Duke's Rural Ministry
+// Fellowships — full funding tied to UMC ordination — sat in an invented
+// `cost.namedScholarships` and would have shipped invisible. Missing fields
+// already fail loudly; unknown ones have to as well.
+const KNOWN_KEYS: Record<string, string[]> = {
+  cost: ["tuitionPerCredit", "fees", "pctReceivingAid", "typicalAward", "namedScholarships", "aidContact", "honestNote"],
+  ordination: ["senateStanding", "onlineCredit", "coverage", "coverageSource", "coverageAsOf", "gapSummary", "gapRemedies"],
+  scale: ["totalEnrollment", "mdivEnrollment", "studentFacultyRatio", "typicalClassSize", "outcomes"],
+};
+
+function checkUnknownKeys(p: Problem[], file: string, where: string, obj: unknown) {
+  const known = KNOWN_KEYS[where];
+  if (!known || !obj || typeof obj !== "object") return;
+  for (const k of Object.keys(obj)) {
+    if (!known.includes(k)) {
+      p.push({ file, where: `${where}.${k}`, message: `not a field the renderer reads — it will be dropped silently. Add it to the type and the page, or fold it into an existing field`, severity: "error" });
+    }
+  }
+}
+
 export function validateProfile(profile: SeminaryProfile, file: string): Problem[] {
   const p: Problem[] = [];
   const need = (cond: unknown, where: string, message: string) => {
     if (!cond) p.push({ file, where, message, severity: "error" });
   };
+
+  for (const section of Object.keys(KNOWN_KEYS)) {
+    checkUnknownKeys(p, file, section, (profile as unknown as Record<string, unknown>)[section]);
+  }
 
   need(profile.slug, "slug", "missing");
   need(profile.name, "name", "missing");
@@ -74,8 +99,16 @@ export function validateProfile(profile: SeminaryProfile, file: string): Problem
         if (row.status !== "required" && !row.note) {
           p.push({ file, where: `coverage.${row.area}`, message: `status "${row.status}" with no note — anything not in the core must say what to do instead`, severity: "error" });
         }
+        // "required-umc-track" is the row most easily inflated into "required".
+        // It only means anything if the note says who is bound, so insist the
+        // note actually names them.
+        if (row.status === "required-umc-track" && row.note && !/united methodist|\bUMC\b|methodist/i.test(row.note)) {
+          p.push({ file, where: `coverage.${row.area}`, message: 'status "required-umc-track" but the note never says it binds United Methodist students — say who is held to it', severity: "error" });
+        }
       }
-      const gaps = o.coverage.filter((c) => c.status !== "required");
+      // A UMC-track requirement is not a gap for the person this site serves:
+      // a UMC candidate cannot graduate without it either.
+      const gaps = o.coverage.filter((c) => c.status !== "required" && c.status !== "required-umc-track");
       if (gaps.length && !o.gapSummary) {
         p.push({ file, where: "ordination.gapSummary", message: `${gaps.length} areas are not in the core but nothing explains the consequence`, severity: "error" });
       }
