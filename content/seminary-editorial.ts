@@ -10,7 +10,6 @@ import type { SeminaryEditorial } from "./types";
 export const seminaryEditorial: SeminaryEditorial[] = [
   {
     slug: "perkins",
-    draft: true,
     lead: "Perkins is the South Central Jurisdiction's home seminary, and for most of Rio Texas it is the school people mean when they say seminary. It sits inside SMU in Dallas, which means a divinity school with a research university's library and departments around it. Its most useful feature for someone still serving a church is geographic: the in-person requirement can be met in Houston, Galveston, or wherever else enough students happen to live, rather than only in Dallas.",
     distinctives: [
       "The M.Div. is now offered in Spanish — fully in Spanish for two years, then optionally bilingual, with the first cohort starting fall 2026.",
@@ -31,7 +30,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "austin-presbyterian",
-    draft: true,
     lead: "Austin Seminary is Presbyterian, and a United Methodist candidate may attend it — the University Senate has approved it for ordination coursework. People choose it for reasons that are usually good ones: they already live in Austin, they know somebody on the faculty, or they want the public-theology emphasis and the University of Texas across town. The thing to be clear-eyed about is that a Presbyterian seminary has no reason to teach United Methodist doctrine and polity, and does not. That is a solvable problem, but only if you solve it early.",
     distinctives: [
       "Seven of the nine ¶324.4 areas sit inside the required M.Div. curriculum — better coverage than some United Methodist schools manage.",
