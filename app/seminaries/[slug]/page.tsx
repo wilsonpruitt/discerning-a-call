@@ -185,7 +185,9 @@ export default async function SeminaryProfilePage({
         {ordination.gapSummary ? (
           <Card editorial className="mt-5 p-6 md:p-7">
             <Eyebrow>
-              {gaps.length} of 9 need you to plan for them
+              {ordination.coverage
+                ? `${gaps.length} of 9 need you to plan for them`
+                : "What we could and could not verify"}
             </Eyebrow>
             <p className="prose mt-3 text-[15px] text-ink">{ordination.gapSummary}</p>
           </Card>

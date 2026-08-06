@@ -25,6 +25,17 @@ export const seminaries: Seminary[] = [
     note: "Senate-approved but not United Methodist: seven of the nine ¶324.4 areas are in the required M.Div., but United Methodist studies is not.",
   },
 
+  {
+    slug: "brite",
+    name: "Brite Divinity School (Texas Christian University)",
+    city: "Fort Worth",
+    state: "TX",
+    umcAffiliated: false,
+    modalities: ["residential"],
+    url: "https://brite.edu/",
+    note: "Senate-approved but not United Methodist — yet it teaches UM history, doctrine, mission, and polity in house, with denominational approval.",
+  },
+
   // --- The thirteen United Methodist schools of theology ---
   {
     name: "Boston University School of Theology",

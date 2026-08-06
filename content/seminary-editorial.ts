@@ -50,6 +50,29 @@ export const seminaryEditorial: SeminaryEditorial[] = [
       "Compare costs carefully — Austin's own pages describe the M.Div. as 180 credits in one place and 78 in another, using different units. Ask for a total, not a rate.",
     ],
   },
+  {
+    slug: "brite",
+    draft: true,
+    lead: "Brite is the reason not to assume that a non–United Methodist school means a United Methodist problem. It is a Disciples-founded divinity school on the TCU campus in Fort Worth, and it says that after Disciples students, United Methodists are its largest group. It teaches United Methodist history, doctrine, mission, and polity in house, with denominational approval, and it has a Methodist studies chair to teach them. For a candidate weighing Senate-approved schools in Texas, Brite and Austin Seminary are an hour and a half apart and answer the ¶324.4 question very differently.",
+    distinctives: [
+      "United Methodist history, doctrine, mission, and polity are taught here and officially approved — at a school that is not United Methodist.",
+      "Natalya Cherry holds a chair in Methodist Studies and Theology; the courses run through her.",
+      "Seven named denominational programmes — Disciples, Baptist, Episcopal, MCC, Presbyterian, UCC, United Methodist — which is unusual breadth if you are still discerning across traditions.",
+      "Member of the Council of Southwestern Theological Schools, eleven Protestant and three Roman Catholic institutions, with inter-seminary courses.",
+      "Wil Gafney holds the Hulsey chair in Hebrew Bible.",
+    ],
+    whoThrivesHere: [
+      "United Methodists in the Dallas–Fort Worth area who want a non-UMC school without inheriting a ¶324.4 gap.",
+      "People whose call is still ecumenically unsettled, where seven denominational programmes under one roof is a real advantage.",
+      "Candidates drawn to womanist and Black theological scholarship, where the faculty is genuinely deep.",
+    ],
+    weighThat: [
+      "The United Methodist courses are on offer, not required. Brite calls its M.Div. flexible with much freedom in course selection — plan the freedom, don't just enjoy it.",
+      "No online or distance class taken here counts toward ordination. That is GBHEM's rule for every Senate-approved non-UMC school.",
+      "Read the tuition-grant timing carefully. Brite's stated 50–80% Henson grant applies outside the current Next Brite scholarship period, so ask what an entering student actually gets this year.",
+      "Tuition grants cover required hours plus six. If closing a requirement means extra hours, that ceiling matters.",
+    ],
+  },
 ];
 
 export const seminaryEditorialBySlug = Object.fromEntries(

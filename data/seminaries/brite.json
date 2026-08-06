@@ -1,0 +1,125 @@
+{
+  "slug": "brite",
+  "name": "Brite Divinity School",
+  "city": "Fort Worth",
+  "state": "TX",
+  "url": "https://brite.edu/",
+  "lastVerified": "2026-08-06",
+
+  "ordination": {
+    "senateStanding": {
+      "value": "approved-non-umc",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "On the University Senate's list of approved non–United Methodist schools of theology."
+    },
+    "onlineCredit": {
+      "value": "none-counts",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "GBHEM states that none of the Senate-approved non-UMC schools may provide distance or online education counting toward an M.Div. for UM ordination, and that online or distance classes taken at them cannot count. This applies to Brite regardless of how helpful the rest of its United Methodist provision is."
+    },
+    "gapSummary": "Brite is the unusual case, and worth understanding before you rule out non–United Methodist schools. It is a Disciples-founded divinity school at TCU, and it says that after Disciples students, United Methodists are its largest group. More to the point, it teaches the ¶324.4 United Methodist material in house: “The courses taught at Brite in United Methodist history, doctrine, mission, and polity — which are required for ordination in the United Methodist Church — have been officially approved by appropriate denominational offices.” There is a faculty chair attached to it, Natalya Cherry, Associate Professor in Methodist Studies and Theology. That is a materially different situation from a Senate-approved school where the United Methodist requirement is simply absent. Two cautions. First, these are courses on offer, not a required core — you still have to choose them, and Brite describes its M.Div. as flexible with much freedom in course selection. Second, we could not verify Brite's full required M.Div. curriculum from its published pages, so this page deliberately shows no nine-area table rather than guess at one. Ask the Associate Dean for Academic Affairs for a degree plan, and take it to your board.",
+    "gapRemedies": [
+      {
+        "blurb": "Ask Brite directly which specific course numbers carry the denominationally-approved United Methodist history, doctrine, mission, and polity content, and get the list in writing. Brite names the Office of the Associate Dean for Academic Affairs as the office that helps with this.",
+        "url": "https://brite.edu/denominational-programs"
+      },
+      {
+        "blurb": "Talk to Natalya Cherry. A Methodist studies chair at a non–United Methodist school exists precisely for candidates in your position, and she will know how other UMC students here have satisfied their boards.",
+        "url": "https://brite.edu/facultyandstaff"
+      },
+      {
+        "blurb": "Confirm with your conference's Board of Ordained Ministry registrar. Brite says its courses are approved by the appropriate denominational offices; your board still decides what satisfies your file."
+      }
+    ]
+  },
+
+  "cost": {
+    "tuitionPerCredit": {
+      "value": "$1,000 per semester hour for master's programs",
+      "source": "https://brite.edu/tuition-and-fees",
+      "asOf": "2025-08-01",
+      "note": "Stated for 2025–26. The M.Div. is 81 hours."
+    },
+    "fees": [
+      { "label": "Divinity School fee", "amount": "$1,110 per semester at 9+ hours; $135 per semester hour part-time" },
+      { "label": "Brite Student Government fee", "amount": "$20" },
+      { "label": "Graduation fee (master's)", "amount": "$65" }
+    ],
+    "typicalAward": {
+      "value": "The Elmer D. Henson tuition grant normally covers 50–80% of tuition for M.Div. students",
+      "source": "https://brite.edu/tuition-and-fees",
+      "asOf": "2025-08-01",
+      "note": "Read the timing carefully. Brite's page says the Henson grant is available “prior to Summer 2023 and after Spring 2027 — the period of Next Brite scholarships,” which means a different scholarship regime is in force right now. Do not assume the 50–80% figure applies to a cohort starting this year; ask what a current entering student actually receives."
+    },
+    "honestNote": "Brite also states that tuition grants cover the hours required for the degree plus six extra for the M.Div., and that beyond that you pay full tuition. If you expect to repeat a course or take more than the minimum — and someone closing a United Methodist studies gap may well take more — that ceiling is the number to ask about."
+  },
+
+  "degrees": [
+    {
+      "name": "Master of Divinity",
+      "abbr": "M.Div.",
+      "credits": 81,
+      "modalities": ["residential"],
+      "blurb": "The ordination degree. Brite describes the curriculum as flexible, with much freedom in course selection and optional certificates of study — which is an advantage if you are planning around ¶324.4 and a hazard if you are not.",
+      "url": "https://brite.edu/master-of-divinity"
+    },
+    {
+      "name": "Master of Arts in Theology and Ministry",
+      "abbr": "M.A.T.M.",
+      "modalities": ["residential"],
+      "blurb": "Brite names this, or the Certificate of Theological Studies, as a route by which students preparing for deacons' ordination may meet UMC expectations.",
+      "url": "https://brite.edu/degrees-overview",
+      "flag": "Named by Brite as a deacon-track option"
+    },
+    {
+      "name": "Certificate of Theological Studies",
+      "abbr": "C.T.S.",
+      "modalities": ["residential"],
+      "blurb": "The other route Brite names for deacon candidates.",
+      "url": "https://brite.edu/certificate-programs"
+    },
+    {
+      "name": "Doctor of Ministry",
+      "abbr": "D.Min.",
+      "modalities": ["residential"],
+      "blurb": "Charged as a programme fee rather than per hour — $13,200 in three years of instalments for those entering from May 2015.",
+      "url": "https://brite.edu/doctor-of-ministry"
+    },
+    {
+      "name": "Doctor of Philosophy",
+      "abbr": "Ph.D.",
+      "modalities": ["residential"],
+      "blurb": "Brite states that all admitted Ph.D. students receive full tuition grants for their first four years.",
+      "url": "https://brite.edu/doctor-of-philosophy"
+    }
+  ],
+
+  "partnerships": [
+    {
+      "kind": "host-university",
+      "partner": "Texas Christian University",
+      "blurb": "Brite sits on the TCU campus in Fort Worth at 2925 Princeton Street, with its own charter and trustees.",
+      "url": "https://brite.edu/britecampus"
+    },
+    {
+      "kind": "consortium",
+      "partner": "Council of Southwestern Theological Schools",
+      "blurb": "Eleven Protestant and three Roman Catholic institutions. Brite says selected students and faculty have taken inter-seminary courses across COSTS schools, including an intensive in interfaith dialogue.",
+      "url": "https://brite.edu/denominational-programs"
+    },
+    {
+      "kind": "cross-registration",
+      "partner": "Denominational programmes",
+      "blurb": "Alongside United Methodist Studies, Brite runs Disciples Formation, Baptist Studies, Episcopal Studies, Presbyterian Studies, United Church of Christ support, and is a recognised partner school of the Metropolitan Community Churches. If you are discerning across traditions, that breadth is unusual.",
+      "url": "https://brite.edu/denominational-programs"
+    }
+  ],
+
+  "contact": {
+    "admissionsUrl": "https://brite.edu/admission",
+    "visitUrl": "https://brite.edu/visiting-campus",
+    "phone": "(817) 257-7575"
+  }
+}

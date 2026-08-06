@@ -3,6 +3,8 @@ import perkinsProfile from "@/data/seminaries/perkins.json";
 import perkinsFaculty from "@/data/faculty/perkins.json";
 import austinProfile from "@/data/seminaries/austin-presbyterian.json";
 import austinFaculty from "@/data/faculty/austin-presbyterian.json";
+import briteProfile from "@/data/seminaries/brite.json";
+import briteFaculty from "@/data/faculty/brite.json";
 
 // The harvested layer. These JSON files are machine-written and reviewed as a
 // git diff — see research/seminary-pages-plan.md. Add a school by harvesting
@@ -11,6 +13,7 @@ import austinFaculty from "@/data/faculty/austin-presbyterian.json";
 export const seminaryProfiles: SeminaryProfile[] = [
   perkinsProfile as SeminaryProfile,
   austinProfile as SeminaryProfile,
+  briteProfile as SeminaryProfile,
 ];
 
 export const seminaryProfileBySlug = Object.fromEntries(
@@ -20,6 +23,7 @@ export const seminaryProfileBySlug = Object.fromEntries(
 export const faculty: FacultyMember[] = [
   ...(perkinsFaculty as FacultyMember[]),
   ...(austinFaculty as FacultyMember[]),
+  ...(briteFaculty as FacultyMember[]),
 ];
 
 export function facultyBySeminary(slug: string): FacultyMember[] {

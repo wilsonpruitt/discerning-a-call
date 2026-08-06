@@ -1,0 +1,151 @@
+[
+  {
+    "id": "brite-cady",
+    "seminarySlug": "brite",
+    "name": "Stephen Cady",
+    "title": "President and Professor of the Practice of Ministry",
+    "areas": ["practical-theology", "congregational-leadership"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-casey",
+    "seminarySlug": "brite",
+    "name": "Emilie Casey",
+    "title": "Assistant Professor of Pastoral Theology and Pastoral Care",
+    "otherRoles": ["Director, Carpenter Initiative on Gender, Sexuality, and Justice"],
+    "areas": ["pastoral-care-counseling", "ethics-public-theology"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-cherry",
+    "seminarySlug": "brite",
+    "name": "Natalya A. Cherry",
+    "title": "Associate Professor in Methodist Studies and Theology",
+    "areas": ["wesleyan-studies", "systematic-theology"],
+    "workingOn": "The Methodist studies chair at a school that is not United Methodist. If you are a UMC candidate at Brite, this is the faculty line that exists for you — the courses in United Methodist history, doctrine, mission, and polity run through here.",
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-dalton",
+    "seminarySlug": "brite",
+    "name": "Russell W. Dalton",
+    "title": "Professor of Religion Education",
+    "areas": ["christian-education-formation"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-feldman",
+    "seminarySlug": "brite",
+    "name": "Ariel Feldman",
+    "title": "Rosalyn and Manny Rosenthal Professor of Jewish Studies",
+    "areas": ["hebrew-bible", "interreligious"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-gafney",
+    "seminarySlug": "brite",
+    "name": "Wil Gafney",
+    "title": "The Right Rev. Sam B. Hulsey Professor of Hebrew Bible",
+    "areas": ["hebrew-bible", "womanist-feminist-theology", "liturgy-worship"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-jones",
+    "seminarySlug": "brite",
+    "name": "Shonda Jones",
+    "title": "Professor of the Practice of Intercultural Leadership",
+    "otherRoles": ["Executive Vice President and Academic Dean"],
+    "areas": ["congregational-leadership", "world-christianity"],
+    "profileUrl": "https://brite.edu/staff/shonda-jones"
+  },
+  {
+    "id": "brite-kang",
+    "seminarySlug": "brite",
+    "name": "Namsoon Kang",
+    "title": "Professor of Theology and Religion",
+    "areas": ["systematic-theology", "world-christianity", "womanist-feminist-theology"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-lee",
+    "seminarySlug": "brite",
+    "name": "Timothy S. Lee",
+    "title": "Associate Professor of the History of Christianity",
+    "areas": ["church-history", "world-christianity"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-matthews",
+    "seminarySlug": "brite",
+    "name": "Shelly Matthews",
+    "title": "Professor of New Testament",
+    "areas": ["new-testament"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-mcclure",
+    "seminarySlug": "brite",
+    "name": "Barbara J. McClure",
+    "title": "Christie Cozad Neuger Professor of Pastoral Theology and Practice",
+    "areas": ["pastoral-care-counseling", "practical-theology"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-miller",
+    "seminarySlug": "brite",
+    "name": "Michael Miller",
+    "title": "Associate Professor of Theology",
+    "areas": ["systematic-theology"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-moore",
+    "seminarySlug": "brite",
+    "name": "Jeania Ree Moore",
+    "title": "Visiting Assistant Professor of Womanist Theology, Ethics, and Literature",
+    "areas": ["womanist-feminist-theology", "ethics-public-theology", "black-church-studies"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-noya",
+    "seminarySlug": "brite",
+    "name": "Ludwig Beethoven J. Noya",
+    "title": "Assistant Professor of Hebrew Bible",
+    "areas": ["hebrew-bible"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-oredein",
+    "seminarySlug": "brite",
+    "name": "Oluwatomisin Olayinka Oredein",
+    "title": "Associate Professor in Black Religious Traditions, Constructive Theology and Ethics",
+    "otherRoles": ["Assistant Dean for Strategic Initiatives and Theological Imagination"],
+    "areas": ["black-church-studies", "systematic-theology", "ethics-public-theology"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-pape",
+    "seminarySlug": "brite",
+    "name": "Lance Pape",
+    "title": "Granville and Erline Walker Associate Professor of Homiletics",
+    "areas": ["preaching"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-robinson",
+    "seminarySlug": "brite",
+    "name": "Timothy H. Robinson",
+    "title": "Alberta H. and Harold L. Lunger Associate Professor of Spiritual Resources and Disciplines",
+    "areas": ["spiritual-formation"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  },
+  {
+    "id": "brite-williams",
+    "seminarySlug": "brite",
+    "name": "Jeremy L. Williams",
+    "title": "Associate Professor of New Testament",
+    "otherRoles": ["Director of the Center for Theology and Justice"],
+    "areas": ["new-testament", "mission-social-justice"],
+    "profileUrl": "https://brite.edu/facultyandstaff"
+  }
+]
