@@ -8,32 +8,65 @@
       "Grant director, Borders and Bridges Initiative",
       "Program director, Bridge to Ministry"
     ],
-    "areas": ["practical-theology", "christian-education-formation"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "practical-theology",
+      "christian-education-formation"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Austin College, 2003",
+      "MDiv, Austin Presbyterian Theological Seminary, 2007",
+      "DMin, Austin Presbyterian Theological Seminary, 2019"
+    ]
   },
   {
     "id": "aps-aymer",
     "seminarySlug": "austin-presbyterian",
     "name": "Margaret Aymer",
     "title": "The First Presbyterian Church, Shreveport, D. Thomason Professor of New Testament Studies",
-    "otherRoles": ["Vice-President for Academic Affairs and Dean of Faculty"],
-    "areas": ["new-testament", "womanist-feminist-theology", "black-church-studies"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "otherRoles": [
+      "Vice-President for Academic Affairs and Dean of Faculty"
+    ],
+    "areas": [
+      "new-testament",
+      "womanist-feminist-theology",
+      "black-church-studies"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Harvard University, 1989",
+      "MDiv, Union Theological Seminary, 1996",
+      "PhD, Union Theological Seminary, 2004",
+      "Doctor of Humane Letters, honoris causa, Hood Theological Seminary, 2013"
+    ]
   },
   {
     "id": "aps-bonilla",
     "seminarySlug": "austin-presbyterian",
     "name": "Patricia Bonilla",
     "title": "Assistant Professor of Christian Education",
-    "areas": ["christian-education-formation", "latino-hispanic-ministry", "youth-ministry"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "christian-education-formation",
+      "latino-hispanic-ministry",
+      "youth-ministry"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Lake Forest College, 2003",
+      "MA in Christian Education, Garrett-Evangelical Theological Seminary, 2007",
+      "MPhil, Drew University School of Theology, 2016",
+      "PhD, Garrett-Evangelical Theological Seminary (ABD)"
+    ]
   },
   {
     "id": "aps-budwey",
     "seminarySlug": "austin-presbyterian",
     "name": "Stephanie Budwey",
     "title": "Associate Professor of Sacred Music and Dean of the Chapel",
-    "areas": ["church-music", "liturgy-worship"],
+    "areas": [
+      "church-music",
+      "liturgy-worship"
+    ],
     "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
   },
   {
@@ -41,105 +74,210 @@
     "seminarySlug": "austin-presbyterian",
     "name": "Rodney Caruthers II",
     "title": "Assistant Professor of New Testament",
-    "areas": ["new-testament"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Oakland University",
+      "MDiv, Ashland Theological Seminary",
+      "ThM, Candler School of Theology, Emory University",
+      "MA, Near Eastern Studies, University of Michigan",
+      "PhD, Near Eastern Studies, University of Michigan"
+    ]
   },
   {
     "id": "aps-cuellar",
     "seminarySlug": "austin-presbyterian",
     "name": "Gregory L. Cuéllar",
     "title": "Full Professor of Hebrew Bible and the Ruth A. Campbell Chair of Biblical Studies",
-    "areas": ["hebrew-bible", "latino-hispanic-ministry", "mission-social-justice"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "hebrew-bible",
+      "latino-hispanic-ministry",
+      "mission-social-justice"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "Texas A&M University, Kingsville, 1999",
+      "MDiv, Southwestern Baptist Theological Seminary, 2000",
+      "PhD, Brite Divinity School at Texas Christian University, 2006"
+    ]
   },
   {
     "id": "aps-foote",
     "seminarySlug": "austin-presbyterian",
     "name": "Ted V. Foote Jr.",
     "title": "Professor in the Louis H. and Katherine S. Zbinden Distinguished Chair of Pastoral Ministry and Leadership",
-    "areas": ["congregational-leadership", "practical-theology"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "congregational-leadership",
+      "practical-theology"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Baylor University, 1975",
+      "MDiv, Austin Presbyterian Theological Seminary, 1979"
+    ]
   },
   {
     "id": "aps-gallardo",
     "seminarySlug": "austin-presbyterian",
     "name": "Ángel Jazak Gallardo",
     "title": "Assistant Professor of Church History",
-    "areas": ["church-history", "wesleyan-studies", "latino-hispanic-ministry"],
+    "areas": [
+      "church-history",
+      "wesleyan-studies",
+      "latino-hispanic-ministry"
+    ],
     "workingOn": "Teaches surveys on the history of Christian thought, race and religion in the Americas, and Methodism, plus seminars on figures like Bartolomé de Las Casas. Came to Austin in 2022 from Perkins, where he was associate director of the intern program — which makes him the person here most likely to understand what a United Methodist candidate needs.",
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Eastern University, 2006",
+      "MDiv, Duke University Divinity School, 2009",
+      "PhD, Southern Methodist University, 2018"
+    ]
   },
   {
     "id": "aps-greenway",
     "seminarySlug": "austin-presbyterian",
     "name": "William Greenway",
     "title": "Professor of Philosophical Theology",
-    "areas": ["systematic-theology"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Houghton College, 1986",
+      "MDiv, Princeton Theological Seminary, 1989",
+      "PhD, Princeton Theological Seminary, 1997"
+    ]
   },
   {
     "id": "aps-helsel-carolyn",
     "seminarySlug": "austin-presbyterian",
     "name": "Carolyn Browning Helsel",
     "title": "Associate Professor in the Blair Monie Distinguished Chair of Homiletics",
-    "areas": ["preaching", "ethics-public-theology"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "preaching",
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Whitworth University, 2001",
+      "MDiv, Princeton Theological Seminary, 2004",
+      "ThM, Princeton Theological Seminary, 2010",
+      "PhD, Emory University, 2014"
+    ]
   },
   {
     "id": "aps-helsel-philip",
     "seminarySlug": "austin-presbyterian",
     "name": "Philip Browning Helsel",
     "title": "Associate Professor in the Nancy Taylor Williamson Distinguished Chair in Pastoral Care",
-    "areas": ["pastoral-care-counseling", "chaplaincy"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "pastoral-care-counseling",
+      "chaplaincy"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Anderson University, 2000",
+      "MDiv, Princeton Theological Seminary, 2004",
+      "PhD, Princeton Theological Seminary, 2012"
+    ]
   },
   {
     "id": "aps-irizarry",
     "seminarySlug": "austin-presbyterian",
     "name": "José R. Irizarry",
     "title": "President and Professor of Practical Theology",
-    "areas": ["practical-theology", "latino-hispanic-ministry"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "practical-theology",
+      "latino-hispanic-ministry"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, University of Puerto Rico",
+      "MDiv, McCormick Theological Seminary",
+      "PhD, Northwestern University"
+    ]
   },
   {
     "id": "aps-jensen",
     "seminarySlug": "austin-presbyterian",
     "name": "David H. Jensen",
     "title": "Professor in the Clarence N. and Betty B. Frierson Distinguished Chair of Reformed Theology",
-    "areas": ["systematic-theology"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Carleton College, 1990",
+      "MAR, Yale University, 1994",
+      "PhD, Vanderbilt University, 1999"
+    ]
   },
   {
     "id": "aps-jeong",
     "seminarySlug": "austin-presbyterian",
     "name": "Donghyun Jeong",
     "title": "Assistant Professor of New Testament",
-    "areas": ["new-testament"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Yonsei University, 2009",
+      "MDiv, Presbyterian University and Theological Seminary, 2014",
+      "STM, Yale University Divinity School, 2016",
+      "PhD, Emory University, 2021"
+    ]
   },
   {
     "id": "aps-lord",
     "seminarySlug": "austin-presbyterian",
     "name": "Jennifer L. Lord",
     "title": "The Dorothy B. Vickery Professor of Homiletics and Liturgical Studies",
-    "areas": ["preaching", "liturgy-worship"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "preaching",
+      "liturgy-worship"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "AB, Albion College, 1986",
+      "MDiv, Princeton Theological Seminary, 1989",
+      "PhD, Graduate Theological Union, 2003"
+    ]
   },
   {
     "id": "aps-park",
     "seminarySlug": "austin-presbyterian",
     "name": "Suzie Park",
     "title": "Associate Professor of Old Testament",
-    "areas": ["hebrew-bible"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "hebrew-bible"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Amherst College, 2000",
+      "MDiv, Harvard Divinity School, 2003",
+      "MA, Harvard University, 2006",
+      "PhD, Harvard University, 2010"
+    ]
   },
   {
     "id": "aps-rigby",
     "seminarySlug": "austin-presbyterian",
     "name": "Cynthia L. Rigby",
     "title": "The W. C. Brown Professor of Theology",
-    "areas": ["systematic-theology", "womanist-feminist-theology"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "areas": [
+      "systematic-theology",
+      "womanist-feminist-theology"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Brown University, 1986",
+      "MDiv, Princeton Theological Seminary, 1989",
+      "PhD, Princeton Theological Seminary, 1998"
+    ]
   },
   {
     "id": "aps-silva-mccormick",
@@ -152,15 +290,31 @@
       "latino-hispanic-ministry",
       "interreligious"
     ],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, missiology, Lubbock Christian University, 2002",
+      "MDiv, Austin Presbyterian Theological Seminary, 2010",
+      "ThM, Lutheran School of Theology at Chicago",
+      "PhD, Lutheran School of Theology at Chicago"
+    ]
   },
   {
     "id": "aps-zirschky",
     "seminarySlug": "austin-presbyterian",
     "name": "Andrew Zirschky",
     "title": "Research Professor in Youth Ministry",
-    "otherRoles": ["Director of the MAYM program"],
-    "areas": ["youth-ministry", "practical-theology"],
-    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+    "otherRoles": [
+      "Director of the MAYM program"
+    ],
+    "areas": [
+      "youth-ministry",
+      "practical-theology"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "degrees": [
+      "BA, Northwest Nazarene University, 1997",
+      "MDiv, Princeton Theological Seminary, 2007",
+      "PhD, Princeton Theological Seminary, 2014"
+    ]
   }
 ]

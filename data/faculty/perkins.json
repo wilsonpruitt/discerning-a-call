@@ -4,31 +4,127 @@
     "seminarySlug": "perkins",
     "name": "O. Wesley Allen Jr.",
     "title": "Lois Craddock Perkins Professor of Homiletics",
-    "otherRoles": ["Director, Perkins Center for Preaching Excellence"],
-    "areas": ["preaching"],
+    "otherRoles": [
+      "Director, Perkins Center for Preaching Excellence"
+    ],
+    "areas": [
+      "preaching"
+    ],
     "schoolArea": "The Witness of the Church and its Ministry",
     "email": "wesleya@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "Preaching and the Thirty Second Commercial. Co-authored with Carrie La Ferle. Westminster John Knox, 2021.",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "Protestant Worship: A Multisensory Introduction for Students and Practitioners. Abingdon Press, 2019. www.cokesbury.com/9781501842665-Protestant-Worship-eBook-ePub",
+        "kind": "book",
+        "year": 2019
+      },
+      {
+        "title": "The Preacher’s Bible Handbook. Edited by O. Wesley Allen. Westminster John Knox, 2019.",
+        "kind": "edited-volume",
+        "year": 2019
+      },
+      {
+        "title": "Preaching and the Human Condition: Loving God, Self, and Others. Abingdon Press, 2016.",
+        "kind": "book",
+        "year": 2016
+      },
+      {
+        "title": "The Sermon without End: A Conversational Approach to Preaching. Co-authored with Ronald J. Allen. Abingdon Press, 2015.",
+        "kind": "book",
+        "year": 2015
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-aquino",
     "seminarySlug": "perkins",
     "name": "Frederick Aquino",
     "title": "Lehman Professor of Christian Doctrine",
-    "areas": ["systematic-theology"],
+    "areas": [
+      "systematic-theology"
+    ],
     "schoolArea": "The Interpretation of the Christian Witness",
     "email": "faquino@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "“Epistemology,” in William J. Abraham: A Theological Profile, edited by Michael J. Gehring and Andrew D. Kinsey. Baylor University Press, 2024.",
+        "kind": "chapter",
+        "year": 2024
+      },
+      {
+        "title": "“Newman and Pope Benedict (Ratzinger) on Faith and Reason,” in John Henry Newman and Joseph Ratzinger: A Theological Encounter, edited by Matthew Levering. Catholic University of America Press, 2025.",
+        "kind": "chapter",
+        "year": 2025
+      },
+      {
+        "title": "John Henry Newman and Contemporary Philosophy. Edited by Frederick D. Aquino and Joe Milburn. Routledge, 2025",
+        "kind": "edited-volume",
+        "year": 2025
+      },
+      {
+        "title": "John Henry Newman's An Essay in Aid of a Grammar of Assent: A Critical Guide, Edited by Frederick D. Aquino and Matthew Levering. Emmaus Academic, 2025.",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "“Newman and Ecumenism: On the Importance of a Connected View.” Urbaniana University Journal - Euntes docete 78 no. 1 (2025): 13-26.",
+        "kind": "article",
+        "year": 2025
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-baker-fletcher",
     "seminarySlug": "perkins",
     "name": "Karen Baker-Fletcher",
     "title": "Professor of Systematic Theology",
-    "areas": ["systematic-theology", "womanist-feminist-theology"],
+    "areas": [
+      "systematic-theology",
+      "womanist-feminist-theology"
+    ],
     "schoolArea": "The Interpretation of the Christian Witness",
     "email": "kbakerfl@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "Creating Women’s Theology: A Movement Engaging Process Thought. Wipf & Stock, 2011.",
+        "kind": "book",
+        "year": 2011
+      },
+      {
+        "title": "Dancing with God: A Womanist Perspective on the Trinity. Chalice Press, 2007.",
+        "kind": "book",
+        "year": 2007
+      },
+      {
+        "title": "Sisters of Dust, Sisters of Spirit: Womanist Wordings on God and Creation. Fortress Press, 1998.",
+        "kind": "book",
+        "year": 1998
+      },
+      {
+        "title": "My Sister, My Brother: Womanist and Xodus God-Talk. Co-authored with Garth Kasimu Baker-Fletcher. Bishop Henry McNeal Turner/Sojourner Truth Series in Black Religion, No.12, Orbis Books, 1997.",
+        "kind": "book",
+        "year": 1997
+      },
+      {
+        "title": "A Singing Something: Womanist Reflections on Anna Julia Cooper. Crossroad/Herder and Herder, 1994.",
+        "kind": "book",
+        "year": 1994
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-blount",
@@ -39,7 +135,10 @@
       "Director of the Doctor of Ministry degree program",
       "Director of the Black/Africana Church Studies (BACS) program"
     ],
-    "areas": ["practical-theology", "black-church-studies"],
+    "areas": [
+      "practical-theology",
+      "black-church-studies"
+    ],
     "schoolArea": "The Witness of the Church and its Ministry",
     "email": "fblount@smu.edu",
     "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
@@ -49,70 +148,297 @@
     "seminarySlug": "perkins",
     "name": "Ashley Boggan",
     "title": "Affiliate Assistant Research Professor of Methodist Studies",
-    "areas": ["wesleyan-studies", "church-history"],
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "areas": [
+      "wesleyan-studies",
+      "church-history"
+    ],
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "Calling on Fire: Reclaiming the Method of Methodism. Abingdon Press, 2025.",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "Wesleyan Vile-tality: Reclaiming the Heart of Methodist Identity. Abingdon Press, 2025.",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "American Methodism: A Compact History: Revised and Updated. Abingdon Press, 2022.",
+        "kind": "book",
+        "year": 2022
+      },
+      {
+        "title": "Nevertheless: American Methodists and Women’s Rights. Wesley’s Foundery Books, 2020.",
+        "kind": "book",
+        "year": 2020
+      },
+      {
+        "title": "Entangled: A History of American Methodism, Politics, and Sexuality. New Room Books, 2018.",
+        "kind": "book",
+        "year": 2018
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-bristow",
     "seminarySlug": "perkins",
     "name": "April Johnson Bristow",
     "title": "Clinical Assistant Professor in the Intern Program",
-    "otherRoles": ["Associate Director, Intern Program"],
-    "areas": ["practical-theology", "congregational-leadership"],
+    "otherRoles": [
+      "Associate Director, Intern Program"
+    ],
+    "areas": [
+      "practical-theology",
+      "congregational-leadership"
+    ],
     "schoolArea": "The Witness of the Church and its Ministry",
     "email": "ajbristow@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "Contributed “Remember to Rest” to Leaves of Wisdom: A Book of Daily Meditations and Encouragement, Alpha Kappa Alpha Sorority, Incorporated, 2024.",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "Contributed “The Work of Peacemaking” to Our Favorite Sunday School Lesson, Market Square Books, 2023.",
+        "kind": "book",
+        "year": 2023
+      },
+      {
+        "title": "S. E. L. F. I. E.: A Model for Cultural Intelligence for Faithful Leadership in the Church. Co-authored with Adam Young, North Texas Conference United Methodist Church, 2015.",
+        "kind": "book",
+        "year": 2015
+      },
+      {
+        "title": "Becoming One Again: Intentional Steps Toward Healing for Divorced/Divorcing Persons. First United Methodist Church, Richardson, 2013.",
+        "kind": "book",
+        "year": 2013
+      },
+      {
+        "title": "Strengths in Differences: Cultural Competency for Faith Leaders – A Closer Look at Acts 10, for LeadershipFirst, First United Methodist Church, Richardson, 2020.",
+        "kind": "book",
+        "year": 2020
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-clark-soles",
     "seminarySlug": "perkins",
     "name": "Jaime Clark-Soles",
     "title": "Professor of New Testament",
-    "otherRoles": ["Altshuler Distinguished Teaching Professor"],
-    "areas": ["new-testament"],
+    "otherRoles": [
+      "Altshuler Distinguished Teaching Professor"
+    ],
+    "areas": [
+      "new-testament"
+    ],
     "schoolArea": "The Biblical Witness",
     "email": "jaimecs@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "Pasricha, Ishan Caroline Peacock, Roman Palitsky, Jaime Clark-Soles, Jessica L. Maples-Keller, George H. Grant, and Deanna M. Kaplan. “What Motivates Spiritual Health Practitioners in Psychedelic-Assisted Therapy? A Qualitative Study and Implications for Facilitator Training Practices.” Psychedelics 1 no. 9: 1–9 (April 2025). https://doi.org/10.61373/pp025r.0008",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "“Psychedelics, the Bible, and the Divine” Religions 15, no. 5 (May 2024). https://doi.org/10.3390/rel15050582",
+        "kind": "article",
+        "year": 2024
+      },
+      {
+        "title": "1 Corinthians: Searching the Depths of God. Abingdon, 2021.",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "\"Women in the Bible,\" in Interpretation: Resources for the Use of Scripture in the Church, edited by Samuel Balentine, Brent Strawn, and Susan Hylen. Westminster John Knox, 2020.",
+        "kind": "chapter",
+        "year": 2020
+      },
+      {
+        "title": "\"Disability in the Johannine Literature (Gospel of John, 1-3 John, Apocalypse),” in The Bible and Disability: A Commentary, edited by Sarah J. Melcher, Mikeal C. Parsons, and Amos Yong. Baylor University Press, 2017.",
+        "kind": "chapter",
+        "year": 2017
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-elia",
     "seminarySlug": "perkins",
     "name": "Anthony Elia",
     "title": "Director of Bridwell Library; J.S. Bridwell Foundation Endowed Librarian",
-    "areas": ["church-history"],
+    "areas": [
+      "church-history"
+    ],
     "email": "aelia@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "Christ Our Passover (Pascha Nostrum), for organ and mixed choir. Based on texts from 1 Corinthians and Romans. SMU Scholar, Spring 2023.",
+        "kind": "book",
+        "year": 2023
+      },
+      {
+        "title": "“Oil, Earth, Books, and Holy Spirit: Theological Institutions, Libraries, and the Role of Environmental Sustainability.” ATLA Proceedings, 2021.",
+        "kind": "article",
+        "year": 2021
+      },
+      {
+        "title": "“The Millennium Project—Nature, Environment, and Time in the Future of Special Collections: Considering the Case of Bridwell Library.” In Preserving the Past & Engaging the Future: Theology and Religion in American Special Collections, edited by M. Patrick Graham, Atla Open Press, 2021.",
+        "kind": "chapter",
+        "year": 2021
+      },
+      {
+        "title": "Easter Vigil (Introit): This is the Day, for organ and mixed chorus. Premiered at Episcopal Church of the Annunciation, Lewisville, Texas, 2021.",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "“Ecologies of Space in the Paradoxes of Technology and Community: Adaptability and Resilience in Libraries, Churches, and Theological Schools in a COVID-19 World.” ATLA Proceedings, 2020.",
+        "kind": "chapter",
+        "year": 2020
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-gingles",
     "seminarySlug": "perkins",
     "name": "Dallas J. Gingles",
     "title": "Associate Professor of Practice in Systematic Theology and Christian Ethics",
-    "areas": ["systematic-theology", "ethics-public-theology"],
+    "areas": [
+      "systematic-theology",
+      "ethics-public-theology"
+    ],
     "schoolArea": "The Interpretation of the Christian Witness",
     "email": "dgingles@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "\"In the Face of Barbarism:\" Bonhoeffer’s Ethics of Everyday Life. Co-edited with Michael DeJonge. Bloomsbury, 2025.",
+        "kind": "article",
+        "year": 2025
+      },
+      {
+        "title": "The Future of Christian Realism: International Conflict, Political Decay, and the Crisis of Democracy. Co-edited with Rebekah Miles and Joshua Mauldin. Lexington Books, 2023.",
+        "kind": "edited-volume",
+        "year": 2023
+      },
+      {
+        "title": "“‘Dirty Hands’: Guilt and Regret in Moral Reasoning.” Studies in Christian Ethics 36, no. 1 (February 2023): 107-122.",
+        "kind": "chapter",
+        "year": 2023
+      },
+      {
+        "title": "“Narrative.” In T&T Clark Handbook of Christian Ethics, edited by Tobias Winright. Bloomsbury, 2020.",
+        "kind": "chapter",
+        "year": 2020
+      },
+      {
+        "title": "“Justifications and Judgments: Walzer and Bonhoeffer on Politics and the Limits of Ethics.” Journal of the Society of Christian Ethics 37, no. 1 (2017): 83-99.",
+        "kind": "article",
+        "year": 2017
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-heller",
     "seminarySlug": "perkins",
     "name": "Roy L. Heller",
     "title": "Professor of Old Testament",
-    "otherRoles": ["Altshuler Distinguished Teaching Professor"],
-    "areas": ["hebrew-bible"],
+    "otherRoles": [
+      "Altshuler Distinguished Teaching Professor"
+    ],
+    "areas": [
+      "hebrew-bible"
+    ],
     "schoolArea": "The Biblical Witness",
     "email": "rheller@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "Distinguished Teaching Professor",
+        "kind": "book"
+      },
+      {
+        "title": "“Nathan’s Sixth Sense: Russian Formalism, Cinematic Technique, and the Character of a Prophet.” In A Sage in New Haven: Studies on the Prophets, the Writings, and the Ancient World in Honor of Robert R. Wilson, edited by Carolyn J. Sharp and Alison Gruseke. Zaphon, 2023.",
+        "kind": "chapter",
+        "year": 2023
+      },
+      {
+        "title": "The Characters of Elijah and Elisha and the Deuteronomic Evaluation of Prophecy: Miracles and Manipulation. Library of Hebrew Bible/Old Testament Studies 671. Bloomsbury T&T Clark, 2018.",
+        "kind": "book",
+        "year": 2018
+      },
+      {
+        "title": "Conversations with Scripture: The Book of Judges. Anglican Association of Biblical Scholars Study Series. Morehouse, 2011.",
+        "kind": "book",
+        "year": 2011
+      },
+      {
+        "title": "The Character of Samuel and the Deuteronomistic Evaluation of Prophecy: Power, Politics, and Prophecy. Library of Hebrew Bible/Old Testament Studies. Bloomsbury T&T Clark, 2006.",
+        "kind": "book",
+        "year": 2006
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-hunt",
     "seminarySlug": "perkins",
     "name": "Robert A. Hunt",
     "title": "Professor of Christian Mission and Interreligious Relations",
-    "areas": ["world-christianity", "interreligious", "mission-social-justice"],
+    "areas": [
+      "world-christianity",
+      "interreligious",
+      "mission-social-justice"
+    ],
     "schoolArea": "The Heritage of the Christian Witness in its Religious and Cultural Context",
     "email": "roberth@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "All Brain and No Soul? Real Humanity in an AI Age. Wipf and Stock, 2025.",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "Do No Harm. Edited by Ernest van Eck and George Hunsberger. Pickwick Publications, 2025. 81-92.",
+        "kind": "edited-volume",
+        "year": 2025
+      },
+      {
+        "title": "Muslim Faith and Values: A Guide for Christians. Cascade Books, 2019.",
+        "kind": "book",
+        "year": 2019
+      },
+      {
+        "title": "“Our Journey in Multifaith Education.” In Teaching in a Multifaith World, edited by Eleazar Fernandez. Wipf and Stock, 2016.",
+        "kind": "chapter",
+        "year": 2016
+      },
+      {
+        "title": "“Public Missiology in an Age of Anxious Tribalism.” Missiology: An International Review. April 2016.",
+        "kind": "article",
+        "year": 2016
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-lee",
@@ -123,40 +449,164 @@
       "Altshuler Distinguished Teaching Professor",
       "Director, Graduate Program in Religious Studies"
     ],
-    "areas": ["church-history"],
+    "areas": [
+      "church-history"
+    ],
     "schoolArea": "The Heritage of the Christian Witness in its Religious and Cultural Context",
     "email": "jklee@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "Praise Without Ceasing: The Spirituality of St. Augustine. Cascade Books, forthcoming.",
+        "kind": "book"
+      },
+      {
+        "title": "“Holiness and Early Latin Christianity.” In T&T Clark Companion to Holiness. Bloomsbury T&T Clark, forthcoming.",
+        "kind": "chapter"
+      },
+      {
+        "title": "“Augustine’s Sermons on the Old Testament.” In The Cambridge Companion to Augustine’s Sermons, edited by Andrew Hofer, 81–97. Cambridge University Press, 2025.",
+        "kind": "chapter",
+        "year": 2025
+      },
+      {
+        "title": "“‘One in the One Shepherd’: St. Augustine and Pastoral Ministry.” Heythrop Journal 63 (2022): 232–244.",
+        "kind": "article",
+        "year": 2022
+      },
+      {
+        "title": "The Church in the Latin Fathers: Unity in Charity. Lexington Books/Fortress Academic, 2020.",
+        "kind": "book",
+        "year": 2020
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-levison",
     "seminarySlug": "perkins",
     "name": "John R. (Jack) Levison",
     "title": "W. J. A. Power Professor of Old Testament Interpretation and Biblical Hebrew",
-    "areas": ["hebrew-bible"],
+    "areas": [
+      "hebrew-bible"
+    ],
     "schoolArea": "The Biblical Witness",
     "email": "jlevison@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "“Before Modern Feminism: Protestant Women in the Twentieth Century.” In Expanding Energy: The Dynamic Story of North American Christianity, edited by Christopher H. Evans and Mark Lamport. Cascade Books, 2024.",
+        "kind": "chapter",
+        "year": 2024
+      },
+      {
+        "title": "“Are Perfect Love & Sanctification Synonymous? Iva Durham Vennard’s Reinterpretation of J.A. Wood’s Perfect Love.” Wesleyan Theological Journal 56, no. 2 (Fall 2021): 121-36.",
+        "kind": "article",
+        "year": 2021
+      },
+      {
+        "title": "Models of Evangelism. Baker Academic, 2020.",
+        "kind": "book",
+        "year": 2020
+      },
+      {
+        "title": "“Pentecost in the Churches: Women in the Pentecostal League of Prayer.” Wesley and Methodist Studies 10, no. 1 (2018): 46-65.",
+        "kind": "article",
+        "year": 2018
+      },
+      {
+        "title": "Building the Old Time Religion: Women Evangelists in the Progressive Era. New York University Press, 2014.",
+        "kind": "book",
+        "year": 2014
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-lewis",
     "seminarySlug": "perkins",
     "name": "Tamara Lewis",
     "title": "Professor of the Practice of Historical Theology",
-    "areas": ["church-history", "systematic-theology"],
+    "areas": [
+      "church-history",
+      "systematic-theology"
+    ],
     "schoolArea": "The Heritage of the Christian Witness in its Religious and Cultural Context",
     "email": "telewis@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "“Ecclesial Justifications and Resistance to Slavery in British Colonial America.” In Churches and Moral Discernment: Learning from History, vol. 2, edited by Myriam Wijlens, Vladmir Shmaliy, and Simone Sinn. World Council of Churches, Faith and Order Paper, no. 229 (2021): 53-64.",
+        "kind": "chapter",
+        "year": 2021
+      },
+      {
+        "title": "“Epiphany OT C2, Baptism of the Lord OT C2, Epiphany 2 OT C2.” In Connections: A Lectionary Commentary for Preaching and Worship, Year B, Vol. 1: Advent through Epiphany, edited by Joel B. Green, Thomas G. Long, Luke A. Powery, Cynthia L. Rigby, and Carolyn J. Sharp. Westminster John Knox Press, 2020.",
+        "kind": "chapter",
+        "year": 2020
+      },
+      {
+        "title": "Review of George Whitefield: Life, Context, and Legacy. Methodist History 58 (2019), 99-101.",
+        "kind": "book",
+        "year": 2019
+      },
+      {
+        "title": "“Unitarianism.” In Cambridge Companion to the Council of Nicaea, edited by Young Kim. Cambridge University Press, 2019.",
+        "kind": "chapter",
+        "year": 2019
+      },
+      {
+        "title": "“Isaiah 60: 1-6”; “Genesis 1: 1-5”; “1 Samuel 3: 1-10 (11-20)”- Commentary 2. Connections: A Lectionary Commentary Series. Westminster John Knox Press, 2019.",
+        "kind": "article",
+        "year": 2019
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-long",
     "seminarySlug": "perkins",
     "name": "D. Stephen Long",
     "title": "Cary M. Maguire University Professor of Ethics",
-    "areas": ["ethics-public-theology", "systematic-theology"],
+    "areas": [
+      "ethics-public-theology",
+      "systematic-theology"
+    ],
     "schoolArea": "The Interpretation of the Christian Witness",
     "email": "sdlong@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "“On Making a Living Teaching and Researching Christian Ethics,” presidential address. Journal for the Society of Christian Ethics, Fall 2024.",
+        "kind": "article",
+        "year": 2024
+      },
+      {
+        "title": "On Teaching and Learning Christian Ethics. Georgetown University Press, 2024.",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "Routledge Companion to Christian Ethics. Edited with Rebekah Miles. Routledge, 2022.",
+        "kind": "edited-volume",
+        "year": 2022
+      },
+      {
+        "title": "The Art of Cycling, Living, and Dying: Moral Theology from Ordinary Life. Cascade Books, 2021.",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "Augustinian and Ecclesial Christian Ethics: On Loving Enemies. Fortress Academic, 2018.",
+        "kind": "book",
+        "year": 2018
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-magallanes",
@@ -169,70 +619,297 @@
       "Director, United Methodist Regional Course of Study School for Local Pastors",
       "Director, Global Theological Education"
     ],
-    "areas": ["latino-hispanic-ministry", "world-christianity", "mission-social-justice"],
+    "areas": [
+      "latino-hispanic-ministry",
+      "world-christianity",
+      "mission-social-justice"
+    ],
     "schoolArea": "The Interpretation of the Christian Witness",
     "email": "hugo@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "“I Kings 19:9-18 and Genesis 37:1-4, 12-28; Isaiah 56:1, 6-8 and Genesis 45:1-15; Isaiah 51:1-6 and Exodus 1:8--2:10.” In Connections: Year A, Volume 3, Season after Pentecost, edited by Thomas G. Long, Cynthia L. Rigby, Carolyn J. Sharp, Luke A. Powery, and Joel B. Green. Westminster John Knox Press, 2020.",
+        "kind": "chapter",
+        "year": 2020
+      },
+      {
+        "title": "“Methodist: Immigration in the U.S. and Wesleyan Methodology.” In Immigrant Neighbors Among Us: Immigration Across Theological Traditions, edited by M. Daniel Carroll R. and Leopoldo A. Sanchez, Pickwick Publications, 2015.",
+        "kind": "chapter",
+        "year": 2015
+      },
+      {
+        "title": "Acción Social: El Pueblo Cristiano Testifica del Amor de Dios (Social Action: The Community of Believers Offers a Witness of God’s Love). Abingdon Press, 2012.",
+        "kind": "book",
+        "year": 2012
+      },
+      {
+        "title": "“The Protestant Reformation from a Latino Methodist Perspective.” In Our 95 Theses: 500 years after the Reformation, edited by Justo L. González and Alberto L. García. AETH, 2016. Also published in Spanish as: “La Reforma Protestante desde una Perspectiva Metodista Hispana.” En Nuestras 95 Tesis: A 500 Años de la Reforma, editado por Justo L. González y Alberto L. García. AETH, 2016.",
+        "kind": "chapter",
+        "year": 2016
+      },
+      {
+        "title": "Jesus in the Hispanic Community: Images of Christ from Theology to Popular Religion, edited by Harold J. Recinos and Hugo Magallanes. Westminster John Knox, 2009.",
+        "kind": "book",
+        "year": 2009
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-miles",
     "seminarySlug": "perkins",
     "name": "Rebekah Miles",
     "title": "Albert C. Outler Chair of Wesley Studies",
-    "otherRoles": ["Altshuler Distinguished Teaching Professor"],
-    "areas": ["wesleyan-studies", "ethics-public-theology"],
+    "otherRoles": [
+      "Altshuler Distinguished Teaching Professor"
+    ],
+    "areas": [
+      "wesleyan-studies",
+      "ethics-public-theology"
+    ],
     "schoolArea": "The Interpretation of the Christian Witness",
     "email": "rlmiles@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "The Future of Christian Realism: International Conflict, Political Decay, and the Crisis of Democracy. Co-edited with Dallas Gingles and Josh Mauldin. Lexington Books, 2023.",
+        "kind": "edited-volume",
+        "year": 2023
+      },
+      {
+        "title": "The Routledge Companion to Christian Ethics. Co-edited with Steve Long. Routledge Press, 2022",
+        "kind": "edited-volume",
+        "year": 2022
+      },
+      {
+        "title": "When the One You Love is Gone. Abingdon Press, 2012.",
+        "kind": "book",
+        "year": 2012
+      },
+      {
+        "title": "Georgia Harkness: The Remaking of a Liberal Theologian, Collected Essays from 1929-1942. Westminster John Knox Press, 2010.",
+        "kind": "book",
+        "year": 2010
+      },
+      {
+        "title": "The Bonds of Freedom: Feminist Theology and Christian Realism. Oxford University Press, 2001.",
+        "kind": "book",
+        "year": 2001
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-nelms-chastain",
     "seminarySlug": "perkins",
     "name": "Emily Nelms Chastain",
     "title": "Assistant Professor of Christian History & Methodist Studies",
-    "areas": ["church-history", "wesleyan-studies"],
+    "areas": [
+      "church-history",
+      "wesleyan-studies"
+    ],
     "schoolArea": "The Heritage of the Christian Witness in its Religious and Cultural Context",
     "email": "enelmschastain@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "‘Break[ing] the System’: How the Methodist Student Movement Motivated a Generation to Challenge Their Denomination’s Segregationist Polity. Wesley and Methodist Studies 17, no. 1 (2025): 62–90.",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "“Celebrating Women Who Tell Our Stories.\" General Commission on the Status and Role of Women. 8-part series on newly elected women bishops in the UMC, March 2023.",
+        "kind": "article",
+        "year": 2023
+      },
+      {
+        "title": "“Parity Among Methodist Clergy.\" General Commission on the Status and Role of Women, September 13, 2022.",
+        "kind": "article",
+        "year": 2022
+      },
+      {
+        "title": "\"Connexionalism Vital to Continued Ministry of the General Commission on the Status and Role of Women.\" General Commission on the Status and Role of Women, June 9, 2022.",
+        "kind": "article",
+        "year": 2022
+      },
+      {
+        "title": "\"Sexual Ethics Remains Vital to the United Methodist Church.\" General Commission on the Status and Role of Women, April 29, 2022.",
+        "kind": "article",
+        "year": 2022
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-pope-levison",
     "seminarySlug": "perkins",
     "name": "Priscilla Pope-Levison",
     "title": "Research Professor of Practical Theology",
-    "areas": ["practical-theology", "evangelism-church-planting"],
+    "areas": [
+      "practical-theology",
+      "evangelism-church-planting"
+    ],
     "email": "popelevison@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "“Before Modern Feminism: Protestant Women in the Twentieth Century.” In Expanding Energy: The Dynamic Story of North American Christianity, edited by Christopher H. Evans and Mark Lamport. Cascade Books, 2024.",
+        "kind": "chapter",
+        "year": 2024
+      },
+      {
+        "title": "“Are Perfect Love & Sanctification Synonymous? Iva Durham Vennard’s Reinterpretation of J.A. Wood’s Perfect Love.” Wesleyan Theological Journal 56, no. 2 (Fall 2021): 121-36.",
+        "kind": "article",
+        "year": 2021
+      },
+      {
+        "title": "Models of Evangelism. Baker Academic, 2020.",
+        "kind": "book",
+        "year": 2020
+      },
+      {
+        "title": "“Pentecost in the Churches: Women in the Pentecostal League of Prayer.” Wesley and Methodist Studies 10, no. 1 (2018): 46-65.",
+        "kind": "article",
+        "year": 2018
+      },
+      {
+        "title": "Building the Old Time Religion: Women Evangelists in the Progressive Era. New York University Press, 2014.",
+        "kind": "book",
+        "year": 2014
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-recinos",
     "seminarySlug": "perkins",
     "name": "Harold J. Recinos",
     "title": "Professor of Church and Society",
-    "areas": ["latino-hispanic-ministry", "mission-social-justice", "ethics-public-theology"],
+    "areas": [
+      "latino-hispanic-ministry",
+      "mission-social-justice",
+      "ethics-public-theology"
+    ],
     "schoolArea": "The Witness of the Church and its Ministry",
     "email": "hrecinos@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "On the Sight of Angels. Wipf and Stock, 2025.",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "Words Chosen for the Wall. Wipf and Stock, 2024.",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "The Place Across the River. Wipf and Stock, 2024.",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "The Looking Glass: Far and Near. Wipf and Stock, 2023.",
+        "kind": "book",
+        "year": 2023
+      },
+      {
+        "title": "Wading Through Many Voices: Toward a Theology of Public Conversation. Editor. Rowman & Littlefield, 2011.",
+        "kind": "book",
+        "year": 2011
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-scholz",
     "seminarySlug": "perkins",
     "name": "Susanne Scholz",
     "title": "Professor of Old Testament",
-    "areas": ["hebrew-bible", "womanist-feminist-theology"],
+    "areas": [
+      "hebrew-bible",
+      "womanist-feminist-theology"
+    ],
     "schoolArea": "The Biblical Witness",
     "email": "sscholz@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "1 Samuel: A Conceptual Feminist Interpretation. Fortress, 2025.",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "Contemporary Yoga and Sacred Texts. Co-editor. Routledge, 2025.",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "Doing Biblical Masculinity Studies as Feminist Biblical Studies: Critical Interrogations. Editor. Sheffield Phoenix Press, 2023.",
+        "kind": "book",
+        "year": 2023
+      },
+      {
+        "title": "Handbook of Feminist Approaches to the Hebrew Bible. Editor. Oxford University Press, 2021",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "The Bible as Political Artifact: On the Feminist Study of the Hebrew Bible. Fortress Press, 2017.",
+        "kind": "book",
+        "year": 2017
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-smith",
     "seminarySlug": "perkins",
     "name": "Abraham Smith",
     "title": "Professor of New Testament",
-    "areas": ["new-testament"],
+    "areas": [
+      "new-testament"
+    ],
     "schoolArea": "The Biblical Witness",
     "email": "abrahams@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "“Epiphany 5C: Luke 5:1-11” and “Epiphany 4C: Luke 4:21-30.” Working Preacher’s Commentary, 2025.",
+        "kind": "article",
+        "year": 2025
+      },
+      {
+        "title": "“The Gospel According to Mark: Introduction, Study Notes, and Excursuses.” In The Westminster Study Bible, edited by Emerson B. Powery, Brent A. Strawn, Mary F. Foskett, and Stacy Davis. Westminster John Knox, 2024.",
+        "kind": "chapter",
+        "year": 2024
+      },
+      {
+        "title": "“Pecola’s People: Microhistories, the Politics of Respectability, and Interrogations of the Power of the Outside Gaze.” Biblical Theology Bulletin 54 (2024): 157-167.",
+        "kind": "article",
+        "year": 2024
+      },
+      {
+        "title": "“Arrested Developments: Dismantling the Disciplinary Network of a Surveillance State.” Reading in These Times. Edited by Fernando F. Segovia and Tat-Siong Benny Liew. Society of Biblical Literature Press, 2024.",
+        "kind": "chapter",
+        "year": 2024
+      },
+      {
+        "title": "Mark: An Introduction and Study Guide (Shaping the Life and Legacy of Jesus), Second Edition. T&T Clark Study Guides to the New Testament. Bloomsbury, 2017.",
+        "kind": "book",
+        "year": 2017
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-steuernagel",
@@ -243,37 +920,134 @@
       "Director of the Master of Sacred Music Program",
       "Director of the Doctor of Pastoral Music Program"
     ],
-    "areas": ["church-music", "liturgy-worship"],
+    "areas": [
+      "church-music",
+      "liturgy-worship"
+    ],
     "schoolArea": "The Witness of the Church and its Ministry",
     "email": "marcells@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "The Other Lutherans: Voices from the Global South. Edited by Leopoldo A. Sánchez M. Fortress Academic-Bloomsbury, forthcoming.",
+        "kind": "edited-volume"
+      },
+      {
+        "title": "“The Work of Diversity: Ethnoraciality, Identity, and Music in Christian Worship.\" Liturgy 40, no. 1, (2025): 35-61, DOI: 10.1080/0458063X.2025.2473245",
+        "kind": "chapter",
+        "year": 2025
+      },
+      {
+        "title": "The Spirit and the Song: Pneumatological Reflections on Popular Music: Theology, Religion, and Pop Culture. Kimberly Ervin Alexander, Fortress Academic-Bloomsbury, 2024.",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "Church Music Through the Lens of Performance. Fortress Press, 2024.",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "“Performing Race and Place Through Hymn-Singing: A Brazilian Perspective.” In Hymns and Constructions of Race: Mobility, Agency, De/Coloniality, edited by Philip Burnett, Philip Johnson- Williams, and Erin Johnson-Williams. Routledge, 2024.",
+        "kind": "chapter",
+        "year": 2024
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-stevenson-moessner",
     "seminarySlug": "perkins",
     "name": "Jeanne Stevenson-Moessner",
     "title": "Susanna Wesley Centennial Chair in Practical Theology; Professor of Pastoral Care and Pastoral Theology",
-    "areas": ["pastoral-care-counseling", "practical-theology"],
+    "areas": [
+      "pastoral-care-counseling",
+      "practical-theology"
+    ],
     "schoolArea": "The Witness of the Church and its Ministry",
     "email": "jmoessne@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "Physician of Souls: Ministry as Medicine. Fortress Press, 2024.",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "“(De)colonizing the Image of Female Beauty and (De)commodifying Women: the Industry of Plastic Surgery in Brazil and Texas.” In (De)coloniality and Religious Practices: Liberating Hope, edited by Valburga Schmiedt Streck, Júlio Cézar Adam, and Cláudio Carvalhaes. International Academy of Practical Theology Conference Series, 2021.",
+        "kind": "chapter",
+        "year": 2021
+      },
+      {
+        "title": "Women with 2020 Vision: American Theologians on the Vote, Voice, and Vision of Women. Edited by Jeanne Stevenson-Moessner, Fortress Press, 2020.",
+        "kind": "edited-volume",
+        "year": 2020
+      },
+      {
+        "title": "“Quilting at the Society for Pastoral Theology: Lessons Learned.” The Journal of Pastoral Theology 30 (January 14, 2020): 35-47.",
+        "kind": "article",
+        "year": 2020
+      },
+      {
+        "title": "“‘She Knew She Could Spell’: Katie Geneva Cannon.” The Journal of Pastoral Theology 29, no. 3 (November 8, 2019): 180-185.",
+        "kind": "article",
+        "year": 2019
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-stone",
     "seminarySlug": "perkins",
     "name": "Bryan P. Stone",
     "title": "Leighton K. Farrell Endowed Dean; Professor of Theology",
-    "areas": ["systematic-theology", "evangelism-church-planting"],
+    "areas": [
+      "systematic-theology",
+      "evangelism-church-planting"
+    ],
     "schoolArea": "The Interpretation of the Christian Witness",
     "email": "bpstone@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/about/dean-bryan-stone"
+    "profileUrl": "https://www.smu.edu/perkins/about/dean-bryan-stone",
+    "publications": [
+      {
+        "title": "Christianity and Horror Cinema. Routledge, 2025.",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "Finding Faith Today. Cascade Books, 2018.",
+        "kind": "book",
+        "year": 2018
+      },
+      {
+        "title": "Evangelism after Pluralism: The Ethics of Christian Witness. Baker Academic, 2018.",
+        "kind": "book",
+        "year": 2018
+      },
+      {
+        "title": "Evangelism after Christendom: The Theology and Practice of Christian Witness. Brazos Press, 2007.",
+        "kind": "book",
+        "year": 2007
+      },
+      {
+        "title": "Faith and Film: Theological Themes at the Cinema. Chalice Press, 2000.",
+        "kind": "book",
+        "year": 2000
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-sutton-adams",
     "seminarySlug": "perkins",
     "name": "Hannah Sutton-Adams",
     "title": "Visiting Assistant Professor of Pastoral Care",
-    "areas": ["pastoral-care-counseling"],
+    "areas": [
+      "pastoral-care-counseling"
+    ],
     "schoolArea": "The Witness of the Church and its Ministry",
     "email": "hlsutton@smu.edu",
     "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
@@ -283,28 +1057,98 @@
     "seminarySlug": "perkins",
     "name": "Theodore Walker Jr.",
     "title": "Associate Professor of Theological Ethics and Society, Theology and the Sciences",
-    "areas": ["ethics-public-theology", "religion-and-science", "black-church-studies"],
+    "areas": [
+      "ethics-public-theology",
+      "religion-and-science",
+      "black-church-studies"
+    ],
     "schoolArea": "The Interpretation of the Christian Witness",
     "email": "twalker@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "“Viewing the World through a Microscope Lens (and Drama among Nazis): The Life of Ernest Everett Just.” In Leading Figures in the History of Omega Psi Phi Fraternity, edited by Judson L. Jeffries. University Press of Florida, 2025.",
+        "kind": "chapter",
+        "year": 2025
+      },
+      {
+        "title": "“Interdisciplinary Convergences with Biology and Ethics … Ernest Everett Just and … Fred Hoyle.” In Panentheism and Panpsychism, edited by Godehard Brüntrup, Benedikt Paul Göcke, and Ludwig Jaskolla. Verlag Brill, 2019.",
+        "kind": "chapter",
+        "year": 2019
+      },
+      {
+        "title": "The Big Bang and God: An Astro-Theology. Co-authored with Theodore Walker, Jr. and Chandra Wickramasinghe. Palgrave Macmillan, 2015.",
+        "kind": "book",
+        "year": 2015
+      },
+      {
+        "title": "Whiteheadian Ethics: Abstracts and Paper from the Ethics Section of the Philosophy Group at the 6th International Whitehead Conference at the University of Salzburg, July 2006. Cambridge Scholars Publishing, 2008.",
+        "kind": "book",
+        "year": 2008
+      },
+      {
+        "title": "Mothership Connections: A Black Atlantic Synthesis of Neoclassical Metaphysics and Black Theology. Albany: State University of New York Press, 2004",
+        "kind": "book",
+        "year": 2004
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-wan",
     "seminarySlug": "perkins",
     "name": "Sze-kar Wan",
     "title": "Professor of New Testament",
-    "areas": ["new-testament"],
+    "areas": [
+      "new-testament"
+    ],
     "schoolArea": "The Biblical Witness",
     "email": "swan@smu.edu",
-    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z",
+    "publications": [
+      {
+        "title": "“Two Pseudo-Philonic Works: A New Translation and Introduction.” In More Old Testament Pseudepigrapha, edited by James Davila. Eerdmans, 2024.",
+        "kind": "chapter",
+        "year": 2024
+      },
+      {
+        "title": "“Mainstreaming the Minoritized: Galatians 3:28 as Ethnic Construction.” In Paul’s Gospel, Empire, Race, and Ethnicity: Through the Lens of Minoritized Scholarship, edited by Yung Suk Kim. Pickwick, 2024.",
+        "kind": "chapter",
+        "year": 2024
+      },
+      {
+        "title": "“Reading Romans in Midst of Empires: Chinese Readers Grappling with Romans 13.1–7.” In Global Readings of the New Testament, edited by M. Kovalishyn. Baker, 2024.",
+        "kind": "chapter",
+        "year": 2024
+      },
+      {
+        "title": "“‘I speak to you Gentiles’: Asian Americans as Liminal Gentiles.” In Preaching Romans from Here: Diverse Voices Engage Paul’s Most Famous Letter, edited by L. M. Bowens, et al. Cascade Books, 2024.",
+        "kind": "chapter",
+        "year": 2024
+      },
+      {
+        "title": "Romans: Empire and Resistance. Bloomsbury, 2021. FACULTY BOOKS",
+        "kind": "book",
+        "year": 2021
+      }
+    ],
+    "publicationsSource": "https://www.smu.edu/perkins/facultyacademics/faculty-publications",
+    "publicationsAsOf": "2025-09-01"
   },
   {
     "id": "perkins-white",
     "seminarySlug": "perkins",
     "name": "Pam White",
     "title": "Clinical Assistant Professor in the Intern Program",
-    "otherRoles": ["Assistant Dean for Contextual Education", "Director of the Intern Program"],
-    "areas": ["practical-theology", "congregational-leadership"],
+    "otherRoles": [
+      "Assistant Dean for Contextual Education",
+      "Director of the Intern Program"
+    ],
+    "areas": [
+      "practical-theology",
+      "congregational-leadership"
+    ],
     "schoolArea": "The Witness of the Church and its Ministry",
     "email": "pewhite@smu.edu",
     "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"

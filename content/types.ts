@@ -172,6 +172,14 @@ export const studyAreaLabels: Record<StudyArea, string> = {
   "mission-social-justice": "Mission & social justice",
 };
 
+export interface Publication {
+  title: string;
+  year?: number;
+  kind: "book" | "edited-volume" | "article" | "chapter" | "recording";
+  publisher?: string;
+  note?: string; // co-authored, translated, etc.
+}
+
 export interface FacultyMember {
   id: string; // "<seminary-slug>-<surname>"
   seminarySlug: string;
@@ -186,6 +194,19 @@ export interface FacultyMember {
   // Ships ONLY where a human has read their work. Absent otherwise —
   // partial coverage beats uniform mush.
   workingOn?: string;
+  // Highest degrees, as the school states them. Where someone earned their
+  // doctorate says something about how they were trained.
+  degrees?: string[];
+  // A selection, not a CV — most recent first, capped at five. Perkins publishes
+  // an annual faculty publications PDF; Austin's modals carry degrees but no
+  // publication lists.
+  //
+  // ⚠ Merge on NAME only, and take titles from the directory, never from the
+  // publications document — Perkins' 2025 PDF is a different vintage than its
+  // A-Z page and disagrees with it about who holds which chair.
+  publications?: Publication[];
+  publicationsSource?: string;
+  publicationsAsOf?: string;
   profileUrl: string; // always link back to the school
 }
 

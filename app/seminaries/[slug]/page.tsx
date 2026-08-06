@@ -49,6 +49,16 @@ const COVERAGE_LABEL: Record<CoverageStatus, string> = {
   absent: "Not offered here",
 };
 
+// The earned terminal degree — never the last item in the list, which may be an
+// honorary doctorate. Honoris causa is an honour, not a qualification, and
+// showing it as someone's training would misrepresent them.
+function terminalDegree(degrees: string[] | undefined): string | undefined {
+  if (!degrees?.length) return undefined;
+  const earned = degrees.filter((d) => !/honoris causa|honorary/i.test(d));
+  const doctorate = earned.find((d) => /^(PhD|ThD|DPhil|DMin|EdD|DrTheol)/i.test(d));
+  return doctorate ?? earned[earned.length - 1];
+}
+
 function CoverageRow({ row }: { row: RequirementCoverage }) {
   return (
     <div className="flex flex-col gap-1.5 border-b border-hairline py-3.5 last:border-b-0 sm:flex-row sm:items-baseline sm:gap-4">
@@ -82,6 +92,7 @@ export default async function SeminaryProfilePage({
   const { ordination, cost, degrees, concentrations, partnerships, scale } = profile;
 
   const gaps = ordination.coverage?.filter((c) => c.status !== "required") ?? [];
+  const pubSource = roster.find((m) => m.publicationsSource)?.publicationsSource;
 
   return (
     <>
@@ -237,10 +248,32 @@ export default async function SeminaryProfilePage({
                         <p className="text-[13px] leading-snug text-muted">
                           {m.title}
                         </p>
+                        {terminalDegree(m.degrees) ? (
+                          <p className="mt-0.5 text-[12px] leading-snug text-muted">
+                            {terminalDegree(m.degrees)}
+                          </p>
+                        ) : null}
                         {m.workingOn ? (
                           <p className="mt-1 text-[13px] leading-snug text-ink">
                             {m.workingOn}
                           </p>
+                        ) : null}
+                        {m.publications?.length ? (
+                          <details className="mt-1.5">
+                            <summary className="cursor-pointer text-[12px] font-medium text-reed-deep">
+                              Recent work ({m.publications.length})
+                            </summary>
+                            <ul className="mt-1.5 space-y-1.5 border-l border-hairline pl-3">
+                              {m.publications.map((p) => (
+                                <li
+                                  key={p.title.slice(0, 60)}
+                                  className="text-[12px] leading-snug text-muted"
+                                >
+                                  {p.title}
+                                </li>
+                              ))}
+                            </ul>
+                          </details>
                         ) : null}
                       </li>
                     ))}
@@ -262,6 +295,22 @@ export default async function SeminaryProfilePage({
               </a>
               . Professors answer email from prospective students more often than
               you would guess.
+              {pubSource ? (
+                <>
+                  {" "}
+                  Publication lists come from{" "}
+                  <a
+                    href={pubSource}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="unstyled underline decoration-hairline-strong underline-offset-2"
+                  >
+                    the school&rsquo;s own annual listing ↗
+                  </a>
+                  , are a selection rather than a full CV, and are only shown for
+                  people currently on the directory.
+                </>
+              ) : null}
             </p>
           </>
         ) : null}
