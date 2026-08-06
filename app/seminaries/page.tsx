@@ -6,7 +6,7 @@ import { SeminaryDirectory } from "@/components/seminary-directory";
 export const metadata: Metadata = {
   title: "Seminaries",
   description:
-    "The thirteen United Methodist seminaries, with hybrid, online, and Course of Study options — and a word on whether you need a degree at all.",
+    "The thirteen United Methodist seminaries and the Senate-approved schools beyond them — with hybrid, online, and Course of Study options, and a word on whether you need a degree at all.",
 };
 
 export default function SeminariesPage() {
@@ -16,9 +16,9 @@ export default function SeminariesPage() {
         <Container className="py-14 md:py-20">
           <PageHeader
             eyebrow="Where you might study"
-            title="The United Methodist seminaries."
-            subtitle="Thirteen schools — and more ways to attend than you might think."
-            lead="These are the seminaries approved by the church's University Senate. Many now offer hybrid and fully online M.Div tracks, and several host a Course of Study school for licensed local pastors."
+            title="Where you can study for ordination."
+            subtitle="Thirteen United Methodist schools — and a longer list beyond them."
+            lead="¶324.4 asks for basic graduate theological studies from a University Senate–approved school. That is a broader list than most people realise: the thirteen United Methodist seminaries, and twenty-four more the Senate has approved. Both routes are legitimate; they carry different constraints, and the biggest one is that no online or distance class taken at a non–United Methodist school counts toward ordination."
           />
         </Container>
       </section>

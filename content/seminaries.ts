@@ -9,6 +9,23 @@ import type { Seminary } from "./types";
 // 2026-08-06 — see research/gbhem-approved-schools-snapshot.md.
 
 export const seminaries: Seminary[] = [
+  // --- Senate-approved, non–United Methodist. ¶324.4's gate is University
+  // Senate approval, not ATS accreditation, and GBHEM's list runs to 24 schools
+  // beyond the 13. They are a legitimate route with a different set of
+  // constraints — chiefly that no online or distance class taken at one of them
+  // counts toward the ordination requirement. Being added as profiles are built.
+  {
+    slug: "austin-presbyterian",
+    name: "Austin Presbyterian Theological Seminary",
+    city: "Austin",
+    state: "TX",
+    umcAffiliated: false,
+    modalities: ["residential"],
+    url: "https://www.austinseminary.edu/",
+    note: "Senate-approved but not United Methodist: seven of the nine ¶324.4 areas are in the required M.Div., but United Methodist studies is not.",
+  },
+
+  // --- The thirteen United Methodist schools of theology ---
   {
     name: "Boston University School of Theology",
     city: "Boston",

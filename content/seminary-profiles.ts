@@ -1,18 +1,26 @@
 import type { FacultyMember, SeminaryProfile, StudyArea } from "./types";
 import perkinsProfile from "@/data/seminaries/perkins.json";
 import perkinsFaculty from "@/data/faculty/perkins.json";
+import austinProfile from "@/data/seminaries/austin-presbyterian.json";
+import austinFaculty from "@/data/faculty/austin-presbyterian.json";
 
 // The harvested layer. These JSON files are machine-written and reviewed as a
 // git diff — see research/seminary-pages-plan.md. Add a school by harvesting
 // its two files and registering them here.
 
-export const seminaryProfiles: SeminaryProfile[] = [perkinsProfile as SeminaryProfile];
+export const seminaryProfiles: SeminaryProfile[] = [
+  perkinsProfile as SeminaryProfile,
+  austinProfile as SeminaryProfile,
+];
 
 export const seminaryProfileBySlug = Object.fromEntries(
   seminaryProfiles.map((p) => [p.slug, p]),
 ) as Record<string, SeminaryProfile | undefined>;
 
-export const faculty: FacultyMember[] = [...(perkinsFaculty as FacultyMember[])];
+export const faculty: FacultyMember[] = [
+  ...(perkinsFaculty as FacultyMember[]),
+  ...(austinFaculty as FacultyMember[]),
+];
 
 export function facultyBySeminary(slug: string): FacultyMember[] {
   return faculty.filter((f) => f.seminarySlug === slug);

@@ -42,6 +42,7 @@ function CardShell({
 export function SeminaryDirectory({ seminaries }: { seminaries: Seminary[] }) {
   const [modality, setModality] = useState<SeminaryModality | "all">("all");
   const [courseOnly, setCourseOnly] = useState(false);
+  const [umcOnly, setUmcOnly] = useState(false);
   const [query, setQuery] = useState("");
 
   const filtered = useMemo(() => {
@@ -49,6 +50,7 @@ export function SeminaryDirectory({ seminaries }: { seminaries: Seminary[] }) {
     return seminaries.filter((s) => {
       if (modality !== "all" && !s.modalities.includes(modality)) return false;
       if (courseOnly && !s.courseOfStudy) return false;
+      if (umcOnly && !s.umcAffiliated) return false;
       if (
         q &&
         !`${s.name} ${s.city} ${s.state}`.toLowerCase().includes(q)
@@ -56,7 +58,7 @@ export function SeminaryDirectory({ seminaries }: { seminaries: Seminary[] }) {
         return false;
       return true;
     });
-  }, [seminaries, modality, courseOnly, query]);
+  }, [seminaries, modality, courseOnly, umcOnly, query]);
 
   const chip = (active: boolean) =>
     `rounded-pill border px-3.5 py-1.5 text-[13px] font-medium transition-colors ${
@@ -92,6 +94,13 @@ export function SeminaryDirectory({ seminaries }: { seminaries: Seminary[] }) {
             onClick={() => setCourseOnly((v) => !v)}
           >
             Course of Study
+          </button>
+          <button
+            type="button"
+            className={chip(umcOnly)}
+            onClick={() => setUmcOnly((v) => !v)}
+          >
+            United Methodist only
           </button>
         </div>
         <input
@@ -135,6 +144,11 @@ export function SeminaryDirectory({ seminaries }: { seminaries: Seminary[] }) {
               {s.courseOfStudy ? (
                 <span className="rounded-sm border border-reed px-2 py-0.5 text-[11px] text-reed-deep">
                   Course of Study
+                </span>
+              ) : null}
+              {!s.umcAffiliated ? (
+                <span className="rounded-sm border border-hairline-strong px-2 py-0.5 text-[11px] text-muted">
+                  Senate-approved, not UMC
                 </span>
               ) : null}
             </div>

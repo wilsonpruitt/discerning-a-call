@@ -1,0 +1,166 @@
+[
+  {
+    "id": "aps-allen",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Sarah Allen",
+    "title": "Associate Dean of Ministerial Formation and Advanced Studies",
+    "otherRoles": [
+      "Grant director, Borders and Bridges Initiative",
+      "Program director, Bridge to Ministry"
+    ],
+    "areas": ["practical-theology", "christian-education-formation"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-aymer",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Margaret Aymer",
+    "title": "The First Presbyterian Church, Shreveport, D. Thomason Professor of New Testament Studies",
+    "otherRoles": ["Vice-President for Academic Affairs and Dean of Faculty"],
+    "areas": ["new-testament", "womanist-feminist-theology", "black-church-studies"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-bonilla",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Patricia Bonilla",
+    "title": "Assistant Professor of Christian Education",
+    "areas": ["christian-education-formation", "latino-hispanic-ministry", "youth-ministry"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-budwey",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Stephanie Budwey",
+    "title": "Associate Professor of Sacred Music and Dean of the Chapel",
+    "areas": ["church-music", "liturgy-worship"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-caruthers",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Rodney Caruthers II",
+    "title": "Assistant Professor of New Testament",
+    "areas": ["new-testament"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-cuellar",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Gregory L. Cuéllar",
+    "title": "Full Professor of Hebrew Bible and the Ruth A. Campbell Chair of Biblical Studies",
+    "areas": ["hebrew-bible", "latino-hispanic-ministry", "mission-social-justice"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-foote",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Ted V. Foote Jr.",
+    "title": "Professor in the Louis H. and Katherine S. Zbinden Distinguished Chair of Pastoral Ministry and Leadership",
+    "areas": ["congregational-leadership", "practical-theology"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-gallardo",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Ángel Jazak Gallardo",
+    "title": "Assistant Professor of Church History",
+    "areas": ["church-history", "wesleyan-studies", "latino-hispanic-ministry"],
+    "workingOn": "Teaches surveys on the history of Christian thought, race and religion in the Americas, and Methodism, plus seminars on figures like Bartolomé de Las Casas. Came to Austin in 2022 from Perkins, where he was associate director of the intern program — which makes him the person here most likely to understand what a United Methodist candidate needs.",
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-greenway",
+    "seminarySlug": "austin-presbyterian",
+    "name": "William Greenway",
+    "title": "Professor of Philosophical Theology",
+    "areas": ["systematic-theology"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-helsel-carolyn",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Carolyn Browning Helsel",
+    "title": "Associate Professor in the Blair Monie Distinguished Chair of Homiletics",
+    "areas": ["preaching", "ethics-public-theology"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-helsel-philip",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Philip Browning Helsel",
+    "title": "Associate Professor in the Nancy Taylor Williamson Distinguished Chair in Pastoral Care",
+    "areas": ["pastoral-care-counseling", "chaplaincy"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-irizarry",
+    "seminarySlug": "austin-presbyterian",
+    "name": "José R. Irizarry",
+    "title": "President and Professor of Practical Theology",
+    "areas": ["practical-theology", "latino-hispanic-ministry"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-jensen",
+    "seminarySlug": "austin-presbyterian",
+    "name": "David H. Jensen",
+    "title": "Professor in the Clarence N. and Betty B. Frierson Distinguished Chair of Reformed Theology",
+    "areas": ["systematic-theology"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-jeong",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Donghyun Jeong",
+    "title": "Assistant Professor of New Testament",
+    "areas": ["new-testament"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-lord",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Jennifer L. Lord",
+    "title": "The Dorothy B. Vickery Professor of Homiletics and Liturgical Studies",
+    "areas": ["preaching", "liturgy-worship"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-park",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Suzie Park",
+    "title": "Associate Professor of Old Testament",
+    "areas": ["hebrew-bible"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-rigby",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Cynthia L. Rigby",
+    "title": "The W. C. Brown Professor of Theology",
+    "areas": ["systematic-theology", "womanist-feminist-theology"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-silva-mccormick",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Crystal Silva-McCormick",
+    "title": "Assistant Professor of Evangelism and Missions and Director of Latinx Programs",
+    "areas": [
+      "evangelism-church-planting",
+      "world-christianity",
+      "latino-hispanic-ministry",
+      "interreligious"
+    ],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  },
+  {
+    "id": "aps-zirschky",
+    "seminarySlug": "austin-presbyterian",
+    "name": "Andrew Zirschky",
+    "title": "Research Professor in Youth Ministry",
+    "otherRoles": ["Director of the MAYM program"],
+    "areas": ["youth-ministry", "practical-theology"],
+    "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty"
+  }
+]

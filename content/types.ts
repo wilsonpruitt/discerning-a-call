@@ -135,6 +135,7 @@ export type StudyArea =
   | "congregational-leadership"
   | "evangelism-church-planting"
   | "christian-education-formation"
+  | "youth-ministry"
   | "chaplaincy"
   | "black-church-studies"
   | "latino-hispanic-ministry"
@@ -160,6 +161,7 @@ export const studyAreaLabels: Record<StudyArea, string> = {
   "congregational-leadership": "Congregational leadership",
   "evangelism-church-planting": "Evangelism & church planting",
   "christian-education-formation": "Christian education & formation",
+  "youth-ministry": "Youth ministry",
   chaplaincy: "Chaplaincy",
   "black-church-studies": "Black church studies",
   "latino-hispanic-ministry": "Latino/Hispanic ministry",

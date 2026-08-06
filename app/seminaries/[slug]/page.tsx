@@ -249,9 +249,9 @@ export default async function SeminaryProfilePage({
               ))}
             </div>
             <p className="mt-4 text-[13px] text-muted">
-              Titles and fields from the school&rsquo;s own directory. Perkins
-              does not publish individual faculty pages, so there is nowhere
-              deeper to link —{" "}
+              Titles and fields are the school&rsquo;s own; the grouping is ours.{" "}
+              {profile.name} does not publish a separate page per professor, so
+              there is nowhere deeper to link —{" "}
               <a
                 href={roster[0].profileUrl}
                 target="_blank"
@@ -260,8 +260,8 @@ export default async function SeminaryProfilePage({
               >
                 the full listing is here ↗
               </a>
-              . Email addresses are on that page; professors answer email from
-              prospective students more often than you would guess.
+              . Professors answer email from prospective students more often than
+              you would guess.
             </p>
           </>
         ) : null}
