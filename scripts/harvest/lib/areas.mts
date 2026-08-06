@@ -36,9 +36,11 @@ interface Rule {
 }
 
 const RULES: Rule[] = [
-  { area: "hebrew-bible", patterns: [/\bold testament\b/i, /\bhebrew bible\b/i, /\bbiblical hebrew\b/i] },
-  { area: "new-testament", patterns: [/\bnew testament\b/i, /\bchristian origins\b/i] },
-  { area: "church-history", patterns: [/\bchurch history\b/i, /\bhistory of christianity\b/i, /\bhistorical theology\b/i, /\bearly christianity\b/i, /\bchristian history\b/i] },
+  // A chair in "Biblical Studies" spans both testaments; claim both rather
+  // than silently picking one.
+  { area: "hebrew-bible", patterns: [/\bbiblical studies\b/i, /\bold testament\b/i, /\bhebrew bible\b/i, /\bbiblical hebrew\b/i] },
+  { area: "new-testament", patterns: [/\bbiblical studies\b/i, /\bnew testament\b/i, /\bchristian origins\b/i] },
+  { area: "church-history", patterns: [/\bchurch history\b/i, /\bhistory of christianity\b/i, /\bhistorical theology\b/i, /\bearly christianity\b/i, /\bchristian history\b/i, /\bpatristic/i, /\breligious history\b/i, /\bhistory of religion/i] },
   { area: "wesleyan-studies", patterns: [/\bwesley(an)?\b(?!\s+centennial)/i, /\bmethodist studies\b/i, /\bmethodism\b/i] },
   { area: "systematic-theology", patterns: [/\bsystematic theology\b/i, /\bchristian doctrine\b/i, /\bconstructive theology\b/i, /\bphilosophical theology\b/i, /\breformed theology\b/i, /\bprofessor of theology\b/i, /\btheology and religion\b/i] },
   { area: "ethics-public-theology", patterns: [/\bethics\b/i, /\bchurch and society\b/i, /\bpublic theology\b/i, /\bsociety\b/i] },
@@ -46,12 +48,12 @@ const RULES: Rule[] = [
   { area: "preaching", patterns: [/\bpreaching\b/i, /\bhomiletic/i] },
   { area: "liturgy-worship", patterns: [/\bworship\b/i, /\bliturg/i] },
   { area: "church-music", patterns: [/\bchurch music\b/i, /\bsacred music\b/i, /\bpastoral music\b/i] },
-  { area: "pastoral-care-counseling", patterns: [/\bpastoral care\b/i, /\bpastoral counsel/i, /\bpastoral theology\b/i] },
-  { area: "practical-theology", patterns: [/\bpractical theology\b/i, /\bpractice of ministry\b/i, /\bintern program\b/i, /\bcontextual education\b/i, /\bministerial formation\b/i] },
+  { area: "pastoral-care-counseling", patterns: [/\bpastoral care\b/i, /\bpastoral counsel/i, /\bpastoral theology\b/i, /\bpsychology and religion\b/i, /\bspiritual care\b/i, /\bcommunal care\b/i] },
+  { area: "practical-theology", patterns: [/\bpractical theology\b/i, /\bpractice of ministry\b/i, /\bpractical ministry\b/i, /\bintern program\b/i, /\bcontextual education\b/i, /\bministerial formation\b/i] },
   { area: "congregational-leadership", patterns: [/\bcongregational\b/i, /\bchurch administration\b/i, /\bpastoral ministry and leadership\b/i, /\bleadership\b/i] },
   { area: "evangelism-church-planting", patterns: [/\bevangelis/i, /\bchurch plant/i, /\bfresh expressions\b/i] },
-  { area: "christian-education-formation", patterns: [/\bchristian education\b/i, /\breligion education\b/i, /\breligious education\b/i, /\bfaith formation\b/i] },
-  { area: "youth-ministry", patterns: [/\byouth ministry\b/i, /\byouth and children/i] },
+  { area: "christian-education-formation", patterns: [/\bchristian education\b/i, /\breligion education\b/i, /\breligious education\b/i, /\bfaith formation\b/i, /\breligion and education\b/i, /\byouth education\b/i] },
+  { area: "youth-ministry", patterns: [/\byouth ministry\b/i, /\byouth and children/i, /\byouth education\b/i] },
   { area: "chaplaincy", patterns: [/\bchaplain/i] },
   { area: "black-church-studies", patterns: [/\bblack church\b/i, /\bafricana\b/i, /\bblack religious\b/i, /\bafrican american\b/i] },
   { area: "latino-hispanic-ministry", patterns: [/\bhispanic\b/i, /\blatin[oax]\b/i, /\bchristianity and cultures\b/i] },
@@ -63,7 +65,7 @@ const RULES: Rule[] = [
   { area: "interreligious", patterns: [/\binterreligious\b/i, /\binterfaith\b/i, /\bcomparative (religion|theology)\b/i, /\bworld religions\b/i, /\bjewish studies\b/i] },
   { area: "spiritual-formation", patterns: [/\bspiritual (formation|direction|resources|disciplines)\b/i, /\bspirituality\b/i] },
   // NOT bare /justice/: too many centre names contain it incidentally.
-  { area: "mission-social-justice", patterns: [/\bsocial justice\b/i, /\btheology and justice\b/i] },
+  { area: "mission-social-justice", patterns: [/\bsocial justice\b/i, /\btheology and justice\b/i, /\bpeacebuilding\b/i, /\bconflict transformation\b/i] },
 ];
 
 // Strip the donor half of an endowed title so we never match on a person's name.
@@ -76,10 +78,23 @@ export function stripEndowment(title: string): string {
 
 export function suggestAreas(title: string, extra: string[] = []): StudyArea[] {
   const haystack = [stripEndowment(title), ...extra].join(" · ");
-  const hits: StudyArea[] = [];
+  let hits: StudyArea[] = [];
   for (const rule of RULES) {
     if (rule.patterns.some((p) => p.test(haystack))) hits.push(rule.area);
   }
+
+  // "Biblical Studies" claims both testaments — but only when the title does
+  // not already name one. Gregory Cuéllar is "Full Professor of Hebrew Bible
+  // and the Ruth A. Campbell Chair of Biblical Studies": an Old Testament
+  // scholar whose chair happens to be named broadly. Claiming New Testament
+  // for him would put him in front of someone searching for a Gospels teacher.
+  if (/\bbiblical studies\b/i.test(haystack)) {
+    const ot = /\bold testament\b|\bhebrew bible\b/i.test(haystack);
+    const nt = /\bnew testament\b|\bchristian origins\b/i.test(haystack);
+    if (ot && !nt) hits = hits.filter((a) => a !== "new-testament");
+    if (nt && !ot) hits = hits.filter((a) => a !== "hebrew-bible");
+  }
+
   return hits;
 }
 

@@ -73,6 +73,48 @@ export const seminaryEditorial: SeminaryEditorial[] = [
       "Tuition grants cover required hours plus six. If closing a requirement means extra hours, that ceiling matters.",
     ],
   },
+  {
+    slug: "candler",
+    draft: true,
+    lead: "Candler is a large, well-resourced divinity school inside Emory, in Atlanta, and it is one of the few places where getting certified as a candidate is worth money: certified UMC candidates who apply by the priority deadline receive full tuition. Its curriculum is unusually flexible, which is the best and the most demanding thing about it. Four of the nine ¶324.4 areas are guaranteed; the other five you assemble yourself out of a generous elective block and a set of choices.",
+    distinctives: [
+      "Certified UMC candidates who apply by the priority deadline receive scholarships covering 100% of tuition — the clearest financial reason on this site to get certified early.",
+      "Contextual Education is four required semesters taken in sequence, in clinical or social settings first and ecclesial settings second, with faculty-led reflection groups.",
+      "A Course of Study school and a Licensing School run on the same campus, so the licensed and ordained routes sit side by side.",
+      "Fifty-seven faculty — by some distance the largest roster on this site so far.",
+    ],
+    whoThrivesHere: [
+      "Candidates who have already been certified, or are close, and can hit the priority deadline.",
+      "People who want a research university around them and will use the dual degrees.",
+      "People who plan their own curriculum well and want room rather than a fixed track.",
+    ],
+    weighThat: [
+      "Only four of the nine ¶324.4 areas are locked in. Preaching, worship, and evangelism are three of nine options for a three-course requirement, so you could finish without any of them.",
+      "United Methodist studies lives in the twelve elective hours. Candler's own page says that is where denominational requirements get done — which is a direction, not a safety net.",
+      "Candler does not publish a per-credit tuition figure alongside its scholarship claims. Ask for a full cost of attendance, and ask what the priority deadline actually is.",
+    ],
+  },
+  {
+    slug: "candler",
+    draft: true,
+    lead: "Candler is a large, well-resourced divinity school inside Emory, in Atlanta, and it is one of the few places where getting certified as a candidate is worth money: certified UMC candidates who apply by the priority deadline receive full tuition. Its curriculum is unusually flexible, which is the best and the most demanding thing about it. Four of the nine ¶324.4 areas are guaranteed; the other five you assemble yourself out of a generous elective block and a set of choices.",
+    distinctives: [
+      "Certified UMC candidates who apply by the priority deadline receive scholarships covering 100% of tuition — the clearest financial reason on this site to get certified early.",
+      "Contextual Education is four required semesters taken in sequence, in clinical or social settings first and ecclesial settings second, with faculty-led reflection groups.",
+      "A Course of Study school and a Licensing School run on the same campus, so the licensed and ordained routes sit side by side.",
+      "Fifty-seven faculty — by some distance the largest roster on this site so far.",
+    ],
+    whoThrivesHere: [
+      "Candidates who have already been certified, or are close, and can hit the priority deadline.",
+      "People who want a research university around them and will use the dual degrees.",
+      "People who plan their own curriculum well and want room rather than a fixed track.",
+    ],
+    weighThat: [
+      "Only four of the nine ¶324.4 areas are locked in. Preaching, worship, and evangelism are three of nine options for a three-course requirement, so you could finish without any of them.",
+      "United Methodist studies lives in the twelve elective hours. Candler's own page says that is where denominational requirements get done — which is a direction, not a safety net.",
+      "Candler does not publish a per-credit tuition figure alongside its scholarship claims. Ask for a full cost of attendance, and ask what the priority deadline actually is.",
+    ],
+  },
 ];
 
 export const seminaryEditorialBySlug = Object.fromEntries(

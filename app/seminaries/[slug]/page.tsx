@@ -283,6 +283,11 @@ export default async function SeminaryProfilePage({
                 </Card>
               ))}
             </div>
+            {profile.facultyNote ? (
+              <p className="mt-4 rounded-md border border-hairline bg-parchment px-4 py-3 text-[13px] leading-relaxed text-muted">
+                {profile.facultyNote}
+              </p>
+            ) : null}
             <p className="mt-4 text-[13px] text-muted">
               Titles and fields are the school&rsquo;s own; the grouping is ours.{" "}
               {profile.name} does not publish a separate page per professor, so

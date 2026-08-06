@@ -46,6 +46,7 @@ export const seminaries: Seminary[] = [
     url: "https://www.bu.edu/sth/",
   },
   {
+    slug: "candler",
     name: "Candler School of Theology (Emory University)",
     city: "Atlanta",
     state: "GA",
@@ -53,6 +54,7 @@ export const seminaries: Seminary[] = [
     modalities: ["residential", "hybrid"],
     courseOfStudy: true,
     url: "https://candler.emory.edu/",
+    note: "Certified UMC candidates who apply by the priority deadline receive full tuition — but only four of the nine ¶324.4 areas are in the required curriculum.",
   },
   {
     name: "Claremont School of Theology",

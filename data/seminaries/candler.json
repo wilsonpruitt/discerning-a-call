@@ -1,0 +1,151 @@
+{
+  "slug": "candler",
+  "name": "Candler School of Theology",
+  "city": "Atlanta",
+  "state": "GA",
+  "url": "https://candler.emory.edu/",
+  "lastVerified": "2026-08-06",
+  "ordination": {
+    "senateStanding": {
+      "value": "approved-umc",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "One of the 13 United Methodist schools of theology; part of Emory University."
+    },
+    "onlineCredit": {
+      "value": "fully-counts",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "Candler offers the M.Div. in residential or hybrid/online format, and GBHEM approves all thirteen UMC schools to deliver a fully online M.Div. that meets the ordination requirement."
+    },
+    "coverageSource": "https://candler.emory.edu/academic-programs/master-of-divinity/",
+    "coverageAsOf": "2026-08-06",
+    "coverage": [
+      {
+        "area": "old-testament",
+        "status": "required",
+        "note": "Two required courses, at the 500 and 600 level."
+      },
+      {
+        "area": "new-testament",
+        "status": "required",
+        "note": "Two required courses, at the 500 and 600 level."
+      },
+      {
+        "area": "church-history",
+        "status": "required",
+        "note": "Two required History of Christianity courses, from different eras."
+      },
+      {
+        "area": "theology",
+        "status": "required",
+        "note": "ST 501 Systematic Theology plus a 600-level systematic theology course."
+      },
+      {
+        "area": "mission-of-the-church",
+        "status": "elective",
+        "note": "The Religion and Society requirement is one course chosen from Mission (M), Sociology of Religion (SR), or Church and Community (CC). Mission is one of three options, not the requirement itself."
+      },
+      {
+        "area": "preaching",
+        "status": "elective",
+        "note": "Preaching (P) is one of nine subject areas from which you choose three Practical Theology / Arts of Ministry courses. It is entirely possible to satisfy that requirement without taking preaching."
+      },
+      {
+        "area": "worship-liturgy",
+        "status": "elective",
+        "note": "Worship (W) is likewise one of the nine Practical Theology options."
+      },
+      {
+        "area": "evangelism",
+        "status": "elective",
+        "note": "Evangelism (EV) is likewise one of the nine Practical Theology options."
+      },
+      {
+        "area": "um-studies",
+        "status": "elective",
+        "note": "Candler's own curriculum page says the four elective courses “may be used to complete courses that fulfil denominational requirements.” That is where United Methodist history, doctrine, and polity live — in the twelve elective hours, not the core."
+      }
+    ],
+    "gapSummary": "Candler is a United Methodist school with a large, distinguished faculty, and only four of the nine ¶324.4 areas are guaranteed by its required curriculum. Scripture, history, and theology are locked in. Mission sits inside a three-way choice. Preaching, worship, and evangelism are three of the nine subject areas from which you pick three Practical Theology courses — so a student could complete the seventy-two hours without a preaching course. And United Methodist studies lives in the twelve elective hours, which Candler's own page names as the place denominational requirements get done. None of this is hidden and none of it is a criticism: Candler built a flexible curriculum on purpose. But flexibility means the ¶324.4 list is your responsibility from the first semester, not the registrar's.",
+    "gapRemedies": [
+      {
+        "blurb": "Map the nine areas onto your plan of study in your first advising meeting. At Candler the elective block and the Practical Theology choices are where five of the nine get satisfied — which is enough room, but only if it is spent deliberately.",
+        "url": "https://candler.emory.edu/academic-programs/master-of-divinity/"
+      },
+      {
+        "blurb": "Candler has an Assistant Dean of Methodist Studies and runs a United Methodist Course of Study school and a Licensing School. That is the office that will know exactly which course numbers satisfy which requirement.",
+        "url": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+      },
+      {
+        "blurb": "Take the plan to your conference's Board of Ordained Ministry registrar and get their agreement in writing before your second year, while the elective hours are still unspent."
+      }
+    ]
+  },
+  "cost": {
+    "pctReceivingAid": {
+      "value": "100% of Master of Divinity students receive scholarship assistance; 96% of all students",
+      "source": "https://candler.emory.edu/admissions/affording-candler/scholarships-and-aid/",
+      "asOf": "2026-08-06",
+      "note": "Candler reports awarding $8.3 million in financial aid in 2025–26."
+    },
+    "typicalAward": {
+      "value": "M.Div. scholarships begin at 50% of tuition and range to full tuition plus a stipend",
+      "source": "https://candler.emory.edu/admissions/affording-candler/scholarships-and-aid/",
+      "asOf": "2026-08-06",
+      "note": "Candler states that M.Div. students who are certified candidates for UMC ordination, or in the process of becoming certified, and who apply by the priority deadline, receive scholarships covering 100% of tuition."
+    },
+    "honestNote": "This is the strongest link between the candidacy process and the cost of seminary that any school on this site publishes. Getting certified as a candidate — the ¶310 rung — is not only a step toward ordination at Candler; it is worth full tuition, provided you also make the priority deadline. If Candler is on your list, that turns certification from something to get around to into something with a date attached. Confirm the current terms with admissions before relying on it."
+  },
+  "degrees": [
+    {
+      "name": "Master of Divinity",
+      "abbr": "M.Div.",
+      "credits": 72,
+      "typicalYears": "Three or four years",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "Seventy-two hours for students beginning Fall 2023 or later, including four semesters of Contextual Education taken in sequence and twelve hours of electives.",
+      "url": "https://candler.emory.edu/academic-programs/master-of-divinity/"
+    },
+    {
+      "name": "United Methodist Course of Study",
+      "abbr": "COS",
+      "modalities": [
+        "residential",
+        "hybrid"
+      ],
+      "blurb": "Candler hosts a Course of Study school and a Licensing School for licensed local pastors.",
+      "url": "https://candler.emory.edu/academic-programs/degree-program-overview/"
+    },
+    {
+      "name": "Dual degrees",
+      "abbr": "Dual",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "Candler runs dual-degree programmes with other Emory schools.",
+      "url": "https://candler.emory.edu/academic-programs/dual-degrees/"
+    }
+  ],
+  "partnerships": [
+    {
+      "kind": "host-university",
+      "partner": "Emory University",
+      "blurb": "Candler is one of Emory's schools, in Atlanta, with Pitts Theology Library and dual-degree routes into other Emory faculties.",
+      "url": "https://candler.emory.edu/academic-programs/dual-degrees/"
+    }
+  ],
+  "courseOfStudy": {
+    "blurb": "Candler hosts both a United Methodist Course of Study school and a United Methodist Licensing School, so the licensed local pastor route and the ordination route are administered on the same campus.",
+    "url": "https://candler.emory.edu/academic-programs/degree-program-overview/"
+  },
+  "contact": {
+    "admissionsUrl": "https://candler.emory.edu/admissions/",
+    "email": "candleradmissions@emory.edu"
+  },
+  "facultyNote": "Four of Candler's fifty-seven faculty are not grouped below: their titles — Anglican Studies, Catholic Studies, Divinity, and Senior Research Fellow — do not map onto the field vocabulary this site uses across schools, and inventing a field for them would be worse than saying so. They are on Candler's own directory."
+}

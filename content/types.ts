@@ -328,6 +328,9 @@ export interface SeminaryProfile {
   degrees?: DegreeProgram[];
   concentrations?: string[];
   partnerships?: Partnership[];
+  // Anything the roster below deliberately leaves out. The plan forbids silent
+  // caps: if coverage is partial, the page says so rather than reading complete.
+  facultyNote?: string;
   courseOfStudy?: { blurb: string; url?: string };
   contact?: { admissionsUrl?: string; visitUrl?: string; email?: string; phone?: string };
   lastVerified: string;

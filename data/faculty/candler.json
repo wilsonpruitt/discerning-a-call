@@ -1,0 +1,543 @@
+[
+  {
+    "id": "candler-adkins-jones",
+    "seminarySlug": "candler",
+    "name": "Amey Victoria Adkins-Jones",
+    "title": "Assistant Professor of Theology and Africana Studies",
+    "areas": [
+      "systematic-theology",
+      "black-church-studies"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-alonso",
+    "seminarySlug": "candler",
+    "name": "Antonio Eduardo Alonso",
+    "title": "Aquinas Associate Professor of Theology and Culture",
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-ayres",
+    "seminarySlug": "candler",
+    "name": "Jennifer R. Ayres",
+    "title": "Associate Dean of Faculty; L. Bevel Jones III Professor of Religious Education",
+    "areas": [
+      "christian-education-formation"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-bogue",
+    "seminarySlug": "candler",
+    "name": "Sarah Bogue",
+    "title": "Associate Professor in the Practice of the History of Christianity",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-bonfiglio",
+    "seminarySlug": "candler",
+    "name": "Ryan Bonfiglio",
+    "title": "Professor in the Practice of Old Testament",
+    "areas": [
+      "hebrew-bible"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-bounds",
+    "seminarySlug": "candler",
+    "name": "Elizabeth M. Bounds",
+    "title": "Associate Professor of Christian Ethics",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-brelsford",
+    "seminarySlug": "candler",
+    "name": "Theodore Brelsford",
+    "title": "Affiliate Associate Professor of Religion and Education",
+    "areas": [
+      "christian-education-formation"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-briggman",
+    "seminarySlug": "candler",
+    "name": "Anthony A. Briggman",
+    "title": "Dr. Andrew J. and Georgia L. Ekonomou Distinguished Associate Professor of Patristic Theology",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-calvillo",
+    "seminarySlug": "candler",
+    "name": "Jonathan Calvillo",
+    "title": "Associate Professor of Latinx Communities",
+    "areas": [
+      "latino-hispanic-ministry"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-campbell",
+    "seminarySlug": "candler",
+    "name": "Letitia M. Campbell",
+    "title": "Associate Professor in the Practice of Ethics and Society",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-cooke",
+    "seminarySlug": "candler",
+    "name": "Lauren Calvin Cooke",
+    "title": "Visiting Assistant Professor in the Practice of Religious Education",
+    "areas": [
+      "christian-education-formation"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-corrie",
+    "seminarySlug": "candler",
+    "name": "Elizabeth Corrie",
+    "title": "Professor in the Practice of Youth Education and Peacebuilding",
+    "areas": [
+      "christian-education-formation",
+      "youth-ministry",
+      "mission-social-justice"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-dube",
+    "seminarySlug": "candler",
+    "name": "Musa W. Dube",
+    "title": "William Ragsdale Cannon Distinguished Professor of New Testament",
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-jr",
+    "seminarySlug": "candler",
+    "name": "Thomas W. Elliott, Jr.",
+    "title": "Professor in the Practice of Practical Theology and Methodist Studies",
+    "areas": [
+      "wesleyan-studies",
+      "practical-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-ii",
+    "seminarySlug": "candler",
+    "name": "Gregory C. Ellison II",
+    "title": "Associate Professor of Transformative Leadership and Communal Care",
+    "areas": [
+      "pastoral-care-counseling",
+      "congregational-leadership"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-ford",
+    "seminarySlug": "candler",
+    "name": "Craig Ford",
+    "title": "Assistant Professor of Ethics",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-jr-r",
+    "seminarySlug": "candler",
+    "name": "Robert M. Franklin, Jr.",
+    "title": "James T. and Berta R. Laney Professor in Moral Leadership",
+    "areas": [
+      "congregational-leadership"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-brown",
+    "seminarySlug": "candler",
+    "name": "Teresa L. Fry Brown",
+    "title": "Bandy Professor of Preaching",
+    "areas": [
+      "preaching"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-goodman",
+    "seminarySlug": "candler",
+    "name": "Geoffrey Goodman",
+    "title": "Associate Professor of Psychology and Religion",
+    "areas": [
+      "pastoral-care-counseling"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-greene",
+    "seminarySlug": "candler",
+    "name": "Alison Collis Greene",
+    "title": "Associate Professor of American Religious History",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-hammond",
+    "seminarySlug": "candler",
+    "name": "Geordan Hammond",
+    "title": "Associate Professor of Methodist and Wesleyan Studies",
+    "areas": [
+      "wesleyan-studies"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-hanciles",
+    "seminarySlug": "candler",
+    "name": "Jehu J. Hanciles",
+    "title": "D.W. and Ruth Brooks Professor of World Christianity",
+    "areas": [
+      "world-christianity"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-hessler",
+    "seminarySlug": "candler",
+    "name": "Soren Hessler",
+    "title": "Assistant Professor in the Practice of Leadership and Administration",
+    "areas": [
+      "congregational-leadership"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-hylen",
+    "seminarySlug": "candler",
+    "name": "Susan E. Hylen",
+    "title": "Charles Howard Candler Professor of New Testament",
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-johnson",
+    "seminarySlug": "candler",
+    "name": "Terrence L. Johnson",
+    "title": "Mary Lee Hardin Willard Dean; Professor of Church History",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-jones",
+    "seminarySlug": "candler",
+    "name": "Arun W. Jones",
+    "title": "Dan and Lillian Hankey Associate Professor of World Evangelism",
+    "areas": [
+      "evangelism-church-planting"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-kemp",
+    "seminarySlug": "candler",
+    "name": "Joel B. Kemp",
+    "title": "Assistant Professor of Hebrew Bible",
+    "areas": [
+      "hebrew-bible"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-kim",
+    "seminarySlug": "candler",
+    "name": "Helen Jin Kim",
+    "title": "Associate Professor of American Religious History",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-lapena",
+    "seminarySlug": "candler",
+    "name": "Jon-Paul Lapeña",
+    "title": "Visiting Assistant Professor of New Testament",
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-lartey",
+    "seminarySlug": "candler",
+    "name": "Emmanuel Y. Lartey",
+    "title": "Charles Howard Candler Professor of Pastoral Theology and Spiritual Care",
+    "areas": [
+      "pastoral-care-counseling"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-lemon",
+    "seminarySlug": "candler",
+    "name": "Joel M. LeMon",
+    "title": "Associate Dean of Academic Affairs; The Rev. Dr. Donald Allen Harp, Jr. Distinguished Associate Professor of Biblical Studies",
+    "areas": [
+      "hebrew-bible",
+      "new-testament"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-losel",
+    "seminarySlug": "candler",
+    "name": "Steffen Lösel",
+    "title": "Professor in the Practice of Systematic Theology",
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-marshall",
+    "seminarySlug": "candler",
+    "name": "Ellen Ott Marshall",
+    "title": "Professor of Christian Ethics and Conflict Transformation",
+    "areas": [
+      "ethics-public-theology",
+      "mission-social-justice"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-mcdougall",
+    "seminarySlug": "candler",
+    "name": "Joy Ann McDougall",
+    "title": "Associate Professor of Systematic Theology",
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-mcfarland",
+    "seminarySlug": "candler",
+    "name": "Ian A. McFarland",
+    "title": "Robert W. Woodruff Professor of Theology",
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-murriel",
+    "seminarySlug": "candler",
+    "name": "Kevin Murriel",
+    "title": "Assistant Professor in the Practice of Practical Theology",
+    "areas": [
+      "practical-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-nam",
+    "seminarySlug": "candler",
+    "name": "Roger S. Nam",
+    "title": "Professor of Hebrew Bible",
+    "areas": [
+      "hebrew-bible"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-opalinski",
+    "seminarySlug": "candler",
+    "name": "Brett Opalinski",
+    "title": "Assistant Dean of Methodist Studies; Assistant Professor in the Practice of Spiritual Formation and Church Leadership",
+    "areas": [
+      "wesleyan-studies",
+      "congregational-leadership",
+      "spiritual-formation"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-palmer",
+    "seminarySlug": "candler",
+    "name": "Shanise N. Palmer",
+    "title": "Visiting Assistant Professor of Preaching",
+    "areas": [
+      "preaching"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-phillips",
+    "seminarySlug": "candler",
+    "name": "Nichole R. Phillips",
+    "title": "Associate Professor in the Practice of Religion and Society",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-plowden",
+    "seminarySlug": "candler",
+    "name": "Chandra C. Plowden",
+    "title": "Visiting Assistant Professor of Black Church Studies and African American Religion and Culture",
+    "areas": [
+      "black-church-studies"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-quigley",
+    "seminarySlug": "candler",
+    "name": "Jennifer Quigley",
+    "title": "Associate Professor of New Testament",
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-rogers",
+    "seminarySlug": "candler",
+    "name": "P. Alice Rogers",
+    "title": "Associate Professor in the Practice of Practical Theology",
+    "areas": [
+      "practical-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-solis-walker",
+    "seminarySlug": "candler",
+    "name": "Joanne Solis-Walker",
+    "title": "Associate Dean of La Mesa Academy for Theological Studies; Professor in the Practice of Leadership",
+    "areas": [
+      "congregational-leadership"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-soulen",
+    "seminarySlug": "candler",
+    "name": "R. Kendall Soulen",
+    "title": "Bishop Mack B. and Rose Y. Stokes Professor of Systematic Theology",
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-strom",
+    "seminarySlug": "candler",
+    "name": "Jonathan Strom",
+    "title": "Mary Lee Hardin Willard Dean; Professor of Church History",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-suna-koro",
+    "seminarySlug": "candler",
+    "name": "Kristine Suna-Koro",
+    "title": "Acting Associate Professor of Worship",
+    "areas": [
+      "liturgy-worship"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-thompson-quartey",
+    "seminarySlug": "candler",
+    "name": "John Thompson-Quartey",
+    "title": "Professor in the Practice of Church Leadership",
+    "areas": [
+      "congregational-leadership"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-hansen",
+    "seminarySlug": "candler",
+    "name": "Danielle Tumminio Hansen",
+    "title": "Associate Professor of Practical Theology and Spiritual Care",
+    "areas": [
+      "pastoral-care-counseling",
+      "practical-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-williams",
+    "seminarySlug": "candler",
+    "name": "Damon Williams",
+    "title": "Assistant Professor in the Practice of Practical Ministry",
+    "areas": [
+      "practical-theology"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-williams-k",
+    "seminarySlug": "candler",
+    "name": "Khalia J. Williams",
+    "title": "Associate Dean of Worship and Spiritual Formation; Professor in the Practice of Worship",
+    "areas": [
+      "liturgy-worship",
+      "spiritual-formation"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-wilson",
+    "seminarySlug": "candler",
+    "name": "Walter T. Wilson",
+    "title": "Professor of New Testament",
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  },
+  {
+    "id": "candler-wright",
+    "seminarySlug": "candler",
+    "name": "Jacob L. Wright",
+    "title": "Professor of Hebrew Bible",
+    "areas": [
+      "hebrew-bible"
+    ],
+    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+  }
+]
