@@ -1,0 +1,50 @@
+{
+  "source": "https://www.gbhem.org/education/schools-of-theology/",
+  "capturedAt": "2026-08-06",
+  "umc": [
+    "Boston University School of Theology",
+    "Claremont School of Theology",
+    "Drew University Theological School",
+    "Duke University Divinity School",
+    "Emory University | Candler School of Theology",
+    "Gammon Theological Seminary",
+    "Garrett Seminary",
+    "Iliff School of Theology",
+    "Methodist Theological School in Ohio",
+    "Saint Paul School of Theology (Kansas and Oklahoma)",
+    "SMU | Perkins School of Theology (Dallas and Houston-Galveston)",
+    "United Theological Seminary",
+    "Wesley Theological Seminary"
+  ],
+  "nonUmc": [
+    "Austin Presbyterian Theological Seminary",
+    "Brite Divinity School at Texas Christian University",
+    "Christian Theological Seminary",
+    "Eastern Mennonite Seminary of Eastern Mennonite University",
+    "Eden Theological Seminary",
+    "Evangelical Seminary of Puerto Rico",
+    "Fuller Theological Seminary",
+    "Harvard University Divinity School",
+    "Kairos University",
+    "Louisville Presbyterian Theological Seminary",
+    "Lutheran Theological Southern Seminary of Lenoir-Rhyne University",
+    "Moravian University School of Theology",
+    "Pacific School of Religion",
+    "Phillips Theological Seminary",
+    "Pittsburgh Theological Seminary",
+    "Princeton Theological Seminary",
+    "Samuel DeWitt Proctor School of Theology of Virginia Union University",
+    "Seattle Pacific Seminary",
+    "Union Presbyterian Seminary (North Carolina)",
+    "Union Presbyterian Seminary (Virginia)",
+    "Union Theological Seminary",
+    "University of Dubuque Theological Seminary",
+    "Vanderbilt University Divinity School",
+    "Yale University Divinity School"
+  ],
+  "monitoring": [
+    "Phillips Theological Seminary"
+  ],
+  "umcOnlineCounts": true,
+  "nonUmcOnlineCounts": false
+}

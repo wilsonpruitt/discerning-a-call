@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "harvest:validate": "node scripts/harvest/validate.mts",
+    "harvest:areas-check": "node scripts/harvest/validate.mts --areas",
+    "harvest:senate": "node scripts/harvest/senate.mts"
   },
   "dependencies": {
     "next": "16.2.9",

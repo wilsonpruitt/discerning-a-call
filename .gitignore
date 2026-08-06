@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Harvest fetch cache — re-runnable, never committed
+.harvest-cache/

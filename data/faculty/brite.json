@@ -4,7 +4,10 @@
     "seminarySlug": "brite",
     "name": "Stephen Cady",
     "title": "President and Professor of the Practice of Ministry",
-    "areas": ["practical-theology", "congregational-leadership"],
+    "areas": [
+      "practical-theology",
+      "congregational-leadership"
+    ],
     "profileUrl": "https://brite.edu/facultyandstaff"
   },
   {
@@ -12,8 +15,13 @@
     "seminarySlug": "brite",
     "name": "Emilie Casey",
     "title": "Assistant Professor of Pastoral Theology and Pastoral Care",
-    "otherRoles": ["Director, Carpenter Initiative on Gender, Sexuality, and Justice"],
-    "areas": ["pastoral-care-counseling", "ethics-public-theology"],
+    "otherRoles": [
+      "Director, Carpenter Initiative on Gender, Sexuality, and Justice"
+    ],
+    "areas": [
+      "pastoral-care-counseling",
+      "ethics-public-theology"
+    ],
     "profileUrl": "https://brite.edu/facultyandstaff"
   },
   {
@@ -21,24 +29,70 @@
     "seminarySlug": "brite",
     "name": "Natalya A. Cherry",
     "title": "Associate Professor in Methodist Studies and Theology",
-    "areas": ["wesleyan-studies", "systematic-theology"],
+    "areas": [
+      "wesleyan-studies",
+      "systematic-theology"
+    ],
     "workingOn": "The Methodist studies chair at a school that is not United Methodist. If you are a UMC candidate at Brite, this is the faculty line that exists for you — the courses in United Methodist history, doctrine, mission, and polity run through here.",
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "profileUrl": "https://brite.edu/facultyandstaff",
+    "publications": [
+      {
+        "title": "Believing INTO Christ: Relational Faith and Human Flourishing, Waco, Texas, Baylor University Press, 2021.",
+        "kind": "book",
+        "year": 2021
+      }
+    ],
+    "publicationsSource": "https://brite.edu/faculty-books",
+    "publicationsAsOf": "2026-08-06"
   },
   {
     "id": "brite-dalton",
     "seminarySlug": "brite",
     "name": "Russell W. Dalton",
     "title": "Professor of Religion Education",
-    "areas": ["christian-education-formation"],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "areas": [
+      "christian-education-formation"
+    ],
+    "profileUrl": "https://brite.edu/facultyandstaff",
+    "publications": [
+      {
+        "title": "The Children’s Bible in America: A Reception History of Noah’s Ark in U.S. Children’s Bibles. London, New York: Bloomsbury T & T Clark’s Library of Biblical Studies, 2015.",
+        "kind": "book",
+        "year": 2015
+      },
+      {
+        "title": "Marvelous Myths: Marvel Superheroes and Heroic Living in the Real World. St. Louis, Missouri, Chalice Press, 2011.",
+        "kind": "book",
+        "year": 2011
+      },
+      {
+        "title": "Faith Journey through Fantasy Lands: A Christian Dialogue with Harry Potter, Star Wars, and The Lord of the Rings. Minneapolis: Augsburg-Fortress Press, 2003.",
+        "kind": "book",
+        "year": 2003
+      },
+      {
+        "title": "Introduction to Ben-Hur: A Tale of the Christ , by Lew Wallace, xi-xix. New York: Barnes and Nobles Books, 2004.",
+        "kind": "book",
+        "year": 2004
+      },
+      {
+        "title": "Video, Kids, and Christian Education . Minneapolis: Augsburg Fortress, 2001.",
+        "kind": "book",
+        "year": 2001
+      }
+    ],
+    "publicationsSource": "https://brite.edu/faculty-books",
+    "publicationsAsOf": "2026-08-06"
   },
   {
     "id": "brite-feldman",
     "seminarySlug": "brite",
     "name": "Ariel Feldman",
     "title": "Rosalyn and Manny Rosenthal Professor of Jewish Studies",
-    "areas": ["hebrew-bible", "interreligious"],
+    "areas": [
+      "hebrew-bible",
+      "interreligious"
+    ],
     "profileUrl": "https://brite.edu/facultyandstaff"
   },
   {
@@ -46,16 +100,54 @@
     "seminarySlug": "brite",
     "name": "Wil Gafney",
     "title": "The Right Rev. Sam B. Hulsey Professor of Hebrew Bible",
-    "areas": ["hebrew-bible", "womanist-feminist-theology", "liturgy-worship"],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "areas": [
+      "hebrew-bible",
+      "womanist-feminist-theology",
+      "liturgy-worship"
+    ],
+    "profileUrl": "https://brite.edu/facultyandstaff",
+    "publications": [
+      {
+        "title": "A Women’s Lectionary for the Whole Church. Year A . New York: Church Publishing Incorporated, 2021.",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "A Women’s Lectionary for the Whole Church. Year W . New York: Church Publishing Incorporated, 2021.",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "Commentary on Nahum, Habakkuk and Zephaniah . Liturgical Press, 2017.",
+        "kind": "book",
+        "year": 2017
+      },
+      {
+        "title": "Womanist Midrash: A Reintroduction to the Women of the Torah and of the Throne . Westminster John/Knox Press, 2017.",
+        "kind": "book",
+        "year": 2017
+      },
+      {
+        "title": "The Peoples’ Companion to the Bible , Edited with DeYoung, Curtiss, Wil Gafney, Leticia Guardiola-Saenz, George Tinker, Frank Yamada; Fortress, 2010.",
+        "kind": "edited-volume",
+        "year": 2010
+      }
+    ],
+    "publicationsSource": "https://brite.edu/faculty-books",
+    "publicationsAsOf": "2026-08-06"
   },
   {
     "id": "brite-jones",
     "seminarySlug": "brite",
     "name": "Shonda Jones",
     "title": "Professor of the Practice of Intercultural Leadership",
-    "otherRoles": ["Executive Vice President and Academic Dean"],
-    "areas": ["congregational-leadership", "world-christianity"],
+    "otherRoles": [
+      "Executive Vice President and Academic Dean"
+    ],
+    "areas": [
+      "congregational-leadership",
+      "world-christianity"
+    ],
     "profileUrl": "https://brite.edu/staff/shonda-jones"
   },
   {
@@ -63,39 +155,144 @@
     "seminarySlug": "brite",
     "name": "Namsoon Kang",
     "title": "Professor of Theology and Religion",
-    "areas": ["systematic-theology", "world-christianity", "womanist-feminist-theology"],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "areas": [
+      "systematic-theology",
+      "world-christianity",
+      "womanist-feminist-theology"
+    ],
+    "profileUrl": "https://brite.edu/facultyandstaff",
+    "publications": [
+      {
+        "title": "Religion and Gender. Revised Edition. Seoul: Dongnoek Publisher, 2018.",
+        "kind": "book",
+        "year": 2018
+      },
+      {
+        "title": "Century. Revised Edition. Seoul: Dongnoek Publisher, 2018.",
+        "kind": "book",
+        "year": 2018
+      },
+      {
+        "title": "The Man with Manicure: Philosophical Essays . Seoul: Hangil Press, 2018.",
+        "kind": "book",
+        "year": 2018
+      },
+      {
+        "title": "Feminism and Christianity. Revised Edition. Seoul: Dongnoek Publisher, 2017.",
+        "kind": "book",
+        "year": 2017
+      },
+      {
+        "title": "On Learning: Critical Reflection . Seoul: Dongnoek Publisher, 2017.",
+        "kind": "book",
+        "year": 2017
+      }
+    ],
+    "publicationsSource": "https://brite.edu/faculty-books",
+    "publicationsAsOf": "2026-08-06"
   },
   {
     "id": "brite-lee",
     "seminarySlug": "brite",
     "name": "Timothy S. Lee",
     "title": "Associate Professor of the History of Christianity",
-    "areas": ["church-history", "world-christianity"],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "areas": [
+      "church-history",
+      "world-christianity"
+    ],
+    "profileUrl": "https://brite.edu/facultyandstaff",
+    "publications": [
+      {
+        "title": "Special issue of the Journal of Korean Religions , entitled Interpreting Christian Missionary Experiences in Korea , April 2013 (4:1)",
+        "kind": "book",
+        "year": 2013
+      },
+      {
+        "title": "Born Again: Evangelicalism in Korea, (Honolulu: University of Hawaii, 2010).",
+        "kind": "book",
+        "year": 2010
+      },
+      {
+        "title": "Christianity in Korea, co-edited with Robert E. Buswell Jr. (Honolulu: University of Hawaii Press, 2006).",
+        "kind": "book",
+        "year": 2006
+      }
+    ],
+    "publicationsSource": "https://brite.edu/faculty-books",
+    "publicationsAsOf": "2026-08-06"
   },
   {
     "id": "brite-matthews",
     "seminarySlug": "brite",
     "name": "Shelly Matthews",
     "title": "Professor of New Testament",
-    "areas": ["new-testament"],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://brite.edu/facultyandstaff",
+    "publications": [
+      {
+        "title": "Luke . 2 vols. Wisdom Commentary 43A and 43B. Liturgical Press, 2021.",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "The Acts of the Apostles: Taming the Tongues of Fire (Phoenix Guides to the New Testament 4) Sheffield Phoenix Press, 2013.",
+        "kind": "book",
+        "year": 2013
+      },
+      {
+        "title": "Perfect Martyr: The Stoning of Stephen and the Construction of Christian Identity . Oxford University Press, 2010.",
+        "kind": "book",
+        "year": 2010
+      },
+      {
+        "title": "First Converts: Rich Pagan Women and the Rhetoric of Mission in Early Judaism and Christianity. Contraversions: Jews and Other Differences . Stanford: Stanford University Press, 2001.",
+        "kind": "book",
+        "year": 2001
+      },
+      {
+        "title": "Violence in the New Testament: Jesus Followers and Other Jews under Empire . New York/London: T & T Clark International, 2005 (Co-edited with E. Leigh Gibson).",
+        "kind": "book",
+        "year": 2005
+      }
+    ],
+    "publicationsSource": "https://brite.edu/faculty-books",
+    "publicationsAsOf": "2026-08-06"
   },
   {
     "id": "brite-mcclure",
     "seminarySlug": "brite",
     "name": "Barbara J. McClure",
     "title": "Christie Cozad Neuger Professor of Pastoral Theology and Practice",
-    "areas": ["pastoral-care-counseling", "practical-theology"],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "areas": [
+      "pastoral-care-counseling",
+      "practical-theology"
+    ],
+    "profileUrl": "https://brite.edu/facultyandstaff",
+    "publications": [
+      {
+        "title": "Emotions: Problems and Promise for Human Flourishing (Baylor University Press, 2019).",
+        "kind": "book",
+        "year": 2019
+      },
+      {
+        "title": "Moving Beyond Individualism in Pastoral Theology, Care and Counseling: Reflections on Theory, Theology and Practice (Wipf & Stock/Cascade, 2010 and Lutterworth Press, UK, 2011).",
+        "kind": "book",
+        "year": 2011
+      }
+    ],
+    "publicationsSource": "https://brite.edu/faculty-books",
+    "publicationsAsOf": "2026-08-06"
   },
   {
     "id": "brite-miller",
     "seminarySlug": "brite",
     "name": "Michael Miller",
     "title": "Associate Professor of Theology",
-    "areas": ["systematic-theology"],
+    "areas": [
+      "systematic-theology"
+    ],
     "profileUrl": "https://brite.edu/facultyandstaff"
   },
   {
@@ -103,7 +300,11 @@
     "seminarySlug": "brite",
     "name": "Jeania Ree Moore",
     "title": "Visiting Assistant Professor of Womanist Theology, Ethics, and Literature",
-    "areas": ["womanist-feminist-theology", "ethics-public-theology", "black-church-studies"],
+    "areas": [
+      "womanist-feminist-theology",
+      "ethics-public-theology",
+      "black-church-studies"
+    ],
     "profileUrl": "https://brite.edu/facultyandstaff"
   },
   {
@@ -111,7 +312,9 @@
     "seminarySlug": "brite",
     "name": "Ludwig Beethoven J. Noya",
     "title": "Assistant Professor of Hebrew Bible",
-    "areas": ["hebrew-bible"],
+    "areas": [
+      "hebrew-bible"
+    ],
     "profileUrl": "https://brite.edu/facultyandstaff"
   },
   {
@@ -119,8 +322,14 @@
     "seminarySlug": "brite",
     "name": "Oluwatomisin Olayinka Oredein",
     "title": "Associate Professor in Black Religious Traditions, Constructive Theology and Ethics",
-    "otherRoles": ["Assistant Dean for Strategic Initiatives and Theological Imagination"],
-    "areas": ["black-church-studies", "systematic-theology", "ethics-public-theology"],
+    "otherRoles": [
+      "Assistant Dean for Strategic Initiatives and Theological Imagination"
+    ],
+    "areas": [
+      "black-church-studies",
+      "systematic-theology",
+      "ethics-public-theology"
+    ],
     "profileUrl": "https://brite.edu/facultyandstaff"
   },
   {
@@ -128,24 +337,66 @@
     "seminarySlug": "brite",
     "name": "Lance Pape",
     "title": "Granville and Erline Walker Associate Professor of Homiletics",
-    "areas": ["preaching"],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "areas": [
+      "preaching"
+    ],
+    "profileUrl": "https://brite.edu/facultyandstaff",
+    "publications": [
+      {
+        "title": "The Scandal of Having Something to Say: Ricoeur and the Possibility of Postliberal Preaching . Waco, Texas: Baylor University Press, 2013.",
+        "kind": "book",
+        "year": 2013
+      },
+      {
+        "title": "New Proclamation Year C 2013: Easter Through Christ the King . Turner, Mary Donovan, Eric D. Barreto, Walter C. Bouzard, and Lance Pape, Minneapolis: Fortress Press, 2013.",
+        "kind": "book",
+        "year": 2013
+      }
+    ],
+    "publicationsSource": "https://brite.edu/faculty-books",
+    "publicationsAsOf": "2026-08-06"
   },
   {
     "id": "brite-robinson",
     "seminarySlug": "brite",
     "name": "Timothy H. Robinson",
     "title": "Alberta H. and Harold L. Lunger Associate Professor of Spiritual Resources and Disciplines",
-    "areas": ["spiritual-formation"],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "areas": [
+      "spiritual-formation"
+    ],
+    "profileUrl": "https://brite.edu/facultyandstaff",
+    "publications": [
+      {
+        "title": "A Companion to the Song of Songs in Christian Spirituality, editor. Leiden: Brill Publishing, 2021",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "The Reverend Edward Taylor’s Sacramental Meditations on the Song of Songs: The Erotic Devotion of an American Puritan . Lewiston, NY: Edwin Mellen Press, 2012.",
+        "kind": "book",
+        "year": 2012
+      },
+      {
+        "title": "Spirit and Nature: The Study of Christian Spirituality in a Time of Ecological Urgency. Eugene, OR: Pickwick Publications, 2011.",
+        "kind": "book",
+        "year": 2011
+      }
+    ],
+    "publicationsSource": "https://brite.edu/faculty-books",
+    "publicationsAsOf": "2026-08-06"
   },
   {
     "id": "brite-williams",
     "seminarySlug": "brite",
     "name": "Jeremy L. Williams",
     "title": "Associate Professor of New Testament",
-    "otherRoles": ["Director of the Center for Theology and Justice"],
-    "areas": ["new-testament", "mission-social-justice"],
+    "otherRoles": [
+      "Director of the Center for Theology and Justice"
+    ],
+    "areas": [
+      "new-testament",
+      "mission-social-justice"
+    ],
     "profileUrl": "https://brite.edu/facultyandstaff"
   }
 ]
