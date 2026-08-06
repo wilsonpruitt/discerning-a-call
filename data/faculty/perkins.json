@@ -1,0 +1,312 @@
+[
+  {
+    "id": "perkins-allen",
+    "seminarySlug": "perkins",
+    "name": "O. Wesley Allen Jr.",
+    "title": "Lois Craddock Perkins Professor of Homiletics",
+    "otherRoles": ["Director, Perkins Center for Preaching Excellence"],
+    "areas": ["preaching"],
+    "schoolArea": "The Witness of the Church and its Ministry",
+    "email": "wesleya@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-aquino",
+    "seminarySlug": "perkins",
+    "name": "Frederick Aquino",
+    "title": "Lehman Professor of Christian Doctrine",
+    "areas": ["systematic-theology"],
+    "schoolArea": "The Interpretation of the Christian Witness",
+    "email": "faquino@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-baker-fletcher",
+    "seminarySlug": "perkins",
+    "name": "Karen Baker-Fletcher",
+    "title": "Professor of Systematic Theology",
+    "areas": ["systematic-theology", "womanist-feminist-theology"],
+    "schoolArea": "The Interpretation of the Christian Witness",
+    "email": "kbakerfl@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-blount",
+    "seminarySlug": "perkins",
+    "name": "Farris Blount III",
+    "title": "Assistant Professor of Practical Theology",
+    "otherRoles": [
+      "Director of the Doctor of Ministry degree program",
+      "Director of the Black/Africana Church Studies (BACS) program"
+    ],
+    "areas": ["practical-theology", "black-church-studies"],
+    "schoolArea": "The Witness of the Church and its Ministry",
+    "email": "fblount@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-boggan",
+    "seminarySlug": "perkins",
+    "name": "Ashley Boggan",
+    "title": "Affiliate Assistant Research Professor of Methodist Studies",
+    "areas": ["wesleyan-studies", "church-history"],
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-bristow",
+    "seminarySlug": "perkins",
+    "name": "April Johnson Bristow",
+    "title": "Clinical Assistant Professor in the Intern Program",
+    "otherRoles": ["Associate Director, Intern Program"],
+    "areas": ["practical-theology", "congregational-leadership"],
+    "schoolArea": "The Witness of the Church and its Ministry",
+    "email": "ajbristow@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-clark-soles",
+    "seminarySlug": "perkins",
+    "name": "Jaime Clark-Soles",
+    "title": "Professor of New Testament",
+    "otherRoles": ["Altshuler Distinguished Teaching Professor"],
+    "areas": ["new-testament"],
+    "schoolArea": "The Biblical Witness",
+    "email": "jaimecs@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-elia",
+    "seminarySlug": "perkins",
+    "name": "Anthony Elia",
+    "title": "Director of Bridwell Library; J.S. Bridwell Foundation Endowed Librarian",
+    "areas": ["church-history"],
+    "email": "aelia@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-gingles",
+    "seminarySlug": "perkins",
+    "name": "Dallas J. Gingles",
+    "title": "Associate Professor of Practice in Systematic Theology and Christian Ethics",
+    "areas": ["systematic-theology", "ethics-public-theology"],
+    "schoolArea": "The Interpretation of the Christian Witness",
+    "email": "dgingles@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-heller",
+    "seminarySlug": "perkins",
+    "name": "Roy L. Heller",
+    "title": "Professor of Old Testament",
+    "otherRoles": ["Altshuler Distinguished Teaching Professor"],
+    "areas": ["hebrew-bible"],
+    "schoolArea": "The Biblical Witness",
+    "email": "rheller@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-hunt",
+    "seminarySlug": "perkins",
+    "name": "Robert A. Hunt",
+    "title": "Professor of Christian Mission and Interreligious Relations",
+    "areas": ["world-christianity", "interreligious", "mission-social-justice"],
+    "schoolArea": "The Heritage of the Christian Witness in its Religious and Cultural Context",
+    "email": "roberth@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-lee",
+    "seminarySlug": "perkins",
+    "name": "James Kang Hoon Lee",
+    "title": "Professor of the History of Early Christianity",
+    "otherRoles": [
+      "Altshuler Distinguished Teaching Professor",
+      "Director, Graduate Program in Religious Studies"
+    ],
+    "areas": ["church-history"],
+    "schoolArea": "The Heritage of the Christian Witness in its Religious and Cultural Context",
+    "email": "jklee@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-levison",
+    "seminarySlug": "perkins",
+    "name": "John R. (Jack) Levison",
+    "title": "W. J. A. Power Professor of Old Testament Interpretation and Biblical Hebrew",
+    "areas": ["hebrew-bible"],
+    "schoolArea": "The Biblical Witness",
+    "email": "jlevison@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-lewis",
+    "seminarySlug": "perkins",
+    "name": "Tamara Lewis",
+    "title": "Professor of the Practice of Historical Theology",
+    "areas": ["church-history", "systematic-theology"],
+    "schoolArea": "The Heritage of the Christian Witness in its Religious and Cultural Context",
+    "email": "telewis@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-long",
+    "seminarySlug": "perkins",
+    "name": "D. Stephen Long",
+    "title": "Cary M. Maguire University Professor of Ethics",
+    "areas": ["ethics-public-theology", "systematic-theology"],
+    "schoolArea": "The Interpretation of the Christian Witness",
+    "email": "sdlong@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-magallanes",
+    "seminarySlug": "perkins",
+    "name": "Hugo Magallanes",
+    "title": "Associate Professor of Christianity and Cultures",
+    "otherRoles": [
+      "Associate Dean for Academic Affairs",
+      "Director, CASA",
+      "Director, United Methodist Regional Course of Study School for Local Pastors",
+      "Director, Global Theological Education"
+    ],
+    "areas": ["latino-hispanic-ministry", "world-christianity", "mission-social-justice"],
+    "schoolArea": "The Interpretation of the Christian Witness",
+    "email": "hugo@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-miles",
+    "seminarySlug": "perkins",
+    "name": "Rebekah Miles",
+    "title": "Albert C. Outler Chair of Wesley Studies",
+    "otherRoles": ["Altshuler Distinguished Teaching Professor"],
+    "areas": ["wesleyan-studies", "ethics-public-theology"],
+    "schoolArea": "The Interpretation of the Christian Witness",
+    "email": "rlmiles@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-nelms-chastain",
+    "seminarySlug": "perkins",
+    "name": "Emily Nelms Chastain",
+    "title": "Assistant Professor of Christian History & Methodist Studies",
+    "areas": ["church-history", "wesleyan-studies"],
+    "schoolArea": "The Heritage of the Christian Witness in its Religious and Cultural Context",
+    "email": "enelmschastain@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-pope-levison",
+    "seminarySlug": "perkins",
+    "name": "Priscilla Pope-Levison",
+    "title": "Research Professor of Practical Theology",
+    "areas": ["practical-theology", "evangelism-church-planting"],
+    "email": "popelevison@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-recinos",
+    "seminarySlug": "perkins",
+    "name": "Harold J. Recinos",
+    "title": "Professor of Church and Society",
+    "areas": ["latino-hispanic-ministry", "mission-social-justice", "ethics-public-theology"],
+    "schoolArea": "The Witness of the Church and its Ministry",
+    "email": "hrecinos@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-scholz",
+    "seminarySlug": "perkins",
+    "name": "Susanne Scholz",
+    "title": "Professor of Old Testament",
+    "areas": ["hebrew-bible", "womanist-feminist-theology"],
+    "schoolArea": "The Biblical Witness",
+    "email": "sscholz@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-smith",
+    "seminarySlug": "perkins",
+    "name": "Abraham Smith",
+    "title": "Professor of New Testament",
+    "areas": ["new-testament"],
+    "schoolArea": "The Biblical Witness",
+    "email": "abrahams@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-steuernagel",
+    "seminarySlug": "perkins",
+    "name": "Marcell Silva Steuernagel",
+    "title": "Associate Professor of Church Music",
+    "otherRoles": [
+      "Director of the Master of Sacred Music Program",
+      "Director of the Doctor of Pastoral Music Program"
+    ],
+    "areas": ["church-music", "liturgy-worship"],
+    "schoolArea": "The Witness of the Church and its Ministry",
+    "email": "marcells@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-stevenson-moessner",
+    "seminarySlug": "perkins",
+    "name": "Jeanne Stevenson-Moessner",
+    "title": "Susanna Wesley Centennial Chair in Practical Theology; Professor of Pastoral Care and Pastoral Theology",
+    "areas": ["pastoral-care-counseling", "practical-theology"],
+    "schoolArea": "The Witness of the Church and its Ministry",
+    "email": "jmoessne@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-stone",
+    "seminarySlug": "perkins",
+    "name": "Bryan P. Stone",
+    "title": "Leighton K. Farrell Endowed Dean; Professor of Theology",
+    "areas": ["systematic-theology", "evangelism-church-planting"],
+    "schoolArea": "The Interpretation of the Christian Witness",
+    "email": "bpstone@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/about/dean-bryan-stone"
+  },
+  {
+    "id": "perkins-sutton-adams",
+    "seminarySlug": "perkins",
+    "name": "Hannah Sutton-Adams",
+    "title": "Visiting Assistant Professor of Pastoral Care",
+    "areas": ["pastoral-care-counseling"],
+    "schoolArea": "The Witness of the Church and its Ministry",
+    "email": "hlsutton@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-walker",
+    "seminarySlug": "perkins",
+    "name": "Theodore Walker Jr.",
+    "title": "Associate Professor of Theological Ethics and Society, Theology and the Sciences",
+    "areas": ["ethics-public-theology", "religion-and-science", "black-church-studies"],
+    "schoolArea": "The Interpretation of the Christian Witness",
+    "email": "twalker@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-wan",
+    "seminarySlug": "perkins",
+    "name": "Sze-kar Wan",
+    "title": "Professor of New Testament",
+    "areas": ["new-testament"],
+    "schoolArea": "The Biblical Witness",
+    "email": "swan@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  },
+  {
+    "id": "perkins-white",
+    "seminarySlug": "perkins",
+    "name": "Pam White",
+    "title": "Clinical Assistant Professor in the Intern Program",
+    "otherRoles": ["Assistant Dean for Contextual Education", "Director of the Intern Program"],
+    "areas": ["practical-theology", "congregational-leadership"],
+    "schoolArea": "The Witness of the Church and its Ministry",
+    "email": "pewhite@smu.edu",
+    "profileUrl": "https://www.smu.edu/perkins/facultyacademics/facultylistinga-z"
+  }
+]

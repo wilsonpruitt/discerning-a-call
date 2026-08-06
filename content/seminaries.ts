@@ -4,6 +4,9 @@ import type { Seminary } from "./types";
 // note on Course of Study schools and the growing number of hybrid/online M.Div
 // options. Modalities and program details change — always confirm with the
 // school. Listed alphabetically.
+//
+// Roster last checked against GBHEM's Approved Schools of Theology page
+// 2026-08-06 — see research/gbhem-approved-schools-snapshot.md.
 
 export const seminaries: Seminary[] = [
   {
@@ -25,11 +28,12 @@ export const seminaries: Seminary[] = [
   },
   {
     name: "Claremont School of Theology",
-    city: "Claremont",
+    city: "Los Angeles",
     state: "CA",
     umcAffiliated: true,
     modalities: ["residential", "hybrid"],
     url: "https://cst.edu/",
+    note: "Keeps the Claremont name, but relocated to Los Angeles in 2024 — the campus is on Wilshire Blvd.",
   },
   {
     name: "Drew University Theological School",
@@ -58,13 +62,14 @@ export const seminaries: Seminary[] = [
     note: "The historically Black UMC seminary, within the ITC consortium.",
   },
   {
-    name: "Garrett-Evangelical Theological Seminary",
+    name: "Garrett Seminary",
     city: "Evanston",
     state: "IL",
     umcAffiliated: true,
     modalities: ["residential", "hybrid", "online"],
     courseOfStudy: true,
     url: "https://www.garrett.edu/",
+    note: "Goes by Garrett Seminary now; Garrett-Evangelical Theological Seminary remains the legal name.",
   },
   {
     name: "Iliff School of Theology",
@@ -83,6 +88,7 @@ export const seminaries: Seminary[] = [
     url: "https://www.mtso.edu/",
   },
   {
+    slug: "perkins",
     name: "Perkins School of Theology (Southern Methodist University)",
     city: "Dallas",
     state: "TX",

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Seminary, SeminaryModality } from "@/content/types";
 
@@ -8,6 +9,35 @@ const MODALITIES: { key: SeminaryModality; label: string }[] = [
   { key: "hybrid", label: "Hybrid" },
   { key: "online", label: "Online" },
 ];
+
+const CARD_CLASS =
+  "unstyled group flex h-full flex-col rounded-lg border border-hairline bg-ivory p-5 transition-colors hover:border-hairline-strong";
+
+function CardShell({
+  seminary,
+  children,
+}: {
+  seminary: Seminary;
+  children: React.ReactNode;
+}) {
+  if (seminary.slug) {
+    return (
+      <Link href={`/seminaries/${seminary.slug}`} className={CARD_CLASS}>
+        {children}
+      </Link>
+    );
+  }
+  return (
+    <a
+      href={seminary.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={CARD_CLASS}
+    >
+      {children}
+    </a>
+  );
+}
 
 export function SeminaryDirectory({ seminaries }: { seminaries: Seminary[] }) {
   const [modality, setModality] = useState<SeminaryModality | "all">("all");
@@ -79,19 +109,15 @@ export function SeminaryDirectory({ seminaries }: { seminaries: Seminary[] }) {
 
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         {filtered.map((s) => (
-          <a
-            key={s.name}
-            href={s.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="unstyled group flex h-full flex-col rounded-lg border border-hairline bg-ivory p-5 transition-colors hover:border-hairline-strong"
-          >
+          // A school with a profile links inward; the rest still link out, as
+          // they always have. The arrow tells you which you are about to get.
+          <CardShell key={s.name} seminary={s}>
             <div className="flex items-start justify-between gap-3">
               <h3 className="font-serif text-[20px] font-medium text-fen group-hover:text-ink">
                 {s.name}
               </h3>
               <span aria-hidden className="text-reed-deep">
-                ↗
+                {s.slug ? "→" : "↗"}
               </span>
             </div>
             <p className="mt-1 text-[14px] text-muted">
@@ -115,7 +141,12 @@ export function SeminaryDirectory({ seminaries }: { seminaries: Seminary[] }) {
             {s.note ? (
               <p className="mt-3 text-[13px] leading-snug text-muted">{s.note}</p>
             ) : null}
-          </a>
+            {s.slug ? (
+              <p className="mt-3 text-[13px] font-medium text-reed-deep">
+                Full profile — faculty, cost, and what ¶324.4 needs here
+              </p>
+            ) : null}
+          </CardShell>
         ))}
       </div>
 

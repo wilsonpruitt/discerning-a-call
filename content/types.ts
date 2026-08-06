@@ -84,6 +84,9 @@ export interface MinistryForm {
 export type SeminaryModality = "residential" | "hybrid" | "online";
 
 export interface Seminary {
+  // Present once the school has a deep profile page at /seminaries/<slug>.
+  // Absent = the card still links out to the school, as it always has.
+  slug?: string;
   name: string;
   city: string;
   state: string;
@@ -92,6 +95,219 @@ export interface Seminary {
   courseOfStudy?: boolean; // hosts a Course of Study school
   url: string;
   note?: string;
+}
+
+// ---------------------------------------------------------------------------
+// Seminary profiles — the deep per-school pages.
+//
+// Two layers, deliberately kept apart (see research/seminary-pages-plan.md):
+//   harvested  → data/seminaries/<slug>.json, data/faculty/<slug>.json.
+//                Machine-written, re-runnable, provenance on every fact.
+//   editorial  → content/seminary-editorial.ts. Hand-written prose.
+//                A re-harvest must never touch it.
+// ---------------------------------------------------------------------------
+
+// Provenance wrapper. Anything that renders as a *fact* about a school carries
+// one. If we can't source it, the field is absent — never guessed.
+export interface Sourced<T> {
+  value: T;
+  source: string; // URL it came from
+  asOf: string; // ISO date of the underlying data
+  note?: string; // caveat, e.g. "figure covers all master's students, not MDiv only"
+}
+
+// The controlled vocabulary behind the cross-school faculty index. Fixed list —
+// expand deliberately. Free text here would kill the whole point, which is
+// being able to ask "who teaches preaching *anywhere*?"
+export type StudyArea =
+  | "hebrew-bible"
+  | "new-testament"
+  | "church-history"
+  | "wesleyan-studies"
+  | "systematic-theology"
+  | "ethics-public-theology"
+  | "world-christianity"
+  | "preaching"
+  | "liturgy-worship"
+  | "church-music"
+  | "pastoral-care-counseling"
+  | "practical-theology"
+  | "congregational-leadership"
+  | "evangelism-church-planting"
+  | "christian-education-formation"
+  | "chaplaincy"
+  | "black-church-studies"
+  | "latino-hispanic-ministry"
+  | "womanist-feminist-theology"
+  | "religion-and-science"
+  | "interreligious"
+  | "spiritual-formation"
+  | "mission-social-justice";
+
+export const studyAreaLabels: Record<StudyArea, string> = {
+  "hebrew-bible": "Hebrew Bible / Old Testament",
+  "new-testament": "New Testament",
+  "church-history": "Church history",
+  "wesleyan-studies": "Wesleyan & Methodist studies",
+  "systematic-theology": "Systematic theology",
+  "ethics-public-theology": "Ethics & public theology",
+  "world-christianity": "World Christianity",
+  preaching: "Preaching",
+  "liturgy-worship": "Liturgy & worship",
+  "church-music": "Church music",
+  "pastoral-care-counseling": "Pastoral care & counseling",
+  "practical-theology": "Practical theology",
+  "congregational-leadership": "Congregational leadership",
+  "evangelism-church-planting": "Evangelism & church planting",
+  "christian-education-formation": "Christian education & formation",
+  chaplaincy: "Chaplaincy",
+  "black-church-studies": "Black church studies",
+  "latino-hispanic-ministry": "Latino/Hispanic ministry",
+  "womanist-feminist-theology": "Womanist & feminist theology",
+  "religion-and-science": "Religion & science",
+  interreligious: "Interreligious engagement",
+  "spiritual-formation": "Spiritual formation",
+  "mission-social-justice": "Mission & social justice",
+};
+
+export interface FacultyMember {
+  id: string; // "<seminary-slug>-<surname>"
+  seminarySlug: string;
+  name: string;
+  title: string; // as the school states it
+  otherRoles?: string[]; // directorships, deanships — often the real story
+  areas: StudyArea[]; // normalized; drives the cross-school index
+  schoolArea?: string; // the school's own division label, preserved as-is
+  email?: string;
+  // The editorial field, and the one that carries the thesis: what is this
+  // person actually working on, and what would you learn from them?
+  // Ships ONLY where a human has read their work. Absent otherwise —
+  // partial coverage beats uniform mush.
+  workingOn?: string;
+  profileUrl: string; // always link back to the school
+}
+
+// ¶324.4's basic graduate theological studies. Nine buckets, 3 semester hours
+// each, with a 6-hour floor on UM studies combined. Not pass/fail. ¶335.3(d)
+// re-imposes the same list at full connection, so it can't be deferred.
+export type BasicStudyArea =
+  | "old-testament"
+  | "new-testament"
+  | "theology"
+  | "church-history"
+  | "mission-of-the-church"
+  | "evangelism"
+  | "worship-liturgy"
+  | "preaching"
+  | "um-studies";
+
+export const basicStudyAreaLabels: Record<BasicStudyArea, string> = {
+  "old-testament": "Old Testament",
+  "new-testament": "New Testament",
+  theology: "Theology",
+  "church-history": "Church history",
+  "mission-of-the-church": "Mission of the church in the world",
+  evangelism: "Evangelism",
+  "worship-liturgy": "Worship / liturgy",
+  preaching: "Preaching",
+  "um-studies": "United Methodist studies (doctrine, polity, history)",
+};
+
+export type CoverageStatus =
+  | "required" // in the core — you can't graduate without it
+  | "elective" // offered, but you must choose it
+  | "occasional" // offered irregularly; verify for the term you need
+  | "absent"; // not offered here; must be covered elsewhere
+
+export interface RequirementCoverage {
+  area: BasicStudyArea;
+  status: CoverageStatus;
+  note?: string;
+}
+
+export type SenateStanding =
+  | "approved-umc" // one of the 13
+  | "approved-non-umc" // one of the 24
+  | "monitoring-warning" // approved, but on Senate Monitoring with Public Warning
+  | "not-listed";
+
+// What a candidate needs to know about this school and ¶324.4. The one section
+// where being wrong costs someone real time and money — every claim sourced,
+// and the page always ends by pointing at the BOM registrar.
+export interface OrdinationReadiness {
+  senateStanding: Sourced<SenateStanding>;
+  // What COUNTS is not the same as what the school OFFERS. UMC schools: a fully
+  // online MDiv counts. Senate-approved non-UMC schools: no online or distance
+  // class counts toward ¶324.4 at all.
+  onlineCredit: Sourced<"fully-counts" | "none-counts">;
+  coverage?: RequirementCoverage[];
+  coverageSource?: string; // catalog/registrar URL behind the coverage table
+  coverageAsOf?: string;
+  gapSummary?: string;
+  gapRemedies?: { blurb: string; url?: string }[];
+}
+
+export interface DegreeProgram {
+  name: string;
+  abbr: string;
+  credits?: number;
+  typicalYears?: string;
+  modalities: SeminaryModality[];
+  blurb?: string;
+  url?: string;
+  flag?: string; // something a discerner would want called out
+}
+
+export interface CostPicture {
+  tuitionPerCredit?: Sourced<string>;
+  fees?: { label: string; amount: string }[];
+  pctReceivingAid?: Sourced<string>;
+  typicalAward?: Sourced<string>;
+  aidContact?: { name: string; role: string; email?: string; phone?: string };
+  honestNote?: string;
+}
+
+export interface ScalePicture {
+  totalEnrollment?: Sourced<string>;
+  mdivEnrollment?: Sourced<string>;
+  studentFacultyRatio?: Sourced<string>;
+  typicalClassSize?: Sourced<string>;
+  outcomes?: Sourced<string>;
+}
+
+export interface Partnership {
+  kind: "cross-registration" | "consortium" | "joint-degree" | "host-university" | "extension";
+  partner: string;
+  blurb: string;
+  url?: string;
+}
+
+// Hand-written. Never overwritten by a harvest.
+export interface SeminaryEditorial {
+  slug: string;
+  lead?: string;
+  distinctives?: string[];
+  whoThrivesHere?: string[];
+  weighThat?: string[];
+  draft?: boolean; // true = machine-drafted, awaiting a human pass; renders with a notice
+}
+
+// Harvested. Written by scripts/harvest/<slug>.ts, reviewed as a git diff.
+export interface SeminaryProfile {
+  slug: string;
+  name: string;
+  city: string;
+  state: string;
+  url: string;
+  ordination: OrdinationReadiness;
+  scale?: ScalePicture;
+  cost?: CostPicture;
+  degrees?: DegreeProgram[];
+  concentrations?: string[];
+  partnerships?: Partnership[];
+  courseOfStudy?: { blurb: string; url?: string };
+  contact?: { admissionsUrl?: string; visitUrl?: string; email?: string; phone?: string };
+  lastVerified: string;
 }
 
 export type ResourceCategory =
