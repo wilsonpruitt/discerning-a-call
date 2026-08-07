@@ -87,6 +87,29 @@
 //     two different questions — but it is exactly the kind of fact this site
 //     exists to surface rather than bury, so it's carried in scale's note.
 //
+//   - SECOND-PASS FINDING (2026-08-07), PUBLICATIONS: the tracker's first-pass
+//     note called this a "FinalSite JS modal" system like Austin's, and
+//     assumed the modal might just not surface publications. That description
+//     was wrong for Claremont: cst.edu/faculty/<slug>/ are real, individually
+//     fetchable pages (no modal at all — this script was already calling
+//     get() on every one of them), and most carry a genuine "Publications"
+//     heading with full citations. The first pass read each page far enough
+//     to pull degrees and stopped — it never read down to Publications for
+//     most people, and even the 8 it did find publications for had those
+//     mislabeled as sourced from the print catalog PDF rather than the bio
+//     page they actually came from (fixed below: publicationsSource is now
+//     each person's own profileUrl). Re-reading all 18 gap people's pages in
+//     full: 13 had real, sourced material (a "Publications" heading for 10;
+//     book/chapter titles named in bio prose for 3 — Froelich, Hagiya, C.
+//     Miller — where there was no such heading). The remaining 5 (Latif,
+//     MacKinnon, Shaikh, Song, Stowe) genuinely have nothing: no heading, and
+//     no publication named in prose (a dissertation "in progress" is not a
+//     publication, and isn't counted as one for Song or Stowe). Separately:
+//     no site-wide faculty-scholarship/books showcase page exists on
+//     cst.edu — individual bio pages are the only source, confirmed by both
+//     a site-scoped web search and a scan of the faculty directory page's own
+//     links.
+//
 // Run: node scripts/harvest/claremont.mts [--fresh]
 
 import { get, today } from "./lib/fetch.mts";
@@ -129,7 +152,7 @@ interface Entry {
   profileUrl: string;
   areas: StudyArea[];
   degrees?: string[];
-  publications?: { title: string; kind: "book" | "edited-volume" | "article" | "chapter"; year?: number }[];
+  publications?: { title: string; kind: "book" | "edited-volume" | "article" | "chapter"; year?: number; publisher?: string; note?: string }[];
 }
 
 const ROSTER: Entry[] = [
@@ -163,6 +186,15 @@ const ROSTER: Entry[] = [
     profileUrl: `${BASE}/faculty/lailatul-fitriyah/`,
     areas: ["interreligious"],
     degrees: ["PhD, University of Notre Dame", "MA, University of Notre Dame", "BA, University of Jember, Indonesia"],
+    // Second-pass finding (see script header): her own bio page carries a full
+    // "Publications" section the first pass never read past degrees on — not
+    // a modal-ceiling case at all.
+    publications: [
+      { title: "Contours of the Divine Feminine: Islamic and Christian Feminist Theologies in Indonesia", kind: "article", year: 2020, note: "The Muslim World 110 (Autumn 2020): 553-571" },
+      { title: "Can We Stop Talking About the 'Hijab'?: Islamic Feminism, Intersectionality, and the Indonesian Muslim Female Migrant Workers", kind: "chapter", year: 2020, publisher: "Oxford University Press" },
+      { title: "Interstitial Theology and Interreligious Reconciliation in Post-War Maluku: The Work of Elifas Maspaitella and Jacklevyn Manuputty", kind: "article", year: 2019, note: "Interreligious Relations Issue 11" },
+      { title: "Religious Peacebuilding in Post-War Maluku: Tiwery's Theology of the Mother (Teologi Ina) and Nunusaku-based Cosmology", kind: "article", year: 2019, note: "Interreligious Relations Issue 10" },
+    ],
   },
   {
     name: "Maggie Froelich",
@@ -171,6 +203,16 @@ const ROSTER: Entry[] = [
     profileUrl: `${BASE}/faculty/maggie-froelich/`,
     areas: ["new-testament"],
     degrees: ["MLIS, University of Missouri", "MA & PhD, Claremont School of Theology", "BA, Scripps College"],
+    // Her bio prose (not a "Publications" heading — no such heading on this
+    // page) names one book and two edited-volume contributions by title; it
+    // also says she is "published in New Testament Studies and the Journal
+    // of Early Christian History" but names no article titles there, so
+    // those two are left out rather than invented.
+    publications: [
+      { title: "Jesus and the Empire of God", kind: "book", publisher: "Bloomsbury T&T Clark" },
+      { title: "Greco-Roman and Jewish Tributaries to the New Testament", kind: "chapter", publisher: "Claremont Press" },
+      { title: "Christian Origins and the New Testament in the Greco-Roman Context", kind: "chapter", publisher: "Claremont Press" },
+    ],
   },
   {
     name: "Lincoln E. Galloway",
@@ -218,6 +260,11 @@ const ROSTER: Entry[] = [
     profileUrl: `${BASE}/faculty/grant-hagiya/`,
     areas: ["congregational-leadership"],
     degrees: ["EdD, Pepperdine University", "DMin, Claremont School of Theology", "MDiv, Claremont School of Theology", "MA, Claremont School of Theology"],
+    // No "Publications" heading on this page — one book named in his bio
+    // prose, based on his dissertation.
+    publications: [
+      { title: "Leadership Kaizen", kind: "book", year: 2013, publisher: "Abingdon", note: "based on his dissertation, 'Traits, Qualities and Characteristics of Highly Effective UMC Clergy'" },
+    ],
   },
   {
     name: "Sharon Jacob",
@@ -237,6 +284,15 @@ const ROSTER: Entry[] = [
     profileUrl: `${BASE}/faculty/yohana-a-junker/`,
     areas: ["spiritual-formation"],
     degrees: ["PhD, Graduate Theological Union", "MTS, Christian Theological Seminary", "BA, Universidade Metodista de São Paulo"],
+    // Everything under her page's "Publications" heading is stated as
+    // forthcoming, not yet in print — flagged via `note` rather than left
+    // out, since it's the honest state of her page, not a completed CV.
+    publications: [
+      { title: "Georgetown Companion in Interreligious Studies", kind: "chapter", publisher: "Georgetown University Press", note: "forthcoming" },
+      { title: "Sustainable Societies: Interreligious & Interdisciplinary Responses", kind: "chapter", publisher: "Springer", note: "forthcoming" },
+      { title: "Painted Portrayals: The Art of Characterizing Biblical Figures", kind: "chapter", publisher: "SBL Press", note: "forthcoming" },
+      { title: "Modern and Contemporary Artists on Religion: A Global Sourcebook", kind: "edited-volume", publisher: "Bloomsbury", note: "forthcoming; co-edited with Aaron Rosen" },
+    ],
   },
   {
     name: "Grace Yia-Hei Kao",
@@ -273,6 +329,13 @@ const ROSTER: Entry[] = [
     profileUrl: `${BASE}/faculty/kah-jin-jeffrey-kuan/`,
     areas: ["hebrew-bible"],
     degrees: ["PhD, Emory University", "MTS, Southern Methodist University", "BTh, Trinity Theological College, Singapore"],
+    publications: [
+      { title: "Biblical Interpretation and the Rhetoric of Violence and War", kind: "article", year: 2009, note: "Asia Journal of Theology 23, no. 2: 189-203" },
+      { title: "Ways of Being, Ways of Reading: Asian-American Biblical Interpretation", kind: "edited-volume", year: 2006, publisher: "Chalice", note: "co-edited with Mary F. Foskett" },
+      { title: "Reading Amy Tan Reading Job", kind: "chapter", year: 2004, publisher: "Continuum" },
+      { title: "My Journey into Diasporic Hermeneutics", kind: "article", year: 2002, note: "Union Seminary Quarterly Review 56, no. 1-2: 50-54" },
+      { title: "Šamši-ilu and the Realpolitik of Israel and Aram-Damascus in the Eighth Century BCE", kind: "chapter", year: 2001, publisher: "Sheffield Academic" },
+    ],
   },
   {
     name: "Sheryl A. Kujawa-Holbrook",
@@ -291,6 +354,13 @@ const ROSTER: Entry[] = [
       "MA, Sarah Lawrence College",
       "BA, Marquette University",
     ],
+    publications: [
+      { title: "Confronting White Supremacy in Interreligious Engagement: Insights from Critical Pedagogy", kind: "chapter", year: 2021, note: "in Georgetown Companion to Interreligious Studies, forthcoming as of the bio page" },
+      { title: "An Overview of the Strengths and Challenges of the Field of Anglican History", kind: "article", year: 2021, note: "Journal of Anglican Studies" },
+      { title: "Intersectionality and Interreligious Engagement: A Reflection", kind: "chapter", year: 2020, publisher: "Interreligious Studies Press", note: "in Deep Understanding for Divisive Times, Journal of Interreligious Studies Anniversary Volume, ed. Lucinda Mosher" },
+      { title: "New Paths as We Journey Toward the Future: Reflections on Anglican-Roman Catholic Dialogue since Ut Unum Sint", kind: "article", year: 2020, note: "Horizons, the Journal of the College Theology Society: 1-23" },
+      { title: "Passion, Authenticity and Commitment – A Reflection on Theological Education", kind: "chapter", year: 2020, publisher: "SacraSage Press", note: "in Open and Relational Leadership, ed. Roland Hearn, Thomas Oord, Sheri Kling" },
+    ],
   },
   {
     name: "Jibril Latif",
@@ -301,6 +371,8 @@ const ROSTER: Entry[] = [
     // No entry in the 2025-2026 print catalog's CST FACULTY section — a hire
     // since it went to print. Degrees left absent rather than guessed, same
     // call Saint Paul's harvest made for Richard Liantonio.
+    // Second pass: his bio page has no "Publications" heading and names none
+    // in prose — a real gap, not an unread page.
   },
   {
     name: "K. Samuel Lee",
@@ -309,6 +381,13 @@ const ROSTER: Entry[] = [
     profileUrl: `${BASE}/faculty/k-samuel-lee/`,
     areas: ["practical-theology", "pastoral-care-counseling"],
     degrees: ["PhD, Arizona State University", "MDiv, Yale University", "BA, Westmar College"],
+    publications: [
+      { title: "Justice Matters: Spiritual Care and Pastoral Theological Imaginations in Times of the COVID-19 Pandemic", kind: "edited-volume", year: 2023, publisher: "Routledge", note: "with Danjuma Gibson" },
+      { title: "Spiritually Integrated Psychotherapy Training Manual", kind: "chapter", year: 2022, note: "translation, Association of Clinical Pastoral Education" },
+      { title: "Caring Over Troubled Waters: Creative and Critical Pastoral Theological Imaginations in the 21st Century", kind: "article", year: 2021, note: "Journal of Pastoral Theology 31(1): 1-3, with Danjuma Gibson" },
+      { title: "Pastoral Theological Imagination in Times of Social Unrest: Speaking for Freedom", kind: "article", year: 2020, note: "Journal of Pastoral Theology 30(3): 157-159, with Danjuma Gibson" },
+      { title: "Changing Face of Pastoral Theology", kind: "article", year: 2020, note: "Journal of Pastoral Theology 30(2): 83-85, with Danjuma Gibson" },
+    ],
   },
   {
     name: "Melissa Roux MacKinnon",
@@ -320,6 +399,8 @@ const ROSTER: Entry[] = [
     // home for supervised ministry formation.
     areas: ["practical-theology"],
     degrees: ["MA, Duke Divinity School", "BA, CA State University Bakersfield"],
+    // Second pass: bio page has no "Publications" heading, and her ministry-
+    // formation bio names no publications — a real gap.
   },
   {
     name: "Venu Mehta",
@@ -336,6 +417,13 @@ const ROSTER: Entry[] = [
       "MA, Florida International University and Bhavnagar University",
       "BA, Bhavnagar University, India",
     ],
+    publications: [
+      { title: "Sectarian Negotiations among the Jains in the USA: A Special Focus on the Ritual and Visual Culture", kind: "chapter", publisher: "Cognella Academic Publishing", note: "in World Religions in the United States: Tracing the Migrations of Religions to the United States (tentative title); forthcoming/accepted Fall 2021" },
+      { title: "Anekantavada: The Jaina Epistemology", kind: "chapter", year: 2018, publisher: "Duke University Press", note: "in Constructing the Pluriverse: The Geopolitics of Knowledge, ed. Bernd Reiter" },
+      { title: "Jainism, Ecology and Ethics", kind: "chapter", year: 2017, publisher: "Lexington Books", note: "in Ecocultural Ethics: Critical Essays" },
+      { title: "Learn Gujarati, A Resource-Book for Global Gujaratis, Beginner's Level", kind: "book", year: 2016, publisher: "Charotar University of Science and Technology" },
+      { title: "Diversity and Higher Education: Towards a Promising Development Condition", kind: "article", year: 2015, note: "University News, Association of Indian University 53(12): 16-19" },
+    ],
   },
   {
     name: "Christopher Jain Miller",
@@ -348,6 +436,11 @@ const ROSTER: Entry[] = [
     // header note.
     areas: ["interreligious"],
     degrees: ["PhD, University of California, Davis"],
+    publications: [
+      { title: "Embodying Transnational Yoga: Eating, Singing, and Breathing in Transformation", kind: "book", year: 2024, publisher: "Routledge" },
+      { title: "Engaged Jainism: Critical and Constructive Studies of Jain Social Engagement", kind: "edited-volume", year: 2026, publisher: "SUNY", note: "co-editor" },
+      { title: "Beacons of Dharma: Spiritual Exemplars for the Modern Age", kind: "edited-volume", year: 2020, publisher: "Lexington", note: "co-editor" },
+    ],
   },
   {
     name: "Frank Rogers, Jr.",
@@ -356,6 +449,13 @@ const ROSTER: Entry[] = [
     profileUrl: `${BASE}/faculty/frank-rogers-jr/`,
     areas: ["spiritual-formation"],
     degrees: ["PhD, Princeton Theological Seminary", "MDiv, Princeton Theological Seminary", "BA, Anderson College"],
+    publications: [
+      { title: "Compassion-Based Spiritual Direction: Internal Family Systems as a Resource for Spiritual Companions", kind: "article", year: 2020, note: "Presence: An International Journal of Spiritual Direction 26, 4: 50-60" },
+      { title: "Warriors of Compassion: Coordinates on the Compass of Compassion-Based Activism", kind: "chapter", year: 2019, publisher: "Lexington Press", note: "in Taking it to the Streets: Public Theologies of Activism and Resistance, ed. Jennifer Baldwin" },
+      { title: "Compassion in Practice: The Way of Jesus", kind: "book", year: 2016, publisher: "Upper Room Books" },
+      { title: "Practicing Compassion", kind: "book", year: 2016, publisher: "Fresh Air Books" },
+      { title: "Finding God in the Graffiti: Empowering Teenagers through Stories", kind: "book", year: 2011, publisher: "Pilgrim Press" },
+    ],
   },
   {
     name: "Andrew Schwartz",
@@ -367,6 +467,13 @@ const ROSTER: Entry[] = [
     areas: ["interreligious", "systematic-theology"],
     profileUrl: `${BASE}/faculty/andrew-schwartz/`,
     degrees: ["PhD, Claremont Graduate University", "MA, Claremont Graduate University", "MA, Nazarene Theological Seminary", "BA, Northwest Nazarene University"],
+    publications: [
+      { title: "Process Cosmology", kind: "edited-volume", publisher: "Palgrave Macmillan", note: "forthcoming; edited with Andrew M. Davis and Maria-Teresa Teixeira" },
+      { title: "Nature in Process: Organic Proposals in Philosophy, Society, and Religion", kind: "edited-volume", publisher: "Process Century Press", note: "forthcoming; edited with Andrew M. Davis and Maria-Teresa Teixeira" },
+      { title: "Philosophical Roots of the Ecological Crisis: The Process-Relational Worldview and Integral Ecology", kind: "article", year: 2020, note: "Berkley Forum" },
+      { title: "Panentheism and Panexperientialism for Open and Relational Theology", kind: "chapter", year: 2020, publisher: "Brill", note: "in Panentheism and Panpsychism: Philosophy of Religion Meets Philosophy of Mind, with Thomas Jay Oord" },
+      { title: "What is Ecological Civilization?: Crisis, Hope, and the Future of the Planet", kind: "book", year: 2019, publisher: "Process Century Press", note: "with Philip Clayton" },
+    ],
   },
   {
     name: "B. Yuki Schwartz",
@@ -377,6 +484,15 @@ const ROSTER: Entry[] = [
     // "constructive theology" pattern — added by hand.
     areas: ["spiritual-formation", "systematic-theology"],
     degrees: ["PhD, Garrett-Evangelical Theological Seminary", "MDiv, Phillips Theological Seminary", "BA, University of Oklahoma", "BA, Oklahoma State University"],
+    // Years mostly absent on the page itself — left absent rather than
+    // guessed from journal volume numbers.
+    publications: [
+      { title: "The Cosmopolitics of Belonging: Model Minority Superheroes and Theological Imagination", kind: "chapter", note: "in Embodying Antiracist Christianity: Asian American Theological Resources for Antiracism, ed. Keun-joo Christine Pae and Boyung Lee" },
+      { title: "Model Minority Melancholia: Mourning and Resisting Anti-Asian Violence", kind: "article", note: "Political Theology, Vol. 25, Issue 1" },
+      { title: "Reimagine Advent: Discover the Liberating Christ", kind: "chapter", year: 2021, note: "Advent liturgy, published by the General Commission on Religion and Race of the United Methodist Church" },
+      { title: "The Shame Culture of Empire: The Chrysanthemum and the Sword as Cold War Playbook for Legitimating US Empire", kind: "chapter", year: 2020, publisher: "Lexington Books", note: "in Feminist Praxis Against U.S. Militarism, ed. W. Anne Joh and Nami Kim" },
+      { title: "Cultural Appropriation vs. Cultural Appreciation", kind: "chapter", year: 2019, publisher: "Chalice Press", note: "in When Kids Ask Hard Questions: Faith-filled Responses for Tough Topics, ed. Karen Ware Jackson and Bromleigh McCleneghan" },
+    ],
   },
   {
     name: "Munir Shaikh",
@@ -386,6 +502,8 @@ const ROSTER: Entry[] = [
     areas: ["interreligious"],
     // No degrees given on his own CST bio blurb in the print catalog or the
     // live directory's short bio; left absent rather than guessed.
+    // Second pass: no "Publications" heading and none named in prose — a
+    // real gap.
   },
   {
     name: "Minhwan Song",
@@ -396,6 +514,9 @@ const ROSTER: Entry[] = [
     // counseling by hand alongside the title's practical-theology match.
     areas: ["practical-theology", "pastoral-care-counseling"],
     degrees: ["PhD, Claremont School of Theology", "ThM, Candler School of Theology", "MDiv, Methodist Theological School in Ohio"],
+    // Second pass: no "Publications" heading. His bio names only his
+    // doctoral dissertation ("Pastors on Pendulums..."), which is training
+    // work, not a publication — left out rather than counted as one.
   },
   {
     name: "Blair Trygstad Stowe",
@@ -404,6 +525,8 @@ const ROSTER: Entry[] = [
     profileUrl: `${BASE}/faculty/blair-trygstad-stowe/`,
     areas: ["practical-theology"],
     degrees: ["ABD, Boston University School of Theology", "MDiv, Candler School of Theology at Emory University", "BA, University of Southern California"],
+    // Second pass: no "Publications" heading. Her bio names only a
+    // dissertation "in progress" — not yet a publication, left out.
   },
   {
     name: "Marvin A. Sweeney",
@@ -412,6 +535,13 @@ const ROSTER: Entry[] = [
     profileUrl: `${BASE}/faculty/marvin-a-sweeney/`,
     areas: ["hebrew-bible"],
     degrees: ["PhD, Claremont Graduate University", "MA, Claremont Graduate University", "A.B., University of Illinois"],
+    publications: [
+      { title: "Jewish Mysticism from Ancient Times through Today", kind: "book", year: 2020, publisher: "Eerdmans" },
+      { title: "The Pentateuch", kind: "book", year: 2017, publisher: "Abingdon", note: "Core Biblical Studies series" },
+      { title: "Isaiah 40-66", kind: "book", year: 2016, publisher: "Eerdmans", note: "Forms of the Old Testament Literature series" },
+      { title: "Reading Prophetic Books", kind: "book", year: 2014, publisher: "Mohr Siebeck", note: "Forschungen zum Alten Testament series" },
+      { title: "Reading Ezekiel", kind: "book", year: 2013, publisher: "Smyth and Helwys", note: "Reading the Old Testament series" },
+    ],
   },
 ];
 
@@ -440,7 +570,14 @@ function buildFaculty(): FacultyMember[] {
     if (e.degrees?.length) member.degrees = e.degrees;
     if (e.publications?.length) {
       member.publications = e.publications.slice(0, 5);
-      member.publicationsSource = CATALOG_PDF_URL;
+      // Second-pass correction: every publication list here — including the
+      // original 8 people from the first pass — is actually read off each
+      // person's own cst.edu/faculty/<slug>/ bio page, which carries a real
+      // "Publications" heading with full citations (title/journal/publisher/
+      // year), not the print catalog. The first pass mislabeled the source as
+      // the catalog PDF; it never was. See script header for the "not a modal
+      // at all" finding this pass turned up.
+      member.publicationsSource = e.profileUrl;
       member.publicationsAsOf = today();
     }
     return member;
@@ -690,7 +827,7 @@ function buildProfile(): SeminaryProfile {
       url: "https://cst.edu/course-of-study-and-licensing-school/",
     },
 
-    facultyNote: "Limited to the 23 people on cst.edu/faculty/'s \"Our Faculty\" page — the school's own core-faculty cut, distinct from the Affiliate, Adjunct, and Emeritus faculty it lists on separate pages. That live directory is more current than the 2025-2026 print catalog: it includes Jibril Latif (not in the catalog at all) and lists Christopher Jain Miller as core faculty where the catalog still has him under Affiliate. Degrees are drawn from the catalog's CST Faculty section for the 22 of 23 who have an entry there.",
+    facultyNote: "Limited to the 26 people on cst.edu/faculty/'s \"Our Faculty\" page — the school's own core-faculty cut, distinct from the Affiliate, Adjunct, and Emeritus faculty it lists on separate pages. That live directory is more current than the 2025-2026 print catalog: it includes Jibril Latif (not in the catalog at all) and lists Christopher Jain Miller as core faculty where the catalog still has him under Affiliate. Degrees are drawn from the catalog's CST Faculty section for the 24 of 26 who have an entry there. Publications are read from each person's own cst.edu/faculty/<slug>/ page, not the catalog — 21 of 26 have real, sourced publications there (a dedicated \"Publications\" heading for most; book/chapter titles named in bio prose for a few, e.g. Froelich and Hagiya). The 5 without (Latif, MacKinnon, Shaikh, Song, Stowe) genuinely list none — checked page by page, not assumed from a thin bio.",
 
     contact: {
       admissionsUrl: "https://cst.edu/apply-now/",

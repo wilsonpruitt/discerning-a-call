@@ -94,9 +94,56 @@ async function main() {
 
   const faculty = [...facultyList.map((e) => parseEntry(e, false)), ...emeritiList.map((e) => parseEntry(e, true))];
 
+  // Manual degree additions — three bios (Waters, Cosgrove, Vena) state their
+  // degrees only in running prose ("He is a graduate of the University of
+  // Redlands (B.A.)...", "earned a Ph.D. ... from Princeton Theological
+  // Seminary in 1984") rather than an "Education" list, so the structural
+  // parser above never sees them. Hand-transcribed from each bio, second pass.
+  addDegrees(faculty, "garrett-brent-p-waters", [
+    "B.A., University of Redlands",
+    "M.Div., School of Theology at Claremont",
+    "D.Min., School of Theology at Claremont",
+    "D.Phil., University of Oxford",
+  ]);
+  addDegrees(faculty, "garrett-charles-cosgrove", ["Ph.D., Princeton Theological Seminary"]);
+  addDegrees(faculty, "garrett-osvaldo-vena", [
+    "Th.B., Buenos Aires Bible Institute",
+    "M.Div., Bethel Theological Seminary",
+    "Th.M., Princeton Theological Seminary",
+    "Th.D., ISEDET (Instituto Superior de Estudios Teológicos), Buenos Aires",
+  ]);
+
   // Manual publication additions sourced from prose bios that name real books
   // with year and/or publisher (validator wants clean titles; these were
   // hand-checked against the source bio, not machine-split from a CV list).
+  addPublications(faculty, "garrett-andrew-wymer", "https://www.garrett.edu/directories/andrew-wymer/", asOf, [
+    { title: "Worship and Power: Liturgical Authority in Free Church Traditions", kind: "edited-volume", year: 2023, publisher: "Cascade", note: "Co-edited with Sarah Kathleen Johnson." },
+    { title: "Unmasking White Preaching: Racial Hegemony, Resistance and Possibilities in Homiletics", kind: "edited-volume", year: 2022, publisher: "Lexington", note: "Co-edited with Lis Valle-Ruiz." },
+  ]);
+  addPublications(faculty, "garrett-angela-n-parker", "https://www.garrett.edu/directories/angela-n-parker/", asOf, [
+    { title: "If God Still Breathes, Why Can't I? Black Lives Matter & Biblical Authority", kind: "book", year: 2021, publisher: "Eerdmans" },
+    { title: "Faith Un-Lynched: \"Jesus-Faith as Paul's Both/And Out Of Christian Nationalism\"", kind: "book", publisher: "Eerdmans", note: "Forthcoming, per her Garrett bio; no publication year given yet." },
+    { title: "Bodies, Violence, and Emotions: A Womanist Reading of the Gospel of Mark", kind: "book", publisher: "Wipf & Stock", note: "Forthcoming, per her Garrett bio; no publication year given yet." },
+  ]);
+  addPublications(faculty, "garrett-arelis-benitez", "https://www.garrett.edu/directories/arelis-benitez/", asOf, [
+    { title: "Reexistence and Return: Migration, Queer Identity, and Healing in Latiné Communities", kind: "book", note: "Forthcoming, per her Garrett bio; no publisher or year given yet." },
+  ]);
+  addPublications(faculty, "garrett-esther-e-acolatse", "https://www.garrett.edu/directories/esther-e-acolatse/", asOf, [
+    { title: "Powers, Principalities, and the Spirit: Biblical Realism in Africa and the West", kind: "book", year: 2018, publisher: "Eerdmans" },
+    { title: "For Freedom or Bondage: A Critique of African Pastoral Practices", kind: "book", year: 2014, publisher: "Eerdmans" },
+  ]);
+  addPublications(faculty, "garrett-frederick-w-schmidt", "https://www.garrett.edu/directories/frederick-w-schmidt/", asOf, [
+    { title: "The Dave Test: A Raw Look at Real Faith in Hard Times", kind: "book", year: 2013, publisher: "Abingdon Press" },
+    { title: "Conversations with Scripture: The Gospel of Luke", kind: "book", year: 2009, publisher: "Morehouse" },
+    { title: "What God Wants for Your Life", kind: "book", year: 2005, publisher: "HarperOne" },
+  ]);
+  addPublications(faculty, "garrett-luis-r-rivera", "https://www.garrett.edu/directories/luis-r-rivera/", asOf, [
+    { title: "The Encyclopedia of Hispanic American Religious Cultures", kind: "chapter", year: 2009, publisher: "Baylor University Press" },
+    { title: "Jesus in the Hispanic Community: Images of Christ from Theology to Popular Religion", kind: "chapter", year: 2009 },
+    { title: "Feasting on the Word: Preaching the Revised Common Lectionary", kind: "chapter", year: 2008, publisher: "Westminster John Knox Press" },
+    { title: "Character Ethics and the Bible", kind: "chapter", year: 2007, publisher: "Westminster John Knox Press" },
+    { title: "Shaping Beloved Community", kind: "chapter", year: 2006, publisher: "Westminster John Knox Press" },
+  ]);
   addPublications(faculty, "garrett-charles-cosgrove", "https://www.garrett.edu/directories/charles-cosgrove/", asOf, [
     { title: "Music at Social Meals in Greek and Roman Antiquity: From the Archaic Period to the Age of Augustus", kind: "book", year: 2022, publisher: "Cambridge University Press" },
     { title: "Fortune and Faith: A Dual Biography of Mayor Augustus Garrett and Seminary Founder Eliza Clark Garrett", kind: "book", year: 2020, publisher: "Southern Illinois University Press" },
@@ -212,7 +259,14 @@ function idFor(slug: string): string {
 
 function parseEntry(e: DirectoryEntry, emeritus: boolean): FacultyOut {
   const html = e.content.rendered;
-  const eduMatch = /<h[23][^>]*>\s*Education\s*<\/h[23]>/i.exec(html);
+  // Second-pass fix: the original regex only matched a bare `<h2>Education</h2>`
+  // or `<h3>Education</h3>`. Two real profiles slipped past it — Michael
+  // Washington's heading carries a trailing `<br>` before the closing tag
+  // (`<h2 ...>Education<br></h2>`), and Emma Arely Escobar's "Education" is a
+  // plain `<p>Education</p>`, not a heading at all. Both are legitimate
+  // Garrett markup, just inconsistent with the rest of the directory. Widened
+  // to accept h2/h3/p, and an optional `<br>` before the closing tag.
+  const eduMatch = /<(h[23]|p)[^>]*>\s*Education\s*(?:<br\s*\/?>\s*)?<\/\1>/i.exec(html);
   const headSection = eduMatch ? html.slice(0, eduMatch.index) : html;
   const headings = [...headSection.matchAll(/<h2[^>]*>(.*?)<\/h2>/gis)]
     .map((m) => m[1].replace(/<[^>]+>/g, "").trim())
@@ -260,6 +314,15 @@ function parseEntry(e: DirectoryEntry, emeritus: boolean): FacultyOut {
     ...(eduList.length ? { degrees: eduList } : {}),
     profileUrl: e.link,
   };
+}
+
+function addDegrees(faculty: FacultyOut[], id: string, degrees: string[]) {
+  const person = faculty.find((f) => f.id === id);
+  if (!person) {
+    console.warn(`No faculty member with id ${id} — skipping ${degrees.length} degree(s).`);
+    return;
+  }
+  person.degrees = degrees;
 }
 
 function addPublications(
@@ -498,7 +561,7 @@ function buildProfile(asOf: string) {
     },
 
     facultyNote:
-      "Garrett publishes individual profile pages for its faculty (unusual among the schools harvested so far — Perkins publishes none). This roster covers the 30 people in Garrett's own \"Faculty\" directory category plus the 8 in \"Emeriti Faculty and Senior Scholars.\" Garrett's site also lists an \"Affiliate and Adjunct Faculty\" category, currently empty, so no adjuncts are omitted by that exclusion — there simply aren't any listed there right now.",
+      "Garrett publishes individual profile pages for its faculty (unusual among the schools harvested so far — Perkins publishes none). This roster covers the 30 people in Garrett's own \"Faculty\" directory category plus the 8 in \"Emeriti Faculty and Senior Scholars.\" Garrett's site also lists an \"Affiliate and Adjunct Faculty\" category, currently empty, so no adjuncts are omitted by that exclusion — there simply aren't any listed there right now. A second pass (2026-08) re-read the REST content of every person still missing degrees or publications: two people's degrees had been missed by a too-strict \"Education\" heading match (fixed here — one used a plain <p>Education</p>, one had a stray <br> inside the heading), and three more state their degrees only in prose rather than a list (hand-transcribed). Nine people had real, nameable publications sitting in prose bios that the first pass's carousel-only publication sweep missed. The remaining faculty without a publications entry were checked individually and their bios genuinely name no specific title — largely junior or practice-focused hires whose Garrett bio is a short personal statement rather than a bibliography, not a parsing gap.",
   };
 }
 

@@ -15,7 +15,26 @@
       "A.B., Trinity Christian (1982)",
       "M.Div., Th.M., Calvin Theological Seminary (1986, 1990)",
       "M.A., Ph.D., Princeton University (1991, 1992)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Creative Exchange: A Constructive Theology of African American Religious Experience (2008)",
+        "kind": "book",
+        "year": 2008
+      },
+      {
+        "title": "Pragmatic Theology: Negotiating the Intersection of an American Philosophy of Religion and Public Theology (1999)",
+        "kind": "book",
+        "year": 1999
+      },
+      {
+        "title": "Beyond Ontological Blackness: An Essay in African American Religious and Cultural Criticism (1995)",
+        "kind": "book",
+        "year": 1995
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/victor-anderson",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-ellen-armour",
@@ -52,7 +71,7 @@
       }
     ],
     "publicationsSource": "https://divinity.vanderbilt.edu/bio/ellen-armour",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-annalisa-azzoni",
@@ -114,7 +133,7 @@
       }
     ],
     "publicationsSource": "https://divinity.vanderbilt.edu/bio/jimmy-byrd",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-paul-dehart",
@@ -132,7 +151,31 @@
       "A.B., Chicago (1987)",
       "M.A.R., Yale (1990)",
       "Ph.D., Chicago (1997)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Improvising the Paradigms: Aquinas, Creation and the Eternal Ideas as Anti-Platonic Ontology (Modern Theology, 2016)",
+        "kind": "article",
+        "year": 2016
+      },
+      {
+        "title": "Aquinas and Radical Orthodoxy: A Critical Inquiry (2011)",
+        "kind": "book",
+        "year": 2011
+      },
+      {
+        "title": "The Trial of the Witnesses: The Rise and Decline of Postliberal Theology (2006)",
+        "kind": "book",
+        "year": 2006
+      },
+      {
+        "title": "Beyond the Necessary God: Trinitarian Faith and Philosophy in the Thought of Eberhard Jungel (1999)",
+        "kind": "book",
+        "year": 1999
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/paul-dehart",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-juan-floyd-thomas",
@@ -177,7 +220,7 @@
       }
     ],
     "publicationsSource": "https://divinity.vanderbilt.edu/bio/juan-floyd-thomas",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-stacey-floyd-thomas",
@@ -224,7 +267,7 @@
       }
     ],
     "publicationsSource": "https://divinity.vanderbilt.edu/bio/stacey-floyd-thomas",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-yara-gonzlez-justiniano",
@@ -243,7 +286,16 @@
       "B.A. University of Puerto Rico (2010)",
       "M.Div. Boston University (2014)",
       "PhD Boston University (2019)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Centering Hope as a Sustainable Decolonial Practice: Esperanza en Práctica (2022)",
+        "kind": "book",
+        "year": 2022
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/yara-gonzlez-justiniano",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-jaco-hamman",
@@ -264,7 +316,36 @@
       "MTh Clinical Pastoral Care (cum laude), Stellenbosch University Seminary School, 1993.",
       "BTh, Stellenbosch University Seminary School, 1991.",
       "BA (Theology and Psychology), Nelson Mandela Metropolitan University, 1988."
-    ]
+    ],
+    "publications": [
+      {
+        "title": "The Essence of Leadership: Maintaining Emotional Independence in Situations Requiring Change (Routledge, 2024)",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "Pastoral Virtues for Artificial Intelligence: Care and the Algorithms that Guide our Lives (Lexington Books, 2022)",
+        "kind": "book",
+        "year": 2022
+      },
+      {
+        "title": "Just Traveling: God, Leaving Home, and a Spirituality for the Road (Fortress Press, 2021)",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "The Millennial Narrative: Sharing the Good Life with the Next Generation (Abingdon Press, 2019)",
+        "kind": "book",
+        "year": 2019
+      },
+      {
+        "title": "Growing Down: Theology and Human Nature in the Virtual Age (Baylor University Press, 2017)",
+        "kind": "book",
+        "year": 2017
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/jaco-hamman",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-forrest-harris",
@@ -283,7 +364,23 @@
       "B.A., Knoxville (1971)",
       "B.Th., American Baptist (1979)",
       "M.Div., D.Min., Vanderbilt (1983, 1991)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "What Does It Mean To Be Black and Christian: The Pulpit, Pew and the Academy in Dialogue (Townsend Press)",
+        "kind": "book"
+      },
+      {
+        "title": "Ministry for Social Crisis: Theology and Praxis in the Black Church Tradition (Mercer University Press)",
+        "kind": "book"
+      },
+      {
+        "title": "What Does It Mean To Be Black and Christian: The Meaning of the African American Church",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/forrest-harris",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-eunjoo-kim",
@@ -294,7 +391,36 @@
       "preaching",
       "liturgy-worship"
     ],
-    "profileUrl": "https://divinity.vanderbilt.edu/bio/eunjoo-kim"
+    "profileUrl": "https://divinity.vanderbilt.edu/bio/eunjoo-kim",
+    "publications": [
+      {
+        "title": "Preaching Jesus: Postcolonial Approaches (Rowman and Littlefield, 2024)",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "Christian Preaching and Worship in Multicultural Contexts (Liturgical Press, 2017)",
+        "kind": "book",
+        "year": 2017
+      },
+      {
+        "title": "Women, Church, and Leadership: New Paradigms (Wipf and Stock, 2012)",
+        "kind": "edited-volume",
+        "year": 2012
+      },
+      {
+        "title": "Preaching in an Age of Globalization (Westminster John Knox Press, 2010)",
+        "kind": "book",
+        "year": 2010
+      },
+      {
+        "title": "Women Preaching: Theology and Practice through the Ages (Pilgrim Press, 2004)",
+        "kind": "book",
+        "year": 2004
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/eunjoo-kim",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-herbert-marbury",
@@ -325,7 +451,7 @@
       }
     ],
     "publicationsSource": "https://divinity.vanderbilt.edu/bio/herbert-marbury",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-david-michelson",
@@ -386,7 +512,7 @@
       }
     ],
     "publicationsSource": "https://divinity.vanderbilt.edu/bio/bruce-morrill",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-yolanda-pierce",
@@ -402,6 +528,10 @@
     "otherRoles": [
       "University Distinguished Professor of Religion & Literature",
       "University Distinguished Professor of African American & Diaspora Studies"
+    ],
+    "degrees": [
+      "Cornell University (specific degree not stated on her Vanderbilt bio)",
+      "Princeton University (specific degree not stated on her Vanderbilt bio)"
     ]
   },
   {
@@ -429,7 +559,41 @@
       "Cal Turner Chancellor's Chair in Wesleyan Studies",
       "Director of the Wendland-Cook Program in Religion and Justice"
     ],
-    "workingOn": "Holds the other Cal Turner Chancellor's Chair in Wesleyan Studies and is UMC-ordained. He also directs the Wendland-Cook Program in Religion and Justice, and his own research center is theology and economic/political justice movements, with Wesleyan studies as one lens among several rather than his primary output."
+    "degrees": [
+      "M.Div., Theologische Hochschule Reutlingen, Germany",
+      "Th.M., Duke Divinity School",
+      "Ph.D., Duke University (religion and ethics)"
+    ],
+    "workingOn": "Holds the other Cal Turner Chancellor's Chair in Wesleyan Studies and is UMC-ordained. He also directs the Wendland-Cook Program in Religion and Justice, and his own research center is theology and economic/political justice movements, with Wesleyan studies as one lens among several rather than his primary output.",
+    "publications": [
+      {
+        "title": "Theology in the Capitalocene: Ecology, Identity, Class, and Solidarity (2022)",
+        "kind": "book",
+        "year": 2022
+      },
+      {
+        "title": "Jesus vs. Caesar: For People Tired of Serving the Wrong God (2018)",
+        "kind": "book",
+        "year": 2018
+      },
+      {
+        "title": "No Religion but Social Religion: Liberating Wesleyan Theology (2018)",
+        "kind": "book",
+        "year": 2018
+      },
+      {
+        "title": "Unified We are a Force: How Faith and Labor Can Overcome America's Inequalities, with Rosemarie Henkel-Rieger (2016)",
+        "kind": "book",
+        "year": 2016
+      },
+      {
+        "title": "Faith on the Road: A Short Theology of Travel and Justice (2015)",
+        "kind": "book",
+        "year": 2015
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/joerg-rieger",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "vanderbilt-fernando-segovia",
@@ -464,6 +628,35 @@
       "Ph. D., 1997 Theology, Ethics, and the Human Sciences, Chicago Theological Seminary",
       "M. A., 1988 Theology, Colgate Rochester Divinity School",
       "B. A., 1981 Political Science, Edinboro University of Pennsylvania"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Tilling Sacred Ground: Interiority, Black Women, and Religious Experience (Rowman and Littlefield / Lexington Books, 2022)",
+        "kind": "book",
+        "year": 2022
+      },
+      {
+        "title": "Reclaiming Incarnation in Black Life: Black Bodies and Healing Practices in Womanist Pastoral Care (Journal of Pastoral Theology, 2022)",
+        "kind": "article",
+        "year": 2022
+      },
+      {
+        "title": "Navigating Deep Waters: Spirituality and Religion in the Psychodynamic Space, in Spiritual Diversity and Psychotherapy (American Psychological Association, 2021)",
+        "kind": "chapter",
+        "year": 2021
+      },
+      {
+        "title": "Womanist Pastoral Theology and Black Women's Experience of Religion and Sexuality, in Pastoral Theology and Care (John Wiley Press, 2018)",
+        "kind": "chapter",
+        "year": 2018
+      },
+      {
+        "title": "Hegemonic Imagination, Historical Ethos, and Colonized Minds in the Pedagogical Space (Journal of Pastoral Theology, 2018)",
+        "kind": "article",
+        "year": 2018
+      }
+    ],
+    "publicationsSource": "https://divinity.vanderbilt.edu/bio/phillisi-sheppard",
+    "publicationsAsOf": "2026-08-07"
   }
 ]

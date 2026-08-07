@@ -29,7 +29,25 @@
       "M.A., The Southern Baptist Theological Seminary",
       "Ph.D., Garrett-Evangelical Theological Seminary"
     ],
-    "profileUrl": "https://www.garrett.edu/directories/andrew-wymer/"
+    "profileUrl": "https://www.garrett.edu/directories/andrew-wymer/",
+    "publications": [
+      {
+        "title": "Worship and Power: Liturgical Authority in Free Church Traditions",
+        "kind": "edited-volume",
+        "year": 2023,
+        "publisher": "Cascade",
+        "note": "Co-edited with Sarah Kathleen Johnson."
+      },
+      {
+        "title": "Unmasking White Preaching: Racial Hegemony, Resistance and Possibilities in Homiletics",
+        "kind": "edited-volume",
+        "year": 2022,
+        "publisher": "Lexington",
+        "note": "Co-edited with Lis Valle-Ruiz."
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/directories/andrew-wymer/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-angela-n-parker",
@@ -45,7 +63,29 @@
       "M.A., Duke University Divinity School",
       "B.A., Shaw University"
     ],
-    "profileUrl": "https://www.garrett.edu/directories/angela-n-parker/"
+    "profileUrl": "https://www.garrett.edu/directories/angela-n-parker/",
+    "publications": [
+      {
+        "title": "If God Still Breathes, Why Can't I? Black Lives Matter & Biblical Authority",
+        "kind": "book",
+        "year": 2021,
+        "publisher": "Eerdmans"
+      },
+      {
+        "title": "Faith Un-Lynched: \"Jesus-Faith as Paul's Both/And Out Of Christian Nationalism\"",
+        "kind": "book",
+        "publisher": "Eerdmans",
+        "note": "Forthcoming, per her Garrett bio; no publication year given yet."
+      },
+      {
+        "title": "Bodies, Violence, and Emotions: A Womanist Reading of the Gospel of Mark",
+        "kind": "book",
+        "publisher": "Wipf & Stock",
+        "note": "Forthcoming, per her Garrett bio; no publication year given yet."
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/directories/angela-n-parker/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-anna-m-johnson",
@@ -67,7 +107,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-arelis-benitez",
@@ -81,7 +121,16 @@
       "Ph.D., Vanderbilt University",
       "M.A., Loma Linda University School of Religion"
     ],
-    "profileUrl": "https://www.garrett.edu/directories/arelis-benitez/"
+    "profileUrl": "https://www.garrett.edu/directories/arelis-benitez/",
+    "publications": [
+      {
+        "title": "Reexistence and Return: Migration, Queer Identity, and Healing in Latiné Communities",
+        "kind": "book",
+        "note": "Forthcoming, per her Garrett bio; no publisher or year given yet."
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/directories/arelis-benitez/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-barry-e-bryant",
@@ -107,6 +156,12 @@
       "ethics-public-theology"
     ],
     "profileUrl": "https://www.garrett.edu/directories/brent-p-waters/",
+    "degrees": [
+      "B.A., University of Redlands",
+      "M.Div., School of Theology at Claremont",
+      "D.Min., School of Theology at Claremont",
+      "D.Phil., University of Oxford"
+    ],
     "publications": [
       {
         "title": "Common Callings and Ordinary Virtues: Christian Ethics for Everyday Life",
@@ -126,7 +181,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/directories/brent-p-waters/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-brian-bantum",
@@ -152,6 +207,9 @@
       "church-history"
     ],
     "profileUrl": "https://www.garrett.edu/directories/charles-cosgrove/",
+    "degrees": [
+      "Ph.D., Princeton Theological Seminary"
+    ],
     "publications": [
       {
         "title": "Music at Social Meals in Greek and Roman Antiquity: From the Archaic Period to the Age of Augustus",
@@ -179,7 +237,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/directories/charles-cosgrove/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-cheryl-anderson",
@@ -256,7 +314,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-emma-a-escobar",
@@ -268,6 +326,11 @@
     ],
     "areas": [
       "mission-social-justice"
+    ],
+    "degrees": [
+      "B.A. University of Rhode Island",
+      "M.Div. Boston University",
+      "D.Min. Wesley Theological Seminary"
     ],
     "profileUrl": "https://www.garrett.edu/directories/emma-a-escobar/"
   },
@@ -285,7 +348,23 @@
       "M.T.S., Harvard University",
       "B.A., University of Ghana"
     ],
-    "profileUrl": "https://www.garrett.edu/directories/esther-e-acolatse/"
+    "profileUrl": "https://www.garrett.edu/directories/esther-e-acolatse/",
+    "publications": [
+      {
+        "title": "Powers, Principalities, and the Spirit: Biblical Realism in Africa and the West",
+        "kind": "book",
+        "year": 2018,
+        "publisher": "Eerdmans"
+      },
+      {
+        "title": "For Freedom or Bondage: A Critique of African Pastoral Practices",
+        "kind": "book",
+        "year": 2014,
+        "publisher": "Eerdmans"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/directories/esther-e-acolatse/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-frederick-w-schmidt",
@@ -300,7 +379,29 @@
       "M.Div., Asbury Theological Seminary",
       "Ph.D., University of Oxford"
     ],
-    "profileUrl": "https://www.garrett.edu/directories/frederick-w-schmidt/"
+    "profileUrl": "https://www.garrett.edu/directories/frederick-w-schmidt/",
+    "publications": [
+      {
+        "title": "The Dave Test: A Raw Look at Real Faith in Hard Times",
+        "kind": "book",
+        "year": 2013,
+        "publisher": "Abingdon Press"
+      },
+      {
+        "title": "Conversations with Scripture: The Gospel of Luke",
+        "kind": "book",
+        "year": 2009,
+        "publisher": "Morehouse"
+      },
+      {
+        "title": "What God Wants for Your Life",
+        "kind": "book",
+        "year": 2005,
+        "publisher": "HarperOne"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/directories/frederick-w-schmidt/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-g-brooke-lester",
@@ -342,7 +443,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-hendrik-r-pieterse",
@@ -384,7 +485,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-james-l-papandrea",
@@ -407,7 +508,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-javier-a-viera",
@@ -450,7 +551,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-julie-a-duncan",
@@ -473,7 +574,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-kate-ott",
@@ -499,7 +600,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-kenneth-ngwa",
@@ -545,7 +646,40 @@
       "M.Div., Evangelical Theological Seminary",
       "Th.M., Th.D., Harvard Divinity School"
     ],
-    "profileUrl": "https://www.garrett.edu/directories/luis-r-rivera/"
+    "profileUrl": "https://www.garrett.edu/directories/luis-r-rivera/",
+    "publications": [
+      {
+        "title": "The Encyclopedia of Hispanic American Religious Cultures",
+        "kind": "chapter",
+        "year": 2009,
+        "publisher": "Baylor University Press"
+      },
+      {
+        "title": "Jesus in the Hispanic Community: Images of Christ from Theology to Popular Religion",
+        "kind": "chapter",
+        "year": 2009
+      },
+      {
+        "title": "Feasting on the Word: Preaching the Revised Common Lectionary",
+        "kind": "chapter",
+        "year": 2008,
+        "publisher": "Westminster John Knox Press"
+      },
+      {
+        "title": "Character Ethics and the Bible",
+        "kind": "chapter",
+        "year": 2007,
+        "publisher": "Westminster John Knox Press"
+      },
+      {
+        "title": "Shaping Beloved Community",
+        "kind": "chapter",
+        "year": 2006,
+        "publisher": "Westminster John Knox Press"
+      }
+    ],
+    "publicationsSource": "https://www.garrett.edu/directories/luis-r-rivera/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-mai-anh-le-tran",
@@ -574,7 +708,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-michael-washington",
@@ -584,6 +718,10 @@
     "areas": [
       "pastoral-care-counseling",
       "chaplaincy"
+    ],
+    "degrees": [
+      "Ph.D., Garrett-Evangelical Theological Seminary",
+      "M.Div., Garrett-Evangelical Theological Seminary"
     ],
     "profileUrl": "https://www.garrett.edu/directories/michael-washington/"
   },
@@ -608,7 +746,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-osvaldo-vena",
@@ -619,6 +757,12 @@
       "new-testament"
     ],
     "profileUrl": "https://www.garrett.edu/directories/osvaldo-vena/",
+    "degrees": [
+      "Th.B., Buenos Aires Bible Institute",
+      "M.Div., Bethel Theological Seminary",
+      "Th.M., Princeton Theological Seminary",
+      "Th.D., ISEDET (Instituto Superior de Estudios Teológicos), Buenos Aires"
+    ],
     "publications": [
       {
         "title": "Latinx Perspectives on the New Testament",
@@ -653,7 +797,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/directories/osvaldo-vena/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-reginald-blount",
@@ -679,7 +823,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-rolf-nolasco",
@@ -706,7 +850,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-timothy-r-eberhart",
@@ -732,7 +876,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-virginia-a-lee",
@@ -773,7 +917,7 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "garrett-k-k-yeo",
@@ -796,6 +940,6 @@
       }
     ],
     "publicationsSource": "https://www.garrett.edu/academics/faculty/",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   }
 ]

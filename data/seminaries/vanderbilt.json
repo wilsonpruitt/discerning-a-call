@@ -4,7 +4,7 @@
   "city": "Nashville",
   "state": "TN",
   "url": "https://divinity.vanderbilt.edu/",
-  "lastVerified": "2026-08-06",
+  "lastVerified": "2026-08-07",
   "ordination": {
     "senateStanding": {
       "value": "approved-non-umc",
@@ -191,7 +191,7 @@
       "url": "https://registrar.vanderbilt.edu/documents/Divinity-School-Catalog-2025-26.pdf"
     }
   ],
-  "facultyNote": "Scoped to Vanderbilt's own 'Faculty' directory tab (19 people) — the school's people-manager system separately lists Dual Appointments, Adjoint Faculty, and Lecturers, all excluded here the way Duke's harvest scoped to 'Regular Rank' only. ATS's Fall 2025 report counts 24 full-time faculty for the Divinity School as a whole, 5 more than this roster; the gap is most likely joint appointments with the Graduate Department of Religion that don't surface on the Divinity School's own public Faculty tab. Every person below has an individual bio page. Two hold the Cal Turner Chancellor's Chair in Wesleyan Studies (James P. Byrd, Joerg Rieger); a third core faculty member, Herbert R. Marbury, is separately UMC-ordained per his own bio. Degrees and denomination-of-ordination come from each person's own 'education' field; publications are drawn only where the bio names a clear, citable list — most of the 19 have none listed, which is a fact about what Vanderbilt publishes, not about their output.",
+  "facultyNote": "Scoped to Vanderbilt's own 'Faculty' directory tab (19 people) — the school's people-manager system separately lists Dual Appointments, Adjoint Faculty, and Lecturers, all excluded here the way Duke's harvest scoped to 'Regular Rank' only. ATS's Fall 2025 report counts 24 full-time faculty for the Divinity School as a whole, 5 more than this roster; the gap is most likely joint appointments with the Graduate Department of Religion that don't surface on the Divinity School's own public Faculty tab. Every person below has an individual bio page. Two hold the Cal Turner Chancellor's Chair in Wesleyan Studies (James P. Byrd, Joerg Rieger); a third core faculty member, Herbert R. Marbury, is separately UMC-ordained per his own bio. Degrees and denomination-of-ordination usually come from each person's own 'education' field, but two (Joerg Rieger's degrees, Yolanda Pierce's two institutions with no degree/date stated) were read out of bio prose instead — Vanderbilt's people-manager splits that data inconsistently person to person. Publications: a second full-page read (2026-08-07), prompted by a second-look flag on the first pass's heading-only search, found real dated work named in plain narrative prose (not a 'Selected Publications' heading) for 8 of the 13 people the first pass came up empty on — 14 of 19 now carry a publications list. The remaining 5 (Azzoni, Michelson, Segovia, Reside, Pierce) were read in full and confirmed to name no citable title anywhere on their Vanderbilt bio: Azzoni's two books are explicitly in progress, Michelson's bio links off-site instead of naming titles, and Segovia/Reside/Pierce's bios describe an output without ever naming one. That is what Vanderbilt itself publishes for those five, not an artifact of how this harvest looked.",
   "contact": {
     "admissionsUrl": "https://divinity.vanderbilt.edu/admissions/",
     "email": "divinity-admissions@vanderbilt.edu",

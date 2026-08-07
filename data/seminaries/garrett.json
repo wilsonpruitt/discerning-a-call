@@ -3,11 +3,11 @@
   "name": "Garrett Seminary",
   "nameNote": "Garrett's own body copy — its homepage hero tagline, news posts, and footer strapline — consistently self-identifies as \"Garrett Seminary,\" matching GBHEM's roster. Its page titles, meta site-name tags, footer copyright line, and logo/favicon filenames still say \"Garrett-Evangelical Theological Seminary\": a rebrand in progress on the same site, not a mismatch with the Senate roster.",
   "nameSource": "https://www.garrett.edu/",
-  "nameAsOf": "2026-08-06",
+  "nameAsOf": "2026-08-07",
   "city": "Evanston",
   "state": "IL",
   "url": "https://www.garrett.edu/",
-  "lastVerified": "2026-08-06",
+  "lastVerified": "2026-08-07",
   "ordination": {
     "senateStanding": {
       "value": "approved-umc",
@@ -124,13 +124,13 @@
     "pctReceivingAid": {
       "value": "Every degree-seeking student who studies at least part-time",
       "source": "https://www.garrett.edu/admissions/scholarships-financial-aids/",
-      "asOf": "2026-08-06",
+      "asOf": "2026-08-07",
       "note": "Garrett states this plainly and repeatedly: no separate scholarship application exists. Applying for admission is applying for aid."
     },
     "typicalAward": {
       "value": "Master's students: 50–100%+ of tuition; 65–100% for Early Action (apply by Dec. 31, 2026 for Fall 2027); Ph.D.: 100% of tuition plus fellowships/stipends; D.Min.: 25–50% of tuition",
       "source": "https://www.garrett.edu/admissions/scholarships-financial-aids/",
-      "asOf": "2026-08-06",
+      "asOf": "2026-08-07",
       "note": "These are ranges Garrett states for degree-seeking students generally, not a UMC-candidate-specific award — unlike Candler's certified-candidate 100%-tuition scholarship, Garrett's guaranteed-scholarship policy applies regardless of denomination or ordination track."
     },
     "honestNote": "Garrett's \"every degree-seeking student gets a scholarship\" framing is real and unusually broad — broader than a UMC-specific deal, since it applies to every denomination and every master's student. But \"50–100%\" is still a wide range, and the floor (50%) is what a late applicant should expect; the Early Action deadline (Dec. 31 for the following fall) is what moves the floor up to 65%. Ask financial aid what a typical MDiv award actually lands at, not just the advertised range."
@@ -238,5 +238,5 @@
     "admissionsUrl": "https://www.garrett.edu/admissions/",
     "visitUrl": "https://www.garrett.edu/admissions/admission-events/"
   },
-  "facultyNote": "Garrett publishes individual profile pages for its faculty (unusual among the schools harvested so far — Perkins publishes none). This roster covers the 30 people in Garrett's own \"Faculty\" directory category plus the 8 in \"Emeriti Faculty and Senior Scholars.\" Garrett's site also lists an \"Affiliate and Adjunct Faculty\" category, currently empty, so no adjuncts are omitted by that exclusion — there simply aren't any listed there right now."
+  "facultyNote": "Garrett publishes individual profile pages for its faculty (unusual among the schools harvested so far — Perkins publishes none). This roster covers the 30 people in Garrett's own \"Faculty\" directory category plus the 8 in \"Emeriti Faculty and Senior Scholars.\" Garrett's site also lists an \"Affiliate and Adjunct Faculty\" category, currently empty, so no adjuncts are omitted by that exclusion — there simply aren't any listed there right now. A second pass (2026-08) re-read the REST content of every person still missing degrees or publications: two people's degrees had been missed by a too-strict \"Education\" heading match (fixed here — one used a plain <p>Education</p>, one had a stray <br> inside the heading), and three more state their degrees only in prose rather than a list (hand-transcribed). Nine people had real, nameable publications sitting in prose bios that the first pass's carousel-only publication sweep missed. The remaining faculty without a publications entry were checked individually and their bios genuinely name no specific title — largely junior or practice-focused hires whose Garrett bio is a short personal statement rather than a bibliography, not a parsing gap."
 }

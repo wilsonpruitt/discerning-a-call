@@ -74,15 +74,21 @@
 //  - Publications: bios are free prose, not a citation database. Two
 //    conservative extractors are used — a literal "Selected publications:"
 //    list where the school phrases it that way (Byrd), and an italic-title +
-//    (Publisher, Year) pattern elsewhere. Anything neither catches is left
-//    off rather than guessed at; several of the 19 have none, same as Brite.
+//    (Publisher, Year) pattern elsewhere. A second pass (2026-08-07) read
+//    the other 13 bios in full rather than trusting the two extractors
+//    alone, per research/faculty-deep-scrape-tracker.md's flag that
+//    long-CV-style bios need a human read (Boston's precedent). It found
+//    real, dated work for 8 of the 13, hand-transcribed as MANUAL_PUBLICATIONS
+//    below; the other 5 (Azzoni, Michelson, Segovia, Reside, Pierce) were
+//    read in full too and genuinely name nothing citable — a real ceiling,
+//    not a parsing gap.
 
 import { writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { get, today } from "./lib/fetch.mts";
 import { htmlToText, pdfToText } from "./lib/text.mts";
 import { suggestAreas } from "./lib/areas.mts";
-import type { FacultyMember, SeminaryProfile, StudyArea } from "../../content/types.ts";
+import type { FacultyMember, Publication, SeminaryProfile, StudyArea } from "../../content/types.ts";
 
 const fresh = process.argv.includes("--fresh");
 const ROOT = process.cwd();
@@ -324,6 +330,107 @@ const WORKING_ON: Record<string, string> = {
   "Herbert R. Marbury": "UMC-ordained and teaches Hebrew Bible and Black Religious Studies. Not a Methodist-studies appointment, but worth knowing if you are a UMC candidate looking for ordained UM faculty outside the two Wesleyan chairs.",
 };
 
+// SECOND PASS, 2026-08-07. The first pass's two extractors (a literal
+// "Selected publications:" heading + <ul> list, or an italicised title with
+// a trailing (Publisher, Year)) only ever fire on a minority of Vanderbilt's
+// bio-writing styles. Most of the 19 write publications as plain narrative
+// sentences ("Anderson has published three books: Title A (1995), Title B
+// (1999)...") or, in Sheppard's case, a "Selected Publications" heading
+// followed by bare paragraphs rather than a <ul> — a format neither
+// extractor catches. research/faculty-deep-scrape-tracker.md flagged this
+// exact risk, citing Boston's harvest as precedent that long-CV-style bios
+// need a human read, not another heading match.
+//
+// Reading all 13 gap people's full profile record (not just running the
+// extractors again) found real, dated, citable work for 8 of them —
+// hand-transcribed here, capped at five and ordered most recent first per
+// FacultyMember's own rule, exactly as the school's bio states each title
+// (Paul DeHart's bio spells Eberhard Jüngel's name "Jungel," with no
+// umlaut; kept as written rather than silently corrected). The other 5
+// (Azzoni, Michelson, Segovia, Reside, Pierce) were read in full too and
+// genuinely have nothing citable on their Vanderbilt bio: Azzoni's two
+// books are explicitly framed as in-progress ("she is currently working at
+// her two books"), Michelson's bio points off-site
+// (my.vanderbilt.edu/michelson/) rather than naming titles, and
+// Segovia/Reside/Pierce's bios describe an output ("many publications,"
+// "several books... essays, and articles") without ever naming one. That is
+// a real ceiling this school's own pages impose, confirmed by reading every
+// word of the bio rather than re-asserted from the first pass's heading
+// search.
+const MANUAL_PUBLICATIONS: Record<string, { title: string; kind: Publication["kind"]; year?: number }[]> = {
+  "Victor Anderson": [
+    { title: "Creative Exchange: A Constructive Theology of African American Religious Experience (2008)", kind: "book", year: 2008 },
+    { title: "Pragmatic Theology: Negotiating the Intersection of an American Philosophy of Religion and Public Theology (1999)", kind: "book", year: 1999 },
+    { title: "Beyond Ontological Blackness: An Essay in African American Religious and Cultural Criticism (1995)", kind: "book", year: 1995 },
+  ],
+  "Paul DeHart": [
+    { title: "Improvising the Paradigms: Aquinas, Creation and the Eternal Ideas as Anti-Platonic Ontology (Modern Theology, 2016)", kind: "article", year: 2016 },
+    { title: "Aquinas and Radical Orthodoxy: A Critical Inquiry (2011)", kind: "book", year: 2011 },
+    { title: "The Trial of the Witnesses: The Rise and Decline of Postliberal Theology (2006)", kind: "book", year: 2006 },
+    { title: "Beyond the Necessary God: Trinitarian Faith and Philosophy in the Thought of Eberhard Jungel (1999)", kind: "book", year: 1999 },
+  ],
+  "Yara González-Justiniano": [
+    { title: "Centering Hope as a Sustainable Decolonial Practice: Esperanza en Práctica (2022)", kind: "book", year: 2022 },
+  ],
+  "Jaco Hamman": [
+    { title: "The Essence of Leadership: Maintaining Emotional Independence in Situations Requiring Change (Routledge, 2024)", kind: "book", year: 2024 },
+    { title: "Pastoral Virtues for Artificial Intelligence: Care and the Algorithms that Guide our Lives (Lexington Books, 2022)", kind: "book", year: 2022 },
+    { title: "Just Traveling: God, Leaving Home, and a Spirituality for the Road (Fortress Press, 2021)", kind: "book", year: 2021 },
+    { title: "The Millennial Narrative: Sharing the Good Life with the Next Generation (Abingdon Press, 2019)", kind: "book", year: 2019 },
+    { title: "Growing Down: Theology and Human Nature in the Virtual Age (Baylor University Press, 2017)", kind: "book", year: 2017 },
+  ],
+  "Forrest Harris": [
+    { title: "What Does It Mean To Be Black and Christian: The Pulpit, Pew and the Academy in Dialogue (Townsend Press)", kind: "book" },
+    { title: "Ministry for Social Crisis: Theology and Praxis in the Black Church Tradition (Mercer University Press)", kind: "book" },
+    { title: "What Does It Mean To Be Black and Christian: The Meaning of the African American Church", kind: "book" },
+  ],
+  "Eunjoo Kim (Eun J. Lee)": [
+    { title: "Preaching Jesus: Postcolonial Approaches (Rowman and Littlefield, 2024)", kind: "book", year: 2024 },
+    { title: "Christian Preaching and Worship in Multicultural Contexts (Liturgical Press, 2017)", kind: "book", year: 2017 },
+    { title: "Women, Church, and Leadership: New Paradigms (Wipf and Stock, 2012)", kind: "edited-volume", year: 2012 },
+    { title: "Preaching in an Age of Globalization (Westminster John Knox Press, 2010)", kind: "book", year: 2010 },
+    { title: "Women Preaching: Theology and Practice through the Ages (Pilgrim Press, 2004)", kind: "book", year: 2004 },
+  ],
+  "Joerg Rieger": [
+    { title: "Theology in the Capitalocene: Ecology, Identity, Class, and Solidarity (2022)", kind: "book", year: 2022 },
+    { title: "Jesus vs. Caesar: For People Tired of Serving the Wrong God (2018)", kind: "book", year: 2018 },
+    { title: "No Religion but Social Religion: Liberating Wesleyan Theology (2018)", kind: "book", year: 2018 },
+    { title: "Unified We are a Force: How Faith and Labor Can Overcome America's Inequalities, with Rosemarie Henkel-Rieger (2016)", kind: "book", year: 2016 },
+    { title: "Faith on the Road: A Short Theology of Travel and Justice (2015)", kind: "book", year: 2015 },
+  ],
+  "Phillis Isabella Sheppard": [
+    { title: "Tilling Sacred Ground: Interiority, Black Women, and Religious Experience (Rowman and Littlefield / Lexington Books, 2022)", kind: "book", year: 2022 },
+    { title: "Reclaiming Incarnation in Black Life: Black Bodies and Healing Practices in Womanist Pastoral Care (Journal of Pastoral Theology, 2022)", kind: "article", year: 2022 },
+    { title: "Navigating Deep Waters: Spirituality and Religion in the Psychodynamic Space, in Spiritual Diversity and Psychotherapy (American Psychological Association, 2021)", kind: "chapter", year: 2021 },
+    { title: "Womanist Pastoral Theology and Black Women's Experience of Religion and Sexuality, in Pastoral Theology and Care (John Wiley Press, 2018)", kind: "chapter", year: 2018 },
+    { title: "Hegemonic Imagination, Historical Ethos, and Colonized Minds in the Pedagogical Space (Journal of Pastoral Theology, 2018)", kind: "article", year: 2018 },
+  ],
+};
+
+// Same second pass, for degrees: the "education" field is usually where a
+// bio's degree lines live, but Joerg Rieger's are stated only in his bio
+// prose ("He received an M.Div. from the Theologische Hochschule Reutlingen,
+// Germany, a Th.M. from Duke Divinity School, and a Ph.D. in religion and
+// ethics from Duke University") — the education field itself holds only his
+// denomination. Yolanda Pierce's bio names two institutions ("She holds
+// degrees from Cornell University and Princeton University") but never
+// states which degree or when, unlike every other person's degree lines on
+// this roster — kept, but marked unspecified rather than guessed at.
+// Eunjoo Kim and Graham Reside's bios were read in full and name no degree
+// information anywhere on the page; that is a real gap in what Vanderbilt
+// itself publishes for them, not a parsing miss.
+const MANUAL_DEGREES: Record<string, string[]> = {
+  "Joerg Rieger": [
+    "M.Div., Theologische Hochschule Reutlingen, Germany",
+    "Th.M., Duke Divinity School",
+    "Ph.D., Duke University (religion and ethics)",
+  ],
+  "Yolanda Pierce": [
+    "Cornell University (specific degree not stated on her Vanderbilt bio)",
+    "Princeton University (specific degree not stated on her Vanderbilt bio)",
+  ],
+};
+
 function slugId(slug: string): string {
   return `vanderbilt-${slug}`;
 }
@@ -341,6 +448,9 @@ async function buildFaculty(): Promise<FacultyMember[]> {
     const bioHtml = unescapeAll(profile.bio ?? "");
     let pubTitles = extractLabeledPublications(bioHtml);
     if (pubTitles.length === 0) pubTitles = extractProseTitlePublications(bioHtml);
+    const manualPubs = MANUAL_PUBLICATIONS[entry.full_name];
+    const manualDegrees = MANUAL_DEGREES[entry.full_name];
+    const allDegrees = manualDegrees ? [...degrees, ...manualDegrees] : degrees;
 
     let areas = suggestAreas(title, otherRoles);
     const extra = MANUAL_AREA_ADDITIONS[entry.full_name];
@@ -355,10 +465,14 @@ async function buildFaculty(): Promise<FacultyMember[]> {
       profileUrl: `https://divinity.vanderbilt.edu/bio/${entry.slug}`,
     };
     if (otherRoles.length) member.otherRoles = otherRoles;
-    if (degrees.length) member.degrees = degrees;
+    if (allDegrees.length) member.degrees = allDegrees;
     const workingOn = WORKING_ON[entry.full_name];
     if (workingOn) member.workingOn = workingOn;
-    if (pubTitles.length) {
+    if (manualPubs) {
+      member.publications = manualPubs;
+      member.publicationsSource = member.profileUrl;
+      member.publicationsAsOf = today();
+    } else if (pubTitles.length) {
       member.publications = toPublications(pubTitles);
       member.publicationsSource = member.profileUrl;
       member.publicationsAsOf = today();
@@ -576,7 +690,7 @@ function buildProfile(): SeminaryProfile {
       },
     ],
 
-    facultyNote: "Scoped to Vanderbilt's own 'Faculty' directory tab (19 people) — the school's people-manager system separately lists Dual Appointments, Adjoint Faculty, and Lecturers, all excluded here the way Duke's harvest scoped to 'Regular Rank' only. ATS's Fall 2025 report counts 24 full-time faculty for the Divinity School as a whole, 5 more than this roster; the gap is most likely joint appointments with the Graduate Department of Religion that don't surface on the Divinity School's own public Faculty tab. Every person below has an individual bio page. Two hold the Cal Turner Chancellor's Chair in Wesleyan Studies (James P. Byrd, Joerg Rieger); a third core faculty member, Herbert R. Marbury, is separately UMC-ordained per his own bio. Degrees and denomination-of-ordination come from each person's own 'education' field; publications are drawn only where the bio names a clear, citable list — most of the 19 have none listed, which is a fact about what Vanderbilt publishes, not about their output.",
+    facultyNote: "Scoped to Vanderbilt's own 'Faculty' directory tab (19 people) — the school's people-manager system separately lists Dual Appointments, Adjoint Faculty, and Lecturers, all excluded here the way Duke's harvest scoped to 'Regular Rank' only. ATS's Fall 2025 report counts 24 full-time faculty for the Divinity School as a whole, 5 more than this roster; the gap is most likely joint appointments with the Graduate Department of Religion that don't surface on the Divinity School's own public Faculty tab. Every person below has an individual bio page. Two hold the Cal Turner Chancellor's Chair in Wesleyan Studies (James P. Byrd, Joerg Rieger); a third core faculty member, Herbert R. Marbury, is separately UMC-ordained per his own bio. Degrees and denomination-of-ordination usually come from each person's own 'education' field, but two (Joerg Rieger's degrees, Yolanda Pierce's two institutions with no degree/date stated) were read out of bio prose instead — Vanderbilt's people-manager splits that data inconsistently person to person. Publications: a second full-page read (2026-08-07), prompted by a second-look flag on the first pass's heading-only search, found real dated work named in plain narrative prose (not a 'Selected Publications' heading) for 8 of the 13 people the first pass came up empty on — 14 of 19 now carry a publications list. The remaining 5 (Azzoni, Michelson, Segovia, Reside, Pierce) were read in full and confirmed to name no citable title anywhere on their Vanderbilt bio: Azzoni's two books are explicitly in progress, Michelson's bio links off-site instead of naming titles, and Segovia/Reside/Pierce's bios describe an output without ever naming one. That is what Vanderbilt itself publishes for those five, not an artifact of how this harvest looked.",
 
     contact: {
       admissionsUrl: "https://divinity.vanderbilt.edu/admissions/",
