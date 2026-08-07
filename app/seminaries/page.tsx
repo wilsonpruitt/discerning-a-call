@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { seminaries } from "@/content";
-import { Container, PageHeader, Card, Eyebrow } from "@/components/ui";
+import { Container, PageHeader, ButtonLink, Card, Eyebrow } from "@/components/ui";
 import { SeminaryDirectory } from "@/components/seminary-directory";
 
 export const metadata: Metadata = {
@@ -21,32 +20,16 @@ export default function SeminariesPage() {
             subtitle="Thirteen United Methodist schools — and a longer list beyond them."
             lead="¶324.4 asks for basic graduate theological studies from a University Senate–approved school. That is a broader list than most people realise: the thirteen United Methodist seminaries, and twenty-four more the Senate has approved. Both routes are legitimate; they carry different constraints, and the biggest one is that no online or distance class taken at a non–United Methodist school counts toward ordination."
           />
+          <div className="mt-6 flex flex-wrap items-center gap-3">
+            <ButtonLink href="/seminaries/faculty" variant="secondary">
+              Or start from the subject — browse faculty by what they teach
+            </ButtonLink>
+          </div>
         </Container>
       </section>
 
       <Container className="py-12 md:py-14">
         <SeminaryDirectory seminaries={seminaries} />
-
-        <Card className="mt-10 p-6 md:p-7">
-          <Eyebrow>Start from the subject instead</Eyebrow>
-          <h2 className="mt-2 font-serif text-[22px] font-medium text-fen">
-            Who teaches what, across schools.
-          </h2>
-          <p className="prose mt-3 text-[15px] text-muted">
-            Every seminary publishes its own faculty; none of them publishes the
-            others&rsquo;. If you know the subject you care about but not the
-            school, the cross-school index groups every professor at the schools
-            profiled here by what they work on — including the subjects taught by
-            only a handful of people anywhere.{" "}
-            <Link
-              href="/seminaries/faculty"
-              className="text-fen underline decoration-hairline underline-offset-2"
-            >
-              Browse by subject
-            </Link>
-            .
-          </p>
-        </Card>
 
         <Card editorial className="mt-12 p-7">
           <Eyebrow>Before you assume you need a degree</Eyebrow>

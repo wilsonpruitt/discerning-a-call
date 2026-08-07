@@ -47,7 +47,7 @@ export function SiteHeader() {
           ))}
           <Link
             href="/start"
-            className="unstyled rounded-md bg-fen px-4 py-2 text-[14px] font-medium text-[var(--fg-on-fen)] transition-colors hover:bg-fen-mist"
+            className="unstyled rounded-md bg-fen px-4 py-2 text-[14px] font-medium !text-[var(--fg-on-fen)] transition-colors hover:bg-fen-mist"
           >
             Where are you?
           </Link>
@@ -80,7 +80,7 @@ export function SiteHeader() {
             <Link
               href="/start"
               onClick={() => setOpen(false)}
-              className="unstyled mt-1 rounded-md bg-fen px-4 py-2.5 text-center text-[15px] font-medium text-[var(--fg-on-fen)]"
+              className="unstyled mt-1 rounded-md bg-fen px-4 py-2.5 text-center text-[15px] font-medium !text-[var(--fg-on-fen)]"
             >
               Where are you?
             </Link>

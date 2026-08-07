@@ -5,7 +5,6 @@
   "state": "TX",
   "url": "https://www.austinseminary.edu/",
   "lastVerified": "2026-08-06",
-
   "ordination": {
     "senateStanding": {
       "value": "approved-non-umc",
@@ -22,8 +21,16 @@
     "coverageSource": "https://www.austinseminary.edu/academics/degree-programs/master-of-divinity-mdiv",
     "coverageAsOf": "2026-08-06",
     "coverage": [
-      { "area": "old-testament", "status": "required", "note": "Introduction to Old Testament is a required course." },
-      { "area": "new-testament", "status": "required", "note": "Introduction to New Testament is a required course." },
+      {
+        "area": "old-testament",
+        "status": "required",
+        "note": "Introduction to Old Testament is a required course."
+      },
+      {
+        "area": "new-testament",
+        "status": "required",
+        "note": "Introduction to New Testament is a required course."
+      },
       {
         "area": "theology",
         "status": "required",
@@ -34,7 +41,11 @@
         "status": "required",
         "note": "Introduction to the History of Christianity: Apostolic Era to 1650 is required. Note the end date — a course stopping at 1650 does not touch Wesley."
       },
-      { "area": "preaching", "status": "required", "note": "Introduction to Preaching is a required course." },
+      {
+        "area": "preaching",
+        "status": "required",
+        "note": "Introduction to Preaching is a required course."
+      },
       {
         "area": "worship-liturgy",
         "status": "required",
@@ -56,7 +67,10 @@
         "note": "This is a Presbyterian seminary; there is no United Methodist doctrine, polity, or history requirement, and ¶324.4 asks for a minimum of six semester hours. Partial help exists: Ángel Gallardo, assistant professor of church history, teaches a course on Methodism. That may serve the history component; nothing in the published curriculum covers UM doctrine or polity."
       }
     ],
-    "gapSummary": "Austin Seminary covers seven of the nine ¶324.4 areas inside its required M.Div. curriculum, which is more than some United Methodist schools manage. The real gap is the six semester hours of United Methodist studies — doctrine, polity, and history — which a Presbyterian seminary has no reason to teach and does not. Evangelism is a second, smaller question, because it shares a single required course with mission. Neither is a reason not to come here. Both are reasons to have the conversation with your Board of Ordained Ministry registrar before you enrol rather than in your final year, because the fix costs a semester if you plan it and a year if you do not.",
+    "gapSummary": [
+      "Austin Seminary covers seven of the nine ¶324.4 areas inside its required M.Div. curriculum, which is more than some United Methodist schools manage. The real gap is the six semester hours of United Methodist studies — doctrine, polity, and history — which a Presbyterian seminary has no reason to teach and does not.",
+      "Evangelism is a second, smaller question, because it shares a single required course with mission. Neither is a reason not to come here. Both are reasons to have the conversation with your Board of Ordained Ministry registrar before you enrol rather than in your final year, because the fix costs a semester if you plan it and a year if you do not."
+    ],
     "gapRemedies": [
       {
         "blurb": "Take United Methodist studies online from a United Methodist school. GBHEM's restriction is on classes taken at the non-UMC schools; the thirteen UMC schools are all approved to deliver fully online coursework that counts. On the plain reading that makes an online UM doctrine/polity/history sequence from a UMC school the cleanest way to close this gap while you study in Austin — but confirm the arrangement with your registrar first, in writing.",
@@ -75,7 +89,6 @@
       }
     ]
   },
-
   "cost": {
     "tuitionPerCredit": {
       "value": "$810 per credit for 2026–27",
@@ -96,12 +109,13 @@
     },
     "honestNote": "Austin publishes its federal loan default rate — 3.7% — which almost no seminary does voluntarily. Treat that as a real signal about how graduates actually fare, and as a fair question to ask any other school you are weighing."
   },
-
   "degrees": [
     {
       "name": "Master of Divinity",
       "abbr": "M.Div.",
-      "modalities": ["residential"],
+      "modalities": [
+        "residential"
+      ],
       "typicalYears": "Three years full-time",
       "blurb": "The ordination degree, taught in person. Required courses run across Old and New Testament, history, two theology courses, ethics, Christian education, mission and evangelism, pastoral care, preaching, worship, world religions, and a senior capstone, plus a biblical language track and supervised ministry.",
       "url": "https://www.austinseminary.edu/academics/degree-programs/master-of-divinity-mdiv",
@@ -110,14 +124,18 @@
     {
       "name": "M.Div. / Master of Science in Social Work",
       "abbr": "M.Div./MSSW",
-      "modalities": ["residential"],
+      "modalities": [
+        "residential"
+      ],
       "blurb": "Dual degree with UT Austin's Steve Hicks School of Social Work. Approved MSSW courses can satisfy M.Div. elective requirements — for agency ministry, advocacy, and clinical counselling.",
       "url": "https://www.austinseminary.edu/academics/degree-programs/mdiv-mssw-dual-degree"
     },
     {
       "name": "M.Div. / Master of Business Administration",
       "abbr": "M.Div./MBA",
-      "modalities": ["hybrid"],
+      "modalities": [
+        "hybrid"
+      ],
       "blurb": "Dual degree with Schreiner University's online MBA in Ethical Leadership. Both degrees in four years, in residence at Austin.",
       "url": "https://www.austinseminary.edu/academics/degree-programs/mdiv-mba-dual-degree",
       "flag": "Began fall 2025"
@@ -125,7 +143,9 @@
     {
       "name": "Master of Arts in Youth Ministry",
       "abbr": "MAYM",
-      "modalities": ["residential"],
+      "modalities": [
+        "residential"
+      ],
       "blurb": "A dedicated youth ministry degree with its own director and research professor.",
       "url": "https://www.austinseminary.edu/academics/degree-programs",
       "flag": "All MAYM students receive a 100% tuition grant, regardless of need"
@@ -133,21 +153,25 @@
     {
       "name": "Master of Arts (Theological Studies)",
       "abbr": "MATS",
-      "modalities": ["residential"],
+      "modalities": [
+        "residential"
+      ],
       "blurb": "Not an ordination degree. Also carries the public theology concentration.",
       "url": "https://www.austinseminary.edu/academics/degree-programs/master-of-arts-theological-studies-mats"
     },
     {
       "name": "Certificado en Ministerio",
       "abbr": "CEM",
-      "modalities": ["hybrid"],
+      "modalities": [
+        "hybrid"
+      ],
       "blurb": "A Spanish-language ministry certificate, alongside the Hispanic Ministries Mission Network. Not a degree, and not a route to ¶324.4 — but a real programme in Spanish.",
       "url": "https://www.austinseminary.edu/"
     }
   ],
-
-  "concentrations": ["Public theology"],
-
+  "concentrations": [
+    "Public theology"
+  ],
   "partnerships": [
     {
       "kind": "joint-degree",
@@ -162,7 +186,6 @@
       "url": "https://www.austinseminary.edu/academics/degree-programs/mdiv-mba-dual-degree"
     }
   ],
-
   "contact": {
     "admissionsUrl": "https://www.austinseminary.edu/admissions",
     "visitUrl": "https://www.austinseminary.edu/admissions/plan-your-visit",

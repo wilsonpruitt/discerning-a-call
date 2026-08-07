@@ -546,8 +546,10 @@ function buildProfile(asOf: string): SeminaryProfile {
           note: "Same disclaimer again: not a Seminary requirement, taken as electives. Wesley's named menu here is a fixed pair rather than a choice: Polity of the United Methodist Church CM-251 (2 credit hours) and History and Doctrine in Methodist Traditions ST-463 and ST-464 (4 credit hours) — 6 credit hours total, landing exactly on ¶324.4's 6-hour UM-studies floor with nothing to spare.",
         },
       ],
-      gapSummary:
-        "Six of the nine ¶324.4 areas are built into every Wesley M.Div. candidate's required core — no planning needed. The other three — evangelism, mission of the church, and United Methodist studies — sit in elective space: Wesley's own catalog says so directly, calling them “church requirements for ordination and not a Seminary requirement,” taken “as electives.” That is a real gap in the degree's required core, but a narrow and well-marked one: Wesley doesn't leave you guessing which electives to pick. It names exactly six courses for evangelism (any one), four for mission of the church (any one), and a fixed pair for UM studies (CM-251 plus ST-463/464, totaling precisely the 6 hours ¶324.4 asks for). Treat these three as electives you choose on purpose, early, rather than ones that happen automatically.",
+      gapSummary: [
+        "Six of the nine ¶324.4 areas are built into every Wesley M.Div. candidate's required core — no planning needed. The other three — evangelism, mission of the church, and United Methodist studies — sit in elective space: Wesley's own catalog says so directly, calling them “church requirements for ordination and not a Seminary requirement,” taken “as electives.”",
+        "That is a real gap in the degree's required core, but a narrow and well-marked one: Wesley doesn't leave you guessing which electives to pick. It names exactly six courses for evangelism (any one), four for mission of the church (any one), and a fixed pair for UM studies (CM-251 plus ST-463/464, totaling precisely the 6 hours ¶324.4 asks for). Treat these three as electives you choose on purpose, early, rather than ones that happen automatically.",
+      ],
       gapRemedies: [
         {
           blurb: "Register for CM-251 (Polity of the United Methodist Church) and ST-463/ST-464 (History and Doctrine in Methodist Traditions) as three of your elective slots — together they're exactly the 6 hours ¶324.4 asks for in United Methodist studies, and Wesley names them by course number so there's nothing to guess.",

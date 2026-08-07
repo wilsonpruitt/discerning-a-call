@@ -278,7 +278,7 @@ export interface OrdinationReadiness {
   coverage?: RequirementCoverage[];
   coverageSource?: string; // catalog/registrar URL behind the coverage table
   coverageAsOf?: string;
-  gapSummary?: string;
+  gapSummary?: string[]; // paragraphs — keep each one short, this renders as a wall of text otherwise
   gapRemedies?: { blurb: string; url?: string }[];
 }
 

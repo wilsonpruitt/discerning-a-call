@@ -109,7 +109,7 @@ export function validateProfile(profile: SeminaryProfile, file: string): Problem
       // A UMC-track requirement is not a gap for the person this site serves:
       // a UMC candidate cannot graduate without it either.
       const gaps = o.coverage.filter((c) => c.status !== "required" && c.status !== "required-umc-track");
-      if (gaps.length && !o.gapSummary) {
+      if (gaps.length && !o.gapSummary?.length) {
         p.push({ file, where: "ordination.gapSummary", message: `${gaps.length} areas are not in the core but nothing explains the consequence`, severity: "error" });
       }
       if (gaps.length && !o.gapRemedies?.length) {

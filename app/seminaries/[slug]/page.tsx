@@ -222,7 +222,11 @@ export default async function SeminaryProfilePage({
                 ? `${gaps.length} of 9 need you to plan for them`
                 : "What we could and could not verify"}
             </Eyebrow>
-            <p className="prose mt-3 text-[15px] text-ink">{ordination.gapSummary}</p>
+            <div className="prose mt-3 space-y-3 text-[15px] text-ink">
+              {ordination.gapSummary.map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
+            </div>
           </Card>
         ) : null}
 

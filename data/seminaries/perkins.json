@@ -5,7 +5,6 @@
   "state": "TX",
   "url": "https://www.smu.edu/perkins",
   "lastVerified": "2026-08-06",
-
   "ordination": {
     "senateStanding": {
       "value": "approved-umc",
@@ -22,12 +21,36 @@
     "coverageSource": "https://www.smu.edu/-/media/site/perkins/registrar/old-new-curriculum-table-ver-3-(2).pdf",
     "coverageAsOf": "2024-08-01",
     "coverage": [
-      { "area": "old-testament", "status": "required", "note": "OT 6300 in the core." },
-      { "area": "new-testament", "status": "required", "note": "NT 6300 in the core." },
-      { "area": "theology", "status": "required", "note": "ST 6303 Systematic Theology in the core." },
-      { "area": "church-history", "status": "required", "note": "HX 6300 in the core." },
-      { "area": "preaching", "status": "required", "note": "PR 6300 Preaching in the core." },
-      { "area": "worship-liturgy", "status": "required", "note": "WO 6313 Worship in the core." },
+      {
+        "area": "old-testament",
+        "status": "required",
+        "note": "OT 6300 in the core."
+      },
+      {
+        "area": "new-testament",
+        "status": "required",
+        "note": "NT 6300 in the core."
+      },
+      {
+        "area": "theology",
+        "status": "required",
+        "note": "ST 6303 Systematic Theology in the core."
+      },
+      {
+        "area": "church-history",
+        "status": "required",
+        "note": "HX 6300 in the core."
+      },
+      {
+        "area": "preaching",
+        "status": "required",
+        "note": "PR 6300 Preaching in the core."
+      },
+      {
+        "area": "worship-liturgy",
+        "status": "required",
+        "note": "WO 6313 Worship in the core."
+      },
       {
         "area": "mission-of-the-church",
         "status": "occasional",
@@ -44,7 +67,10 @@
         "note": "Nothing in the required core covers United Methodist doctrine, polity, or history. The old degree plan states plainly that the 24 unrestricted elective hours “may include United Methodist Studies and Evangelism.” ¶324.4 asks for a minimum of 6 semester hours here."
       }
     ],
-    "gapSummary": "Six of the nine ¶324.4 areas are in the required core and take care of themselves. Three are not. United Methodist studies — the 6-hour one — sits in elective space, as does evangelism, and no core course is labelled “mission of the church in the world.” This is the thing to notice about a Perkins M.Div.: it is a United Methodist seminary, but the United Methodist studies requirement is something you choose, not something the degree hands you. Plan the elective block around it in your first year rather than discovering the gap in year three.",
+    "gapSummary": [
+      "Six of the nine ¶324.4 areas are in the required core and take care of themselves. Three are not. United Methodist studies — the 6-hour one — sits in elective space, as does evangelism, and no core course is labelled “mission of the church in the world.”",
+      "This is the thing to notice about a Perkins M.Div.: it is a United Methodist seminary, but the United Methodist studies requirement is something you choose, not something the degree hands you. Plan the elective block around it in your first year rather than discovering the gap in year three."
+    ],
     "gapRemedies": [
       {
         "blurb": "Build the 24 unrestricted elective hours around ¶324.4 from the start. Six hours of United Methodist studies, three of evangelism, and a course your board will accept for mission of the church — that is half the elective block, and it still leaves twelve hours free.",
@@ -59,7 +85,6 @@
       }
     ]
   },
-
   "scale": {
     "outcomes": {
       "value": "97.1% of reporting M.Div. graduates were employed, in the military, in continuing education, or in volunteer service",
@@ -68,7 +93,6 @@
       "note": "Perkins reports this for academic year 2023–24, and it counts *reporting* graduates only."
     }
   },
-
   "cost": {
     "tuitionPerCredit": {
       "value": "$799 per credit hour (master's, Dallas or hybrid)",
@@ -77,10 +101,22 @@
       "note": "Academic year 2026–27. D.Min. is $928 and D.P.M. $906. Fees are charged on top — see below."
     },
     "fees": [
-      { "label": "General student fee", "amount": "$338 per term credit hour, $4,040 maximum" },
-      { "label": "Distance learning fee (hybrid)", "amount": "$100 per term credit hour" },
-      { "label": "Hybrid technology fee", "amount": "$50 per term" },
-      { "label": "Community life fee", "amount": "$25 per term, Dallas and hybrid students" }
+      {
+        "label": "General student fee",
+        "amount": "$338 per term credit hour, $4,040 maximum"
+      },
+      {
+        "label": "Distance learning fee (hybrid)",
+        "amount": "$100 per term credit hour"
+      },
+      {
+        "label": "Hybrid technology fee",
+        "amount": "$50 per term"
+      },
+      {
+        "label": "Community life fee",
+        "amount": "$25 per term, Dallas and hybrid students"
+      }
     ],
     "pctReceivingAid": {
       "value": "98% of master's degree-seeking students",
@@ -101,21 +137,25 @@
     },
     "honestNote": "The sticker figure most people quote is tuition alone. Perkins charges a general student fee per credit hour on top of it, and hybrid students add two more. Ask for a full cost-of-attendance sheet, not a per-credit number — and note that applying for admission is also the scholarship application, so applying early matters: Perkins says its funds go first-come, first-served."
   },
-
   "degrees": [
     {
       "name": "Master of Divinity",
       "abbr": "M.Div.",
       "credits": 75,
       "typicalYears": "3–7 years; all requirements within 7 calendar years of first registration",
-      "modalities": ["residential", "hybrid"],
+      "modalities": [
+        "residential",
+        "hybrid"
+      ],
       "blurb": "The ordination degree. 75 credit hours including a supervised internship, with 24 credit hours of elective space.",
       "url": "https://www.smu.edu/perkins/facultyacademics/degrees/mdiv-inperson"
     },
     {
       "name": "Maestría en Divinidad",
       "abbr": "M.Div. en español",
-      "modalities": ["hybrid"],
+      "modalities": [
+        "hybrid"
+      ],
       "blurb": "The M.Div. taught in Spanish — fully in Spanish for the first two years, with the option to move to a bilingual track after that.",
       "url": "https://www.smu.edu/perkins/facultyacademics/degrees/mdiv-spanish",
       "flag": "New: first cohort begins fall 2026."
@@ -124,7 +164,10 @@
       "name": "Master of Arts in Ministry",
       "abbr": "M.A.M.",
       "credits": 36,
-      "modalities": ["residential", "hybrid"],
+      "modalities": [
+        "residential",
+        "hybrid"
+      ],
       "blurb": "36 credit hours plus an internship, for ministerial leadership that doesn't require the full M.Div.",
       "url": "https://www.smu.edu/perkins/facultyacademics/degrees"
     },
@@ -132,26 +175,32 @@
       "name": "Master of Theological Studies",
       "abbr": "M.T.S.",
       "credits": 48,
-      "modalities": ["residential"],
+      "modalities": [
+        "residential"
+      ],
       "blurb": "48 credit hours plus a thesis or summative project. Not an ordination degree — lay leadership, personal study, or groundwork for a PhD.",
       "url": "https://www.smu.edu/perkins/facultyacademics/degrees/mts"
     },
     {
       "name": "Master of Sacred Music",
       "abbr": "M.S.M.",
-      "modalities": ["residential"],
+      "modalities": [
+        "residential"
+      ],
       "blurb": "For church musicians; paired with a Doctor of Pastoral Music.",
       "url": "https://www.smu.edu/perkins/facultyacademics/degrees/msm"
     },
     {
       "name": "Basic Graduate Theological Studies (nondegree)",
       "abbr": "Nondegree",
-      "modalities": ["residential", "hybrid"],
+      "modalities": [
+        "residential",
+        "hybrid"
+      ],
       "blurb": "The ¶324.4 studies taken on their own, without enrolling in a degree. Built for UMC deacons and for anyone closing a gap.",
       "url": "https://www.smu.edu/perkins/facultyacademics/degrees/otherpgms"
     }
   ],
-
   "concentrations": [
     "African American church studies",
     "Baptist studies",
@@ -159,7 +208,6 @@
     "Pastoral care",
     "Theology and science"
   ],
-
   "partnerships": [
     {
       "kind": "host-university",
@@ -186,12 +234,10 @@
       "url": "https://www.smu.edu/perkins/facultyacademics/bridwelllibrary"
     }
   ],
-
   "courseOfStudy": {
     "blurb": "Perkins administers the United Methodist Regional Course of Study School — the five-year curriculum required of licensed local pastors who are not in a seminary degree program — in partnership with GBHEM. It runs in English and, as Curso de Estudio, in Spanish.",
     "url": "https://www.smu.edu/perkins/publicprograms/coss-english"
   },
-
   "contact": {
     "admissionsUrl": "https://www.smu.edu/perkins/admission",
     "visitUrl": "https://www.smu.edu/perkins/admission/visit",
