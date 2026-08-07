@@ -4,7 +4,7 @@
   "city": "Durham",
   "state": "NC",
   "url": "https://divinity.duke.edu/",
-  "lastVerified": "2026-08-06",
+  "lastVerified": "2026-08-07",
   "ordination": {
     "senateStanding": {
       "value": "approved-umc",
@@ -19,7 +19,7 @@
       "note": "GBHEM: all thirteen United Methodist schools of theology are approved to provide a fully online M.Div. that meets UM ordination requirements. Duke's own Hybrid M.Div. — online coursework plus in-person immersion weeks — is a separate, even more residential, delivery than the 'fully online' case this rule covers."
     },
     "coverageSource": "https://divinity.bulletins.duke.edu/allprograms/masters/d-div-mdv",
-    "coverageAsOf": "2026-08-06",
+    "coverageAsOf": "2026-08-07",
     "coverage": [
       {
         "area": "old-testament",
@@ -236,7 +236,7 @@
       "url": "https://divinity.duke.edu/"
     }
   ],
-  "facultyNote": "Filtered to Duke's own 'Regular Rank Faculty' category in its directory (49 people) — this excludes Adjunct/Visiting, Administrative, Consulting, and Emeritus faculty, all of which Duke lists separately. A few Regular Rank titles (e.g., 'Professor of Food, Economics, and Community') sit outside this site's field vocabulary; where a title alone gave the area normalizer nothing to match, the area below was read from that person's own Duke bio rather than left blank or guessed from outside knowledge.",
+  "facultyNote": "Filtered to Duke's own 'Regular Rank Faculty' category in its directory (49 people) — this excludes Adjunct/Visiting, Administrative, Consulting, and Emeritus faculty, all of which Duke lists separately. A few Regular Rank titles (e.g., 'Professor of Food, Economics, and Community') sit outside this site's field vocabulary; where a title alone gave the area normalizer nothing to match, the area below was read from that person's own Duke bio rather than left blank or guessed from outside knowledge. Publications: only 2 of 49 bio pages carry the literal 'Selected Publications → Books' heading this harvest's parser looks for; a full hand read of the other 47 pages (2026-08-07) found real, sourced titles in prose bio paragraphs or a 'Recent Books' widget for 42 more — only 5 (Balmaceda, Patrick T. Smith, Tinoco Ruiz, Tran, Norbert Wilson) genuinely have nothing beyond a journal-name list or an untitled work-in-progress.",
   "contact": {
     "admissionsUrl": "https://divinity.duke.edu/admissions",
     "email": "admissions@div.duke.edu",

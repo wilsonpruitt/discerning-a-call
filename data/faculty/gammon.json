@@ -12,6 +12,7 @@
     "otherRoles": [
       "Chief Academic Officer & Dean"
     ],
+    "email": "caorjweems@thegammonseminary.org",
     "degrees": [
       "Ph.D. in Old Testament Studies, Princeton Theological Seminary"
     ],
@@ -48,6 +49,7 @@
     "otherRoles": [
       "President & Chief Executive Officer"
     ],
+    "email": "president@thegammonseminary.org",
     "degrees": [
       "D.Min. in Church Leadership Excellence, Wesley Theological Seminary (2014)",
       "M.Div., Gammon Theological Seminary – ITC (1996)",
@@ -64,10 +66,24 @@
       "chaplaincy"
     ],
     "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "email": "dbuhuro@thegammonseminary.org",
     "degrees": [
       "D.Min., Chicago Theological Seminary",
       "M.Div., Chicago Theological Seminary"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Spiritual Care in an Age of #BlackLivesMatter: Examining the Spiritual and Prophetic Needs of African Americans in a Violent America (Cascade Books, 2019)",
+        "kind": "edited-volume",
+        "year": 2019
+      },
+      {
+        "title": "Womanist Digital Spiritual Care: Creating Sanctuary in Virtual Pews (Fortress Press)",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://sankofacpe.org/drbuhuro/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "gammon-rey",
@@ -79,9 +95,24 @@
       "latino-hispanic-ministry"
     ],
     "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "email": "mrey@thegammonseminary.org",
     "degrees": [
       "Ph.D. in Hebrew Bible, Boston University (2023)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Reexamination of the Foreign Female Captive: Deuteronomy 21:10–14 as a Case of Genocidal Rape (Journal of Feminist Studies in Religion, vol. 32, no. 1, 2016, pp. 37–53)",
+        "kind": "article",
+        "year": 2016
+      },
+      {
+        "title": "Head Shaving as a Ritual of Enslavement in Deuteronomy 21:10–14 (Journal of the American Academy of Religion, vol. 93, no. 4, 2025, pp. 643–658)",
+        "kind": "article",
+        "year": 2025
+      }
+    ],
+    "publicationsSource": "https://www.fsrinc.org/amo-team/monica-rey-babson-college/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "gammon-hunt",
@@ -96,9 +127,35 @@
     "otherRoles": [
       "Ordained Elder, The United Methodist Church"
     ],
+    "email": "cahunt@thegammonseminary.org",
     "degrees": [
       "Ph.D. in Theological Studies (Philosophical Theology and Ethics), Graduate Theological Foundation, in affiliation with the University of Oxford"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Come Go with Me: Howard Thurman and a Gospel of Radical Inclusivity (Wipf & Stock, 2019)",
+        "kind": "book",
+        "year": 2019
+      },
+      {
+        "title": "Blessed Are the Peacemakers: A Theological Analysis of the Thought of Howard Thurman and Martin Luther King, Jr.",
+        "kind": "book"
+      },
+      {
+        "title": "And Yet the Melody Lingers: Essays, Sermons and Prayers on Religion and Race",
+        "kind": "book"
+      },
+      {
+        "title": "I've Seen the Promised Land: Martin Luther King, Jr. and the 21st Century Quest for the Beloved Community",
+        "kind": "book"
+      },
+      {
+        "title": "Upon the Rock: A Model for Ministry with Black Families",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://gtfeducation.org/faculty-staff/c-anthony-hunt-ph-d/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "gammon-laughinghouse",
@@ -110,11 +167,21 @@
       "womanist-feminist-theology"
     ],
     "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "email": "claughinghouse@thegammonseminary.org",
     "degrees": [
       "Ph.D. in Theological Ethics, Chicago Theological Seminary (2023)",
       "Th.M., Duke Divinity School",
       "M.Div., Candler School of Theology, Emory University (Black Church Studies certificate)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "War and Water: An Ecowomanist Perspective on Expanding Casualties of War in Gaza (The Wabash Center Journal on Teaching, February 2025)",
+        "kind": "article",
+        "year": 2025
+      }
+    ],
+    "publicationsSource": "https://serials.atla.com/wabashcenter/article/view/3663",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "gammon-ward",
@@ -126,6 +193,7 @@
       "black-church-studies"
     ],
     "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "email": "sward@thegammonseminary.org",
     "degrees": [
       "Ph.D. in Near Eastern Languages and Cultures, UCLA"
     ]
@@ -145,6 +213,7 @@
       "Ordained Elder in Full Connection, Texas Annual Conference",
       "Licensed Texas attorney"
     ],
+    "email": "mgradenreed@thegammonseminary.org",
     "degrees": [
       "M.Div., summa cum laude, Perkins School of Theology, Southern Methodist University (2018)",
       "J.D., magna cum laude, Thurgood Marshall School of Law, Texas Southern University",
@@ -162,8 +231,18 @@
       "black-church-studies"
     ],
     "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "email": "syoungskaggs@thegammonseminary.org",
     "degrees": [
       "Ph.D. in Women and Gender Studies, Arizona State University (2019)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Afrofuturism and Womanist Phenomenology as Resistance, Resilience, and Black Joy! (Review & Expositor, vol. 118, no. 3, 2021, pp. 332–342)",
+        "kind": "article",
+        "year": 2021
+      }
+    ],
+    "publicationsSource": "https://journals.sagepub.com/doi/abs/10.1177/00346373221080926",
+    "publicationsAsOf": "2026-08-07"
   }
 ]

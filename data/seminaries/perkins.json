@@ -4,7 +4,7 @@
   "city": "Dallas",
   "state": "TX",
   "url": "https://www.smu.edu/perkins",
-  "lastVerified": "2026-08-06",
+  "lastVerified": "2026-08-07",
   "ordination": {
     "senateStanding": {
       "value": "approved-umc",
@@ -243,5 +243,6 @@
     "visitUrl": "https://www.smu.edu/perkins/admission/visit",
     "email": "perkins@smu.edu",
     "phone": "214-768-8436"
-  }
+  },
+  "facultyNote": "Perkins publishes no per-professor bio pages on the main facultyacademics/facultylistinga-z roster page itself (name, title, area, email only) — but a second-pass check (2026-08-07) found that each of the 28 non-dean faculty DOES have its own individual page at smu.edu/perkins/facultyacademics/facultylistinga-z/<surname-slug>, linked from the roster but not obvious from it, and every one of those 28 pages carries a degrees line (institution and, for most, year). Dean Bryan Stone's degrees come from his separate dean bio page. All 29 are checked, not sampled — the 'Perkins has no per-professor pages' assumption in the first pass was wrong; it only checked the roster page and the annual publications PDF, never the individual profile links. Publications remain sourced from Perkins' own annual Faculty Publications PDF (26/29), matched by name to the roster; email remains sourced from the same PDF's byline match (28/29). Degrees are not in that PDF and were pulled separately from the individual pages."
 }

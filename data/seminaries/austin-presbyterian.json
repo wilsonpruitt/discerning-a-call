@@ -186,6 +186,7 @@
       "url": "https://www.austinseminary.edu/academics/degree-programs/mdiv-mba-dual-degree"
     }
   ],
+  "facultyNote": "Limited to the 19 core faculty on austinseminary.edu/academics/meet-the-faculty's 'Faculty' section (its separate adjunct/emeritus section is excluded, the same core-faculty cut every school in this project uses). Degrees come from the Education section of each person's FinalSite profile dialog — a JS-loaded popup, not a fetchable page, opened here with a real browser for all 19 (18 have degrees; Stephanie Budwey's dialog is genuinely thin — name, title, and a phone number only, no Education or Bio section at all). Publications are read from the same dialog's Bio prose, which the original hand-built harvest never read past Education on: 13 of 19 have real, sourced publications there, capped at five each. No per-person email exists anywhere on the site (dialogs and the separate staff directory both carry only work phone numbers plus one general seminary address) — confirmed by reading all 19 dialogs in full, not assumed from the modal's ceiling.",
   "contact": {
     "admissionsUrl": "https://www.austinseminary.edu/admissions",
     "visitUrl": "https://www.austinseminary.edu/admissions/plan-your-visit",

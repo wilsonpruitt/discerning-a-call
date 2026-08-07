@@ -78,21 +78,51 @@
 //     move Saint Paul's and Phillips' harvests made for their own internal
 //     contradictions (see README §2).
 //
-//   - NO PER-PROFESSOR PAGES. Gammon's faculty page (a Wix site) lists all
-//     nine current full-time faculty with title, a short bio blurb, and a
-//     "Contact" button that opens a contact form, not a dedicated bio URL —
-//     closer to Perkins' and Austin's pattern than Duke's or Saint Paul's.
-//     Degrees are stated in-line in bio prose for some (Weems' Princeton
-//     Ph.D., Ward's UCLA Ph.D.) and absent for others; where Gammon's own bio
-//     said nothing, degrees below are drawn from each person's own published
-//     CV/bio elsewhere (their seminary alma mater's site, their own personal
-//     site, or LinkedIn) and cited per-person in ROSTER comments, never from
+//   - NO PER-PROFESSOR PAGES, BUT AS OF THIS SECOND PASS EVERY PERSON HAS A
+//     PUBLISHED EMAIL. Gammon's faculty page (a Wix site) lists all nine
+//     current full-time faculty with title, a short bio blurb, and — new
+//     since the first harvest (captured 2026-06-28; re-checked 2026-08-07) —
+//     a per-person mailto contact (e.g. `caorjweems@thegammonseminary.org`),
+//     not a dedicated bio URL — closer to Perkins' and Austin's pattern than
+//     Duke's or Saint Paul's. Two of the nine addresses as they literally
+//     appear in the page's mailto links look like typos against the person's
+//     own name (Grafenreed's is `mgradenreed@…`, Young-Scaggs' is
+//     `syoungskaggs@…`) — recorded verbatim from the source rather than
+//     "corrected," since guessing at the real address would be worse than
+//     reporting what the school actually publishes. Degrees are stated
+//     in-line in bio prose for some (Weems' Princeton Ph.D., Ward's UCLA
+//     Ph.D.) and absent for others; where Gammon's own bio said nothing,
+//     degrees below are drawn from each person's own published CV/bio
+//     elsewhere (their seminary alma mater's site, their own personal site,
+//     or LinkedIn) and cited per-person in ROSTER comments, never from
 //     background knowledge. Two roster entries (Buhuro, Grafenreed) are
 //     currently pursuing doctorates not yet conferred (a Ph.D. at time of
 //     writing for both) — left out of `degrees` entirely rather than listed,
 //     since a candidacy is not a degree and the honorary-doctorate rule this
 //     project already enforces exists for exactly this kind of
-//     training-vs-credential precision.
+//     training-vs-credential precision. (Buhuro's status specifically:
+//     sources disagree on whether her CTS Ph.D. has since been conferred —
+//     one 2025 bio still reads "currently a Ph.D. student," while other,
+//     undated pages call her "Dr." on the strength of her earlier D.Min. — so
+//     this harvest leaves her Ph.D. out rather than guess a conferral date no
+//     source states plainly.)
+//
+//   - SECOND PASS (2026-08-07): PUBLICATIONS WERE UNDER-SEARCHED, NOT AT
+//     CEILING. The first pass sourced publications for only Weems (from
+//     Wikipedia) and stopped there. Revisiting the same kind of source the
+//     degrees came from — each person's own site, CV, or institutional bio —
+//     turned up real, citable publications for five more of the nine: Buhuro
+//     (two books, from her own Sankofa CPE bio), Rey (two peer-reviewed
+//     journal articles, from her Feminist Studies in Religion contributor
+//     page), Hunt (a five-book selection out of a stated 16, from his
+//     Graduate Theological Foundation faculty page), Laughinghouse (a 2025
+//     Wabash Center Journal on Teaching article), and Young-Scaggs (a 2021
+//     Review & Expositor article, found via her dissertation's citation
+//     trail). That's 6/9 on this second pass, not 1/9. Lewis, Ward, and
+//     Grafenreed still have none found — Lewis's public profile is
+//     administrative rather than scholarly, Ward's only located work is an
+//     unpublished dissertation, and Grafenreed's is a J.D./ministry
+//     background with no publication record turned up anywhere searched.
 //
 // Run: node scripts/harvest/gammon.mts [--fresh]
 
@@ -117,8 +147,10 @@ interface Entry {
   title: string;
   otherRoles: string[];
   areas: StudyArea[];
+  email?: string;
   degrees?: string[];
   publications?: { title: string; kind: "book" | "edited-volume" | "article" | "chapter"; year?: number }[];
+  publicationsSource?: string;
 }
 
 // All nine appear on Gammon's own faculty page (thegammonseminary.org/faculty)
@@ -130,6 +162,9 @@ const ROSTER: Entry[] = [
     title: "Professor of Biblical Studies",
     otherRoles: ["Chief Academic Officer & Dean"],
     areas: ["hebrew-bible", "womanist-feminist-theology"],
+    // Email is a per-person mailto on Gammon's own faculty page, added since
+    // the first harvest (see header note).
+    email: "caorjweems@thegammonseminary.org",
     // Ph.D. stated on Gammon's own faculty page: "the first African American
     // woman to earn a Ph.D. in Old Testament Studies from Princeton
     // Theological Seminary."
@@ -139,15 +174,19 @@ const ROSTER: Entry[] = [
       { title: "Battered Love: Marriage, Sex, and Violence in the Hebrew Prophets (Fortress Press, 1995)", kind: "book", year: 1995 },
       { title: "Just a Sister Away: A Womanist Vision of Women's Relationships in the Bible (LuraMedia, 1988)", kind: "book", year: 1988 },
     ],
+    publicationsSource: "https://en.wikipedia.org/wiki/Renita_J._Weems",
   },
   {
     name: "Candace M. Lewis",
     title: "Professor in Wesleyan Studies",
     otherRoles: ["President & Chief Executive Officer"],
     areas: ["wesleyan-studies", "congregational-leadership"],
+    email: "president@thegammonseminary.org",
     // Degrees not stated on the faculty page's own bio; drawn from ITC's
     // welcome article for her appointment (itc.edu/dr-candace-m-lewis/) and
-    // NGUMC's announcement of her Gammon presidency.
+    // NGUMC's announcement of her Gammon presidency. Second pass (2026-08-07)
+    // found no publications for her anywhere searched — her public profile is
+    // administrative/pastoral, not a scholarly-publication record.
     degrees: [
       "D.Min. in Church Leadership Excellence, Wesley Theological Seminary (2014)",
       "M.Div., Gammon Theological Seminary – ITC (1996)",
@@ -159,14 +198,26 @@ const ROSTER: Entry[] = [
     title: "Assistant Professor of Pastoral Theology",
     otherRoles: [],
     areas: ["pastoral-care-counseling", "chaplaincy"],
-    // Ph.D. in progress (social media identity, violence, and pastoral
-    // theology) per her own Sankofa CPE Center bio (sankofacpe.org/drbuhuro) —
-    // not yet conferred, so left out of `degrees` rather than listed as if
-    // earned.
+    email: "dbuhuro@thegammonseminary.org",
+    // Ph.D. status re-checked on the second pass (2026-08-07): sources
+    // disagree. One 2025-dated bio (chaplaincystudies.org) still reads
+    // "currently a Ph.D student at Chicago Theological Seminary," while
+    // other, undated pages call her "Dr." — but that title predates her CTS
+    // Ph.D. work (she was "Rev. Dr." in a 2022 ACPE announcement already, on
+    // the strength of her D.Min.). No source states a CTS Ph.D. conferral
+    // date plainly, so it stays out of `degrees` rather than guessed at.
     degrees: [
       "D.Min., Chicago Theological Seminary",
       "M.Div., Chicago Theological Seminary",
     ],
+    // Both found on her own Sankofa CPE Center bio (sankofacpe.org/drbuhuro),
+    // second pass 2026-08-07 — the first harvest never re-checked this page
+    // past her degrees.
+    publications: [
+      { title: "Spiritual Care in an Age of #BlackLivesMatter: Examining the Spiritual and Prophetic Needs of African Americans in a Violent America (Cascade Books, 2019)", kind: "edited-volume", year: 2019 },
+      { title: "Womanist Digital Spiritual Care: Creating Sanctuary in Virtual Pews (Fortress Press)", kind: "book" },
+    ],
+    publicationsSource: "https://sankofacpe.org/drbuhuro/",
   },
   {
     name: "Monica Isabel Rey",
@@ -175,27 +226,50 @@ const ROSTER: Entry[] = [
     // Gammon's own bio: "cultural identity, migration, and contextual
     // readings of scripture," teaching/research experience in Latin America.
     areas: ["hebrew-bible", "latino-hispanic-ministry"],
+    email: "mrey@thegammonseminary.org",
     // Dissertation "Captive: Gendering Genocide in the Hebrew Bible," defended
     // December 2023 at Boston University, per her own Feminist Studies in
     // Religion contributor bio (fsrinc.org/amo-team/monica-rey-babson-college).
     degrees: ["Ph.D. in Hebrew Bible, Boston University (2023)"],
+    // Both peer-reviewed articles, found on the same FSR contributor page
+    // that supplied her degree — the first harvest never re-checked it past
+    // that. Citations verified against JFSR's and JAAR's own tables of
+    // contents.
+    publications: [
+      { title: "Reexamination of the Foreign Female Captive: Deuteronomy 21:10–14 as a Case of Genocidal Rape (Journal of Feminist Studies in Religion, vol. 32, no. 1, 2016, pp. 37–53)", kind: "article", year: 2016 },
+      { title: "Head Shaving as a Ritual of Enslavement in Deuteronomy 21:10–14 (Journal of the American Academy of Religion, vol. 93, no. 4, 2025, pp. 643–658)", kind: "article", year: 2025 },
+    ],
+    publicationsSource: "https://www.fsrinc.org/amo-team/monica-rey-babson-college/",
   },
   {
     name: "C. Anthony Hunt",
     title: "Professor of Practice, Black Church & Wesleyan Studies",
     otherRoles: ["Ordained Elder, The United Methodist Church"],
     areas: ["black-church-studies", "wesleyan-studies"],
+    email: "cahunt@thegammonseminary.org",
     // Degree per his own site (canthonyhunt.com) and his Graduate Theological
     // Foundation faculty page.
     degrees: [
       "Ph.D. in Theological Studies (Philosophical Theology and Ethics), Graduate Theological Foundation, in affiliation with the University of Oxford",
     ],
+    // A selection out of the ~16 books his GTF faculty page credits him with
+    // (capped at 5 per the project's rule) — the first harvest never opened
+    // that page past his degree.
+    publications: [
+      { title: "Come Go with Me: Howard Thurman and a Gospel of Radical Inclusivity (Wipf & Stock, 2019)", kind: "book", year: 2019 },
+      { title: "Blessed Are the Peacemakers: A Theological Analysis of the Thought of Howard Thurman and Martin Luther King, Jr.", kind: "book" },
+      { title: "And Yet the Melody Lingers: Essays, Sermons and Prayers on Religion and Race", kind: "book" },
+      { title: "I've Seen the Promised Land: Martin Luther King, Jr. and the 21st Century Quest for the Beloved Community", kind: "book" },
+      { title: "Upon the Rock: A Model for Ministry with Black Families", kind: "book" },
+    ],
+    publicationsSource: "https://gtfeducation.org/faculty-staff/c-anthony-hunt-ph-d/",
   },
   {
     name: "Candace M. Laughinghouse",
     title: "Assistant Professor of Theology & Ethics",
     otherRoles: [],
     areas: ["ethics-public-theology", "womanist-feminist-theology"],
+    email: "claughinghouse@thegammonseminary.org",
     // Degrees per her own site (drlaughinghouse.com) and Chicago Theological
     // Seminary's PhD Students page; dissertation "Nobody's Free Until
     // Everybody's Free: Expanding Coalition Politics Through Anti-Speciest
@@ -205,14 +279,26 @@ const ROSTER: Entry[] = [
       "Th.M., Duke Divinity School",
       "M.Div., Candler School of Theology, Emory University (Black Church Studies certificate)",
     ],
+    // Found via a Wabash Center Journal on Teaching search, not her own site
+    // (drlaughinghouse.com resolved to a DNS failure on this pass — the
+    // domain may have lapsed; her Substack and this journal article are what
+    // is currently reachable).
+    publications: [
+      { title: "War and Water: An Ecowomanist Perspective on Expanding Casualties of War in Gaza (The Wabash Center Journal on Teaching, February 2025)", kind: "article", year: 2025 },
+    ],
+    publicationsSource: "https://serials.atla.com/wabashcenter/article/view/3663",
   },
   {
     name: "Stephen Ward",
     title: "Lecturer in Biblical Studies and Academic Support",
     otherRoles: [],
     areas: ["hebrew-bible", "black-church-studies"],
+    email: "sward@thegammonseminary.org",
     // Ph.D. stated on Gammon's own faculty page: "Trained at UCLA with a
-    // Ph.D. in Near Eastern Languages and Cultures."
+    // Ph.D. in Near Eastern Languages and Cultures." Second pass (2026-08-07)
+    // found only his UCLA dissertation ("Examining Judean Scribal Tendencies
+    // in Papyrus Amherst 63") — a dissertation is not a publication in this
+    // project's sense (book/edited-volume/article/chapter), so none is added.
     degrees: ["Ph.D. in Near Eastern Languages and Cultures, UCLA"],
   },
   {
@@ -224,8 +310,14 @@ const ROSTER: Entry[] = [
       "Licensed Texas attorney",
     ],
     areas: ["wesleyan-studies", "church-history"],
+    // As it literally appears in the faculty page's mailto link — looks like
+    // a typo of his own surname ("gradenreed" vs. "Grafenreed") but recorded
+    // verbatim rather than guessed-corrected; see header note.
+    email: "mgradenreed@thegammonseminary.org",
     // Currently a Ph.D. candidate in Religion and Culture at SMU (per SMU's
     // own graduate-student page) — not yet conferred, left out of `degrees`.
+    // Second pass (2026-08-07) found no publications — his public record is
+    // legal practice and pastoral ministry, not scholarship.
     degrees: [
       "M.Div., summa cum laude, Perkins School of Theology, Southern Methodist University (2018)",
       "J.D., magna cum laude, Thurgood Marshall School of Law, Texas Southern University",
@@ -237,11 +329,21 @@ const ROSTER: Entry[] = [
     title: "Associate Professor of Contextual Theology and Director of Contextual Education",
     otherRoles: [],
     areas: ["practical-theology", "womanist-feminist-theology", "black-church-studies"],
+    // As it literally appears in the faculty page's mailto link — looks like
+    // a typo of her own surname ("youngskaggs" vs. "Young-Scaggs") but
+    // recorded verbatim rather than guessed-corrected; see header note.
+    email: "syoungskaggs@thegammonseminary.org",
     // Degree per her own LinkedIn (linkedin.com/in/revdrsys) and her
     // dissertation record; dissertation "Afrofuturism, Womanist
     // Phenomenology, and the Black Imagination: A Liberative Revisioning of
     // Black Humanity" (2019).
     degrees: ["Ph.D. in Women and Gender Studies, Arizona State University (2019)"],
+    // Found via her dissertation's own citation trail, not Gammon's site —
+    // a peer-reviewed article adapting the dissertation's argument.
+    publications: [
+      { title: "Afrofuturism and Womanist Phenomenology as Resistance, Resilience, and Black Joy! (Review & Expositor, vol. 118, no. 3, 2021, pp. 332–342)", kind: "article", year: 2021 },
+    ],
+    publicationsSource: "https://journals.sagepub.com/doi/abs/10.1177/00346373221080926",
   },
 ];
 
@@ -266,10 +368,11 @@ function buildFaculty(): FacultyMember[] {
       profileUrl: FACULTY_URL,
     };
     if (e.otherRoles.length) member.otherRoles = e.otherRoles;
+    if (e.email) member.email = e.email;
     if (e.degrees?.length) member.degrees = e.degrees;
     if (e.publications?.length) {
       member.publications = e.publications.slice(0, 5);
-      member.publicationsSource = "https://en.wikipedia.org/wiki/Renita_J._Weems";
+      member.publicationsSource = e.publicationsSource;
       member.publicationsAsOf = today();
     }
     return member;
@@ -415,7 +518,7 @@ function buildProfile(): SeminaryProfile {
     ],
 
     facultyNote:
-      "All nine of Gammon's current full-time faculty, from the school's own Faculty page — a small roster built up almost entirely since the 2024 relaunch (only Renita Weems' 2024 hire as Chief Academic Officer is independently dated in press coverage; the rest are undated on Gammon's site). Gammon publishes no individual per-professor bio pages; every entry above links back to the single shared faculty page. Degrees are drawn from each person's own bio where Gammon's page states one (Weems, Ward); everywhere else, from that person's own CV, personal site, or institutional bio elsewhere, cited per-person in the harvest script's source comments — never from background knowledge. Two faculty (Danielle Buhuro, Mark Grafenreed) are currently pursuing doctorates not yet conferred; those are named in their own bios but deliberately left out of the `degrees` field here, since a Ph.D. candidacy is not a Ph.D.",
+      "All nine of Gammon's current full-time faculty, from the school's own Faculty page — a small roster built up almost entirely since the 2024 relaunch (only Renita Weems' 2024 hire as Chief Academic Officer is independently dated in press coverage; the rest are undated on Gammon's site). Gammon publishes no individual per-professor bio pages; every entry above links back to the single shared faculty page — but that shared page now lists a per-person email for all nine (added sometime between the first harvest, captured 2026-06-28, and this second pass, 2026-08-07; two addresses as they literally appear look like typos of the person's own surname, recorded verbatim rather than corrected). Degrees are drawn from each person's own bio where Gammon's page states one (Weems, Ward); everywhere else, from that person's own CV, personal site, or institutional bio elsewhere, cited per-person in the harvest script's source comments — never from background knowledge. Two faculty (Danielle Buhuro, Mark Grafenreed) are currently pursuing doctorates not yet conferred; those are named in their own bios but deliberately left out of the `degrees` field here, since a Ph.D. candidacy is not a Ph.D. This second pass also revisited the same outside sources for publications rather than degrees alone, and found real, sourced work for five more people beyond Weems (Buhuro, Rey, Hunt, Laughinghouse, Young-Scaggs) — the first pass's 1/9 publications count was a case of not having looked yet, not a real ceiling. Lewis, Ward, and Grafenreed still have none found after this second look.",
 
     contact: {
       admissionsUrl: "https://www.thegammonseminary.org/admissions",

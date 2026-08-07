@@ -33,7 +33,19 @@
     "degrees": [
       "B.S. (Seattle Pacific University)",
       "M.S. in Occupational Therapy (Boston University)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Becoming the Baptized Body: Disability and the Practice of Christian Community (Baylor University Press)",
+        "kind": "book"
+      },
+      {
+        "title": "Spirituality and Religion Within the Culture of Medicine: From Evidence to Practice",
+        "kind": "edited-volume"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/sarah-jean-barton",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-jeremy-begbie",
@@ -54,7 +66,31 @@
       "A.R.C.M. (Royal College of Music)",
       "L.R.A.M. (Royal Academy of Music)",
       "F.R.S.C.M. (Royal School of Church Music)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Theology, Music, and Modernity (OUP)",
+        "kind": "book"
+      },
+      {
+        "title": "Abundantly More: The Theological Promise of the Arts in a Reductionist World (Baker)",
+        "kind": "book"
+      },
+      {
+        "title": "The Art of New Creation: Trajectories in Theology and the Arts",
+        "kind": "book"
+      },
+      {
+        "title": "Resounding Truth: Christian Wisdom in the World of Music (Baker/SPCK)",
+        "kind": "book"
+      },
+      {
+        "title": "Theology, Music and Time (CUP)",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/jeremy-begbie",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-kate-bowler",
@@ -69,7 +105,33 @@
       "Ph.D., Duke University",
       "M.A.R., Yale Divinity School",
       "B.A., Macalester College"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "The Lives We Actually Have",
+        "kind": "book"
+      },
+      {
+        "title": "Have a Beautiful, Terrible Day!: Daily Meditations for the Ups, Downs & In-Betweens",
+        "kind": "book"
+      },
+      {
+        "title": "Joyful, Anyway",
+        "kind": "book"
+      },
+      {
+        "title": "The Preacher's Wife: Women and Power in American Megaministry (Princeton University Press, 2019)",
+        "kind": "book",
+        "year": 2019
+      },
+      {
+        "title": "Everything Happens for a Reason (and other lies I've loved) (Random House, 2018)",
+        "kind": "book",
+        "year": 2018
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/kate-bowler",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-douglas-campbell",
@@ -79,7 +141,35 @@
     "areas": [
       "new-testament"
     ],
-    "profileUrl": "https://divinity.duke.edu/faculty/douglas-campbell"
+    "profileUrl": "https://divinity.duke.edu/faculty/douglas-campbell",
+    "publications": [
+      {
+        "title": "Beyond Justification: Liberating Paul's Gospel",
+        "kind": "book"
+      },
+      {
+        "title": "Pauline Dogmatics: The Triumph of God's Love (Eerdmans, 2020)",
+        "kind": "book",
+        "year": 2020
+      },
+      {
+        "title": "Paul: An Apostle's Journey (Eerdmans, 2018)",
+        "kind": "book",
+        "year": 2018
+      },
+      {
+        "title": "Framing Paul: An Epistolary Biography (Eerdmans, 2014)",
+        "kind": "book",
+        "year": 2014
+      },
+      {
+        "title": "The Deliverance of God: An Apocalyptic Rereading of Justification in Paul (Eerdmans, 2009)",
+        "kind": "book",
+        "year": 2009
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/douglas-campbell",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-natalie-carnes",
@@ -95,7 +185,31 @@
       "A.B. Harvard University (2002), Comparative Religious Studies",
       "M.A. University of Chicago (2006), Constructive Theology",
       "Ph.D. Duke University (2011), Christian Theological Studies"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Attunement: The Art and Politics of Feminist Theology (OUP 2024)",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "Image and Presence: A Christological Reflection on Iconoclasm and Iconophilia (Stanford 2017)",
+        "kind": "book",
+        "year": 2017
+      },
+      {
+        "title": "Motherhood: A Confession (Stanford 2017)",
+        "kind": "book",
+        "year": 2017
+      },
+      {
+        "title": "Beauty: A Theological Engagement with Gregory of Nyssa (Cascade 2014)",
+        "kind": "book",
+        "year": 2014
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/people/natalie-carnes",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-peter-casarella",
@@ -113,7 +227,34 @@
     "profileUrl": "https://divinity.duke.edu/faculty/peter-casarella",
     "degrees": [
       "B.A., M.A., Ph.D. (Yale University)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Chiara Lubich: Essential Teachings on Unity",
+        "kind": "edited-volume"
+      },
+      {
+        "title": "Pope Francis and the Search for God in América",
+        "kind": "book"
+      },
+      {
+        "title": "Reverberations of the Word: Wounded Beauty in Global Catholicism (2020)",
+        "kind": "book",
+        "year": 2020
+      },
+      {
+        "title": "The Whole is Greater than its Parts: Ecumenism and Inter-religious Encounters in the Age of Pope Francis (2020)",
+        "kind": "edited-volume",
+        "year": 2020
+      },
+      {
+        "title": "Word as Bread: Language and Theology in Nicholas of Cusa (2017)",
+        "kind": "book",
+        "year": 2017
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/peter-casarella",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-daniel-castelo",
@@ -132,7 +273,36 @@
       "M.Div., Church of God Theological Seminary",
       "B.S., Washington University in St. Louis",
       "B.A., Lee University"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Second edition of Clark Pinnock's Flame of Love (InterVarsity, 2022)",
+        "kind": "book",
+        "year": 2022
+      },
+      {
+        "title": "T & T Clark Handbook of Pneumatology (Bloomsbury T & T Clark, 2020)",
+        "kind": "edited-volume",
+        "year": 2020
+      },
+      {
+        "title": "The Marks of Scripture: Rethinking the Nature of the Bible (Baker Academic, 2019)",
+        "kind": "book",
+        "year": 2019
+      },
+      {
+        "title": "The Usefulness of Scripture (Eisenbrauns, 2018)",
+        "kind": "book",
+        "year": 2018
+      },
+      {
+        "title": "Embodying Wesley's Catholic Spirit (Pickwick, 2017)",
+        "kind": "book",
+        "year": 2017
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/daniel-castelo",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-stephen-b-chapman",
@@ -148,7 +318,35 @@
       "M.Div. 1990 (Yale)",
       "M.Phil. 1994 (Yale)",
       "Ph.D. 1998 (Yale)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "The Lord Bless You",
+        "kind": "book"
+      },
+      {
+        "title": "The Law and the Prophets (2nd ed. 2020; orig. 2000)",
+        "kind": "book",
+        "year": 2020
+      },
+      {
+        "title": "1 Samuel as Christian Scripture (2016)",
+        "kind": "book",
+        "year": 2016
+      },
+      {
+        "title": "The Cambridge Companion to the Hebrew Bible/Old Testament (2016), co-edited",
+        "kind": "edited-volume",
+        "year": 2016
+      },
+      {
+        "title": "Biblischer Text und theologische Theoriebildung (2001), co-edited",
+        "kind": "edited-volume",
+        "year": 2001
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/stephen-b-chapman",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-mark-chaves",
@@ -164,7 +362,26 @@
       "M.Div., Harvard Divinity School",
       "A.M., Harvard University",
       "Ph.D., Harvard University"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "American Religion: Contemporary Trends (2nd ed., Princeton, 2017)",
+        "kind": "book",
+        "year": 2017
+      },
+      {
+        "title": "Congregations in America (Harvard, 2004)",
+        "kind": "book",
+        "year": 2004
+      },
+      {
+        "title": "Ordaining Women: Culture and Conflict in Religious Organizations (Harvard, 1997)",
+        "kind": "book",
+        "year": 1997
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/mark-chaves",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-edgardo-colon-emeric",
@@ -181,7 +398,23 @@
     "degrees": [
       "M.Div., Duke Divinity School (1997)",
       "Ph.D., Duke University (2007)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "The People Called Metodista: Renewing Doctrine, Worship, and Missions from the Margins (Abingdon Press)",
+        "kind": "book"
+      },
+      {
+        "title": "Óscar Romero's Theological Vision: Liberation and the Transfiguration of the Poor (University of Notre Dame Press)",
+        "kind": "book"
+      },
+      {
+        "title": "Wesley, Aquinas, and Christian Perfection: An Ecumenical Dialogue (Baylor University Press)",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/edgardo-colon-emeric",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-valerie-cooper",
@@ -197,7 +430,20 @@
       "B.S. (Howard University)",
       "M.Div. (Howard University)",
       "Th.D. (Harvard University)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Segregated Sundays (in progress)",
+        "kind": "book"
+      },
+      {
+        "title": "Word, Like Fire: Maria Stewart, the Bible, and the Rights of African Americans (University of Virginia Press, 2012)",
+        "kind": "book",
+        "year": 2012
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/valerie-cooper",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-farr-curlin",
@@ -210,7 +456,23 @@
     "profileUrl": "https://divinity.duke.edu/faculty/farr-curlin",
     "degrees": [
       "BA and MD, University of North Carolina at Chapel Hill"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "The Way of Medicine: Ethics and the Healing Profession",
+        "kind": "book"
+      },
+      {
+        "title": "Spirituality and Religion Within the Culture of Medicine: From Evidence to Practice",
+        "kind": "edited-volume"
+      },
+      {
+        "title": "Religion, Conscience and Controversial Clinical Practices, New England Journal of Medicine",
+        "kind": "article"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/farr-curlin",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-ellen-davis",
@@ -258,7 +520,7 @@
       }
     ],
     "publicationsSource": "https://divinity.duke.edu/faculty/ellen-davis",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-quinton-dixie",
@@ -276,7 +538,31 @@
     "degrees": [
       "B.A. (James Madison College, Michigan State University)",
       "M.A. and Ph.D. (Union Theological Seminary)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Witness: Two Hundred Years of Faith and Practice at the Abyssinian Baptist Church of Harlem, New York, co-authored with Genna Rae McNeil, Houston Roberson, and Kevin McGruder",
+        "kind": "book"
+      },
+      {
+        "title": "Visions of a Better World: Howard Thurman's Pilgrimage to India and the Origins of African American Nonviolence, co-authored with Peter Eisenstadt",
+        "kind": "book"
+      },
+      {
+        "title": "This Far By Faith, co-authored with Juan Williams",
+        "kind": "book"
+      },
+      {
+        "title": "The Courage to Hope, co-edited with Cornel West",
+        "kind": "edited-volume"
+      },
+      {
+        "title": "Conversations With God (edited)",
+        "kind": "edited-volume"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/quinton-dixie",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-frederick-edie",
@@ -295,7 +581,15 @@
       "B.A., Furman University",
       "M.Div., Vanderbilt Divinity School",
       "Ph.D., Emory University"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Book, Bath, Table and Time",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/frederick-edie",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-curtis-freeman",
@@ -309,7 +603,36 @@
     "degrees": [
       "B.A., Ph.D., Baylor University",
       "M.Div., Southwestern Baptist Theological Seminary"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Pilgrim Journey: Instruction in the Mystery of the Gospel (Fortress Press, 2023)",
+        "kind": "book",
+        "year": 2023
+      },
+      {
+        "title": "Pilgrim Letters: Instruction in the Basic Teaching of Christ (Fortress Press, 2021)",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "Undomesticated Dissent: Democracy and the Public Virtue of Religious Nonconformity (Baylor University Press, 2017)",
+        "kind": "book",
+        "year": 2017
+      },
+      {
+        "title": "Contesting Catholicity: Theology for Other Baptists (Baylor University Press, 2014)",
+        "kind": "book",
+        "year": 2014
+      },
+      {
+        "title": "A Company of Women Preachers: Baptist Prophetesses in Seventeenth-Century England (Baylor University Press, 2011)",
+        "kind": "book",
+        "year": 2011
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/curtis-freeman",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-aaron-griffith",
@@ -324,7 +647,16 @@
       "B.A., Philosophy, Wheaton College",
       "M.Div., Duke Divinity School)",
       "Th.D., Duke Divinity School)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "God's Law and Order: The Politics of Punishment in Evangelical America (Harvard University Press, 2020)",
+        "kind": "book",
+        "year": 2020
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/aaron-griffith",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-polly-ha",
@@ -341,7 +673,35 @@
     "degrees": [
       "B.A. (Yale University)",
       "Ph.D. (University of Cambridge)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "The Future of Freedom (Yale University Press, forthcoming)",
+        "kind": "book"
+      },
+      {
+        "title": "Remapping British Protestant Thought in the Long Reformation, Journal of Medieval and Early Modern History (2023)",
+        "kind": "article",
+        "year": 2023
+      },
+      {
+        "title": "Reformed Government (Oxford University Press, 2021), chief editor",
+        "kind": "edited-volume",
+        "year": 2021
+      },
+      {
+        "title": "The Puritans on Independence (Oxford University Press, 2017), chief editor",
+        "kind": "edited-volume",
+        "year": 2017
+      },
+      {
+        "title": "English Presbyterianism, 1590-1640 (Stanford University Press, 2011)",
+        "kind": "book",
+        "year": 2011
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/polly-ha",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-amy-laura-hall",
@@ -359,7 +719,31 @@
       "B.A., Emory University",
       "M.Div., Yale University",
       "Ph.D., Yale University"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Torture, forthcoming in Wiley-Blackwell Encyclopedia of Religious Ethics",
+        "kind": "chapter"
+      },
+      {
+        "title": "Erecting the Pulpit: Muscular Christianity from Teddy Roosevelt to Donald Trump",
+        "kind": "book"
+      },
+      {
+        "title": "Laughing at the Devil: Seeing the World with Julian of Norwich",
+        "kind": "book"
+      },
+      {
+        "title": "Writing Home with Love: Politics for Neighbors and Naysayers",
+        "kind": "book"
+      },
+      {
+        "title": "Conceiving Parenthood: The Protestant Spirit of Biotechnological Reproduction",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/amy-laura-hall",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-kevin-hart",
@@ -374,7 +758,36 @@
       "B.A. (Hons. div. 1), Australian National University, 1976",
       "Ph.D. University of Melbourne, 1986",
       "Ph.D. (honoris causa), Inst. Cath. de Paris, 2013"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Contemplation: The Movements of the Soul (Columbia UP, 2024)",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "Dark-Land: Memoir of a Secret Childhood (Paul Dry Books, 2024)",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "The Bible and Western Christian Literature, vol. 5 (T. and T. Clark, 2024)",
+        "kind": "edited-volume",
+        "year": 2024
+      },
+      {
+        "title": "Lands of Likeness: For a Poetics of Contemplation (Chicago UP, 2023)",
+        "kind": "book",
+        "year": 2023
+      },
+      {
+        "title": "Maurice Blanchot on Poetry and Narrative (Bloomsbury, 2023)",
+        "kind": "book",
+        "year": 2023
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/kevin-hart",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-zebulon-m-highben",
@@ -394,7 +807,27 @@
       "B.M.E. (Ohio State University)",
       "M.S.M. (Luther Seminary with St. Olaf College)",
       "D.M.A. (Michigan State University)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Sing Many Names: Scriptural Images for God in Hymnody",
+        "kind": "book"
+      },
+      {
+        "title": "Augsburg Motet Book (choral anthology)",
+        "kind": "edited-volume"
+      },
+      {
+        "title": "Augsburg Chorale Book (choral anthology)",
+        "kind": "edited-volume"
+      },
+      {
+        "title": "Festschrift in honor of composer Ronald A. Nelson (edited)",
+        "kind": "edited-volume"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/zebulon-m-highben",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-jan-holton",
@@ -411,7 +844,24 @@
       "B.A., Randolph Macon College",
       "M.Div., Union Presbyterian Seminary",
       "Ph.D., Vanderbilt University"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Reframing Trauma: A Psychospiritual Theory and Theology (Fortress, 2025), co-editor",
+        "kind": "edited-volume",
+        "year": 2025
+      },
+      {
+        "title": "Longing for Home (Yale University Press)",
+        "kind": "book"
+      },
+      {
+        "title": "Building the Resilient Community: Lessons from the Lost Boys of Sudan (Cascade Press)",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/jan-holton",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-timothy-kimbrough",
@@ -431,7 +881,31 @@
       "M.Div. (Duke University)",
       "Certificate of Anglican Studies (The General Theological Seminary)",
       "Honorary Degree"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "A House Divided? Ways Forward for North American Anglicans",
+        "kind": "book"
+      },
+      {
+        "title": "Psalms for Praise and Worship: A Complete Psalter (Abingdon Press)",
+        "kind": "book"
+      },
+      {
+        "title": "Sweet Singer: The Hymns of Charles Wesley (Hinshaw)",
+        "kind": "book"
+      },
+      {
+        "title": "A Theology of the Sacraments Interpreted by John and Charles Wesley",
+        "kind": "book"
+      },
+      {
+        "title": "Translator, Theology in Hymns? by Teresa Berger (Kingswood Imprint of Abingdon Press)",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/timothy-kimbrough",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-warren-kinghorn",
@@ -446,7 +920,33 @@
     "otherRoles": [
       "Co-Director, Theology, Medicine, and Culture Initiative",
       "Professor of Psychiatry, Duke University Medical Center"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "The Limits of Burnout and the Work of Health Care, Church Life Journal (2026)",
+        "kind": "article",
+        "year": 2026
+      },
+      {
+        "title": "Do Not Harm Yourself, for We Are All Here, Christianity Today (2025)",
+        "kind": "article",
+        "year": 2025
+      },
+      {
+        "title": "Wayfaring: A Christian Approach to Mental Health Care",
+        "kind": "book"
+      },
+      {
+        "title": "Prescribing Together: A Relational Guide to Psychopharmacology",
+        "kind": "book"
+      },
+      {
+        "title": "Spirituality and Religion Within the Culture of Medicine: From Evidence to Practice",
+        "kind": "edited-volume"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/warren-kinghorn",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-xi-lian",
@@ -491,7 +991,7 @@
       }
     ],
     "publicationsSource": "https://divinity.duke.edu/faculty/xi-lian",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-brett-mccarty",
@@ -507,7 +1007,15 @@
     "otherRoles": [
       "Associate Director of the Theology, Medicine, and Culture Initiative",
       "Assistant Professor in Population Health Sciences, Duke School of Medicine"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Spirituality and Religion Within the Culture of Medicine: From Evidence to Practice",
+        "kind": "edited-volume"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/brett-mccarty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-jerusha-matsen-neal",
@@ -522,7 +1030,26 @@
       "B.A. (University of Chicago)",
       "M.Div. (Princeton Theological Seminary)",
       "Ph.D. (Princeton Theological Seminary)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Holy Ground: Climate Change, Preaching, and the Apocalypse of Place (Baylor University, 2024)",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "The Overshadowed Preacher: Mary, the Spirit, and the Labor of Proclamation (Eerdmans, 2020)",
+        "kind": "book",
+        "year": 2020
+      },
+      {
+        "title": "Blessed: Monologues for Mary (2012)",
+        "kind": "book",
+        "year": 2012
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/jerusha-matsen-neal",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-anathea-portier-young",
@@ -539,7 +1066,26 @@
       "B.A., Yale University",
       "M.A.B.L, Graduate Theological Union/Jesuit School of Theology at Berkeley",
       "Ph.D., Duke University"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "The Prophetic Body: Embodiment and Mediation in Biblical Prophetic Literature (Oxford University Press, 2024)",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "Scripture and Justice: Catholic and Ecumenical Essays (Lexington Press, 2018), co-edited with Gregory Sterling",
+        "kind": "edited-volume",
+        "year": 2018
+      },
+      {
+        "title": "Apocalypse Against Empire: Theologies of Resistance in Early Judaism (Eerdmans, 2011)",
+        "kind": "book",
+        "year": 2011
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/anathea-portier-young",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-luke-powery",
@@ -552,7 +1098,31 @@
       "black-church-studies",
       "religion-and-science"
     ],
-    "profileUrl": "https://divinity.duke.edu/faculty/luke-powery"
+    "profileUrl": "https://divinity.duke.edu/faculty/luke-powery",
+    "publications": [
+      {
+        "title": "Getting to God: Preaching Good News in a Troubled World, with John Rottman and Joni Sancken",
+        "kind": "book"
+      },
+      {
+        "title": "Becoming Human: The Holy Spirit and the Rhetoric of Race",
+        "kind": "book"
+      },
+      {
+        "title": "Living the Questions of the Bible",
+        "kind": "book"
+      },
+      {
+        "title": "Ways of the Word: Learning to Preach for Your Time and Place, with Sally Brown",
+        "kind": "book"
+      },
+      {
+        "title": "Dem Dry Bones: Preaching, Death, and Hope",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/luke-powery",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-ronald-k-rittgers",
@@ -570,7 +1140,36 @@
       "B.A. (Wheaton College)",
       "M.T.S. (Regent College, Vancouver, BC)",
       "Ph.D. (Harvard University)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "A Widower's Lament: The \"Pious Meditations\" of Johann Christoph Oelhafen (Fortress, 2021)",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "Protestants and Mysticism in Reformation Europe (Brill, 2019), co-edited",
+        "kind": "edited-volume",
+        "year": 2019
+      },
+      {
+        "title": "The Reformation Commentary on Scripture: Hebrews and James (Intervarsity Press, 2017)",
+        "kind": "book",
+        "year": 2017
+      },
+      {
+        "title": "The Reformation of Suffering: Pastoral Theology and Lay Piety in Late Medieval and Early Modern Germany (Oxford University Press, 2012)",
+        "kind": "book",
+        "year": 2012
+      },
+      {
+        "title": "The Reformation of the Keys: Confession, Conscience, and Authority in Sixteenth-Century Germany (Harvard University Press, 2004)",
+        "kind": "book",
+        "year": 2004
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/ronald-k-rittgers",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-c-kavin-rowe",
@@ -589,7 +1188,36 @@
       "B.A. Wake Forest University",
       "M.Div. Princeton Theological Seminary",
       "Ph.D. Duke University"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Studies in Luke, Acts, and Paul (Eerdmans, 2024)",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "Method, Context, and Meaning in New Testament Studies (Eerdmans, 2024)",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "Leading Christian Communities (Eerdmans, 2023)",
+        "kind": "book",
+        "year": 2023
+      },
+      {
+        "title": "Christianity's Surprise: A Sure and Certain Hope (Abingdon, 2020)",
+        "kind": "book",
+        "year": 2020
+      },
+      {
+        "title": "One True Life: the Stoics and Early Christians as Rival Traditions (Yale University Press, 2016)",
+        "kind": "book",
+        "year": 2016
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/c-kavin-rowe",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-lester-ruth",
@@ -608,7 +1236,31 @@
       "Th.M. Candler School of Theology, Emory University",
       "M.Div. Asbury Theological Seminary",
       "B.B.A. Stephen F. Austin State University"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "A History of Contemporary Praise & Worship: Understanding the Ideas That Reshaped the Protestant Church, co-authored with Lim Swee Hong",
+        "kind": "book"
+      },
+      {
+        "title": "Lovin' On Jesus: A Concise History of Contemporary Worship, co-authored with Lim Swee Hong",
+        "kind": "book"
+      },
+      {
+        "title": "How Worship Became Music",
+        "kind": "book"
+      },
+      {
+        "title": "Flow: The Ancient Way to Do Contemporary Worship (edited)",
+        "kind": "edited-volume"
+      },
+      {
+        "title": "Essays on the History of Contemporary Praise and Worship (edited)",
+        "kind": "edited-volume"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/lester-ruth",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-j-warren-smith",
@@ -623,7 +1275,30 @@
     "degrees": [
       "B.A., Emory University",
       "M. Div., S.T.M., Ph.D., Yale University"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Early Christian Theology: A History (Eerdmans, forthcoming)",
+        "kind": "book"
+      },
+      {
+        "title": "Ambrose, Augustine, and the Pursuit of Greatness (Cambridge, 2020)",
+        "kind": "book",
+        "year": 2020
+      },
+      {
+        "title": "Christian Grace and Pagan Virtue: The Theological Foundation of Ambrose's Ethics (Oxford, 2010)",
+        "kind": "book",
+        "year": 2010
+      },
+      {
+        "title": "Passion and Paradise: Human and Divine Emotion in the Thought of Gregory of Nyssa (Crossroad, 2004)",
+        "kind": "book",
+        "year": 2004
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/j-warren-smith",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-patrick-t-smith",
@@ -664,7 +1339,36 @@
       "B.A. (Point Loma Nazarene University), 1992",
       "M.Div. (Princeton Theological Seminary), 1995",
       "Ph.D. (Princeton Theological Seminary), 2001"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "The Westminster Study Bible (Westminster, 2024)",
+        "kind": "edited-volume",
+        "year": 2024
+      },
+      {
+        "title": "Honest to God Preaching: Talking Sin, Suffering, and Violence (Fortress Press, 2021)",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "Lies My Preacher Told Me: An Honest Look at the Old Testament (Westminster John Knox, 2021)",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "The Old Testament: A Concise Introduction (Routledge, 2019)",
+        "kind": "book",
+        "year": 2019
+      },
+      {
+        "title": "The Old Testament Is Dying: A Diagnosis and Recommended Treatment (Baker Academic, 2017)",
+        "kind": "book",
+        "year": 2017
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/brent-strawn",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-alma-tinoco-ruiz",
@@ -700,7 +1404,23 @@
       "M.T..S (Duke University)",
       "M.P.H. (University of North Carolina, Chapel Hill)",
       "Ph.D. (Duke University)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Love Made Me an Inventor: The Story of Maggy Barankitse — Humanitarian, Genocide Survivor, Citizen without Borders",
+        "kind": "book"
+      },
+      {
+        "title": "The Morgue in the Garden of Eden: An Essay on Hope … in the Dark (forthcoming)",
+        "kind": "book"
+      },
+      {
+        "title": "Waiting for Godot in Sarajevo: Theological Reflections on Nihilism, Tragedy and Apocalypse",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/david-toole",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-jonathan-tran",
@@ -730,7 +1450,31 @@
       "B.A. (Michigan State University)",
       "M.Di.v, M.A. (Trinity Evangelical Divinity School)",
       "Ph.D. (Duke University)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Being Christian After the Desolation of Gaza",
+        "kind": "book"
+      },
+      {
+        "title": "What Did Jesus Ask?",
+        "kind": "book"
+      },
+      {
+        "title": "Heralds of the Good News: Paul and Isaiah in Concert in the Letter to the Romans",
+        "kind": "book"
+      },
+      {
+        "title": "Reading the Sealed Book: Old Greek Isaiah and the Problem of Septuagint Hermeneutics",
+        "kind": "book"
+      },
+      {
+        "title": "Between Gospel and Election: Explorations in the Interpretation of Romans 9–11, co-edited with Florian Wilk",
+        "kind": "edited-volume"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/j-ross-wagner",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-laceye-warner",
@@ -749,7 +1493,35 @@
       "B.A., Trinity University",
       "M.Div., Duke University",
       "Ph.D., Trinity College, University of Bristol"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Methodist Book of Daily Prayer (projected 2024)",
+        "kind": "book"
+      },
+      {
+        "title": "All the Good: A Wesleyan Way of Christmas (2021), editor and contributor",
+        "kind": "edited-volume",
+        "year": 2021
+      },
+      {
+        "title": "From Relief to Empowerment: How Your Church Can Cultivate Sustainable Mission (2018), co-authored with Gaston Warner",
+        "kind": "book",
+        "year": 2018
+      },
+      {
+        "title": "The Method of Our Mission: United Methodist Polity and Organization (2014, rev. 2017)",
+        "kind": "book",
+        "year": 2017
+      },
+      {
+        "title": "Grace to Lead: Practicing Leadership in the Wesleyan Tradition (2010, 2nd ed. 2017), co-authored with Bishop Kenneth Carder",
+        "kind": "book",
+        "year": 2017
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/laceye-warner",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-matthew-philipp-whelan",
@@ -764,7 +1536,25 @@
     "degrees": [
       "Ph.D., Duke University",
       "M.T.S., Duke Divinity School"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Christianity and Agroecology (Cambridge University Press, 2025)",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "Blood in the Fields: Óscar Romero, Catholic Social Teaching, and Land Reform (Catholic University of America Press, 2020)",
+        "kind": "book",
+        "year": 2020
+      },
+      {
+        "title": "Nuevas dimensiones políticas y geopolíticas del cristianismo y la derecha política en las Américas, co-edited with David Días Arias, Gema Santamaría, and Kevin Coleman",
+        "kind": "edited-volume"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/people/matthew-philipp-whelan",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-eric-lewis-williams",
@@ -783,7 +1573,15 @@
       "M.Div. (Duke Divinity)",
       "M.A.T.S. (McCormick Theological Seminary)",
       "B.A. (University of Illinois at Chicago)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "More Than Tongues Can Tell: Theological Generosity in Black Pentecostal Thought",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/eric-lewis-williams",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-william-willimon",
@@ -800,7 +1598,32 @@
       "B.A., Wofford College",
       "M.Div., Yale Divinity School",
       "S.T.D., Emory University"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "The Church We Carry: Loss, Leadership, and the Future of Our Church",
+        "kind": "book"
+      },
+      {
+        "title": "The Last Supper: Conversations That Led to the Cross",
+        "kind": "book"
+      },
+      {
+        "title": "Changing My Mind: The Overlooked Virtue for Faithful Ministry",
+        "kind": "book"
+      },
+      {
+        "title": "Pastor: the Theology and Practice of Ordained Leadership",
+        "kind": "book"
+      },
+      {
+        "title": "Worship as Pastoral Care (1979)",
+        "kind": "book",
+        "year": 1979
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/william-willimon",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-brittany-e-wilson",
@@ -816,7 +1639,21 @@
       "Ph.D., Princeton Theological Seminary",
       "M.T.S., Duke University Divinity School",
       "B.A., The University of Texas at Austin"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "The Embodied God: Seeing the Divine in Luke-Acts and the Early Church (Oxford University Press, 2021)",
+        "kind": "book",
+        "year": 2021
+      },
+      {
+        "title": "Unmanly Men: Refigurations of Masculinity in Luke-Acts (Oxford University Press, 2015)",
+        "kind": "book",
+        "year": 2015
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/brittany-e-wilson",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-norbert-l-w-wilson",
@@ -851,7 +1688,23 @@
       "M.Div. (Interdenominational Theological Center)",
       "M.S. Agricultural, Resource, and Managerial Economics (Cornell University)",
       "Ph.D. Religious Social Ethics (Emory University)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Bioenhancement Technologies and the Vulnerable Body: A Theological Engagement",
+        "kind": "book"
+      },
+      {
+        "title": "Womanist Bioethics: Social Justice, Spirituality, and Black Women's Health",
+        "kind": "book"
+      },
+      {
+        "title": "Economic Ethics and the Black Church",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/wylin-d-wilson",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-lauren-winner",
@@ -870,7 +1723,31 @@
       "M.Phil., Clare College, Cambridge",
       "M.Div., Duke Divinity School",
       "Ph.D., Columbia University"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "A Word to Live By: Church's Teachings for a Changing World, Volume 7",
+        "kind": "book"
+      },
+      {
+        "title": "The Dangers of Christian Practice: On Wayward Gifts, Characteristic Damage, and Sin",
+        "kind": "book"
+      },
+      {
+        "title": "Wearing God: Clothing, Laughter, Fire, and Other Overlooked Ways of Meeting God",
+        "kind": "book"
+      },
+      {
+        "title": "Still: Notes on a Mid-Faith Crisis",
+        "kind": "book"
+      },
+      {
+        "title": "Girl Meets God",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/lauren-winner",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "duke-norman-wirzba",
@@ -883,6 +1760,30 @@
     "profileUrl": "https://divinity.duke.edu/faculty/norman-wirzba",
     "otherRoles": [
       "Senior Fellow at the Kenan Institute for Ethics"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Love's Braided Dance: Hope in a Time of Crisis",
+        "kind": "book"
+      },
+      {
+        "title": "Agrarian Spirit: Cultivating Faith, Community, and the Land",
+        "kind": "book"
+      },
+      {
+        "title": "This Sacred Life: Humanity's Place in a Wounded World",
+        "kind": "book"
+      },
+      {
+        "title": "The Paradise of God: Renewing Religion in an Ecological Age",
+        "kind": "book"
+      },
+      {
+        "title": "Food and Faith: A Theology of Eating (2nd Edition)",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://divinity.duke.edu/faculty/norman-wirzba",
+    "publicationsAsOf": "2026-08-07"
   }
 ]

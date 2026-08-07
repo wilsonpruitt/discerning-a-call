@@ -1,6 +1,72 @@
-[
+// Perkins School of Theology (SMU) — one of the 13 UMC schools of theology.
+//
+// Bespoke bits, for the next school's benefit (per README §"Adding a school"):
+//
+//   - THIS SCHOOL PREDATES THE HARVESTER. data/faculty/perkins.json and
+//     data/seminaries/perkins.json were both hand-assembled before this
+//     script existed — deepest coverage of any school on this site for
+//     publications (26/29, from Perkins' own annual Faculty Publications PDF,
+//     matched to the roster by name) and email (28/29, same PDF's byline
+//     match), but 0/29 on degrees. The tracker's original entry called that a
+//     real ceiling: "Perkins publishes no per-professor bio pages... would
+//     need an external source per person."
+//
+//   - THAT CEILING WAS WRONG (found 2026-08-07, checking all 29 people, not a
+//     sample). facultylistinga-z, the roster page, genuinely has no degree
+//     info and reads as if it's the only page Perkins publishes per person.
+//     But every name on it (except Ashley Boggan, see below) links to its own
+//     individual page at
+//     smu.edu/perkins/facultyacademics/facultylistinga-z/<surname-slug> — a
+//     real, individually fetchable bio page, no JS modal, no Cloudflare wall,
+//     and every one of those 28 pages carries a degrees line: institution,
+//     and for most people, a graduation year. Boggan (an affiliate research
+//     professor, appointed June 2025, general secretary of GCAH) has no link
+//     from the roster page's own markup but the same URL pattern still
+//     resolves for her (.../facultylistinga-z/boggan) — found by web search,
+//     not roster navigation. Dean Bryan Stone is the only one with a
+//     genuinely different profile URL (a dean bio page, not the faculty
+//     listing pattern), already the profileUrl on record for him.
+//
+//   - SLUG PATTERN: lowercase surname, hyphenated for compound/hyphenated
+//     surnames (baker-fletcher, clark-soles, nelms-chastain, pope-levison,
+//     steuernagel, stevenson-moessner, sutton-adams). Not derivable from a
+//     simple slugify(name) — Levison (John R. (Jack) Levison) and
+//     Pope-Levison (Priscilla) both reduce to different slugs than a naive
+//     surname-last-token split would guess, so the slugs are recorded
+//     per-person below rather than computed.
+//
+//   - PUBLICATIONS AND EMAIL ARE UNCHANGED by this pass — still sourced from
+//     Perkins' own annual "Faculty Publications" PDF
+//     (smu.edu/-/media/site/perkins/academics-faculty/faculty-pubfall25.pdf
+//     as of fall 2025), which has no degree information in it (front matter
+//     is a title page and a by-department table of contents, nothing
+//     biographical). Degrees are a genuinely separate source from
+//     publications/email at this school — the PDF got one job done, the
+//     individual pages got the other.
+//
+// Run: node scripts/harvest/perkins.mts [--fresh]
+
+import { get, today } from "./lib/fetch.mts";
+import { htmlToText, pdfToText } from "./lib/text.mts";
+import { writeFile } from "node:fs/promises";
+import { join } from "node:path";
+import type { FacultyMember, SeminaryProfile } from "../../content/types.ts";
+
+const ROOT = process.cwd();
+const fresh = process.argv.includes("--fresh");
+
+const BASE = "https://www.smu.edu";
+const ROSTER_URL = `${BASE}/perkins/facultyacademics/facultylistinga-z`;
+const PUBLICATIONS_PDF_URL = `${BASE}/-/media/site/perkins/academics-faculty/faculty-pubfall25.pdf`;
+
+// One entry per person, minus id/seminarySlug (derived in buildFaculty()).
+// publications/publicationsSource/publicationsAsOf/email carried forward
+// unchanged from the pre-harvester hand-assembled file (sourced from the PDF
+// above); degrees are this pass's addition, each read from that person's own
+// smu.edu/perkins/facultyacademics/facultylistinga-z/<slug> page (or, for
+// Stone, his dean bio page).
+const ROSTER: Omit<FacultyMember, "seminarySlug">[] = [
   {
-    "seminarySlug": "perkins",
     "id": "perkins-allen",
     "name": "O. Wesley Allen Jr.",
     "title": "Lois Craddock Perkins Professor of Homiletics",
@@ -49,7 +115,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-aquino",
     "name": "Frederick Aquino",
     "title": "Lehman Professor of Christian Doctrine",
@@ -96,7 +161,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-baker-fletcher",
     "name": "Karen Baker-Fletcher",
     "title": "Professor of Systematic Theology",
@@ -144,7 +208,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-blount",
     "name": "Farris Blount III",
     "title": "Assistant Professor of Practical Theology",
@@ -166,7 +229,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-boggan",
     "name": "Ashley Boggan",
     "title": "Affiliate Assistant Research Professor of Methodist Studies",
@@ -211,7 +273,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-bristow",
     "name": "April Johnson Bristow",
     "title": "Clinical Assistant Professor in the Intern Program",
@@ -261,7 +322,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-clark-soles",
     "name": "Jaime Clark-Soles",
     "title": "Professor of New Testament",
@@ -310,7 +370,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-elia",
     "name": "Anthony Elia",
     "title": "Director of Bridwell Library; J.S. Bridwell Foundation Endowed Librarian",
@@ -356,7 +415,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-gingles",
     "name": "Dallas J. Gingles",
     "title": "Associate Professor of Practice in Systematic Theology and Christian Ethics",
@@ -403,7 +461,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-heller",
     "name": "Roy L. Heller",
     "title": "Professor of Old Testament",
@@ -452,7 +509,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-hunt",
     "name": "Robert A. Hunt",
     "title": "Professor of Christian Mission and Interreligious Relations",
@@ -500,7 +556,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-lee",
     "name": "James Kang Hoon Lee",
     "title": "Professor of the History of Early Christianity",
@@ -548,7 +603,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-levison",
     "name": "John R. (Jack) Levison",
     "title": "W. J. A. Power Professor of Old Testament Interpretation and Biblical Hebrew",
@@ -594,7 +648,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-lewis",
     "name": "Tamara Lewis",
     "title": "Professor of the Practice of Historical Theology",
@@ -643,7 +696,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-long",
     "name": "D. Stephen Long",
     "title": "Cary M. Maguire University Professor of Ethics",
@@ -690,7 +742,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-magallanes",
     "name": "Hugo Magallanes",
     "title": "Associate Professor of Christianity and Cultures",
@@ -745,7 +796,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-miles",
     "name": "Rebekah Miles",
     "title": "Albert C. Outler Chair of Wesley Studies",
@@ -795,7 +845,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-nelms-chastain",
     "name": "Emily Nelms Chastain",
     "title": "Assistant Professor of Christian History & Methodist Studies",
@@ -843,7 +892,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-pope-levison",
     "name": "Priscilla Pope-Levison",
     "title": "Research Professor of Practical Theology",
@@ -889,7 +937,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-recinos",
     "name": "Harold J. Recinos",
     "title": "Professor of Church and Society",
@@ -938,7 +985,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-scholz",
     "name": "Susanne Scholz",
     "title": "Professor of Old Testament",
@@ -986,7 +1032,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-smith",
     "name": "Abraham Smith",
     "title": "Professor of New Testament",
@@ -1032,7 +1077,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-steuernagel",
     "name": "Marcell Silva Steuernagel",
     "title": "Associate Professor of Church Music",
@@ -1082,7 +1126,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-stevenson-moessner",
     "name": "Jeanne Stevenson-Moessner",
     "title": "Susanna Wesley Centennial Chair in Practical Theology; Professor of Pastoral Care and Pastoral Theology",
@@ -1129,7 +1172,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-stone",
     "name": "Bryan P. Stone",
     "title": "Leighton K. Farrell Endowed Dean; Professor of Theology",
@@ -1176,7 +1218,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-sutton-adams",
     "name": "Hannah Sutton-Adams",
     "title": "Visiting Assistant Professor of Pastoral Care",
@@ -1193,7 +1234,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-walker",
     "name": "Theodore Walker Jr.",
     "title": "Associate Professor of Theological Ethics and Society, Theology and the Sciences",
@@ -1240,7 +1280,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-wan",
     "name": "Sze-kar Wan",
     "title": "Professor of New Testament",
@@ -1286,7 +1325,6 @@
     ]
   },
   {
-    "seminarySlug": "perkins",
     "id": "perkins-white",
     "name": "Pam White",
     "title": "Clinical Assistant Professor in the Intern Program",
@@ -1308,4 +1346,296 @@
       "BS, University of North Texas"
     ]
   }
-]
+];
+
+function buildFaculty(): FacultyMember[] {
+  // ids come straight from the original hand-assembled file's ids (surname-
+  // based, e.g. "perkins-stone" not "perkins-dean-bryan-stone") — kept
+  // explicit per-entry rather than derived from profileUrl, since Stone's
+  // profileUrl points at his dean bio page, not the facultylistinga-z
+  // pattern the other 28 use.
+  return ROSTER.map((e) => ({ seminarySlug: "perkins", ...e }));
+}
+
+async function main() {
+  // Touch every page this data is built from, so a future --fresh run has a
+  // real cache to diff against even though the fields themselves were
+  // assembled by hand from a careful read, same reasoning as Claremont's and
+  // Saint Paul's harvests.
+  await get(ROSTER_URL, { fresh });
+  for (const e of ROSTER) {
+    if (e.name !== "Bryan P. Stone") await get(e.profileUrl, { fresh });
+  }
+  await get(`${BASE}/perkins/about/dean-bryan-stone`, { fresh });
+  const pubPdf = await get(PUBLICATIONS_PDF_URL, { fresh, binary: true });
+  pdfToText(pubPdf.path); // touched for cache parity; not re-parsed here — see header note
+
+  const faculty = buildFaculty();
+  await writeFile(join(ROOT, "data/faculty/perkins.json"), JSON.stringify(faculty, null, 2) + "\n", "utf8");
+  console.log(`wrote ${faculty.length} faculty to data/faculty/perkins.json`);
+
+  const profile = buildProfile();
+  await writeFile(join(ROOT, "data/seminaries/perkins.json"), JSON.stringify(profile, null, 2) + "\n", "utf8");
+  console.log("wrote data/seminaries/perkins.json");
+}
+
+function buildProfile(): SeminaryProfile {
+  // Unchanged from the pre-harvester hand-assembled profile except
+  // lastVerified and facultyNote (new) — this pass touched faculty degrees
+  // only, not ordination/cost/degree-program data, which a different pass
+  // already verified against Perkins' own pages/PDFs (see each block's own
+  // source/asOf).
+  return {
+  "slug": "perkins",
+  "name": "Perkins School of Theology",
+  "city": "Dallas",
+  "state": "TX",
+  "url": "https://www.smu.edu/perkins",
+  "lastVerified": today(),
+  "ordination": {
+    "senateStanding": {
+      "value": "approved-umc",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "One of the 13 United Methodist schools of theology."
+    },
+    "onlineCredit": {
+      "value": "fully-counts",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "GBHEM: all United Methodist schools of theology are approved to provide a fully online M.Div. that meets the educational requirements for UM ordination."
+    },
+    "coverageSource": "https://www.smu.edu/-/media/site/perkins/registrar/old-new-curriculum-table-ver-3-(2).pdf",
+    "coverageAsOf": "2024-08-01",
+    "coverage": [
+      {
+        "area": "old-testament",
+        "status": "required",
+        "note": "OT 6300 in the core."
+      },
+      {
+        "area": "new-testament",
+        "status": "required",
+        "note": "NT 6300 in the core."
+      },
+      {
+        "area": "theology",
+        "status": "required",
+        "note": "ST 6303 Systematic Theology in the core."
+      },
+      {
+        "area": "church-history",
+        "status": "required",
+        "note": "HX 6300 in the core."
+      },
+      {
+        "area": "preaching",
+        "status": "required",
+        "note": "PR 6300 Preaching in the core."
+      },
+      {
+        "area": "worship-liturgy",
+        "status": "required",
+        "note": "WO 6313 Worship in the core."
+      },
+      {
+        "area": "mission-of-the-church",
+        "status": "occasional",
+        "note": "No core course is labelled this way. MT 6300 Christian Ethics in Social Context is required, and the Division II and IV core electives include World Christianity (WX) and Christianity and Society (XS) options that plausibly satisfy it. Which course your board accepts is a question for your registrar \u2014 don't assume."
+      },
+      {
+        "area": "evangelism",
+        "status": "elective",
+        "note": "Evangelism (EV) is one of roughly eleven options for the single Division IV practical core elective, and is otherwise unrestricted elective space. Choosable, but not automatic."
+      },
+      {
+        "area": "um-studies",
+        "status": "elective",
+        "note": "Nothing in the required core covers United Methodist doctrine, polity, or history. The old degree plan states plainly that the 24 unrestricted elective hours \u201cmay include United Methodist Studies and Evangelism.\u201d \u00b6324.4 asks for a minimum of 6 semester hours here."
+      }
+    ],
+    "gapSummary": [
+      "Six of the nine \u00b6324.4 areas are in the required core and take care of themselves. Three are not. United Methodist studies \u2014 the 6-hour one \u2014 sits in elective space, as does evangelism, and no core course is labelled \u201cmission of the church in the world.\u201d",
+      "This is the thing to notice about a Perkins M.Div.: it is a United Methodist seminary, but the United Methodist studies requirement is something you choose, not something the degree hands you. Plan the elective block around it in your first year rather than discovering the gap in year three."
+    ],
+    "gapRemedies": [
+      {
+        "blurb": "Build the 24 unrestricted elective hours around \u00b6324.4 from the start. Six hours of United Methodist studies, three of evangelism, and a course your board will accept for mission of the church \u2014 that is half the elective block, and it still leaves twelve hours free.",
+        "url": "https://www.smu.edu/perkins/facultyacademics/degrees/mdiv-inperson"
+      },
+      {
+        "blurb": "Perkins also offers the \u00b6324.4 studies on their own, outside a degree. The nondegree \u201cBasic Graduate Theological Studies\u201d track exists for UMC deacons and for anyone closing a gap.",
+        "url": "https://www.smu.edu/perkins/facultyacademics/degrees/otherpgms"
+      },
+      {
+        "blurb": "Ask the Perkins registrar for the current M.Div. degree-progress sheet, and ask your conference's Board of Ordained Ministry registrar which specific course numbers they accept for each \u00b6324.4 area. They make the call, not the catalogue and not us."
+      }
+    ]
+  },
+  "scale": {
+    "outcomes": {
+      "value": "97.1% of reporting M.Div. graduates were employed, in the military, in continuing education, or in volunteer service",
+      "source": "https://www.smu.edu/perkins/facultyacademics/degrees/mdiv-inperson",
+      "asOf": "2024-06-30",
+      "note": "Perkins reports this for academic year 2023\u201324, and it counts *reporting* graduates only."
+    }
+  },
+  "cost": {
+    "tuitionPerCredit": {
+      "value": "$799 per credit hour (master's, Dallas or hybrid)",
+      "source": "https://www.smu.edu/perkins/admission/affording-seminary/cost-summary",
+      "asOf": "2026-07-01",
+      "note": "Academic year 2026\u201327. D.Min. is $928 and D.P.M. $906. Fees are charged on top \u2014 see below."
+    },
+    "fees": [
+      {
+        "label": "General student fee",
+        "amount": "$338 per term credit hour, $4,040 maximum"
+      },
+      {
+        "label": "Distance learning fee (hybrid)",
+        "amount": "$100 per term credit hour"
+      },
+      {
+        "label": "Hybrid technology fee",
+        "amount": "$50 per term"
+      },
+      {
+        "label": "Community life fee",
+        "amount": "$25 per term, Dallas and hybrid students"
+      }
+    ],
+    "pctReceivingAid": {
+      "value": "98% of master's degree-seeking students",
+      "source": "https://www.smu.edu/perkins/admission/affording-seminary",
+      "asOf": "2026-08-06"
+    },
+    "typicalAward": {
+      "value": "$17,200 average annual tuition scholarship",
+      "source": "https://www.smu.edu/perkins/admission/affording-seminary",
+      "asOf": "2026-08-06",
+      "note": "For full-time, degree-seeking students. An average, not a floor \u2014 awards vary."
+    },
+    "aidContact": {
+      "name": "Christina Rhodes",
+      "role": "Assistant Dean of Enrollment Management",
+      "email": "csrhodes@smu.edu",
+      "phone": "214-768-3411"
+    },
+    "honestNote": "The sticker figure most people quote is tuition alone. Perkins charges a general student fee per credit hour on top of it, and hybrid students add two more. Ask for a full cost-of-attendance sheet, not a per-credit number \u2014 and note that applying for admission is also the scholarship application, so applying early matters: Perkins says its funds go first-come, first-served."
+  },
+  "degrees": [
+    {
+      "name": "Master of Divinity",
+      "abbr": "M.Div.",
+      "credits": 75,
+      "typicalYears": "3\u20137 years; all requirements within 7 calendar years of first registration",
+      "modalities": [
+        "residential",
+        "hybrid"
+      ],
+      "blurb": "The ordination degree. 75 credit hours including a supervised internship, with 24 credit hours of elective space.",
+      "url": "https://www.smu.edu/perkins/facultyacademics/degrees/mdiv-inperson"
+    },
+    {
+      "name": "Maestr\u00eda en Divinidad",
+      "abbr": "M.Div. en espa\u00f1ol",
+      "modalities": [
+        "hybrid"
+      ],
+      "blurb": "The M.Div. taught in Spanish \u2014 fully in Spanish for the first two years, with the option to move to a bilingual track after that.",
+      "url": "https://www.smu.edu/perkins/facultyacademics/degrees/mdiv-spanish",
+      "flag": "New: first cohort begins fall 2026."
+    },
+    {
+      "name": "Master of Arts in Ministry",
+      "abbr": "M.A.M.",
+      "credits": 36,
+      "modalities": [
+        "residential",
+        "hybrid"
+      ],
+      "blurb": "36 credit hours plus an internship, for ministerial leadership that doesn't require the full M.Div.",
+      "url": "https://www.smu.edu/perkins/facultyacademics/degrees"
+    },
+    {
+      "name": "Master of Theological Studies",
+      "abbr": "M.T.S.",
+      "credits": 48,
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "48 credit hours plus a thesis or summative project. Not an ordination degree \u2014 lay leadership, personal study, or groundwork for a PhD.",
+      "url": "https://www.smu.edu/perkins/facultyacademics/degrees/mts"
+    },
+    {
+      "name": "Master of Sacred Music",
+      "abbr": "M.S.M.",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "For church musicians; paired with a Doctor of Pastoral Music.",
+      "url": "https://www.smu.edu/perkins/facultyacademics/degrees/msm"
+    },
+    {
+      "name": "Basic Graduate Theological Studies (nondegree)",
+      "abbr": "Nondegree",
+      "modalities": [
+        "residential",
+        "hybrid"
+      ],
+      "blurb": "The \u00b6324.4 studies taken on their own, without enrolling in a degree. Built for UMC deacons and for anyone closing a gap.",
+      "url": "https://www.smu.edu/perkins/facultyacademics/degrees/otherpgms"
+    }
+  ],
+  "concentrations": [
+    "African American church studies",
+    "Baptist studies",
+    "Health care chaplaincy",
+    "Pastoral care",
+    "Theology and science"
+  ],
+  "partnerships": [
+    {
+      "kind": "host-university",
+      "partner": "Southern Methodist University",
+      "blurb": "Perkins is a school within SMU, on the Dallas campus at 5905 Bishop Blvd.",
+      "url": "https://www.smu.edu/"
+    },
+    {
+      "kind": "extension",
+      "partner": "Houston\u2013Galveston sites",
+      "blurb": "Classes meet regularly in Houston at St. Paul's UMC, Houston Methodist Hospital, and St. John's UMC downtown; in Galveston at Moody Memorial First UMC. You can serve a Gulf Coast appointment and still take courses in person.",
+      "url": "https://www.smu.edu/perkins/about/other-locations"
+    },
+    {
+      "kind": "extension",
+      "partner": "Immersion sites beyond Dallas",
+      "blurb": "The in-person requirement for the M.Div. and M.A.M. can be met through week-long immersions held in Dallas, Houston\u2013Galveston and elsewhere \u2014 recent ones in McAllen and Waco, Texas, and Memphis, Tennessee. Perkins says it adds locations based on where students actually live.",
+      "url": "https://www.smu.edu/perkins/about/other-locations"
+    },
+    {
+      "kind": "consortium",
+      "partner": "Bridwell Library",
+      "blurb": "Perkins' own theological library, with special collections and the Center for World Methodism.",
+      "url": "https://www.smu.edu/perkins/facultyacademics/bridwelllibrary"
+    }
+  ],
+  "courseOfStudy": {
+    "blurb": "Perkins administers the United Methodist Regional Course of Study School \u2014 the five-year curriculum required of licensed local pastors who are not in a seminary degree program \u2014 in partnership with GBHEM. It runs in English and, as Curso de Estudio, in Spanish.",
+    "url": "https://www.smu.edu/perkins/publicprograms/coss-english"
+  },
+  "contact": {
+    "admissionsUrl": "https://www.smu.edu/perkins/admission",
+    "visitUrl": "https://www.smu.edu/perkins/admission/visit",
+    "email": "perkins@smu.edu",
+    "phone": "214-768-8436"
+  },
+  "facultyNote": "Perkins publishes no per-professor bio pages on the main facultyacademics/facultylistinga-z roster page itself (name, title, area, email only) \u2014 but a second-pass check (2026-08-07) found that each of the 28 non-dean faculty DOES have its own individual page at smu.edu/perkins/facultyacademics/facultylistinga-z/<surname-slug>, linked from the roster but not obvious from it, and every one of those 28 pages carries a degrees line (institution and, for most, year). Dean Bryan Stone's degrees come from his separate dean bio page. All 29 are checked, not sampled \u2014 the 'Perkins has no per-professor pages' assumption in the first pass was wrong; it only checked the roster page and the annual publications PDF, never the individual profile links. Publications remain sourced from Perkins' own annual Faculty Publications PDF (26/29), matched by name to the roster; email remains sourced from the same PDF's byline match (28/29). Degrees are not in that PDF and were pulled separately from the individual pages."
+};
+}
+
+main().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});

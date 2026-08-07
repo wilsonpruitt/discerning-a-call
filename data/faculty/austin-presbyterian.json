@@ -4,15 +4,15 @@
     "seminarySlug": "austin-presbyterian",
     "name": "Sarah Allen",
     "title": "Associate Dean of Ministerial Formation and Advanced Studies",
-    "otherRoles": [
-      "Grant director, Borders and Bridges Initiative",
-      "Program director, Bridge to Ministry"
-    ],
     "areas": [
       "practical-theology",
       "christian-education-formation"
     ],
     "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "otherRoles": [
+      "Grant director, Borders and Bridges Initiative",
+      "Program director, Bridge to Ministry"
+    ],
     "degrees": [
       "BA, Austin College, 2003",
       "MDiv, Austin Presbyterian Theological Seminary, 2007",
@@ -24,21 +24,57 @@
     "seminarySlug": "austin-presbyterian",
     "name": "Margaret Aymer",
     "title": "The First Presbyterian Church, Shreveport, D. Thomason Professor of New Testament Studies",
-    "otherRoles": [
-      "Vice-President for Academic Affairs and Dean of Faculty"
-    ],
     "areas": [
       "new-testament",
       "womanist-feminist-theology",
       "black-church-studies"
     ],
     "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "otherRoles": [
+      "Vice-President for Academic Affairs and Dean of Faculty"
+    ],
     "degrees": [
       "BA, Harvard University, 1989",
       "MDiv, Union Theological Seminary, 1996",
       "PhD, Union Theological Seminary, 2004",
       "Doctor of Humane Letters, honoris causa, Hood Theological Seminary, 2013"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Islanders, Islands and the Bible: Ruminations",
+        "kind": "book",
+        "year": 2015,
+        "publisher": "Semeia Studies",
+        "note": "with Jione Havea"
+      },
+      {
+        "title": "James: Diaspora Rhetorics of a Friend of God",
+        "kind": "book",
+        "year": 2014,
+        "publisher": "Sheffield Publishing"
+      },
+      {
+        "title": "Fortress Commentary on the Bible",
+        "kind": "book",
+        "year": 2014,
+        "publisher": "Fortress Press",
+        "note": "with Gale A. Yee"
+      },
+      {
+        "title": "Confessing the Beatitudes",
+        "kind": "book",
+        "year": 2011,
+        "note": "the 2011 Horizons Bible Study, the annual Bible-study resource for Presbyterian women; won the Award of Excellence from the Associated Church Press"
+      },
+      {
+        "title": "First Pure, then Peaceable: Frederick Douglass Reads James",
+        "kind": "book",
+        "year": 2008,
+        "publisher": "T&T Clark"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "aps-bonilla",
@@ -56,7 +92,17 @@
       "MA in Christian Education, Garrett-Evangelical Theological Seminary, 2007",
       "MPhil, Drew University School of Theology, 2016",
       "PhD, Garrett-Evangelical Theological Seminary (ABD)"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Connecting Faith and Justice: Junior High Curriculum, Lectionary Year C",
+        "kind": "chapter",
+        "year": 2018,
+        "publisher": "UMC Church and Society"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "aps-budwey",
@@ -101,7 +147,29 @@
       "Texas A&M University, Kingsville, 1999",
       "MDiv, Southwestern Baptist Theological Seminary, 2000",
       "PhD, Brite Divinity School at Texas Christian University, 2006"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Migration and Western Biblical Interpretation: Empire, Method, and the Politics of Displacement",
+        "kind": "book",
+        "year": 2026,
+        "publisher": "Brill"
+      },
+      {
+        "title": "Resacralizing the Other at the U.S.–Mexico Border: A Borderland Hermeneutic",
+        "kind": "book",
+        "year": 2020,
+        "publisher": "Routledge"
+      },
+      {
+        "title": "Empire, the British Museum, and the Making of the Biblical Scholar in the Nineteenth Century",
+        "kind": "book",
+        "year": 2019,
+        "publisher": "Palgrave"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "aps-foote",
@@ -116,7 +184,29 @@
     "degrees": [
       "BA, Baylor University, 1975",
       "MDiv, Austin Presbyterian Theological Seminary, 1979"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Public Education Is a Sacred Calling: Citizen Stakeholders All - For the Common Good",
+        "kind": "book",
+        "year": 2016,
+        "note": "funded by a study grant from The Louisville Institute"
+      },
+      {
+        "title": "Being Disciples of Jesus in a Dot.Com World",
+        "kind": "book",
+        "year": 2003,
+        "note": "with P. Alex Thornburg"
+      },
+      {
+        "title": "Being Presbyterian in the Bible Belt",
+        "kind": "book",
+        "year": 2000,
+        "note": "with P. Alex Thornburg"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "aps-gallardo",
@@ -128,13 +218,29 @@
       "wesleyan-studies",
       "latino-hispanic-ministry"
     ],
-    "workingOn": "Teaches surveys on the history of Christian thought, race and religion in the Americas, and Methodism, plus seminars on figures like Bartolomé de Las Casas. Came to Austin in 2022 from Perkins, where he was associate director of the intern program — which makes him the person here most likely to understand what a United Methodist candidate needs.",
     "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "workingOn": "Teaches surveys on the history of Christian thought, race and religion in the Americas, and Methodism, plus seminars on figures like Bartolomé de Las Casas. Came to Austin in 2022 from Perkins, where he was associate director of the intern program — which makes him the person here most likely to understand what a United Methodist candidate needs.",
     "degrees": [
       "BA, Eastern University, 2006",
       "MDiv, Duke University Divinity School, 2009",
       "PhD, Southern Methodist University, 2018"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Mapping the Origins of Christianity in the Americas",
+        "kind": "chapter",
+        "year": 2024,
+        "publisher": "Bloomsbury Religions in North America Series"
+      },
+      {
+        "title": "Legacies of Slavery and Dispossession in the Texas/Mexico Borderlands",
+        "kind": "chapter",
+        "publisher": "Baylor University Press",
+        "note": "in an edited volume on borderlands Baptist history; under review as of this bio"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "aps-greenway",
@@ -149,7 +255,36 @@
       "BA, Houghton College, 1986",
       "MDiv, Princeton Theological Seminary, 1989",
       "PhD, Princeton Theological Seminary, 1997"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Agape Ethics: Moral Realism and Love for All Life",
+        "kind": "book",
+        "year": 2017,
+        "publisher": "Cascade Books"
+      },
+      {
+        "title": "The Challenge of Evil: Grace and the Problem of Suffering",
+        "kind": "book",
+        "year": 2016,
+        "publisher": "Westminster John Knox"
+      },
+      {
+        "title": "For the Love of All Creatures: The Story of Grace in Genesis",
+        "kind": "book",
+        "year": 2015,
+        "publisher": "Eerdmans",
+        "note": "named one of the Academy of Parish Clergy's Top Ten Books for Parish Ministry, 2015"
+      },
+      {
+        "title": "A Reasonable Belief: Why God and Faith Make Sense",
+        "kind": "book",
+        "year": 2015,
+        "publisher": "Westminster John Knox"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "aps-helsel-carolyn",
@@ -166,7 +301,37 @@
       "MDiv, Princeton Theological Seminary, 2004",
       "ThM, Princeton Theological Seminary, 2010",
       "PhD, Emory University, 2014"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "The Flawed Family of God: Stories about the Imperfect Families in Genesis",
+        "kind": "book",
+        "year": 2021,
+        "publisher": "Westminster John Knox Press",
+        "note": "with Song-Mi Suzie Park — the same book Park's own bio names"
+      },
+      {
+        "title": "The A.B.C.'s of Diversity: Helping Kids Embrace Our Differences",
+        "kind": "book",
+        "year": 2020,
+        "publisher": "Chalice Press",
+        "note": "with Y. Joy Harris-Smith"
+      },
+      {
+        "title": "Anxious to Talk About It: Helping White Christians Talk Faithfully About Race",
+        "kind": "book",
+        "year": 2018,
+        "note": "with Preaching about Racism, won the 2018 Book(s) of the Year Award from the Association of Parish Clergy"
+      },
+      {
+        "title": "Preaching about Racism: A Guide for Faith Leaders",
+        "kind": "book",
+        "year": 2018,
+        "note": "with Anxious to Talk About It, won the 2018 Book(s) of the Year Award from the Association of Parish Clergy"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "aps-helsel-philip",
@@ -213,7 +378,41 @@
       "BA, Carleton College, 1990",
       "MAR, Yale University, 1994",
       "PhD, Vanderbilt University, 1999"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Christian Theology in a Pluralistic Age",
+        "kind": "edited-volume",
+        "year": 2024,
+        "publisher": "Pickwick Publications"
+      },
+      {
+        "title": "Christian Understandings of Christ: The Historical Trajectory",
+        "kind": "book",
+        "year": 2019,
+        "publisher": "Fortress"
+      },
+      {
+        "title": "Always Being Reformed: Challenges and Prospects for the Future of Reformed Theology",
+        "kind": "edited-volume",
+        "year": 2016,
+        "publisher": "Pickwick"
+      },
+      {
+        "title": "1 and 2 Samuel",
+        "kind": "book",
+        "year": 2015,
+        "publisher": "Westminster John Knox"
+      },
+      {
+        "title": "God, Desire and a Theology of Human Sexuality",
+        "kind": "book",
+        "year": 2012,
+        "publisher": "Westminster John Knox"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "aps-jeong",
@@ -229,7 +428,23 @@
       "MDiv, Presbyterian University and Theological Seminary, 2014",
       "STM, Yale University Divinity School, 2016",
       "PhD, Emory University, 2021"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Pauline Baptism among the Mysteries: Ritual Messages and the Promise of Initiation",
+        "kind": "book",
+        "year": 2023,
+        "publisher": "De Gruyter"
+      },
+      {
+        "title": "The Wandering People of God: A (Re)introduction to the Letter to the Hebrews Using a Sociolocative Textual Approach",
+        "kind": "chapter",
+        "publisher": "SBL Press",
+        "note": "in Currents in Korean American and Korean Biblical Interpretation, forthcoming as of this bio"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "aps-lord",
@@ -245,7 +460,46 @@
       "AB, Albion College, 1986",
       "MDiv, Princeton Theological Seminary, 1989",
       "PhD, Graduate Theological Union, 2003"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Introduction to the Revised Common Lectionary",
+        "kind": "chapter",
+        "year": 2021,
+        "publisher": "Westminster John Knox",
+        "note": "in Connections: A Lectionary Commentary for Preaching and Worship, a multi-volume series she also served as Editorial Board Member for"
+      },
+      {
+        "title": "Choreography in the Worship Space",
+        "kind": "chapter",
+        "year": 2014,
+        "publisher": "Abingdon",
+        "note": "in Worship Matters: Sourcebook for Worship Leaders"
+      },
+      {
+        "title": "Presiding Basics",
+        "kind": "chapter",
+        "year": 2014,
+        "publisher": "Abingdon",
+        "note": "in Worship Matters: Sourcebook for Worship Leaders"
+      },
+      {
+        "title": "Finding Language and Imagery: Words for Holy Speech",
+        "kind": "book",
+        "year": 2009,
+        "publisher": "Fortress Press",
+        "note": "Elements of Preaching series; translated into Mandarin (2015) and Indonesian (2018)"
+      },
+      {
+        "title": "Sacraments and Preaching",
+        "kind": "chapter",
+        "year": 2008,
+        "publisher": "Abingdon",
+        "note": "in New Interpreters Bible Handbook of Preaching"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "aps-park",
@@ -261,7 +515,43 @@
       "MDiv, Harvard Divinity School, 2003",
       "MA, Harvard University, 2006",
       "PhD, Harvard University, 2010"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Love in the Hebrew Bible",
+        "kind": "book",
+        "year": 2023,
+        "publisher": "Westminster John Knox"
+      },
+      {
+        "title": "The Flawed Family of God: Stories about the Imperfect Families in Genesis",
+        "kind": "book",
+        "year": 2021,
+        "publisher": "Westminster John Knox",
+        "note": "with Carolyn Helsel — the same book Helsel's own bio names"
+      },
+      {
+        "title": "2 Kings",
+        "kind": "book",
+        "year": 2019,
+        "publisher": "Liturgical Press",
+        "note": "Wisdom Commentary series"
+      },
+      {
+        "title": "Transformation and Demarcation of Jacob's 'Flocks' in Genesis 30: 25-43: Identity, Election and the Role of the Divine",
+        "kind": "article",
+        "year": 2010,
+        "note": "Catholic Biblical Quarterly"
+      },
+      {
+        "title": "The Frustration of Wisdom: Wisdom, Counsel, and Divine Will in 2 Samuel 17:1–23",
+        "kind": "article",
+        "year": 2009,
+        "note": "Journal of Biblical Literature"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "aps-rigby",
@@ -277,7 +567,43 @@
       "BA, Brown University, 1986",
       "MDiv, Princeton Theological Seminary, 1989",
       "PhD, Princeton Theological Seminary, 1998"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Holding Faith: A Practical Introduction to Christian Faith",
+        "kind": "book",
+        "year": 2018,
+        "publisher": "Abingdon Press"
+      },
+      {
+        "title": "Connections",
+        "kind": "edited-volume",
+        "year": 2018,
+        "publisher": "Westminster John Knox",
+        "note": "general editor of this nine-volume lectionary commentary series; first volume published 2018"
+      },
+      {
+        "title": "The Promotion of Social Righteousness",
+        "kind": "book",
+        "year": 2010,
+        "publisher": "Witherspoon Press"
+      },
+      {
+        "title": "Blessed One: Protestant Perspectives on Mary",
+        "kind": "edited-volume",
+        "year": 2002,
+        "publisher": "Westminster John Knox Press",
+        "note": "co-editor with Beverly Gaventa"
+      },
+      {
+        "title": "Power, Powerlessness, and the Divine: New Inquiries in Bible and Theology",
+        "kind": "edited-volume",
+        "year": 1997,
+        "publisher": "Duke University Press"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "aps-silva-mccormick",
@@ -303,18 +629,34 @@
     "seminarySlug": "austin-presbyterian",
     "name": "Andrew Zirschky",
     "title": "Research Professor in Youth Ministry",
-    "otherRoles": [
-      "Director of the MAYM program"
-    ],
     "areas": [
       "youth-ministry",
       "practical-theology"
     ],
     "profileUrl": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "otherRoles": [
+      "Director of the MAYM program"
+    ],
     "degrees": [
       "BA, Northwest Nazarene University, 1997",
       "MDiv, Princeton Theological Seminary, 2007",
       "PhD, Princeton Theological Seminary, 2014"
-    ]
+    ],
+    "publications": [
+      {
+        "title": "Teaching Outside the Box: Five Approaches for Opening Scripture with Teenagers",
+        "kind": "book",
+        "year": 2017,
+        "publisher": "Abingdon Press"
+      },
+      {
+        "title": "Beyond the Screen: Youth Ministry for the Connected But Alone Generation",
+        "kind": "book",
+        "year": 2015,
+        "publisher": "Abingdon"
+      }
+    ],
+    "publicationsSource": "https://www.austinseminary.edu/academics/meet-the-faculty",
+    "publicationsAsOf": "2026-08-07"
   }
 ]

@@ -18,6 +18,25 @@
 //     the one exception found here) with a "Degrees" list and, inconsistently,
 //     a "Selected Publications" section. Duke is the first school in this
 //     harvest with real per-professor pages — Perkins has none.
+//   - SECOND-PASS FINDING (2026-08-07), PUBLICATIONS: the tracker's first-pass
+//     note treated the parser's near-zero hit rate (2/49) as likely evidence
+//     of a real ceiling — most bio pages just don't carry a literal "Selected
+//     Publications → Books" heading, the one thing parseProfilePage() looks
+//     for. A spot-check of 21 of the 47 gap people, reading full pages rather
+//     than heading-searching them, found genuine sourced publications for 20
+//     of the 21 — mostly named in prose bio paragraphs or in a "Recent Books"
+//     sidebar widget, both of which sit entirely outside the parser's search
+//     space. That result was strong enough to justify reading all 47: 42 had
+//     real, citable titles (with publisher/year where the page itself gives
+//     one); only 5 (Balmaceda, Patrick T. Smith, Tinoco Ruiz, Tran, Norbert
+//     Wilson) truly have nothing beyond a journal-name list or an untitled
+//     work-in-progress. The "Selected Publications" heading was never the
+//     wrong signal to look for — it just isn't Duke's dominant pattern, the
+//     way it evidently is on the 2 people (Davis, Lian) who do have it. The
+//     42 findings are hand-recorded in MANUAL_PUBLICATIONS below, the same
+//     read-once-and-record pattern MANUAL_AREA_FALLBACK already uses for
+//     areas, rather than teaching the regex parser to chase prose and widget
+//     markup it was never built for.
 //
 // Run: node scripts/harvest/duke.mts [--fresh]
 
@@ -26,7 +45,7 @@ import { htmlToText } from "./lib/text.mts";
 import { suggestAreas } from "./lib/areas.mts";
 import { writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { FacultyMember, SeminaryProfile, StudyArea } from "../../content/types.ts";
+import type { FacultyMember, Publication, SeminaryProfile, StudyArea } from "../../content/types.ts";
 
 const ROOT = process.cwd();
 const fresh = process.argv.includes("--fresh");
@@ -206,8 +225,17 @@ async function buildFaculty(): Promise<FacultyMember[]> {
     if (earned.length || detail.honoraryDegrees.length) {
       member.degrees = [...earned, ...detail.honoraryDegrees.map((d) => `${d} (honorary)`)];
     }
+    const manualPubs = MANUAL_PUBLICATIONS[entry.name];
     if (detail.publications.length) {
       member.publications = detail.publications.map((p) => ({ title: p.title, kind: p.kind, year: p.year }));
+      member.publicationsSource = entry.profileUrl;
+      member.publicationsAsOf = today();
+    } else if (manualPubs?.length) {
+      // Second-pass (2026-08-07) hand read — see script header. The parser's
+      // "Selected Publications" heading search found nothing here, but the
+      // page itself names real, citable work in prose or a "Recent Books"
+      // widget the regex parser doesn't look inside.
+      member.publications = manualPubs.slice(0, 5);
       member.publicationsSource = entry.profileUrl;
       member.publicationsAsOf = today();
     }
@@ -215,6 +243,265 @@ async function buildFaculty(): Promise<FacultyMember[]> {
   }
   return roster;
 }
+
+// Second-pass (2026-08-07) hand-read publications — see script header. Every
+// title here is quoted or closely paraphrased from the person's own Duke bio
+// page (prose paragraph or "Recent Books" widget), capped at 5, most-recent-
+// first where the page itself gives a year. Years are included only when the
+// page states one; omitted rather than guessed. The 5 people read but left
+// out entirely (Balmaceda, Patrick T. Smith, Tinoco Ruiz, Tran, Norbert
+// Wilson) had nothing beyond a journal-name list or an untitled
+// work-in-progress — a real gap, not an unread page.
+const MANUAL_PUBLICATIONS: Record<string, Publication[]> = {
+  "Jeremy Begbie": [
+    { title: "Theology, Music, and Modernity (OUP)", kind: "book" },
+    { title: "Abundantly More: The Theological Promise of the Arts in a Reductionist World (Baker)", kind: "book" },
+    { title: "The Art of New Creation: Trajectories in Theology and the Arts", kind: "book" },
+    { title: "Resounding Truth: Christian Wisdom in the World of Music (Baker/SPCK)", kind: "book" },
+    { title: "Theology, Music and Time (CUP)", kind: "book" },
+  ],
+  "Natalie Carnes": [
+    { title: "Attunement: The Art and Politics of Feminist Theology (OUP 2024)", kind: "book", year: 2024 },
+    { title: "Image and Presence: A Christological Reflection on Iconoclasm and Iconophilia (Stanford 2017)", kind: "book", year: 2017 },
+    { title: "Motherhood: A Confession (Stanford 2017)", kind: "book", year: 2017 },
+    { title: "Beauty: A Theological Engagement with Gregory of Nyssa (Cascade 2014)", kind: "book", year: 2014 },
+  ],
+  "Daniel Castelo": [
+    { title: "Second edition of Clark Pinnock's Flame of Love (InterVarsity, 2022)", kind: "book", year: 2022 },
+    { title: "T & T Clark Handbook of Pneumatology (Bloomsbury T & T Clark, 2020)", kind: "edited-volume", year: 2020 },
+    { title: "The Marks of Scripture: Rethinking the Nature of the Bible (Baker Academic, 2019)", kind: "book", year: 2019 },
+    { title: "The Usefulness of Scripture (Eisenbrauns, 2018)", kind: "book", year: 2018 },
+    { title: "Embodying Wesley's Catholic Spirit (Pickwick, 2017)", kind: "book", year: 2017 },
+  ],
+  "Mark Chaves": [
+    { title: "American Religion: Contemporary Trends (2nd ed., Princeton, 2017)", kind: "book", year: 2017 },
+    { title: "Congregations in America (Harvard, 2004)", kind: "book", year: 2004 },
+    { title: "Ordaining Women: Culture and Conflict in Religious Organizations (Harvard, 1997)", kind: "book", year: 1997 },
+  ],
+  "Farr Curlin": [
+    { title: "The Way of Medicine: Ethics and the Healing Profession", kind: "book" },
+    { title: "Spirituality and Religion Within the Culture of Medicine: From Evidence to Practice", kind: "edited-volume" },
+    { title: "Religion, Conscience and Controversial Clinical Practices, New England Journal of Medicine", kind: "article" },
+  ],
+  "Frederick Edie": [
+    { title: "Book, Bath, Table and Time", kind: "book" },
+  ],
+  "Aaron Griffith": [
+    { title: "God's Law and Order: The Politics of Punishment in Evangelical America (Harvard University Press, 2020)", kind: "book", year: 2020 },
+  ],
+  "Kevin Hart": [
+    { title: "Contemplation: The Movements of the Soul (Columbia UP, 2024)", kind: "book", year: 2024 },
+    { title: "Dark-Land: Memoir of a Secret Childhood (Paul Dry Books, 2024)", kind: "book", year: 2024 },
+    { title: "The Bible and Western Christian Literature, vol. 5 (T. and T. Clark, 2024)", kind: "edited-volume", year: 2024 },
+    { title: "Lands of Likeness: For a Poetics of Contemplation (Chicago UP, 2023)", kind: "book", year: 2023 },
+    { title: "Maurice Blanchot on Poetry and Narrative (Bloomsbury, 2023)", kind: "book", year: 2023 },
+  ],
+  "Jan Holton": [
+    { title: "Reframing Trauma: A Psychospiritual Theory and Theology (Fortress, 2025), co-editor", kind: "edited-volume", year: 2025 },
+    { title: "Longing for Home (Yale University Press)", kind: "book" },
+    { title: "Building the Resilient Community: Lessons from the Lost Boys of Sudan (Cascade Press)", kind: "book" },
+  ],
+  "Warren Kinghorn": [
+    { title: "The Limits of Burnout and the Work of Health Care, Church Life Journal (2026)", kind: "article", year: 2026 },
+    { title: "Do Not Harm Yourself, for We Are All Here, Christianity Today (2025)", kind: "article", year: 2025 },
+    { title: "Wayfaring: A Christian Approach to Mental Health Care", kind: "book" },
+    { title: "Prescribing Together: A Relational Guide to Psychopharmacology", kind: "book" },
+    { title: "Spirituality and Religion Within the Culture of Medicine: From Evidence to Practice", kind: "edited-volume" },
+  ],
+  "Anathea Portier-Young": [
+    { title: "The Prophetic Body: Embodiment and Mediation in Biblical Prophetic Literature (Oxford University Press, 2024)", kind: "book", year: 2024 },
+    { title: "Scripture and Justice: Catholic and Ecumenical Essays (Lexington Press, 2018), co-edited with Gregory Sterling", kind: "edited-volume", year: 2018 },
+    { title: "Apocalypse Against Empire: Theologies of Resistance in Early Judaism (Eerdmans, 2011)", kind: "book", year: 2011 },
+  ],
+  "Ronald K. Rittgers": [
+    { title: "A Widower's Lament: The \"Pious Meditations\" of Johann Christoph Oelhafen (Fortress, 2021)", kind: "book", year: 2021 },
+    { title: "Protestants and Mysticism in Reformation Europe (Brill, 2019), co-edited", kind: "edited-volume", year: 2019 },
+    { title: "The Reformation Commentary on Scripture: Hebrews and James (Intervarsity Press, 2017)", kind: "book", year: 2017 },
+    { title: "The Reformation of Suffering: Pastoral Theology and Lay Piety in Late Medieval and Early Modern Germany (Oxford University Press, 2012)", kind: "book", year: 2012 },
+    { title: "The Reformation of the Keys: Confession, Conscience, and Authority in Sixteenth-Century Germany (Harvard University Press, 2004)", kind: "book", year: 2004 },
+  ],
+  "Lester Ruth": [
+    { title: "A History of Contemporary Praise & Worship: Understanding the Ideas That Reshaped the Protestant Church, co-authored with Lim Swee Hong", kind: "book" },
+    { title: "Lovin' On Jesus: A Concise History of Contemporary Worship, co-authored with Lim Swee Hong", kind: "book" },
+    { title: "How Worship Became Music", kind: "book" },
+    { title: "Flow: The Ancient Way to Do Contemporary Worship (edited)", kind: "edited-volume" },
+    { title: "Essays on the History of Contemporary Praise and Worship (edited)", kind: "edited-volume" },
+  ],
+  "Brent A. Strawn": [
+    { title: "The Westminster Study Bible (Westminster, 2024)", kind: "edited-volume", year: 2024 },
+    { title: "Honest to God Preaching: Talking Sin, Suffering, and Violence (Fortress Press, 2021)", kind: "book", year: 2021 },
+    { title: "Lies My Preacher Told Me: An Honest Look at the Old Testament (Westminster John Knox, 2021)", kind: "book", year: 2021 },
+    { title: "The Old Testament: A Concise Introduction (Routledge, 2019)", kind: "book", year: 2019 },
+    { title: "The Old Testament Is Dying: A Diagnosis and Recommended Treatment (Baker Academic, 2017)", kind: "book", year: 2017 },
+  ],
+  "David Toole": [
+    { title: "Love Made Me an Inventor: The Story of Maggy Barankitse — Humanitarian, Genocide Survivor, Citizen without Borders", kind: "book" },
+    { title: "The Morgue in the Garden of Eden: An Essay on Hope … in the Dark (forthcoming)", kind: "book" },
+    { title: "Waiting for Godot in Sarajevo: Theological Reflections on Nihilism, Tragedy and Apocalypse", kind: "book" },
+  ],
+  "J. Ross Wagner": [
+    { title: "Being Christian After the Desolation of Gaza", kind: "book" },
+    { title: "What Did Jesus Ask?", kind: "book" },
+    { title: "Heralds of the Good News: Paul and Isaiah in Concert in the Letter to the Romans", kind: "book" },
+    { title: "Reading the Sealed Book: Old Greek Isaiah and the Problem of Septuagint Hermeneutics", kind: "book" },
+    { title: "Between Gospel and Election: Explorations in the Interpretation of Romans 9–11, co-edited with Florian Wilk", kind: "edited-volume" },
+  ],
+  "Matthew Philipp Whelan": [
+    { title: "Christianity and Agroecology (Cambridge University Press, 2025)", kind: "book", year: 2025 },
+    { title: "Blood in the Fields: Óscar Romero, Catholic Social Teaching, and Land Reform (Catholic University of America Press, 2020)", kind: "book", year: 2020 },
+    { title: "Nuevas dimensiones políticas y geopolíticas del cristianismo y la derecha política en las Américas, co-edited with David Días Arias, Gema Santamaría, and Kevin Coleman", kind: "edited-volume" },
+  ],
+  "Brittany E. Wilson": [
+    { title: "The Embodied God: Seeing the Divine in Luke-Acts and the Early Church (Oxford University Press, 2021)", kind: "book", year: 2021 },
+    { title: "Unmanly Men: Refigurations of Masculinity in Luke-Acts (Oxford University Press, 2015)", kind: "book", year: 2015 },
+  ],
+  "Wylin D. Wilson": [
+    { title: "Bioenhancement Technologies and the Vulnerable Body: A Theological Engagement", kind: "book" },
+    { title: "Womanist Bioethics: Social Justice, Spirituality, and Black Women's Health", kind: "book" },
+    { title: "Economic Ethics and the Black Church", kind: "book" },
+  ],
+  "Norman Wirzba": [
+    { title: "Love's Braided Dance: Hope in a Time of Crisis", kind: "book" },
+    { title: "Agrarian Spirit: Cultivating Faith, Community, and the Land", kind: "book" },
+    { title: "This Sacred Life: Humanity's Place in a Wounded World", kind: "book" },
+    { title: "The Paradise of God: Renewing Religion in an Ecological Age", kind: "book" },
+    { title: "Food and Faith: A Theology of Eating (2nd Edition)", kind: "book" },
+  ],
+  "Sarah Jean Barton": [
+    { title: "Becoming the Baptized Body: Disability and the Practice of Christian Community (Baylor University Press)", kind: "book" },
+    { title: "Spirituality and Religion Within the Culture of Medicine: From Evidence to Practice", kind: "edited-volume" },
+  ],
+  "Kate Bowler": [
+    { title: "The Lives We Actually Have", kind: "book" },
+    { title: "Have a Beautiful, Terrible Day!: Daily Meditations for the Ups, Downs & In-Betweens", kind: "book" },
+    { title: "Joyful, Anyway", kind: "book" },
+    { title: "The Preacher's Wife: Women and Power in American Megaministry (Princeton University Press, 2019)", kind: "book", year: 2019 },
+    { title: "Everything Happens for a Reason (and other lies I've loved) (Random House, 2018)", kind: "book", year: 2018 },
+  ],
+  "Douglas Campbell": [
+    { title: "Beyond Justification: Liberating Paul's Gospel", kind: "book" },
+    { title: "Pauline Dogmatics: The Triumph of God's Love (Eerdmans, 2020)", kind: "book", year: 2020 },
+    { title: "Paul: An Apostle's Journey (Eerdmans, 2018)", kind: "book", year: 2018 },
+    { title: "Framing Paul: An Epistolary Biography (Eerdmans, 2014)", kind: "book", year: 2014 },
+    { title: "The Deliverance of God: An Apocalyptic Rereading of Justification in Paul (Eerdmans, 2009)", kind: "book", year: 2009 },
+  ],
+  "Peter Casarella": [
+    { title: "Chiara Lubich: Essential Teachings on Unity", kind: "edited-volume" },
+    { title: "Pope Francis and the Search for God in América", kind: "book" },
+    { title: "Reverberations of the Word: Wounded Beauty in Global Catholicism (2020)", kind: "book", year: 2020 },
+    { title: "The Whole is Greater than its Parts: Ecumenism and Inter-religious Encounters in the Age of Pope Francis (2020)", kind: "edited-volume", year: 2020 },
+    { title: "Word as Bread: Language and Theology in Nicholas of Cusa (2017)", kind: "book", year: 2017 },
+  ],
+  "Stephen B. Chapman": [
+    { title: "The Lord Bless You", kind: "book" },
+    { title: "The Law and the Prophets (2nd ed. 2020; orig. 2000)", kind: "book", year: 2020 },
+    { title: "1 Samuel as Christian Scripture (2016)", kind: "book", year: 2016 },
+    { title: "The Cambridge Companion to the Hebrew Bible/Old Testament (2016), co-edited", kind: "edited-volume", year: 2016 },
+    { title: "Biblischer Text und theologische Theoriebildung (2001), co-edited", kind: "edited-volume", year: 2001 },
+  ],
+  "Edgardo Colón-Emeric": [
+    { title: "The People Called Metodista: Renewing Doctrine, Worship, and Missions from the Margins (Abingdon Press)", kind: "book" },
+    { title: "Óscar Romero's Theological Vision: Liberation and the Transfiguration of the Poor (University of Notre Dame Press)", kind: "book" },
+    { title: "Wesley, Aquinas, and Christian Perfection: An Ecumenical Dialogue (Baylor University Press)", kind: "book" },
+  ],
+  "Valerie Cooper": [
+    { title: "Segregated Sundays (in progress)", kind: "book" },
+    { title: "Word, Like Fire: Maria Stewart, the Bible, and the Rights of African Americans (University of Virginia Press, 2012)", kind: "book", year: 2012 },
+  ],
+  "Quinton Dixie": [
+    { title: "Witness: Two Hundred Years of Faith and Practice at the Abyssinian Baptist Church of Harlem, New York, co-authored with Genna Rae McNeil, Houston Roberson, and Kevin McGruder", kind: "book" },
+    { title: "Visions of a Better World: Howard Thurman's Pilgrimage to India and the Origins of African American Nonviolence, co-authored with Peter Eisenstadt", kind: "book" },
+    { title: "This Far By Faith, co-authored with Juan Williams", kind: "book" },
+    { title: "The Courage to Hope, co-edited with Cornel West", kind: "edited-volume" },
+    { title: "Conversations With God (edited)", kind: "edited-volume" },
+  ],
+  "Curtis Freeman": [
+    { title: "Pilgrim Journey: Instruction in the Mystery of the Gospel (Fortress Press, 2023)", kind: "book", year: 2023 },
+    { title: "Pilgrim Letters: Instruction in the Basic Teaching of Christ (Fortress Press, 2021)", kind: "book", year: 2021 },
+    { title: "Undomesticated Dissent: Democracy and the Public Virtue of Religious Nonconformity (Baylor University Press, 2017)", kind: "book", year: 2017 },
+    { title: "Contesting Catholicity: Theology for Other Baptists (Baylor University Press, 2014)", kind: "book", year: 2014 },
+    { title: "A Company of Women Preachers: Baptist Prophetesses in Seventeenth-Century England (Baylor University Press, 2011)", kind: "book", year: 2011 },
+  ],
+  "Polly Ha": [
+    { title: "The Future of Freedom (Yale University Press, forthcoming)", kind: "book" },
+    { title: "Remapping British Protestant Thought in the Long Reformation, Journal of Medieval and Early Modern History (2023)", kind: "article", year: 2023 },
+    { title: "Reformed Government (Oxford University Press, 2021), chief editor", kind: "edited-volume", year: 2021 },
+    { title: "The Puritans on Independence (Oxford University Press, 2017), chief editor", kind: "edited-volume", year: 2017 },
+    { title: "English Presbyterianism, 1590-1640 (Stanford University Press, 2011)", kind: "book", year: 2011 },
+  ],
+  "Amy Laura Hall": [
+    { title: "Torture, forthcoming in Wiley-Blackwell Encyclopedia of Religious Ethics", kind: "chapter" },
+    { title: "Erecting the Pulpit: Muscular Christianity from Teddy Roosevelt to Donald Trump", kind: "book" },
+    { title: "Laughing at the Devil: Seeing the World with Julian of Norwich", kind: "book" },
+    { title: "Writing Home with Love: Politics for Neighbors and Naysayers", kind: "book" },
+    { title: "Conceiving Parenthood: The Protestant Spirit of Biotechnological Reproduction", kind: "book" },
+  ],
+  "Zebulon M. Highben": [
+    { title: "Sing Many Names: Scriptural Images for God in Hymnody", kind: "book" },
+    { title: "Augsburg Motet Book (choral anthology)", kind: "edited-volume" },
+    { title: "Augsburg Chorale Book (choral anthology)", kind: "edited-volume" },
+    { title: "Festschrift in honor of composer Ronald A. Nelson (edited)", kind: "edited-volume" },
+  ],
+  "Timothy Kimbrough": [
+    { title: "A House Divided? Ways Forward for North American Anglicans", kind: "book" },
+    { title: "Psalms for Praise and Worship: A Complete Psalter (Abingdon Press)", kind: "book" },
+    { title: "Sweet Singer: The Hymns of Charles Wesley (Hinshaw)", kind: "book" },
+    { title: "A Theology of the Sacraments Interpreted by John and Charles Wesley", kind: "book" },
+    { title: "Translator, Theology in Hymns? by Teresa Berger (Kingswood Imprint of Abingdon Press)", kind: "book" },
+  ],
+  "Brett McCarty": [
+    { title: "Spirituality and Religion Within the Culture of Medicine: From Evidence to Practice", kind: "edited-volume" },
+  ],
+  "Jerusha Matsen Neal": [
+    { title: "Holy Ground: Climate Change, Preaching, and the Apocalypse of Place (Baylor University, 2024)", kind: "book", year: 2024 },
+    { title: "The Overshadowed Preacher: Mary, the Spirit, and the Labor of Proclamation (Eerdmans, 2020)", kind: "book", year: 2020 },
+    { title: "Blessed: Monologues for Mary (2012)", kind: "book", year: 2012 },
+  ],
+  "Luke Powery": [
+    { title: "Getting to God: Preaching Good News in a Troubled World, with John Rottman and Joni Sancken", kind: "book" },
+    { title: "Becoming Human: The Holy Spirit and the Rhetoric of Race", kind: "book" },
+    { title: "Living the Questions of the Bible", kind: "book" },
+    { title: "Ways of the Word: Learning to Preach for Your Time and Place, with Sally Brown", kind: "book" },
+    { title: "Dem Dry Bones: Preaching, Death, and Hope", kind: "book" },
+  ],
+  "C. Kavin Rowe": [
+    { title: "Studies in Luke, Acts, and Paul (Eerdmans, 2024)", kind: "book", year: 2024 },
+    { title: "Method, Context, and Meaning in New Testament Studies (Eerdmans, 2024)", kind: "book", year: 2024 },
+    { title: "Leading Christian Communities (Eerdmans, 2023)", kind: "book", year: 2023 },
+    { title: "Christianity's Surprise: A Sure and Certain Hope (Abingdon, 2020)", kind: "book", year: 2020 },
+    { title: "One True Life: the Stoics and Early Christians as Rival Traditions (Yale University Press, 2016)", kind: "book", year: 2016 },
+  ],
+  "J. Warren Smith": [
+    { title: "Early Christian Theology: A History (Eerdmans, forthcoming)", kind: "book" },
+    { title: "Ambrose, Augustine, and the Pursuit of Greatness (Cambridge, 2020)", kind: "book", year: 2020 },
+    { title: "Christian Grace and Pagan Virtue: The Theological Foundation of Ambrose's Ethics (Oxford, 2010)", kind: "book", year: 2010 },
+    { title: "Passion and Paradise: Human and Divine Emotion in the Thought of Gregory of Nyssa (Crossroad, 2004)", kind: "book", year: 2004 },
+  ],
+  "Laceye Warner": [
+    { title: "Methodist Book of Daily Prayer (projected 2024)", kind: "book" },
+    { title: "All the Good: A Wesleyan Way of Christmas (2021), editor and contributor", kind: "edited-volume", year: 2021 },
+    { title: "From Relief to Empowerment: How Your Church Can Cultivate Sustainable Mission (2018), co-authored with Gaston Warner", kind: "book", year: 2018 },
+    { title: "The Method of Our Mission: United Methodist Polity and Organization (2014, rev. 2017)", kind: "book", year: 2017 },
+    { title: "Grace to Lead: Practicing Leadership in the Wesleyan Tradition (2010, 2nd ed. 2017), co-authored with Bishop Kenneth Carder", kind: "book", year: 2017 },
+  ],
+  "Eric Lewis Williams": [
+    { title: "More Than Tongues Can Tell: Theological Generosity in Black Pentecostal Thought", kind: "book" },
+  ],
+  "William Willimon": [
+    { title: "The Church We Carry: Loss, Leadership, and the Future of Our Church", kind: "book" },
+    { title: "The Last Supper: Conversations That Led to the Cross", kind: "book" },
+    { title: "Changing My Mind: The Overlooked Virtue for Faithful Ministry", kind: "book" },
+    { title: "Pastor: the Theology and Practice of Ordained Leadership", kind: "book" },
+    { title: "Worship as Pastoral Care (1979)", kind: "book", year: 1979 },
+  ],
+  "Lauren Winner": [
+    { title: "A Word to Live By: Church's Teachings for a Changing World, Volume 7", kind: "book" },
+    { title: "The Dangers of Christian Practice: On Wayward Gifts, Characteristic Damage, and Sin", kind: "book" },
+    { title: "Wearing God: Clothing, Laughter, Fire, and Other Overlooked Ways of Meeting God", kind: "book" },
+    { title: "Still: Notes on a Mid-Faith Crisis", kind: "book" },
+    { title: "Girl Meets God", kind: "book" },
+  ],
+};
 
 // A handful of Regular Rank faculty whose title (plus first bio lines) gives
 // the normalizer nothing to match — read from their own Duke profile, not
@@ -475,7 +762,7 @@ function buildProfile(): SeminaryProfile {
       },
     ],
 
-    facultyNote: "Filtered to Duke's own 'Regular Rank Faculty' category in its directory (49 people) — this excludes Adjunct/Visiting, Administrative, Consulting, and Emeritus faculty, all of which Duke lists separately. A few Regular Rank titles (e.g., 'Professor of Food, Economics, and Community') sit outside this site's field vocabulary; where a title alone gave the area normalizer nothing to match, the area below was read from that person's own Duke bio rather than left blank or guessed from outside knowledge.",
+    facultyNote: "Filtered to Duke's own 'Regular Rank Faculty' category in its directory (49 people) — this excludes Adjunct/Visiting, Administrative, Consulting, and Emeritus faculty, all of which Duke lists separately. A few Regular Rank titles (e.g., 'Professor of Food, Economics, and Community') sit outside this site's field vocabulary; where a title alone gave the area normalizer nothing to match, the area below was read from that person's own Duke bio rather than left blank or guessed from outside knowledge. Publications: only 2 of 49 bio pages carry the literal 'Selected Publications → Books' heading this harvest's parser looks for; a full hand read of the other 47 pages (2026-08-07) found real, sourced titles in prose bio paragraphs or a 'Recent Books' widget for 42 more — only 5 (Balmaceda, Patrick T. Smith, Tinoco Ruiz, Tran, Norbert Wilson) genuinely have nothing beyond a journal-name list or an untitled work-in-progress.",
 
     contact: {
       admissionsUrl: "https://divinity.duke.edu/admissions",
