@@ -43,11 +43,20 @@
 // counted under um-studies, not double-counted here. This is why the schema
 // carries a `required-umc-track` status distinct from `required`.
 // (b) the faculty directory mixes professors who have an individual bio page
-// with several who do not (Bessler, Arthur Carter, Powe, Utley) — profileUrl
-// falls back to the shared directory page for those; (c) the "Comprehensive
-// Faculty Bibliography" PDF the bio pages link to is dated 2019/2020 —
-// visibly stale — so publications below are read from the (more current)
-// prose bios instead, not that PDF.
+// with several who do not — profileUrl falls back to the shared directory
+// page for those. Re-checked 2026-08-07: Arthur Carter and F. Douglas Powe
+// now both have real, sitemap-indexed bio pages (afcarter/, doug-powe/) that
+// did not exist (or were not yet linked/indexed) at the first pass. Bessler
+// and Utley still have none — confirmed by reading the faculty-directory
+// page's raw HTML (their entries have no <a href> wrapper, unlike everyone
+// with a page) and by checking page-sitemap.xml's full ~140-URL list, which
+// contains neither name. A search engine surfaced a URL under Utley's name
+// (ptstulsa.edu/nancy-claire-pittman-copy-copy-copy/) whose <title> says
+// "Allie Utley" but whose body is verbatim Nancy Claire Pittman's old bio —
+// a stale WordPress duplicate, not in the sitemap, not a real page; (c) the
+// "Comprehensive Faculty Bibliography" PDF the bio pages link to is dated
+// 2019/2020 — visibly stale — so publications below are read from the (more
+// current) prose bios instead, not that PDF.
 
 import { writeFile } from "node:fs/promises";
 import { join } from "node:path";
@@ -323,7 +332,7 @@ const concentrations = [
 // --- faculty note ------------------------------------------------------------
 
 const facultyNote =
-  "Roster limited to Phillips' 9 core full-time faculty listed in its main \"Faculty Directory\" heading. The same page separately lists 6 emeritae/i professors and 4 \"Adjunct and Affiliate Faculty\" — including Trista Soendker Nicholson, an Affiliate Instructor of United Methodist Studies — which this roster deliberately omits per the core-full-time-only scope. Of the 9 core faculty, 5 (Barnett, Davison, Capretto, McCallie, Warren Carter) have individual bio pages; the other 4 (Bessler, Arthur Carter, Powe, Utley) appear only as a name and title on the shared directory page, with no separate profile to link to.";
+  "Roster limited to Phillips' 9 core full-time faculty listed in its main \"Faculty Directory\" heading. The same page separately lists 6 emeritae/i professors and 4 \"Adjunct and Affiliate Faculty\" — including Trista Soendker Nicholson, an Affiliate Instructor of United Methodist Studies — which this roster deliberately omits per the core-full-time-only scope. Of the 9 core faculty, 7 (Barnett, Davison, Capretto, McCallie, Warren Carter, Arthur Carter, Powe) now have individual bio pages; the remaining 2 (Bessler, Utley) appear only as a name and title on the shared directory page — confirmed, not just unfound, by checking the directory page's own HTML for a missing link and by checking that neither name appears anywhere in the school's ~140-URL page sitemap.";
 
 // --- assemble the profile -----------------------------------------------
 
@@ -371,6 +380,24 @@ const faculty: FacultyMember[] = [
         year: 2025,
         publisher: "University of Oklahoma Press",
       },
+      {
+        title: "Border Policing: A History of Enforcement and Evasion in North America",
+        kind: "chapter",
+        publisher: "University of Texas Press",
+        note: "Contributed a chapter to this edited volume; the chapter's own title and year are not stated on Phillips' bio page.",
+      },
+      {
+        title: "Religion in the North American West",
+        kind: "chapter",
+        publisher: "University of Nebraska Press",
+        note: "Forthcoming (per Phillips' bio page, checked 2026-08-07) — a chapter on the Otoe Church of the First Born. Chapter title and year not stated.",
+      },
+      {
+        title: "Oklahoma Women Lead the Way into the KKK",
+        kind: "chapter",
+        publisher: "University of Oklahoma Press",
+        note: "Forthcoming (per Phillips' bio page, checked 2026-08-07) chapter in the edited collection American West between the World Wars. Year not stated.",
+      },
     ],
     publicationsSource: "https://ptstulsa.edu/lisa-barnett-2/",
     publicationsAsOf: today(),
@@ -383,6 +410,11 @@ const faculty: FacultyMember[] = [
     title: "Robert Travis Peake Professor of Theology",
     areas: ["systematic-theology"],
     email: "joe.bessler@ptstulsa.edu",
+    // Re-checked 2026-08-07: no bio-page link on the faculty directory (its
+    // HTML block for Bessler has no <a href> wrapper, unlike the 5 who do),
+    // no entry in page-sitemap.xml's ~140 URLs, and guessed slugs
+    // (joe-bessler, bessler) redirect to an unrelated image and a 2010 blog
+    // post, not a bio page. Genuinely absent, not a harvest miss.
     profileUrl: FACULTY_DIR_URL,
   },
   {
@@ -433,7 +465,19 @@ const faculty: FacultyMember[] = [
     ],
     areas: ["new-testament", "black-church-studies"],
     email: "arthur.carter@ptstulsa.edu",
-    profileUrl: FACULTY_DIR_URL,
+    degrees: [
+      "PhD, Vanderbilt University, 2016",
+      "MA, Vanderbilt University",
+      "MA, University of Manchester, UK (with Distinction, Biblical Studies)",
+      "MDiv, Colgate Rochester Crozer Divinity School",
+      "BA, Wake Forest University (Physics)",
+    ],
+    // Re-checked 2026-08-07: a real individual bio page now exists (not on
+    // page-sitemap.xml's listing when this school was first harvested, but
+    // live and indexed now). Its "Research" and "Publications" accordion
+    // sections are both present but literally empty in the page HTML — not a
+    // parsing miss, the school just hasn't filled them in yet.
+    profileUrl: "https://ptstulsa.edu/afcarter/",
   },
   {
     id: "phillips-carter-warren",
@@ -475,6 +519,22 @@ const faculty: FacultyMember[] = [
         kind: "book",
         note: "Publication year not stated on Phillips' bio page.",
       },
+      {
+        title: "The Preacher's Bible Handbook",
+        kind: "chapter",
+        publisher: "Westminster John Knox Press",
+        note: "Contributed six essays, ed. Wes Allen (Phillips' bio page abbreviates the publisher \"WJK\"). Year not stated.",
+      },
+      {
+        title: "Just Women Bible Study",
+        kind: "chapter",
+        note: "Contributed the essays \"Ruth & Naomi\" and \"Bathsheba.\" Publisher and year not stated on Phillips' bio page.",
+      },
+      {
+        title: "The Living Pulpit: Sermons that Illustrate Preaching in the Stone-Campbell Movement 1968–2018",
+        kind: "chapter",
+        note: "One of her sermons was selected for inclusion in this collection. Publisher and year not stated on Phillips' bio page. Publications capped at 5 for this profile — several more of Davison's shorter contributions (Tabletalk, the Encyclopedia of the Stone-Campbell Movement, The New Interpreter's Study Bible, The College Study Bible, the New Proclamation Series) are named on her bio page but omitted here for lack of room, not for lack of a source.",
+      },
     ],
     publicationsSource: "https://ptstulsa.edu/lisa-davison/",
     publicationsAsOf: today(),
@@ -504,7 +564,44 @@ const faculty: FacultyMember[] = [
     otherRoles: ["President"],
     areas: ["wesleyan-studies"],
     email: "douglas.powe@ptstulsa.edu",
-    profileUrl: FACULTY_DIR_URL,
+    // PhD is the only degree Phillips' bio page states with an explicit
+    // abbreviation ("Rev. F. Douglas Powe Jr., PhD" plus "Emory University's
+    // Graduate Division of Religion"). It also names Ohio Wesleyan
+    // University and Emory's Candler School of Theology as "a graduate of,"
+    // without stating which degree came from which — not recorded here to
+    // avoid guessing (Candler almost certainly means an MDiv, but the page
+    // itself never says so).
+    degrees: ["PhD, Emory University, Graduate Division of Religion"],
+    publications: [
+      {
+        title: "Sustaining While Disrupting: The Challenge of Congregational Innovation",
+        kind: "book",
+        year: 2022,
+        publisher: "Fortress Press",
+        note: "With Lovett H. Weems Jr. Full title/year/publisher confirmed via the publisher's own listing (ISBN 9781506479200) — Phillips' bio page names only the short title.",
+      },
+      {
+        title: "The Adept Church: Navigating Between a Rock and a Hard Place",
+        kind: "book",
+        year: 2020,
+        publisher: "Abingdon Press",
+        note: "Full title/year/publisher confirmed via Abingdon Press's own listing (ISBN 9781501896521) — Phillips' bio page names only the short title.",
+      },
+      {
+        title: "Transforming Evangelism: The Wesleyan Way of Sharing Faith",
+        kind: "book",
+        year: 2006,
+        publisher: "Discipleship Resources",
+        note: "With Henry H. Knight III. Full title/year/publisher confirmed via the publisher's own listing (ISBN 9780881774856) — Phillips' bio page names only the short title.",
+      },
+    ],
+    publicationsSource: "https://ptstulsa.edu/doug-powe/",
+    publicationsAsOf: today(),
+    // Re-checked 2026-08-07: a real individual bio/president page now
+    // exists, indexed in page-sitemap.xml, distinct from the shared
+    // directory. Narrative bio only — no separate "Education and CV"
+    // list the way most of the other bio pages have.
+    profileUrl: "https://ptstulsa.edu/doug-powe/",
   },
   {
     id: "phillips-utley",
@@ -513,6 +610,15 @@ const faculty: FacultyMember[] = [
     title: "Assistant Professor of Liturgy and Practical Theology",
     areas: ["liturgy-worship", "practical-theology"],
     email: "allie.utley@ptstulsa.edu",
+    // Re-checked 2026-08-07: no link on the faculty directory (no <a href>
+    // wrapper on her block, same as Bessler), and no entry in
+    // page-sitemap.xml's ~140 URLs. A search engine surfaced
+    // ptstulsa.edu/nancy-claire-pittman-copy-copy-copy/ under her name —
+    // its <title> tag says "Allie Utley" but the actual page body is
+    // entirely Nancy Claire Pittman's old bio (a stale/mislabeled WordPress
+    // duplicate, not indexed in the sitemap either). Confirmed unusable by
+    // reading the raw page, not just the search snippet — genuinely no bio
+    // page exists for her right now.
     profileUrl: FACULTY_DIR_URL,
   },
 ];

@@ -71,13 +71,13 @@
     "totalEnrollment": {
       "value": "153 students (85.20 FTE), reported Fall 2025",
       "source": "https://www.ats.edu/member-schools/phillips-theological-seminary",
-      "asOf": "2026-08-06",
+      "asOf": "2026-08-07",
       "note": "ATS's member-school page reports this as of Fall 2025; headcount and FTE both cover all degree programs, not MDiv alone."
     },
     "studentFacultyRatio": {
       "value": "8 full-time faculty (8.75 FTE) against 153 students",
       "source": "https://www.ats.edu/member-schools/phillips-theological-seminary",
-      "asOf": "2026-08-06",
+      "asOf": "2026-08-07",
       "note": "We report the raw counts rather than compute a single ratio — ATS does not publish one directly, and the FTE figure exceeding the headcount figure for faculty suggests some faculty carry overload appointments counted fractionally elsewhere."
     }
   },
@@ -174,11 +174,11 @@
     "Baptist Studies",
     "Unitarian Universalist Studies"
   ],
-  "facultyNote": "Roster limited to Phillips' 9 core full-time faculty listed in its main \"Faculty Directory\" heading. The same page separately lists 6 emeritae/i professors and 4 \"Adjunct and Affiliate Faculty\" — including Trista Soendker Nicholson, an Affiliate Instructor of United Methodist Studies — which this roster deliberately omits per the core-full-time-only scope. Of the 9 core faculty, 5 (Barnett, Davison, Capretto, McCallie, Warren Carter) have individual bio pages; the other 4 (Bessler, Arthur Carter, Powe, Utley) appear only as a name and title on the shared directory page, with no separate profile to link to.",
+  "facultyNote": "Roster limited to Phillips' 9 core full-time faculty listed in its main \"Faculty Directory\" heading. The same page separately lists 6 emeritae/i professors and 4 \"Adjunct and Affiliate Faculty\" — including Trista Soendker Nicholson, an Affiliate Instructor of United Methodist Studies — which this roster deliberately omits per the core-full-time-only scope. Of the 9 core faculty, 7 (Barnett, Davison, Capretto, McCallie, Warren Carter, Arthur Carter, Powe) now have individual bio pages; the remaining 2 (Bessler, Utley) appear only as a name and title on the shared directory page — confirmed, not just unfound, by checking the directory page's own HTML for a missing link and by checking that neither name appears anywhere in the school's ~140-URL page sitemap.",
   "contact": {
     "admissionsUrl": "https://ptstulsa.edu/prospective-students/ask-admissions/",
     "visitUrl": "https://ptstulsa.edu/prospective-students/schedule-a-campus-visit/",
     "phone": "918-610-8303"
   },
-  "lastVerified": "2026-08-06"
+  "lastVerified": "2026-08-07"
 }

@@ -13,10 +13,16 @@
 //     at /about-mtso/faculty-directory/, one card per person with name, title,
 //     and a link to a real per-professor page. Each per-professor page lists
 //     "Education" (degrees) and, for most, a CV-derived publications list —
-//     but several (Baek, Gibson, Stroud) print only a "view CV" PDF link with
-//     no publications in the page body itself; those three ship with degrees
-//     but no publications field, rather than guessed or left to a fetch of
-//     the CV PDF (out of scope for this pass — see gap note in the roster).
+//     but three (Baek, Gibson, Stroud) print only a "view CV" PDF link with
+//     no publications in the page body itself. A follow-up pass (2026-08-07)
+//     opened all three CVs (poppler pdftotext -layout): Gibson's and
+//     Stroud's each have a clean, separable "PUBLICATIONS" /
+//     "SCHOLARLY PUBLICATIONS" heading and are recorded below, sourced to the
+//     CV PDF itself rather than the bio page. Baek's CV has no publications
+//     section at all — Education, Research Interests, Awards, Teaching,
+//     Paper Presentations, Service — she's a 2024 PhD with presentations but
+//     no separable publications list yet, so her entry stays without one
+//     rather than promoting a talk to a publication.
 //   - THE COVERAGE FINDING, and the strongest version of it seen yet: MTSO's
 //     catalog states its Evangelism, Mission of the Church, and UM Studies
 //     electives are UMC-track electives in THREE separate, independently
@@ -69,6 +75,14 @@ const CATALOG_PDF_URL = `${BASE}/site/assets/files/2103/academic_catalog_2025-26
 const TUITION_PDF_URL = `${BASE}/site/assets/files/2748/tuition_sheet_2026-27.pdf`;
 const SCHOLARSHIPS_URL = `${BASE}/admissions/scholarships-and-financial-aid/scholarships-for-new-students/premier-scholarships/`;
 
+// The three faculty whose bio pages link a CV PDF instead of listing
+// publications in the page body (see top-of-file note). Each person's own
+// bio page links their exact CV file; these are that same link, so a
+// changed CV shows up as a changed cache key on the next --fresh run.
+const BAEK_CV_URL = `${BASE}/site/assets/files/3115/baek-_cv_2024_updated_jul_16.pdf`;
+const GIBSON_CV_URL = `${BASE}/site/assets/files/3003/vitaedrgeno2023.pdf`;
+const STROUD_CV_URL = `${BASE}/site/assets/files/3113/stroudcv2024.pdf`;
+
 // Core full-time faculty only, read from the live faculty directory
 // (https://www.mtso.edu/about-mtso/faculty-directory/, "Full-Time Faculty
 // Directory" heading) and each person's own bio page. As with Duke and Saint
@@ -82,7 +96,12 @@ interface Entry {
   profileUrl: string;
   areas: StudyArea[];
   degrees?: string[];
-  publications?: { title: string; kind: "book" | "edited-volume" | "article" | "chapter"; year?: number }[];
+  publications?: { title: string; kind: "book" | "edited-volume" | "article" | "chapter"; year?: number; note?: string }[];
+  // Set only for Baek/Gibson/Stroud, whose publications were read from a
+  // linked CV PDF rather than the bio page itself — publicationsSource
+  // should point at the CV, the thing actually read, not the bio page it
+  // was linked from.
+  publicationsSourceUrl?: string;
   // Override the id's surname segment when taking the last space-separated
   // word would be wrong — a suffix ("Jr.") or a two-word surname
   // ("Van Meter") both break the naive last-word rule Saint Paul's script
@@ -131,9 +150,15 @@ const ROSTER: Entry[] = [
       "M.A., Ewha Womans University, 2010",
       "B.A., Ewha Womans University, 2008",
     ],
-    // Her bio page links a CV PDF rather than listing publications in the
-    // page body; not fetched for this pass, so no publications field rather
-    // than a guess. Same gap for Gibson and Stroud below.
+    // Her bio page links a CV PDF (BAEK_CV_URL) rather than listing
+    // publications in the page body. Opened 2026-08-07: the CV has Education,
+    // Research Interests, Awards, Teaching Experience, Research & Project
+    // Management, Paper Presentations and Invited Talks, Service, Ministry,
+    // Denominational Affiliation, Languages, and Memberships — no
+    // "Publications" heading and nothing else that separates as one. She's a
+    // 2024 PhD; her CV's public-facing output so far is presentations, not
+    // publications. Left without a publications field rather than promoting
+    // a conference talk to a publication.
   },
   {
     name: "Toni Bond",
@@ -223,7 +248,20 @@ const ROSTER: Entry[] = [
       "M.A. (Religion/Urban Ministries), Trinity Evangelical Divinity School, 2001",
       "B.Th., Christian Bible College, 1998",
     ],
-    // No publications in the page body — see Baek note above.
+    // No publications in the page body; his CV (GIBSON_CV_URL) has a clean
+    // "PUBLICATIONS" heading, opened 2026-08-07 — one book and four articles
+    // (mostly in The African American Pulpit, a journal he later co-edited).
+    // Five most-recent, cleanly separable citations kept; two of the CV's
+    // own dates straddle a calendar-year turn ("Winter 2001-2002") and are
+    // recorded without a single `year` rather than guessed.
+    publications: [
+      { title: "\"Courage Under Fire: Guarding the Romantic Flame from Life's Fiery Issues\" (MMGI Publishing, Chicago, IL, 2013)", kind: "book", year: 2013 },
+      { title: "\"Hymns vs. Praise and Worship in the Twenty-First Century Black Church,\" The African American Pulpit, Trends in the Black Church Edition (Spring 2007)", kind: "article", year: 2007 },
+      { title: "\"Neighbor, Go Get Your Harp: The Eulogy of Pastor Eugene Gibson, Sr.,\" The African American Pulpit, Eulogy II Edition (Spring 2005)", kind: "article", year: 2005 },
+      { title: "\"The Point of No Return,\" The African American Pulpit (Fall 2004)", kind: "article", year: 2004 },
+      { title: "\"To Be or Not to Be in Seminary: That is the Question,\" The African American Pulpit (Winter 2001-2002)", kind: "article" },
+    ],
+    publicationsSourceUrl: GIBSON_CV_URL,
   },
   {
     name: "Paul Kim",
@@ -340,7 +378,18 @@ const ROSTER: Entry[] = [
       "M.Div., Union Theological Seminary",
       "A.B., Bryn Mawr College",
     ],
-    // No publications in the page body — see Baek note above.
+    // No publications in the page body; her CV (STROUD_CV_URL) has a clean
+    // "SCHOLARLY PUBLICATIONS" heading, opened 2026-08-07 — six co-authored
+    // or single-authored items on chaplaincy training and religious history.
+    // Five most recent kept (2013's chapter dropped for the cap).
+    publications: [
+      { title: "\"Training Spiritual Caregivers? Spirituality in Chaplaincy Programs in Theological Education,\" with Wendy Cadge, Patricia K. Palmer, George Fitchett, Trace Haythorn, and Casey Clevenger, in Situating Spirituality, eds. Brian Steensland, Jaime Kucinskas, and Anna Sun (Oxford University Press, 2021)", kind: "chapter", year: 2021, note: "co-authored" },
+      { title: "\"Training Chaplains and Spiritual Caregivers: The Emergence and Growth of Chaplaincy Programs in Theological Education,\" with Wendy Cadge, Patricia K. Palmer, George Fitchett, Trace Haythorn, and Casey Clevenger, Pastoral Psychology 69 (June 2020): 187-208", kind: "article", year: 2020, note: "co-authored" },
+      { title: "\"Education for Professional Chaplaincy in the US: Mapping Current Practice in Clinical Pastoral Education (CPE),\" with Casey Clevenger, Wendy Cadge, Patricia K. Palmer, Trace Haythorn, and George Fitchett, Journal of Healthcare Chaplaincy (February 7, 2020): 1-16", kind: "article", year: 2020, note: "co-authored" },
+      { title: "\"Training Healthcare Chaplains: Yesterday, Today, and Tomorrow,\" with Wendy Cadge, George Fitchett, Trace Haythorn, Patricia K. Palmer, Shelly Rambo, and Casey Clevenger, Journal of Pastoral Care and Counseling 73, no. 4 (December 1, 2019): 211-21", kind: "article", year: 2019, note: "co-authored" },
+      { title: "\"Beautiful Babies: Eugenic Display of the White Infant Body, 1854-1922,\" Bulletin for the Study of Religion 43, no. 2 (March 2014)", kind: "article", year: 2014 },
+    ],
+    publicationsSourceUrl: STROUD_CV_URL,
   },
   {
     name: "Timothy L. Van Meter",
@@ -396,7 +445,7 @@ function buildFaculty(): FacultyMember[] {
     if (e.degrees?.length) member.degrees = e.degrees;
     if (e.publications?.length) {
       member.publications = e.publications.slice(0, 5);
-      member.publicationsSource = e.profileUrl;
+      member.publicationsSource = e.publicationsSourceUrl ?? e.profileUrl;
       member.publicationsAsOf = today();
     }
     return member;
@@ -415,6 +464,13 @@ async function main() {
   const tuitionPdf = await get(TUITION_PDF_URL, { fresh, binary: true });
   const tuitionText = pdfToText(tuitionPdf.path);
   await get(SCHOLARSHIPS_URL, { fresh });
+  // Baek/Gibson/Stroud's CVs — fetched so they land in the cache alongside
+  // this run, same reasoning as the catalog/tuition PDFs above. Their
+  // publications are hand-transcribed into the ROSTER, not parsed here; a
+  // re-harvest should re-open these three by hand to check for a new CV.
+  await get(BAEK_CV_URL, { fresh, binary: true });
+  await get(GIBSON_CV_URL, { fresh, binary: true });
+  await get(STROUD_CV_URL, { fresh, binary: true });
 
   // Sanity check: confirm the MDiv table this profile is built from still
   // reads 75 total credit hours and still names the same denominational
@@ -630,7 +686,7 @@ function buildProfile(): SeminaryProfile {
       "Ecology and Justice Specialization",
     ],
 
-    facultyNote: "Limited to MTSO's 14 full-time faculty on its current Faculty Directory page; the school separately lists adjunct and emeritus faculty not counted here, per the core-full-time-only scope this project uses for every school. Three faculty (Baek, Gibson, Stroud) print only a downloadable CV link on their bio page rather than publications in the page body itself — their degrees are recorded here, their publications are not, rather than guessed from the unopened CV.",
+    facultyNote: "Limited to MTSO's 14 full-time faculty on its current Faculty Directory page; the school separately lists adjunct and emeritus faculty not counted here, per the core-full-time-only scope this project uses for every school. Three faculty (Baek, Gibson, Stroud) print only a downloadable CV link on their bio page rather than publications in the page body itself. All three CVs were opened (2026-08-07): Gibson's and Stroud's each have a clean, separable publications heading and are recorded here, sourced to the CV PDF rather than the bio page; Baek's CV has no publications section at all (she's a 2024 PhD with presentations recorded, not yet publications), so her entry stays without one.",
 
     courseOfStudy: {
       blurb: "MTSO operates the Course of Study School of Ohio (Joon-Sik Park, director) — the regional five-year Course of Study for licensed local pastors, moving toward a Great Lakes Course of Study partnership with Garrett Seminary starting Fall 2026, and offers a separate Advanced Course of Study certificate for the 32-credit-hour graduate requirement.",

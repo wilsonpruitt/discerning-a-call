@@ -23,10 +23,28 @@
         "kind": "book",
         "year": 2025,
         "publisher": "University of Oklahoma Press"
+      },
+      {
+        "title": "Border Policing: A History of Enforcement and Evasion in North America",
+        "kind": "chapter",
+        "publisher": "University of Texas Press",
+        "note": "Contributed a chapter to this edited volume; the chapter's own title and year are not stated on Phillips' bio page."
+      },
+      {
+        "title": "Religion in the North American West",
+        "kind": "chapter",
+        "publisher": "University of Nebraska Press",
+        "note": "Forthcoming (per Phillips' bio page, checked 2026-08-07) — a chapter on the Otoe Church of the First Born. Chapter title and year not stated."
+      },
+      {
+        "title": "Oklahoma Women Lead the Way into the KKK",
+        "kind": "chapter",
+        "publisher": "University of Oklahoma Press",
+        "note": "Forthcoming (per Phillips' bio page, checked 2026-08-07) chapter in the edited collection American West between the World Wars. Year not stated."
       }
     ],
     "publicationsSource": "https://ptstulsa.edu/lisa-barnett-2/",
-    "publicationsAsOf": "2026-08-06",
+    "publicationsAsOf": "2026-08-07",
     "profileUrl": "https://ptstulsa.edu/lisa-barnett-2/"
   },
   {
@@ -76,7 +94,7 @@
       }
     ],
     "publicationsSource": "https://ptstulsa.edu/peter-capretto/",
-    "publicationsAsOf": "2026-08-06",
+    "publicationsAsOf": "2026-08-07",
     "profileUrl": "https://ptstulsa.edu/peter-capretto/"
   },
   {
@@ -93,7 +111,14 @@
       "black-church-studies"
     ],
     "email": "arthur.carter@ptstulsa.edu",
-    "profileUrl": "https://ptstulsa.edu/faculty-directory/"
+    "degrees": [
+      "PhD, Vanderbilt University, 2016",
+      "MA, Vanderbilt University",
+      "MA, University of Manchester, UK (with Distinction, Biblical Studies)",
+      "MDiv, Colgate Rochester Crozer Divinity School",
+      "BA, Wake Forest University (Physics)"
+    ],
+    "profileUrl": "https://ptstulsa.edu/afcarter/"
   },
   {
     "id": "phillips-carter-warren",
@@ -140,10 +165,26 @@
         "title": "More Than a Womb: Childfree Women as Agents of the Holy",
         "kind": "book",
         "note": "Publication year not stated on Phillips' bio page."
+      },
+      {
+        "title": "The Preacher's Bible Handbook",
+        "kind": "chapter",
+        "publisher": "Westminster John Knox Press",
+        "note": "Contributed six essays, ed. Wes Allen (Phillips' bio page abbreviates the publisher \"WJK\"). Year not stated."
+      },
+      {
+        "title": "Just Women Bible Study",
+        "kind": "chapter",
+        "note": "Contributed the essays \"Ruth & Naomi\" and \"Bathsheba.\" Publisher and year not stated on Phillips' bio page."
+      },
+      {
+        "title": "The Living Pulpit: Sermons that Illustrate Preaching in the Stone-Campbell Movement 1968–2018",
+        "kind": "chapter",
+        "note": "One of her sermons was selected for inclusion in this collection. Publisher and year not stated on Phillips' bio page. Publications capped at 5 for this profile — several more of Davison's shorter contributions (Tabletalk, the Encyclopedia of the Stone-Campbell Movement, The New Interpreter's Study Bible, The College Study Bible, the New Proclamation Series) are named on her bio page but omitted here for lack of room, not for lack of a source."
       }
     ],
     "publicationsSource": "https://ptstulsa.edu/lisa-davison/",
-    "publicationsAsOf": "2026-08-06",
+    "publicationsAsOf": "2026-08-07",
     "profileUrl": "https://ptstulsa.edu/lisa-davison/"
   },
   {
@@ -179,7 +220,35 @@
       "wesleyan-studies"
     ],
     "email": "douglas.powe@ptstulsa.edu",
-    "profileUrl": "https://ptstulsa.edu/faculty-directory/"
+    "degrees": [
+      "PhD, Emory University, Graduate Division of Religion"
+    ],
+    "publications": [
+      {
+        "title": "Sustaining While Disrupting: The Challenge of Congregational Innovation",
+        "kind": "book",
+        "year": 2022,
+        "publisher": "Fortress Press",
+        "note": "With Lovett H. Weems Jr. Full title/year/publisher confirmed via the publisher's own listing (ISBN 9781506479200) — Phillips' bio page names only the short title."
+      },
+      {
+        "title": "The Adept Church: Navigating Between a Rock and a Hard Place",
+        "kind": "book",
+        "year": 2020,
+        "publisher": "Abingdon Press",
+        "note": "Full title/year/publisher confirmed via Abingdon Press's own listing (ISBN 9781501896521) — Phillips' bio page names only the short title."
+      },
+      {
+        "title": "Transforming Evangelism: The Wesleyan Way of Sharing Faith",
+        "kind": "book",
+        "year": 2006,
+        "publisher": "Discipleship Resources",
+        "note": "With Henry H. Knight III. Full title/year/publisher confirmed via the publisher's own listing (ISBN 9780881774856) — Phillips' bio page names only the short title."
+      }
+    ],
+    "publicationsSource": "https://ptstulsa.edu/doug-powe/",
+    "publicationsAsOf": "2026-08-07",
+    "profileUrl": "https://ptstulsa.edu/doug-powe/"
   },
   {
     "id": "phillips-utley",

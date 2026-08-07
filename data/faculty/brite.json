@@ -8,7 +8,13 @@
       "practical-theology",
       "congregational-leadership"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "profileUrl": "https://brite.edu/staff/stephen-cady",
+    "email": "s.cady@tcu.edu",
+    "degrees": [
+      "Ph.D., Princeton Theological Seminary",
+      "M.Div., Garrett-Evangelical Theological Seminary",
+      "B.A., Ohio Wesleyan University"
+    ]
   },
   {
     "id": "brite-casey",
@@ -22,7 +28,13 @@
       "pastoral-care-counseling",
       "ethics-public-theology"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "profileUrl": "https://brite.edu/staff/emilie-casey",
+    "degrees": [
+      "Ph.D. in Religion, Emory University",
+      "M.Div., Yale Divinity School",
+      "S.T.M., Yale Divinity School",
+      "B.M., University of Tennessee, Knoxville"
+    ]
   },
   {
     "id": "brite-cherry",
@@ -34,7 +46,7 @@
       "systematic-theology"
     ],
     "workingOn": "The Methodist studies chair at a school that is not United Methodist. If you are a UMC candidate at Brite, this is the faculty line that exists for you — the courses in United Methodist history, doctrine, mission, and polity run through here.",
-    "profileUrl": "https://brite.edu/facultyandstaff",
+    "profileUrl": "https://brite.edu/staff/natalyaacherry",
     "publications": [
       {
         "title": "Believing INTO Christ: Relational Faith and Human Flourishing, Waco, Texas, Baylor University Press, 2021.",
@@ -43,7 +55,13 @@
       }
     ],
     "publicationsSource": "https://brite.edu/faculty-books",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-06",
+    "email": "n.cherry@tcu.edu",
+    "degrees": [
+      "Ph.D., Southern Methodist University, 2018 (Religious Studies - Systemic Theology)",
+      "M.Div., Wesley Theological Seminary, 2001",
+      "B.A., Georgetown University, 1998"
+    ]
   },
   {
     "id": "brite-dalton",
@@ -53,7 +71,7 @@
     "areas": [
       "christian-education-formation"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff",
+    "profileUrl": "https://brite.edu/staff/russellwdalton",
     "publications": [
       {
         "title": "The Children’s Bible in America: A Reception History of Noah’s Ark in U.S. Children’s Bibles. London, New York: Bloomsbury T & T Clark’s Library of Biblical Studies, 2015.",
@@ -82,7 +100,13 @@
       }
     ],
     "publicationsSource": "https://brite.edu/faculty-books",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-06",
+    "email": "r.dalton@tcu.edu",
+    "degrees": [
+      "Ed.D., Union Theological Seminary and the Presbyterian School of Christian Education, 1998",
+      "Th.M., Harvard Divinity School, 1990",
+      "B.A., Central Michigan University, 1984"
+    ]
   },
   {
     "id": "brite-feldman",
@@ -93,7 +117,33 @@
       "hebrew-bible",
       "interreligious"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "profileUrl": "https://brite.edu/staff/ariel-feldman",
+    "email": "ariel.feldman@tcu.edu",
+    "degrees": [
+      "Ph.D., University of Haifa, 2008",
+      "M.A., University of Haifa, 2004",
+      "B.A., University of Haifa, 2002"
+    ],
+    "publications": [
+      {
+        "title": "The Dead Sea Scrolls Rewriting Samuel and Kings: Texts and Commentary. BZAW 469; Berlin: de Gruyter, 2015.",
+        "kind": "book",
+        "year": 2015
+      },
+      {
+        "title": "Scripture and Interpretation: Qumran Texts that Rework the Bible. Edited by D. Dimant. BZAW 449; Berlin: de Gruyter, 2014.",
+        "kind": "book",
+        "year": 2014,
+        "note": "With L. Goldman."
+      },
+      {
+        "title": "The Rewritten Joshua Scrolls from Qumran: Texts, Translations, and Commentary. BZAW 438; Berlin: de Gruyter, 2013.",
+        "kind": "book",
+        "year": 2013
+      }
+    ],
+    "publicationsSource": "https://brite.edu/staff/ariel-feldman",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "brite-gafney",
@@ -105,7 +155,7 @@
       "womanist-feminist-theology",
       "liturgy-worship"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff",
+    "profileUrl": "https://brite.edu/staff/wil-gafney",
     "publications": [
       {
         "title": "A Women’s Lectionary for the Whole Church. Year A . New York: Church Publishing Incorporated, 2021.",
@@ -134,7 +184,14 @@
       }
     ],
     "publicationsSource": "https://brite.edu/faculty-books",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-06",
+    "email": "wil.gafney@tcu.edu",
+    "degrees": [
+      "Ph.D. in Hebrew Bible, Duke University, 2006",
+      "Graduate Certificate in Women’s Studies, Duke University, 2000",
+      "M.Div. with Special Recognition in Homiletics and Hebrew Bible, Howard University School of Divinity, 1997",
+      "B.A., Earlham College, 1987"
+    ]
   },
   {
     "id": "brite-jones",
@@ -148,7 +205,31 @@
       "congregational-leadership",
       "world-christianity"
     ],
-    "profileUrl": "https://brite.edu/staff/shonda-jones"
+    "profileUrl": "https://brite.edu/staff/shonda-jones",
+    "publications": [
+      {
+        "title": "Transforming Service: Reflections of Student Services Professionals in Theological Education. Shonda R. Jones and Pamela R. Lightsey, editors. Pickwick Publications, 2020.",
+        "kind": "edited-volume",
+        "year": 2020
+      },
+      {
+        "title": "“Graduate Theological School Choice: A Case for Multiplicity,” in Transforming Service: Reflections of Student Services Professionals in Theological Education. Pickwick Publications, 2020.",
+        "kind": "chapter",
+        "year": 2020
+      },
+      {
+        "title": "England, K., & Jones, S. (2014). “Indiana.” In J.N. Friedel, J. Killacky, E. Miller, & S. Katsinas (Eds.), Fifty State Systems of Community Colleges: Mission, Governance, Funding & Accountability. Johnson City, TN: The Overmountain Press.",
+        "kind": "chapter",
+        "year": 2014
+      }
+    ],
+    "publicationsSource": "https://brite.edu/staff/shonda-jones",
+    "publicationsAsOf": "2026-08-07",
+    "degrees": [
+      "Ed.D., Educational Leadership, Policy, and Technology Studies, University of Alabama, Tuscaloosa AL",
+      "M.Div., Brite Divinity School, Texas Christian University, Fort Worth TX",
+      "B.A., Texas Christian University, Fort Worth TX"
+    ]
   },
   {
     "id": "brite-kang",
@@ -160,7 +241,7 @@
       "world-christianity",
       "womanist-feminist-theology"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff",
+    "profileUrl": "https://brite.edu/staff/namsoon-kang",
     "publications": [
       {
         "title": "Religion and Gender. Revised Edition. Seoul: Dongnoek Publisher, 2018.",
@@ -189,7 +270,14 @@
       }
     ],
     "publicationsSource": "https://brite.edu/faculty-books",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-06",
+    "email": "n.kang@tcu.edu",
+    "degrees": [
+      "Ph.D., Drew University, Madison NJ, USA",
+      "M.Phil., Drew University, Madison NJ, USA",
+      "Th.M., Methodist Theological Seminary, Seoul, KOREA",
+      "B.Th., Methodist Theological Seminary, Seoul, KOREA"
+    ]
   },
   {
     "id": "brite-lee",
@@ -200,7 +288,7 @@
       "church-history",
       "world-christianity"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff",
+    "profileUrl": "https://brite.edu/staff/timothy-s-lee",
     "publications": [
       {
         "title": "Special issue of the Journal of Korean Religions , entitled Interpreting Christian Missionary Experiences in Korea , April 2013 (4:1)",
@@ -219,7 +307,14 @@
       }
     ],
     "publicationsSource": "https://brite.edu/faculty-books",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-06",
+    "email": "t.lee@tcu.edu",
+    "degrees": [
+      "Ph.D., University of Chicago, 1996",
+      "C.M.S., University of Chicago, 1996",
+      "M.A., University of Chicago, 1986",
+      "B.A., University of Illinois (Urbana), 1983"
+    ]
   },
   {
     "id": "brite-matthews",
@@ -229,7 +324,7 @@
     "areas": [
       "new-testament"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff",
+    "profileUrl": "https://brite.edu/staff/shelly-matthews",
     "publications": [
       {
         "title": "Luke . 2 vols. Wisdom Commentary 43A and 43B. Liturgical Press, 2021.",
@@ -258,7 +353,13 @@
       }
     ],
     "publicationsSource": "https://brite.edu/faculty-books",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-06",
+    "email": "s.matthews@tcu.edu",
+    "degrees": [
+      "D.Th., Harvard Divinity School, 1997",
+      "M.Div., Boston University School of Theology, 1987",
+      "B.A., University of North Dakota, 1984"
+    ]
   },
   {
     "id": "brite-mcclure",
@@ -269,7 +370,7 @@
       "pastoral-care-counseling",
       "practical-theology"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff",
+    "profileUrl": "https://brite.edu/staff/barbara-j-mcclure",
     "publications": [
       {
         "title": "Emotions: Problems and Promise for Human Flourishing (Baylor University Press, 2019).",
@@ -283,7 +384,13 @@
       }
     ],
     "publicationsSource": "https://brite.edu/faculty-books",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-06",
+    "email": "b.j.mcclure@tcu.edu",
+    "degrees": [
+      "Ph.D., Emory University, Atlanta, GA (2003)",
+      "M.Div., Princeton Theological Seminary, Princeton, New Jersey (1996)",
+      "B.A., Houghton College, Houghton, NY (1989)"
+    ]
   },
   {
     "id": "brite-miller",
@@ -293,7 +400,27 @@
     "areas": [
       "systematic-theology"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "profileUrl": "https://brite.edu/staff/michael-miller",
+    "email": "michael.miller@tcu.edu",
+    "degrees": [
+      "Ph.D., Claremont Graduate University",
+      "Th.M., Columbia Theological Seminary",
+      "B.A., University of the West Indies"
+    ],
+    "publications": [
+      {
+        "title": "Freedom in Resistance and Creative Transformation",
+        "kind": "book",
+        "note": "Named as his own in his Brite bio; the bio gives no publisher or year."
+      },
+      {
+        "title": "Reshaping the Contextual Vision in Caribbean Theology",
+        "kind": "book",
+        "note": "Named as his own in his Brite bio; the bio gives no publisher or year."
+      }
+    ],
+    "publicationsSource": "https://brite.edu/staff/michael-miller",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "brite-moore",
@@ -305,7 +432,10 @@
       "ethics-public-theology",
       "black-church-studies"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "profileUrl": "https://brite.edu/staff/rev-dr-jeania-ree-moore",
+    "degrees": [
+      "Ph.D. in Theology, Yale University"
+    ]
   },
   {
     "id": "brite-noya",
@@ -315,7 +445,10 @@
     "areas": [
       "hebrew-bible"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "profileUrl": "https://brite.edu/staff/ludwig-beethoven-j-noya",
+    "degrees": [
+      "Ph.D. in Hebrew Bible, Vanderbilt University"
+    ]
   },
   {
     "id": "brite-oredein",
@@ -330,7 +463,27 @@
       "systematic-theology",
       "ethics-public-theology"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "profileUrl": "https://brite.edu/staff/oluwatomisin-oredein",
+    "email": "o.oredein@tcu.edu",
+    "degrees": [
+      "Th.D., Duke Divinity School",
+      "M.Div., Duke Divinity School",
+      "B.A., University of Virginia"
+    ],
+    "publications": [
+      {
+        "title": "The Theology of Mercy Amba Oduyoye: Ecumenism, Feminism, and Communal Practice",
+        "kind": "book",
+        "note": "University of Notre Dame Press; a Notre Dame Press award winner, per her Brite bio, which gives no publication year."
+      },
+      {
+        "title": "Theopoetics in Color: Embodied Approaches to Theological Discourse",
+        "kind": "edited-volume",
+        "note": "Co-edited anthology, per her Brite bio, which gives no publisher or year."
+      }
+    ],
+    "publicationsSource": "https://brite.edu/staff/oluwatomisin-oredein",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "brite-pape",
@@ -340,7 +493,7 @@
     "areas": [
       "preaching"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff",
+    "profileUrl": "https://brite.edu/staff/lance-pape",
     "publications": [
       {
         "title": "The Scandal of Having Something to Say: Ricoeur and the Possibility of Postliberal Preaching . Waco, Texas: Baylor University Press, 2013.",
@@ -354,7 +507,13 @@
       }
     ],
     "publicationsSource": "https://brite.edu/faculty-books",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-06",
+    "email": "l.pape@tcu.edu",
+    "degrees": [
+      "Ph.D., Emory University, 2010",
+      "M.Div, Yale Divinity School, 1994",
+      "B.A., Institute for Christian Studies, 1991"
+    ]
   },
   {
     "id": "brite-robinson",
@@ -364,7 +523,7 @@
     "areas": [
       "spiritual-formation"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff",
+    "profileUrl": "https://brite.edu/staff/timothy-h-robinson",
     "publications": [
       {
         "title": "A Companion to the Song of Songs in Christian Spirituality, editor. Leiden: Brill Publishing, 2021",
@@ -383,7 +542,14 @@
       }
     ],
     "publicationsSource": "https://brite.edu/faculty-books",
-    "publicationsAsOf": "2026-08-06"
+    "publicationsAsOf": "2026-08-06",
+    "email": "tim.robinson@tcu.edu",
+    "degrees": [
+      "Ph.D., Graduate Theological Union, 2006",
+      "M.Div., Emmanuel School of Religion, 1993",
+      "Certificate in Urban Ministry, Seminary Consortium for Urban Pastoral Education, Chicago, 1990",
+      "B.A., Milligan College, 1987"
+    ]
   },
   {
     "id": "brite-williams",
@@ -397,6 +563,12 @@
       "new-testament",
       "mission-social-justice"
     ],
-    "profileUrl": "https://brite.edu/facultyandstaff"
+    "profileUrl": "https://brite.edu/staff/jeremy-williams",
+    "email": "jeremy.williams@tcu.edu",
+    "degrees": [
+      "Ph.D., Harvard University",
+      "M.Div., Yale Divinity School",
+      "B.A., Vanderbilt University"
+    ]
   }
 ]

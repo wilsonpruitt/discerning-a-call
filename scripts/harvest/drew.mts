@@ -14,10 +14,28 @@
 //     (https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/)
 //     is server-rendered WordPress with NO individual per-professor pages —
 //     Perkins' pattern, not Duke's. But unlike Perkins, every entry links a
-//     dated CV PDF ("<Name> CV – 2026"). This harvest does not parse those
-//     CVs for publications (25 more PDF fetches for a first pass was more
-//     than the return justified) — `facultyNote` says so plainly rather than
-//     mixing a couple of parsed CVs in with the rest silently uncovered.
+//     dated CV PDF ("<Name> CV – 2026").
+//   - PUBLICATIONS (added 2026-08-07): every one of the 25 linked CV PDFs was
+//     opened and read (`pdfToText`, poppler, same as Perkins). 4 of the 25
+//     links (Johnson-DeBaufre, Mark A. Miller, Pressley, J. Terry Todd) 404 —
+//     genuinely dead links on Drew's own site, not a fetch bug; confirmed with
+//     a direct `curl`. 2 more (Katherine Brown, Kevin Newburg) have CVs that
+//     open fine but carry no publications section at all — Brown teaches
+//     language/communication skills and lists no scholarly output; Newburg's
+//     CV is teaching/service/history-presentations only. The remaining 19
+//     yielded a clean, separable publications list. As with MTSO's
+//     Baek/Gibson/Stroud precedent, these are hand-transcribed into the
+//     PUBLICATIONS map below rather than mechanically parsed out of the PDF
+//     text — CV formats vary too much across 25 different people (bare lists,
+//     dated headings, mixed conference-presentations-and-publications
+//     sections, foreign-language entries) for one parser to trust
+//     unsupervised, and a garbled citation is worse than a missing one (see
+//     README's citation-parsing warnings). Selections cap at 5, most recent
+//     first, and skip "forthcoming"/"in preparation"/"under review" entries
+//     that aren't published yet. Re-running this script re-fetches the CV
+//     PDFs into the cache (so a human re-reading them for the next annual
+//     pass has them on hand) but does NOT re-derive PUBLICATIONS — that map
+//     needs a human pass over the fresh PDFs the same way this one did.
 //   - The directory page has three unlabelled-then-labelled sections in a
 //     single flat list: an implicit "current full-time faculty" block (no
 //     heading at all — it just starts after the page's marketing copy),
@@ -70,11 +88,11 @@
 // Run: node scripts/harvest/drew.mts [--fresh]
 
 import { get, today } from "./lib/fetch.mts";
-import { htmlToText } from "./lib/text.mts";
+import { htmlToText, links, pdfToText } from "./lib/text.mts";
 import { suggestAreas } from "./lib/areas.mts";
 import { writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { FacultyMember, SeminaryProfile, StudyArea } from "../../content/types.ts";
+import type { FacultyMember, Publication, SeminaryProfile, StudyArea } from "../../content/types.ts";
 
 const ROOT = process.cwd();
 const fresh = process.argv.includes("--fresh");
@@ -132,7 +150,7 @@ function parseFacultyBlock(lines: string[]): Entry {
   return { name: rawName, titleLines, degrees };
 }
 
-async function fetchFaculty(): Promise<Entry[]> {
+async function fetchFaculty(): Promise<{ entries: Entry[]; cvUrls: Record<string, string> }> {
   const { body } = await get(FACULTY_URL, { fresh });
   const text = htmlToText(body);
   const lines = text.split("\n").map((l) => l.trim()).filter(Boolean);
@@ -160,7 +178,20 @@ async function fetchFaculty(): Promise<Entry[]> {
       `trailing lines after the last CV marker never closed into a block: ${JSON.stringify(block)}`,
     );
   }
-  return entries;
+
+  // CV PDF links, keyed by surname. Each anchor's link text reads
+  // "<Name> CV – <year>" (or an HTML-entity en/em dash); the surname is the
+  // stable key since it's also how FacultyMember ids are built below.
+  const cvUrls: Record<string, string> = {};
+  for (const { text: linkText, url } of links(body, FACULTY_URL)) {
+    if (!/\.pdf$/i.test(url)) continue;
+    const m = /^(.+?)\s+CV\s*[–—-]?\s*20\d\d$/.exec(linkText.trim());
+    if (!m) continue;
+    const surname = m[1].trim().split(/\s+/).slice(-1)[0];
+    cvUrls[surname] = url;
+  }
+
+  return { entries, cvUrls };
 }
 
 // A few titles the normalizer's title-only vocabulary doesn't reach — read
@@ -175,7 +206,145 @@ const MANUAL_AREA_FALLBACK: Record<string, StudyArea[]> = {
   "J. Terry Todd": ["church-history"], // "Associate Professor of American Religious Studies" — a church-history subfield the "American Religious Studies" phrase itself doesn't match
 };
 
-function buildFaculty(entries: Entry[]): FacultyMember[] {
+// Hand-transcribed from each person's own linked CV PDF, opened and read
+// 2026-08-07 (see the top-of-file note). Cap 5, most recent first, skipping
+// "forthcoming"/"in preparation"/"under review" entries not yet published.
+// Keyed by id (drew-<surname-slug>) rather than full name, matching every
+// other lookup table in this file. 6 of the 25 people are absent on purpose:
+// 4 whose CV link 404s (Johnson-DeBaufre, Miller, Pressley, Todd) and 2 whose
+// CV has no publications section at all (Brown, Newburg) — see the top note.
+const PUBLICATIONS: Record<string, Publication[]> = {
+  "drew-aponte": [
+    { title: "Latine Lived Religions and Religious Identities: ¡Presente!", year: 2026, kind: "edited-volume", publisher: "Bloomsbury Academic", note: "Co-edited with Miguel A. De La Torre; forthcoming September 2026." },
+    { title: "Introducing Latinx Theologies", year: 2020, kind: "book", publisher: "Orbis Books", note: "Co-authored with Miguel A. De La Torre." },
+    { title: "¡Santo! Varieties of Latino/a Spirituality", year: 2012, kind: "book", publisher: "Orbis Books" },
+    { title: "Handbook of Latina/o Theologies", year: 2006, kind: "edited-volume", publisher: "Chalice Press", note: "Co-edited with Miguel A. De La Torre." },
+    { title: "Introducing Latino/a Theologies", year: 2001, kind: "book", publisher: "Orbis Books", note: "Co-authored with Miguel A. De La Torre." },
+  ],
+  "drew-boesel": [
+    { title: "Reading Karl Barth: Theology that Cuts both Ways", year: 2023, kind: "book", publisher: "Cascade Books" },
+    { title: "In Kierkegaard's Garden with the Poppy Blooms: Why Derrida Doesn't Read Kierkegaard When He Reads Kierkegaard", year: 2021, kind: "book", publisher: "Lexington Books/Fortress Academic" },
+    { title: "Divine Multiplicity: Trinities, Diversities, and the Nature of Relation", year: 2014, kind: "edited-volume", publisher: "Fordham University Press", note: "Co-edited with Wesley Ariarajah." },
+    { title: "Apophatic Bodies: Negative Theology, Incarnation, and Relationality", year: 2010, kind: "edited-volume", publisher: "Fordham University Press", note: "Co-edited with Catherine Keller." },
+    { title: "Risking Proclamation, Respecting Difference: Christian Faith, Imperialistic Discourse, and Abraham", year: 2008, kind: "book", publisher: "Cascade Books" },
+  ],
+  "drew-filler": [
+    { title: "Modern Jewish Ethics, 1970-Present", year: 2025, kind: "edited-volume", publisher: "Brandeis University Press", note: "Co-edited with Jonathan Crane and Mira Wasserman." },
+    { title: "Zionism and the Politics of Complexity", year: 2024, kind: "article", publisher: "Shofar 41.3" },
+    { title: "Difficult Jewish Texts and Contemporary Political Crisis", year: 2023, kind: "article", publisher: "Religions" },
+    { title: "The Incivility of Meir Kahane", year: 2022, kind: "article", publisher: "Journal of Religious Ethics" },
+    { title: "The Honesty of Radical Pessimism", year: 2022, kind: "chapter", publisher: "University of Nebraska Press / Jewish Publication Society", note: "In Geoffrey Claussen, ed., Modern Musar: Contested Virtues in Jewish Thought." },
+  ],
+  "drew-golden": [
+    { title: "Religion in the Classroom: Exploring the Issues", year: 2025, kind: "book", publisher: "Bloomsbury Press", note: "Co-authored with Joe McCallister; paperback edition." },
+    { title: "Expanding the Borders of a Common Good: Transformational Encounters", year: 2024, kind: "chapter", publisher: "Oxford University Press", note: "In E. VanLaningham, ed., Called Beyond Our Selves: Vocation and the Common Good." },
+    { title: "And the Nations Shall Flow Unto It", year: 2023, kind: "chapter", publisher: "Holy Land Books", note: "In S. Sarsar and C. Burnett, eds., What Jerusalem Means to Us: Jewish Perspectives and Reflections." },
+    { title: "Encounters Beyond the Daled Amot", year: 2017, kind: "article", publisher: "Conversations 28" },
+    { title: "Dawn of the Metal Age: the Origins of Social Complexity in the Southern Levant", year: 2010, kind: "book", publisher: "Equinox Publishing Ltd." },
+  ],
+  "drew-schol": [
+    { title: "A Review of \"Transforming Fire: Imaging Christian Teaching\" by Mark D. Jordan", year: 2022, kind: "article", publisher: "Theology Today (SAGE Publications)", note: "Book review." },
+    { title: "Contributor to Abingdon Preaching Manual", year: 2020, kind: "chapter", publisher: "Abingdon Press" },
+    { title: "A Review of \"Waiting for a Glacier to Move\" by Jennifer Ayers", year: 2013, kind: "article", publisher: "Religious Education", note: "Book review." },
+    { title: "A Playdate with the Early Church", year: 2012, kind: "article", publisher: "FOCUS: Boston University School of Theology Magazine" },
+    { title: "Connecting the Dots – Christian call to public witness", year: 2010, kind: "article", publisher: "General Board of Church and Society – Faith in Action" },
+  ],
+  "drew-jathanna": [
+    { title: "Colonization, Conversion, and Co-option: Postcolonial Reflections", year: 2024, kind: "chapter", publisher: "Weltweit Verlag", note: "In Ravinder Salooja, ed., Climbing High Mountains: Colonial Entanglement & Postcolonial Reflections." },
+    { title: "Decolonising Eucharist: Reclaiming Postcolonial Alter-natives in the Face of Covid-19", year: 2023, kind: "chapter", publisher: "Cluster Publication", note: "In Lilian Cheelo Siwila, ed., The Church in Exile: Liturgy, Covid-19, and Lockdown Regulations." },
+    { title: "Transformative Indigenous Queer Spiritualities: Journeying with Jogappas of India", year: 2022, kind: "chapter", publisher: "WCC & Globethics", note: "In Indigenous Transformative Spiritualities." },
+    { title: "Entangled Historiographies of Christian Missions: A Subaltern Conversation and Contention", year: 2022, kind: "chapter", publisher: "LIT Verlag", note: "In Investigations on the \"Entangled History\" of Colonialism and Mission in a New Perspective." },
+    { title: "Decolonising Oikoumene", year: 2020, kind: "book", publisher: "ISPCK & CWM" },
+  ],
+  "drew-kearns": [
+    { title: "Trojan Horses Facing the Mirror: A Comparison between Religious Anti-Environmental Movement Organizations in the US and Brazil", year: 2024, kind: "article", publisher: "Journal for the Study of Religion, Nature and Culture 18.3", note: "Co-authored with Renan William dos Santos." },
+    { title: "Religion and Nature in North America: An Introduction", year: 2024, kind: "chapter", publisher: "Bloomsbury", note: "Co-authored with Whitney Bauman; in Religion and Nature in North America, co-edited by Kearns and Bauman." },
+    { title: "The Tent of Abraham: Judaism, Christianity, and Islam and Nature", year: 2024, kind: "chapter", publisher: "Bloomsbury", note: "Co-authored with Rebecca Gould; in Religion and Nature in North America." },
+    { title: "Race, Religion and Environmental Racism in North America", year: 2024, kind: "chapter", publisher: "Bloomsbury", note: "Co-authored with Elaine Nogueira-Godsey and Whitney Bauman; in Religion and Nature in North America." },
+    { title: "Climate Change", year: 2023, kind: "chapter", publisher: "Routledge", note: "In Grounding Religion: A Field Guide to the Study of Religion and Ecology, 3rd ed." },
+  ],
+  "drew-kim": [
+    { title: "Reading with Minor Feelings: Racialized Emotions and Children's (Non)agency in Judges 10–12", year: 2020, kind: "article", publisher: "Biblical Interpretation 28.5", note: "Invited article for the thematic issue \"Children in the Bible and Childist Interpretation.\"" },
+    { title: "Review of Landscapes of Korean and Korean American Biblical Interpretation, edited by John Ahn.", year: 2020, kind: "article", publisher: "Review of Biblical Literature", note: "Book review." },
+    { title: "Queer Hermeneutics: Queering Asian American Identities and Biblical Interpretation", year: 2019, kind: "chapter", publisher: "T&T Clark / Bloomsbury", note: "In T&T Clark Handbook of Asian American Biblical Hermeneutics." },
+    { title: "Weeping by the Water: Hydraulic Affects and Political Depression in South Korea after Sewol", year: 2019, kind: "chapter", publisher: "Fordham University Press", note: "In Religion, Emotion, Sensation: Affect Theories and Theologies." },
+    { title: "Children of Diaspora: The Cultural Politics of Identity and Diasporic Childhood in the Book of Esther", year: 2019, kind: "chapter", publisher: "T&T Clark / Bloomsbury", note: "In T&T Clark Handbook of Children in the Bible and the Biblical World." },
+  ],
+  "drew-lee": [
+    { title: "Spirit, Qi, and the Multitude: A Comparative Theology for the Democracy of Creation", year: 2014, kind: "book", publisher: "Fordham University Press" },
+    { title: "All under Heaven and the City of God: A Familial and Ecclesial Reflection", year: 2024, kind: "chapter", publisher: "Wipf and Stock", note: "In David H. Jensen, ed., Christian Theology in a Pluralistic Age." },
+    { title: "Jeong (情), Civility, and the Heart of a Pluralistic Democracy", year: 2022, kind: "chapter", publisher: "Palgrave MacMillan", note: "In Emotions in Korean Philosophy and Religion, ed. Edward Y. J. Chung and Jea Sophia Oh." },
+    { title: "My Path to a Theology of Qi", year: 2019, kind: "chapter", publisher: "Routledge", note: "In Theology Without Walls: The Transreligious Imperative, ed. Jerry L. Martin." },
+    { title: "Confucian Democracy and a Pluralistic Li-Ki Metaphysics", year: 2018, kind: "article", publisher: "Religions 9, no. 11" },
+  ],
+  "drew-mann": [
+    { title: "Johannis de Segovia Epistola ad Guillielmum de Orliaco", year: 2023, kind: "chapter", publisher: "Harrassowitz", note: "Critical edition in Johannes de Segovia, Opera minora, ed. Ulli Roth et al., Corpus Islamo-Christianum, Series Latina, 12." },
+    { title: "On the Dating of Juan de Segovia's Super materia contractuum de censibus annuis", year: 2022, kind: "article", publisher: "Cristianesimo nella storia 43, no. 1" },
+    { title: "Engaging the Alumnus/a Donor: A Case Study Based on Drew University's R. S. Thomas Collection", year: 2021, kind: "chapter", publisher: "ATLA", note: "Co-authored with Brian Shetler; in Preserving the Past & Engaging the Future: Theology & Religion in American Special Collections." },
+    { title: "Facing the Music: The Whimsical Cadels in a Late Medieval English Book of Hours", year: 2020, kind: "article", publisher: "Peregrinations: Journal of Medieval Art & Architecture 7, no. 2", note: "Co-authored with Anne Bagnall Yardley." },
+    { title: "Notable Luther and Melanchthon: An Annotated Copy of Luther's Confitendi ratio", year: 2020, kind: "article", publisher: "Reformation 25, no. 2", note: "Co-authored with Leif McLellan." },
+  ],
+  "drew-moore": [
+    { title: "Jesusviolence: Racism, Speciesism, and Other Violences in and around the Gospels", year: 2026, kind: "book", publisher: "Oxford University Press", note: "E-version November 2025; print version February 2026." },
+    { title: "Decolonial Theory and Biblical Unreading: Delinking Biblical Criticism from Coloniality", year: 2024, kind: "book", publisher: "Brill" },
+    { title: "The Bible after Deleuze: Affects, Assemblages, Bodies without Organs", year: 2023, kind: "book", publisher: "Oxford University Press" },
+    { title: "Revelation: Book of Torment, Book of Bliss", year: 2021, kind: "book", publisher: "Bloomsbury", note: "T&T Clark's Study Guides to the New Testament." },
+    { title: "Gospel Jesuses and Other Nonhumans: Biblical Criticism Post-poststructuralism", year: 2017, kind: "book", publisher: "SBL Press", note: "Semeia Studies, 89." },
+  ],
+  "drew-noguiera-godsey": [
+    { title: "Decolonizing Dialogues: Bridging Ecofeminism, Religion, and the Decological Path Forward", year: 2024, kind: "chapter", publisher: "T & T Clark", note: "In Searching for the Future in the Past: Reclaiming Feminist Theological Visions, ed. Kathleen Talvacchia and Keun-joo Christine Pae." },
+    { title: "Race, Religion and Environmental Racism in North America", year: 2024, kind: "chapter", publisher: "Bloomsbury Publishing", note: "Revised edition; co-authored with Laurel Kearns and Whitney A. Bauman; in Bloomsbury Religion in North America." },
+    { title: "A Decological Way to Dialogue: Rethinking Ecofeminism and Religion", year: 2022, kind: "chapter", publisher: "Routledge", note: "In The Routledge Handbook of Religions, Gender and Society, ed. Emma Tomalin and Caroline Starkey." },
+    { title: "Tangible Actions Toward Solidarity: An Ecofeminist Analysis of Women's Participation in Food Justice", year: 2021, kind: "chapter", publisher: "Peeters Publishers", note: "Co-authored with Kelsey Ryan-Simkins; in Valuing Lives, Healing Earth: Religion, Gender, and Life on Earth." },
+    { title: "Environmental Racism in the 'True' America: A Reflection on Race, the Earth, and Moral Action after Trump", year: 2021, kind: "chapter", publisher: "Orbis Books", note: "Co-authored with Trad Nogueira-Godsey; in Faith and Reckoning After Trump, ed. Miguel De La Torre." },
+  ],
+  "drew-pelaez-diaz": [
+    { title: "La Santa Muerte – Saint Death", year: 2024, kind: "chapter", publisher: "Bloomsbury Academic", note: "In Latin American and US Latino Religions in North America: An Introduction, ed. Lloyd Daniel Barba." },
+    { title: "La Santa Muerte – Saint Death", year: 2023, kind: "chapter", publisher: "Bloomsbury", note: "Online chapter, Bloomsbury Religion in North America / Latin American Religions in North America." },
+    { title: "\"You Belong Here\"", year: 2020, kind: "article", publisher: "Auburn Seminary", note: "Report co-authored with Chris Alexander, Erica M. Ramirez, Christian Scharen, and Mary Laurel True." },
+    { title: "Central American Migration as the Way of the Cross: Ignacio Ellacuría's 'Crucified Peoples' as a Theological Reframing of the Migrant Experience", year: 2019, kind: "chapter", publisher: "Augsburg Fortress", note: "In Migration and Public Discourse in World Christianity, ed. Afeosemime Adogame, Raimundo César Barreto, and Wanderley Pereira da Rosa." },
+  ],
+  "drew-shin": [
+    { title: "Towards Ecclesial Diversity: A Case Study in Theological Hermeneutics", year: 2024, kind: "article", publisher: "Ecclesiological Investigations" },
+    { title: "Review of The Unique and Universal Christ: Refiguring the Theology of Religions by Drew Collins", year: 2023, kind: "article", publisher: "The Scottish Journal of Theology 76, no. 3", note: "Book review." },
+    { title: "Baptism and Evangelism", year: 2023, kind: "chapter", publisher: "Cascade Books", note: "In New Life in the Risen Christ: A Wesleyan Theology of Baptism, ed. Jonathan Powers." },
+    { title: "Reimagining Evangelism: An Interdisciplinary Assessment and Proposal", year: 2022, kind: "article", publisher: "Witness" },
+    { title: "Theology and the Public: Reflections on Hans W. Frei's Hermeneutics, Christology, and Theological Method", year: 2019, kind: "book", publisher: "Lexington Books/Rowman and Littlefield" },
+  ],
+  "drew-simpson": [
+    { title: "Connections: A Lectionary Commentary for Preaching and Worship", year: 2020, kind: "chapter", publisher: "Westminster John Knox Press", note: "Contributor: \"Exodus 20:1-17,\" \"Numbers 21:4-9,\" \"Jeremiah 31:31-34,\" ed. Thomas Long et al." },
+    { title: "Abingdon Preaching Annual", year: 2020, kind: "chapter", publisher: "Abingdon Press", note: "Contributor: \"Third Sunday After Epiphany,\" \"First Sunday After Pentecost,\" \"Christ the King Sunday.\"" },
+    { title: "Foreword", year: 2011, kind: "chapter", publisher: "Circle Books", note: "In David O. Woodyard, The Church in a Time of Empire." },
+    { title: "God Alone Exalted", year: 2009, kind: "chapter", publisher: "UMI Press", note: "Sermon derived from Isaiah 2:1-11, in Gardner C Taylor: Submissions to the Dean, ed. J. Douglas Wiley and Ivan Hicks." },
+    { title: "Pastoral Perspective", year: 2009, kind: "chapter", publisher: "Westminster John Knox Press", note: "Contributor: Psalms 4, 22, 23, in Feasting on the Word, Lectionary for Preaching: Year B." },
+  ],
+  "drew-son": [
+    { title: "What is Spiritual Care from a Christian Perspective?: Pastoral Care for Rage and Joy", year: 2025, kind: "chapter", publisher: "Wipf and Stock", note: "In What Is Spiritual Care?, ed. Pamela Cooper-White, Claudia K. Reichenbach, and Emmanuel Y. Lartey." },
+    { title: "Recapturing the Bible as the Living Word Through God as Selfobject: The Descriptive Eclipsed into the Prescriptive in Pastoral Practices and the Bible", year: 2023, kind: "chapter", publisher: "Wipf and Stock", note: "In Biblical and Pastoral Bridgework: Interdisciplinary Conversations, ed. Denise Dombkwoski Hopkins and Michael S. Koppel." },
+    { title: "Review of Comfort Women: A Movement for Justice and Women's Rights in the United States, edited by Jung Sil Lee and Dennis P. Halpin", year: 2022, kind: "article", publisher: "Journal of International Women's Studies 24, no. 9", note: "Book review." },
+    { title: "Pastoral Care in a Korean American Context", year: 2020, kind: "edited-volume", publisher: "Palgrave Macmillan", note: "Editor and contributor of two chapters." },
+    { title: "Conversion Experiences of Adults in El Salvador", year: 2020, kind: "article", publisher: "Pastoral Psychology 69" },
+  ],
+  "drew-spencer-miller": [
+    { title: "From White Man's Magic to Black Folks' Wisdom", year: 2023, kind: "chapter", publisher: "Fordham University Press", note: "In Kenneth N. Ngwa et al., eds., Life Under the Baobab Tree: Africana Studies and Religion in a Transitional Age." },
+    { title: "Emancipation: Wheel and Come Again", year: 2020, kind: "chapter", publisher: "Paul Walfall" },
+    { title: "Looking Forward from the Horizon: A Response in Africana Sisterhood and Solidarity", year: 2016, kind: "chapter", publisher: "SBL Press", note: "In Gay L. Byron and Vanessa Lovelace, eds., Womanist Interpretations of the Bible: Expanding the Discourse." },
+    { title: "Creolizing Hermeneutics: A Caribbean Invitation", year: 2015, kind: "chapter", publisher: "SBL Press", note: "In Islands, Islanders, and the Bible: Ruminations, ed. Jione Havea, Margaret Aymer and Steed Vernyl Davidson." },
+    { title: "Feminist Hermeneutics: New Testament", year: 2014, kind: "chapter", publisher: "Walter de Gruyter", note: "In Encyclopedia of the Bible and its Reception, Vol. F." },
+  ],
+  "drew-winderweedle": [
+    { title: "Review of Kristina Lizardy Hajbi, Unraveling Religious Leadership: Power, Authority, and Decoloniality", year: 2025, kind: "article", publisher: "Homiletic 50, no. 2", note: "Book review." },
+  ],
+  "drew-seesengood": [
+    { title: "American Standard: The Bible in U.S. Popular Culture", year: 2024, kind: "book", publisher: "Wiley-Blackwell" },
+    { title: "The Bible and Cultural Studies: Critical Readings", year: 2023, kind: "book", publisher: "Bloomsbury / T & T Clark", note: "T & T Clark, Critical Readings in Biblical Studies." },
+    { title: "Judith", year: 2022, kind: "book", publisher: "Liturgical Press", note: "Co-authored with Jennifer L. Koosed; Wisdom Commentary Series, ed. Barbara Reid and Amy-Jill Levine." },
+    { title: "The Bible and New Materialism", year: 2020, kind: "edited-volume", publisher: "Bible & Critical Theory 16.2", note: "Co-edited with Andrew Wilson." },
+    { title: "Pasolini's St. Paul", year: 2018, kind: "edited-volume", publisher: "Biblical Interpretation 26.4", note: "Co-edited with Joseph Marchal." },
+  ],
+};
+
+function buildFaculty(entries: Entry[], cvUrls: Record<string, string>): FacultyMember[] {
   return entries.map((e) => {
     const title = e.titleLines[0] ?? "";
     const otherRoles = e.titleLines.slice(1);
@@ -184,8 +353,9 @@ function buildFaculty(entries: Entry[]): FacultyMember[] {
     if (areas.length === 0) areas = MANUAL_AREA_FALLBACK[e.name] ?? [];
 
     const surname = e.name.trim().split(/\s+/).slice(-1)[0];
+    const id = `drew-${slugifyName(surname)}`;
     const member: FacultyMember = {
-      id: `drew-${slugifyName(surname)}`,
+      id,
       seminarySlug: "drew",
       name: e.name,
       title,
@@ -194,13 +364,19 @@ function buildFaculty(entries: Entry[]): FacultyMember[] {
     };
     if (otherRoles.length) member.otherRoles = otherRoles;
     if (e.degrees.length) member.degrees = e.degrees;
+    const publications = PUBLICATIONS[id];
+    if (publications?.length) {
+      member.publications = publications.slice(0, 5);
+      member.publicationsSource = cvUrls[surname] ?? FACULTY_URL;
+      member.publicationsAsOf = today();
+    }
     return member;
   });
 }
 
 async function main() {
-  const entries = await fetchFaculty();
-  const faculty = buildFaculty(entries);
+  const { entries, cvUrls } = await fetchFaculty();
+  const faculty = buildFaculty(entries, cvUrls);
   await writeFile(join(ROOT, "data/faculty/drew.json"), JSON.stringify(faculty, null, 2) + "\n", "utf8");
   console.log(`wrote ${faculty.length} faculty to data/faculty/drew.json`);
 
@@ -211,6 +387,19 @@ async function main() {
   await get(MDIV_CATALOG_URL, { fresh });
   await get(GRAD_TUITION_URL, { fresh });
   await get(FEE_SCHEDULE_URL, { fresh });
+
+  // Warm the CV PDF cache for whoever does the next annual publications pass
+  // (see the top-of-file note — PUBLICATIONS above is hand-transcribed, not
+  // re-derived here). 4 of the 25 links are known-dead (404) as of this
+  // writing; failures are logged and skipped rather than aborting the run.
+  for (const [surname, url] of Object.entries(cvUrls)) {
+    try {
+      const pdf = await get(url, { fresh, binary: true });
+      pdfToText(pdf.path); // just to confirm it's still readable; not parsed here
+    } catch (e) {
+      console.warn(`CV fetch/read failed for ${surname} (${url}): ${String(e)}`);
+    }
+  }
 
   const profile = buildProfile();
   await writeFile(join(ROOT, "data/seminaries/drew.json"), JSON.stringify(profile, null, 2) + "\n", "utf8");
@@ -399,7 +588,7 @@ function buildProfile(): SeminaryProfile {
       },
     ],
 
-    facultyNote: "Limited to the 25 people on Drew's faculty directory page listed ahead of its explicit 'Emeriti Faculty' heading — the page's own implicit cut for current, active, full-time faculty; adjunct/affiliate faculty are listed separately below the emeriti section and excluded here on the same basis Duke and Saint Paul used for their own adjunct/emeritus exclusions. Drew publishes no individual per-professor pages — each entry links a dated CV PDF instead, which this harvest did not parse for publications; `workingOn` and `publications` are accordingly absent here across the board rather than partially filled from a sample of CVs.",
+    facultyNote: "Limited to the 25 people on Drew's faculty directory page listed ahead of its explicit 'Emeriti Faculty' heading — the page's own implicit cut for current, active, full-time faculty; adjunct/affiliate faculty are listed separately below the emeriti section and excluded here on the same basis Duke and Saint Paul used for their own adjunct/emeritus exclusions. Drew publishes no individual per-professor pages — each entry links a dated CV PDF instead. All 25 CVs were opened and read (2026-08-07): 4 links 404 (Johnson-DeBaufre, Miller, Pressley, Todd — confirmed dead on Drew's own site, not a fetch bug) and 2 more CVs carry no publications section at all (Brown, Newburg); the remaining 19 have a publications selection (cap 5, most recent first) sourced to their own CV PDF. `workingOn` stays empty across the board — no human has yet read any of these 25 people's current work closely enough to summarize it, which is a higher bar than pulling a citation list.",
 
     contact: {
       admissionsUrl: "https://drew.edu/theological-school/",

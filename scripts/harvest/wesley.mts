@@ -46,6 +46,33 @@
 //     only (no title, no subject). Emeriti get roster entries (their titles
 //     name a field); adjuncts do not (nothing to assign an area from) — see
 //     facultyNote.
+//   - Second pass (2026-08-07), closing the gap the deep-scrape tracker
+//     flagged: re-fetched the live page and read every one of the 17 core
+//     popups' raw HTML directly (not just the rendered text), specifically
+//     checking the people who were missing `degrees`/`publications` for
+//     content the first pass might have walked past. Result: the first pass
+//     was already close to the ceiling of what Wesley's popups publish, not
+//     a parsing-depth miss — there is no automated parser here to begin
+//     with, each entry above is hand-transcribed from its popup. Confirmed
+//     by person:
+//       - Na's and Page's popups contain no Education/Publications content
+//         at all (verified in the raw HTML, not just rendered text) — Page's
+//         entire bio is the one sentence "Rev. Dr. Jonathan Page."
+//       - Chon's, Sinkfield's, and Lazarus's popups have an Education list
+//         but genuinely no Publications section.
+//       - Crena's popup likewise has no Publications section (consistent
+//         with her not-yet-defended PhD, see below).
+//       - Parrish's popup has no "Publications" heading, but does name one
+//         forthcoming book in prose — added below, the one real addition
+//         this pass found.
+//       - The 15 Emeriti Faculty are confirmed, in the raw HTML, to be a
+//         bare `<li>` list with no links and no popups — nothing to read
+//         past name+title for any of them.
+//     Net: publications 10/32 → 11/32 (Parrish). Degrees stay 14/32 — Na and
+//     Page's popups have no Education section to add, and Crena's remains a
+//     deliberate omission (see below). Next re-harvest: re-check this same
+//     set of names before assuming there's more to find; if the popups
+//     haven't changed, there isn't.
 //   - Two names never earned the degree their bio implies is imminent:
 //     Lucila Crena ("will defend her Ph.D. ... this Fall") and Kevin Lazarus
 //     ("is completing his Ph.D."). Both have a PhD-track line under the
@@ -304,6 +331,20 @@ function buildFaculty(): FacultyMember[] {
         "M.Div., Union Theological Seminary (New York)",
         "M.S.S.W., Columbia University School of Social Work",
       ],
+      // Her popup has no "Publications" heading, but does name one work in
+      // prose: "Her upcoming book is Forsaking the Lowly Jesus for Lifestyles
+      // of the Rich and Famous, or How Shall We Be Saved?..." — kept as a
+      // forthcoming book, same pattern as Koppel's and Miles's forthcoming
+      // entries elsewhere in this file.
+      publications: [
+        {
+          title: "Forsaking the Lowly Jesus for Lifestyles of the Rich and Famous, or How Shall We Be Saved?: A Theological Reflection on the Legacy of Christian Attitudes toward Wealth and Poverty and Its Impact upon the Black Church",
+          kind: "book",
+          note: "Forthcoming.",
+        },
+      ],
+      publicationsSource: pub,
+      publicationsAsOf: asOf,
       profileUrl: pub,
     },
     {

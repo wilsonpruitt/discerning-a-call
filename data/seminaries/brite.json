@@ -134,6 +134,7 @@
       "url": "https://brite.edu/denominational-programs"
     }
   ],
+  "facultyNote": "All 18 faculty listed here have their own bio page at brite.edu/staff/<name> — the shared facultyandstaff directory page just doesn't link to all of them (six were only findable through Brite's own XML sitemap). Degrees are sourced from those bio pages for every person; three recent hires (Casey, Moore, Noya) state their degrees only in prose rather than a structured list, so what's recorded for them is limited to what the prose actually names. Publications are a selection, not a CV, and are present for 13 of 18 — the other 5 (Cady, Casey, Moore, Noya, Williams) either publish no formal citation list on their bio page (Cady, Casey, Moore, Noya) or the page's list is broken into unreadable fragments (Williams's has several titles smashed into one malformed link) that weren't trustworthy enough to reproduce here.",
   "contact": {
     "admissionsUrl": "https://brite.edu/admission",
     "visitUrl": "https://brite.edu/visiting-campus",

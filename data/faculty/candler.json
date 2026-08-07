@@ -8,7 +8,47 @@
       "systematic-theology",
       "black-church-studies"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/amey-victoria-adkins-jones/",
+    "degrees": [
+      "PhD, Duke University, 2016",
+      "MDiv, Duke University, 2009",
+      "BA, University of Virginia, 2005"
+    ],
+    "email": "amey.adkins@emory.edu",
+    "publications": [
+      {
+        "title": "Immaculate Misconceptions: A Black Mariology",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "Oxford University Press, June 2025"
+      },
+      {
+        "title": "Couwenbergh’s The Rape of the Negress: Visual Violence, Theological Erasure, and Black Feminist Fugitivity",
+        "kind": "article",
+        "year": 2023,
+        "note": "Meridians 22(1): 146-168 (2023)"
+      },
+      {
+        "title": "If Favor Were Fair",
+        "kind": "article",
+        "year": 2023,
+        "note": "Living by the Word Lectionary Commentary, The Christian Century (2023)"
+      },
+      {
+        "title": "A Miracle Among Us",
+        "kind": "article",
+        "year": 2023,
+        "note": "Living by the Word Lectionary Commentary, The Christian Century, (2023)"
+      },
+      {
+        "title": "Aesthetics of Resistance: Black Theology and the Visual Culture of The Shrine of the Black Madonna #9",
+        "kind": "article",
+        "year": 2021,
+        "note": "Africana Studies Review 7(1): 62-86 (2021)"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/amey-victoria-adkins-jones/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-alonso",
@@ -18,7 +58,47 @@
     "areas": [
       "systematic-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/antonio-eduardo-alonso/",
+    "degrees": [
+      "PhD, Emory University, 2017",
+      "MA, Loyola Marymount University, 2011",
+      "BMus, Northwestern University, 2002"
+    ],
+    "email": "antonio.alonso@emory.edu",
+    "publications": [
+      {
+        "title": "Open Our Hearts: Music for Contemplative Worship",
+        "kind": "recording",
+        "year": 2026,
+        "note": "ed. Marty Haugen (Chicago; GIA Publications, 2026)"
+      },
+      {
+        "title": "Bendito Sea Dios: Aclamaciones, Himnos y Tropos para el Ritual de la Iniciación Cristiana",
+        "kind": "recording",
+        "year": 2026,
+        "note": "de Adultos (Chicago: GIA Publications, 2026.)"
+      },
+      {
+        "title": "Liturgy, Ecology, and Ethics at the End of the World: Toward an Apocalyptic Liturgical Theology",
+        "kind": "article",
+        "year": 2026,
+        "note": "in Worship in Communion with Creation: Recognizing a Broader Participation, Essays in Honor of Teresa Berger (Collegeville: Liturgical Press, 2026)"
+      },
+      {
+        "title": "Blessed Be God: Acclamations, Hymns and Chants for the OCIA",
+        "kind": "recording",
+        "year": 2025,
+        "note": "(GIA Publications, 2025)"
+      },
+      {
+        "title": "Catholic Community Hymnal: Second Edition",
+        "kind": "recording",
+        "year": 2025,
+        "note": "GIA Publications, 2025"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/antonio-eduardo-alonso/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-ayres",
@@ -28,7 +108,48 @@
     "areas": [
       "christian-education-formation"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/jennifer-ayres/",
+    "degrees": [
+      "PhD, Emory University, 2007",
+      "ThM, Union Theological Seminary-PSCE, 2002",
+      "MDiv, Union Theological Seminary-PSCE, 2000",
+      "BA, University of North Carolina-Chapel Hill, 1994"
+    ],
+    "email": "jrayres@emory.edu",
+    "publications": [
+      {
+        "title": "Field Trip",
+        "kind": "article",
+        "year": 2023,
+        "note": "in Embodied Teaching blog series, Wabash Center for Teaching and Learning in Theology and Religion, 2023"
+      },
+      {
+        "title": "Paying Attention",
+        "kind": "article",
+        "year": 2022,
+        "note": "in Embodied Teaching blog series, Wabash Center for Teaching and Learning in Theology and Religion, 2022"
+      },
+      {
+        "title": "A Pedagogy for Precarious Times: Religious Education and Vulnerability",
+        "kind": "article",
+        "year": 2021,
+        "note": "in Religious Education vol. 116, issue 4, 2021"
+      },
+      {
+        "title": "Recovering Mystery: Ecological Encounter and Practical Theological Knowing",
+        "kind": "article",
+        "year": 2021,
+        "note": "in International Journal of Practical Theology vol. 25, issue 1, 2021"
+      },
+      {
+        "title": "Inhabitance: Ecological Religious Education",
+        "kind": "book",
+        "year": 2019,
+        "publisher": "Baylor University Press, 2019"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/jennifer-ayres/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-bogue",
@@ -38,7 +159,13 @@
     "areas": [
       "church-history"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/sarah-bogue/",
+    "degrees": [
+      "PhD, Emory University, 2016",
+      "MDiv, Princeton Theological Seminary, 2010",
+      "BA, Davidson College, 2007"
+    ],
+    "email": "sbogue@emory.edu"
   },
   {
     "id": "candler-bonfiglio",
@@ -48,7 +175,47 @@
     "areas": [
       "hebrew-bible"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/ryan-bonfiglio/",
+    "degrees": [
+      "PhD, Emory University, 2014",
+      "MDiv, Princeton Theological Seminary, 2009",
+      "BA, Princeton University, 2001"
+    ],
+    "email": "rbonfig@emory.edu",
+    "publications": [
+      {
+        "title": "Iconography and the Old Testament/Hebrew Bible",
+        "kind": "article",
+        "year": 2019,
+        "note": "in The Oxford Research Encyclopedia of Religion, Oxford University Press, 2019"
+      },
+      {
+        "title": "Ritual Objects and Artifacts",
+        "kind": "article",
+        "year": 2019,
+        "note": "in The Oxford Handbook of Ritual and Worship in the Hebrew Bible, Oxford University Press, 2019"
+      },
+      {
+        "title": "Genesis 9:8-17",
+        "kind": "article",
+        "year": 2019,
+        "note": "in Connections Commentary, Westminster John Knox, 2019"
+      },
+      {
+        "title": "Joel 2:1-2, 12-17",
+        "kind": "article",
+        "year": 2019,
+        "note": "in Connections Commentary, Westminster John Knox, 2019"
+      },
+      {
+        "title": "Genesis 17:1-7, 15-16",
+        "kind": "article",
+        "year": 2019,
+        "note": "in Connections Commentary, Westminster John Knox, 2019"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/ryan-bonfiglio/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-bounds",
@@ -58,7 +225,48 @@
     "areas": [
       "ethics-public-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/elizabeth-m-bounds/",
+    "degrees": [
+      "PhD, Union Theological Seminary, 1994",
+      "MDiv, Union Theological Seminary, 1986",
+      "BA/MA, Cambridge University, 1980",
+      "BA, Harvard University, 1978"
+    ],
+    "email": "ebounds@emory.edu",
+    "publications": [
+      {
+        "title": "Treating Moral Harms as Social Harms: Toward a Restorative Ethics of Christian Responsibility",
+        "kind": "article",
+        "year": 2017,
+        "note": "in Journal of Society of Christian Ethics, vol. 37, no. 2, 2017"
+      },
+      {
+        "title": "The Conflict Skills Classroom as Social Microcosm",
+        "kind": "article",
+        "year": 2016,
+        "note": "in Conflict Transformation and Religion: Essays on Faith, Power, and Relationship, Palgrave Macmillan, 2016"
+      },
+      {
+        "title": "Opening My Eyes: Teaching in a Women’s Prison",
+        "kind": "article",
+        "year": 2016,
+        "note": "in Religious Studies News, American Academy of Religion, 2016"
+      },
+      {
+        "title": "Criminal Justice and Christian Community",
+        "kind": "article",
+        "year": 2016,
+        "note": "in Political Theology, vol. 16, no. 3, Maney, 2016"
+      },
+      {
+        "title": "Round Table Discussion: William F. May, Testing the National Covenant: Some Thoughts in Response",
+        "kind": "article",
+        "year": 2014,
+        "note": "in Political Theology, vol. 15, no. 3, Maney, 2014"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/elizabeth-m-bounds/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-brelsford",
@@ -68,7 +276,47 @@
     "areas": [
       "christian-education-formation"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/theodore-brelsford/",
+    "degrees": [
+      "PhD, Emory University, 1999",
+      "MDiv, Princeton Theological Seminary, 1988",
+      "BA, Slippery Rock State University, 1983"
+    ],
+    "email": "tbrelsf@emory.edu",
+    "publications": [
+      {
+        "title": "Religious Imagination as Problem",
+        "kind": "article",
+        "year": 2015,
+        "note": "Religious Education, vol. 110, issue 3, Taylor & Francis, June 19, 2015"
+      },
+      {
+        "title": "Believing Political Lies Reveals Lack of Faith",
+        "kind": "article",
+        "year": 2012,
+        "note": "Buffalo News, The Buffalo News, October 28, 2012"
+      },
+      {
+        "title": "Educating For Formative Participation in Communities of Faith",
+        "kind": "article",
+        "year": 2011,
+        "note": "Religious Education, vol. 96, issue 3, Taylor & Francis, January 19, 2011"
+      },
+      {
+        "title": "In Memoriam: Terence Copley (1947-2011)",
+        "kind": "article",
+        "year": 2011,
+        "note": "Religious Education, vol. 106, issue 5, Taylor & Francis, November 01, 2011"
+      },
+      {
+        "title": "Contextualizing Theological Education: Integrating Ecclesial and Academic Practices in Teaching and Learning",
+        "kind": "book",
+        "year": 2008,
+        "publisher": "Pilgrim Press, 2008"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/theodore-brelsford/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-briggman",
@@ -78,7 +326,47 @@
     "areas": [
       "church-history"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/anthony-a-briggman/",
+    "degrees": [
+      "PhD, Marquette University, 2009",
+      "MDiv, Trinity Evangelical Divinity School, 2000",
+      "BA, Cedarville University, 1997"
+    ],
+    "email": "anthony.a.briggman@emory.edu",
+    "publications": [
+      {
+        "title": "God and Christ in Irenaeus",
+        "kind": "book",
+        "year": 2019,
+        "publisher": "Oxford University Press, 2019"
+      },
+      {
+        "title": "Irenaeus: Creation & the Father’s Two Hands",
+        "kind": "article",
+        "year": 2017,
+        "note": "in Sapientia, Carl F.H. Henry Center for Theological Understanding, April 19, 2017"
+      },
+      {
+        "title": "Theological Speculation in Irenaeus: Perils and Possibilities",
+        "kind": "article",
+        "year": 2017,
+        "note": "in Vigiliae Christianae, vol. 71, no. 2, Brill, January 01, 2017"
+      },
+      {
+        "title": "Literary and Rhetorical Theory in Irenaeus, Part 2",
+        "kind": "article",
+        "year": 2016,
+        "note": "in Vigiliae Christianae, vol. 70, no. 1, Brill, January 01, 2016"
+      },
+      {
+        "title": "Irenaeus on Natural Knowledge",
+        "kind": "article",
+        "year": 2015,
+        "note": "in Church History and Religious Culture, vol. 95, no. 2-3, Brill, September 01, 2015"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/anthony-a-briggman/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-calvillo",
@@ -88,7 +376,47 @@
     "areas": [
       "latino-hispanic-ministry"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/jonathan-calvillo/",
+    "degrees": [
+      "PhD, University of California, Irvine, 2016",
+      "MA, University of California, Irvine, 2012",
+      "MDiv, Talbot School of Theology, 2004"
+    ],
+    "email": "jcalvillo@emory.edu",
+    "publications": [
+      {
+        "title": "When the Spirit Is Your Inheritance: Reflections on Borderlands Pentecostalism",
+        "kind": "book",
+        "year": 2024,
+        "publisher": "Fortress Press, 2024"
+      },
+      {
+        "title": "In the Time of Sky-Rhyming: How Hip Hop Resonated in Brown Los Angeles",
+        "kind": "book",
+        "year": 2024,
+        "publisher": "Oxford University Press, 2024"
+      },
+      {
+        "title": "Global Pentecostal Movement",
+        "kind": "article",
+        "year": 2022,
+        "note": "in The Wiley-Blackwell Encyclopedia of Social and Political Movements edited by David Snow, Donatella della Porta, Bert Klandermans, and Doug McAdam, "
+      },
+      {
+        "title": "Diverging Latinidades in Latinx Churches",
+        "kind": "article",
+        "year": 2022,
+        "note": "49(4): 419-432, Perspectives in Religious Studies, 2022"
+      },
+      {
+        "title": "Sustaining the Altar Flow: Lived Religion and Latinx Pentecostal Altars",
+        "kind": "article",
+        "year": 2022,
+        "note": "Perspectives in Religious Studies, 2022"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/jonathan-calvillo/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-campbell",
@@ -98,7 +426,48 @@
     "areas": [
       "ethics-public-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/letitia-m-campbell/",
+    "degrees": [
+      "PhD, Emory University, 2017",
+      "MDiv, Union Theological Seminary, 2003",
+      "MA (Oxon), Oxford University, 1998",
+      "BA, Davidson College, 1996"
+    ],
+    "email": "letitia.campbell@emory.edu",
+    "publications": [
+      {
+        "title": "Tráfico Humano: Uma Proposta Indecente",
+        "kind": "article",
+        "year": 2019,
+        "note": "in Religião, Violências e Direitos Humanos, Editora UNIDA, 2019"
+      },
+      {
+        "title": "Human Trafficking and Slavery",
+        "kind": "article",
+        "year": 2017,
+        "note": "in Companion to Public Theology, Brill, 2017"
+      },
+      {
+        "title": "Christian Ethics and Human Trafficking Activism: Progressive Christianity and Social Critique",
+        "kind": "article",
+        "year": 2017,
+        "note": "Journal of the Society for Christian Ethics, vol. 34, no. 1, 2014; republished in Sex and Gender: Christian Ethical Reflections, Georgetown University"
+      },
+      {
+        "title": "Christian Engagement in US Anti-trafficking Activism: Precedents and Contexts (Parts 1 and 2)",
+        "kind": "article",
+        "year": 2014,
+        "note": "in Trafficking Research Project Blog, 2014"
+      },
+      {
+        "title": "Review of The Extended Case Method: Four Countries, Four Decades, Four Great Transformations and One Theoretical Tradition, by Michael Burawoy",
+        "kind": "article",
+        "year": 2010,
+        "note": "in Practical Matters, Spring 2010"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/letitia-m-campbell/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-cooke",
@@ -108,7 +477,22 @@
     "areas": [
       "christian-education-formation"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/lauren-calvin-cooke/",
+    "degrees": [
+      "PhD, Emory University, 2023",
+      "MDiv, Princeton Theological Seminary, 2017",
+      "BA, Lipscomb University, 2014"
+    ],
+    "email": "lauren.calvin@emory.edu",
+    "publications": [
+      {
+        "title": "Reimagining the Takeaway as an Invitation to Wonder",
+        "kind": "article",
+        "note": "Religious Education: The Official Journal of the Religious Education Association"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/lauren-calvin-cooke/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-corrie",
@@ -120,7 +504,47 @@
       "youth-ministry",
       "mission-social-justice"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/elizabeth-corrie/",
+    "degrees": [
+      "PhD, Emory University, 2002",
+      "MDiv, Emory University, 1996",
+      "BA, College of William and Mary, 1993"
+    ],
+    "email": "ecorrie@emory.edu",
+    "publications": [
+      {
+        "title": "Journal of Youth and Theology",
+        "kind": "article",
+        "year": 2026,
+        "note": "Volume 25, No.1, March 2026"
+      },
+      {
+        "title": "Report on the IASYM Bi-Annual International Conference",
+        "kind": "article",
+        "year": 2026,
+        "note": "in Journal of Youth and Theology, Volume 25, No.1, March 2026"
+      },
+      {
+        "title": "Journal of Youth and Theology",
+        "kind": "article",
+        "year": 2025,
+        "note": "Volume 24, No. 2, October 2025"
+      },
+      {
+        "title": "Journal of Youth and Theology",
+        "kind": "article",
+        "year": 2023,
+        "note": "volume 22, Issue 2, Fall 2023"
+      },
+      {
+        "title": "Youth Ministry as Peace Education: Overcoming Silence, Transforming Violence",
+        "kind": "book",
+        "year": 2021,
+        "publisher": "Fortress Press, 2021"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/elizabeth-corrie/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-dube",
@@ -130,7 +554,48 @@
     "areas": [
       "new-testament"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/musa-w-dube/",
+    "degrees": [
+      "PhD, Vanderbilt University, 1997",
+      "MA, Vanderbilt University, 1995",
+      "MA, University of Durham, 1990",
+      "BA, University of Botswana, 1988"
+    ],
+    "email": "musa.wenkosi.dube@emory.edu",
+    "publications": [
+      {
+        "title": "Theology, Gender and Pandemics Special Issue. Journal of Theology for Southern Africa",
+        "kind": "article",
+        "year": 2026,
+        "note": "Vol. Issue 184 &185 (2026): 3-216"
+      },
+      {
+        "title": "Introduction: Theology, Gender and Pandemics",
+        "kind": "article",
+        "year": 2026,
+        "note": "in Theology, Gender and Pandemics Special Issue. Journal of Theology for Southern Africa. Issue/s 184 &185 (2026): 8-13"
+      },
+      {
+        "title": "Mothering African Women Theologies: Stories of Founding Members of the Circle",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "Pretoria: UNISA Press, 2025"
+      },
+      {
+        "title": "The Palgrave Handbook of Ubuntu, Inequality and Sustainable Development",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "Palgrave Macmillan, 2025"
+      },
+      {
+        "title": "John 1:1-18: Reading the 4th Gospel in the Context of Climate Change",
+        "kind": "article",
+        "year": 2025,
+        "note": "in Tubinger Theologische Quartalschrift Vol. 205, Issue 1/ 2 (2025):152-169"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/musa-w-dube/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-jr",
@@ -141,7 +606,47 @@
       "wesleyan-studies",
       "practical-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/thomas-w-elliott-jr/",
+    "degrees": [
+      "DMin, Emory University, 1997",
+      "MDiv, Emory University, 1987",
+      "BA, Mercer University, 1984"
+    ],
+    "email": "thomas.elliott@emory.edu",
+    "publications": [
+      {
+        "title": "The Quick and Easy Guide to United Methodist Polity, Second Edition",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "Abingdon Press, 2025"
+      },
+      {
+        "title": "Missio Dei and the United States: Toward a Faithful United Methodist Witness",
+        "kind": "book",
+        "year": 2018,
+        "publisher": "General Board of Higher Education and Ministry, 2018"
+      },
+      {
+        "title": "The Quick and Easy Guide to United Methodist Polity",
+        "kind": "book",
+        "year": 2018,
+        "publisher": "Wesley’s Foundery Books, 2018"
+      },
+      {
+        "title": "Jubilee",
+        "kind": "recording",
+        "year": 2010,
+        "note": "New Song Studio,2010"
+      },
+      {
+        "title": "Wesleyan Traditions Shape a Pastor’s Life",
+        "kind": "article",
+        "year": 2002,
+        "note": "Candler Connection, Candler School of Theology, December 01, 2002"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/thomas-w-elliott-jr/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-ii",
@@ -152,7 +657,47 @@
       "pastoral-care-counseling",
       "congregational-leadership"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/gregory-c-ellison-ii/",
+    "degrees": [
+      "PhD, Princeton Theological Seminary, 2008",
+      "MDiv, Princeton Theological Seminary, 2002",
+      "BA, Emory University, 1999"
+    ],
+    "email": "gelli01@emory.edu",
+    "publications": [
+      {
+        "title": "Fearless Dialogues: A New Movement for Justice (Korean Translation)",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "Seoul: Hakjisa Publishers, 2025"
+      },
+      {
+        "title": "Anchored in the Current: Discovering Howard Thurman as Educator, Activist, Guide, and Prophet",
+        "kind": "book",
+        "year": 2020,
+        "publisher": "Westminster John Knox Press, 2020"
+      },
+      {
+        "title": "Impractical?: The Curious Life of a Scrappy Pastoral Theologian",
+        "kind": "article",
+        "year": 2019,
+        "note": "in The Journal of Pastoral Theology, vol. 29, no.1, 2019"
+      },
+      {
+        "title": "From Idea to Book: A Conversation with authors Duane Bidwell, Pamela Cooper- White, and Greg Ellison, hosted by Eileen Campbell-Reed",
+        "kind": "article",
+        "year": 2019,
+        "note": "in Journal of Pastoral Theology, vol. 29, no. 1, 2019"
+      },
+      {
+        "title": "Holy Activist and Wholly Other: Youth, Vocation, and the Problem of Fit",
+        "kind": "article",
+        "year": 2018,
+        "note": "Princeton Theological Seminary Presidential Lecture, Princeton Theological Seminary Library Digital Collections, March 01, 2018"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/gregory-c-ellison-ii/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-ford",
@@ -162,7 +707,46 @@
     "areas": [
       "ethics-public-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/craig-ford/",
+    "degrees": [
+      "PhD, Boston College, 2018",
+      "MAR, Yale University, 2013",
+      "BA, University of Notre Dame, 2010"
+    ],
+    "email": "craig.ford@emory.edu",
+    "publications": [
+      {
+        "title": "A Sketch of a Liberative Natural Law Anthropology",
+        "kind": "article",
+        "note": "In What It Means to be Human. Edited by Elsie M. Miranda and Cristina Traina. Mahwah, NJ: Paulist Press. Forthcoming"
+      },
+      {
+        "title": "Transgender Bodies, Catholic Schools, and a Queer Natural Law Theology of Exploration",
+        "kind": "article",
+        "year": 2024,
+        "note": "Updated and Reprinted. In Trans Life and the Catholic Church Today. Edited Nicolete Burbach and Lisa Sowle Cahill, 303-335. New York, NY: T&T Clark, 2"
+      },
+      {
+        "title": "Virtue Ethics and Moral Knowledge in a Racist and Hetero/Sexist World",
+        "kind": "article",
+        "year": 2024,
+        "note": "In Bothering to Love: James F. Keenan’s Retrieval and Reinvention of Catholic Ethics. Edited by Kate Ward and Christopher Vogt, 197-210. Maryknoll, NY"
+      },
+      {
+        "title": "Natural Law in Catholic Family Teaching",
+        "kind": "article",
+        "year": 2024,
+        "note": "In Catholic Family Teaching: Commentaries and Interpretations. Edited by Jacob M. Kohlhass and Mary M. Doyle Roche, 20-28. Washington DC: Georgetown U"
+      },
+      {
+        "title": "Our New Galileo Affair",
+        "kind": "article",
+        "year": 2023,
+        "note": "Horizons 50.2 (December 2023): 255-592"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/craig-ford/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-jr-r",
@@ -172,7 +756,47 @@
     "areas": [
       "congregational-leadership"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/robert-m-franklin-jr/",
+    "degrees": [
+      "PhD, University of Chicago, 1985",
+      "MDiv, Harvard University, 1978",
+      "BA, Morehouse College, 1975"
+    ],
+    "email": "rmfrank@emory.edu",
+    "publications": [
+      {
+        "title": "Religious Faith in Public Leadership, Religion in the Classroom",
+        "kind": "article",
+        "year": 2025,
+        "note": "in School Administrator, November 2025"
+      },
+      {
+        "title": "The Role of Historically Black Colleges and Universities in Cultivating the Next Generation of Social Justice and Public Service-Oriented Moral Leaders During the Racial Reckoning and COVID-19 Pandemics",
+        "kind": "article",
+        "year": 2023,
+        "note": "in American Journal of Community Psychology, January 20, 2023"
+      },
+      {
+        "title": "Moral Leadership: Integrity, Courage, Imagination",
+        "kind": "book",
+        "year": 2020,
+        "publisher": "Orbis Press, 2020"
+      },
+      {
+        "title": "RFK’s Still a Leadership Role Model for Youth",
+        "kind": "article",
+        "year": 2018,
+        "note": "in Atlanta Journal-Constitution, June 08, 2018"
+      },
+      {
+        "title": "Rehabilitating Democracy: Restoring Civil Rights and Leading the Next Human Rights Revolution",
+        "kind": "article",
+        "year": 2015,
+        "note": "in Journal of Law and Religion, Cambridge University Press, October 01, 2015"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/robert-m-franklin-jr/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-brown",
@@ -182,7 +806,48 @@
     "areas": [
       "preaching"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/teresa-l-fry-brown/",
+    "degrees": [
+      "PhD, Iliff School of Theology and University of Denver, 1996",
+      "MDiv, Iliff School of Theology, 1988",
+      "MS, University of Central Missouri, 1975",
+      "BS, University of Central Missouri, 1973"
+    ],
+    "email": "teresa.brown@emory.edu",
+    "publications": [
+      {
+        "title": "Alleviating Homiletical Myopia",
+        "kind": "article",
+        "year": 2025,
+        "note": "in At the Intersection of Hermeneutics and Homiletics: Transgressive Readings for Transformational Preaching, edited by Yung Suk Kim, 9–25 (Eugene, OR"
+      },
+      {
+        "title": "African American History & Devotions: Readings and Activities for Individuals, Families, and Communities",
+        "kind": "book",
+        "year": 2018,
+        "publisher": "Abingdon Press, 2018"
+      },
+      {
+        "title": "Prophetic Truth Telling in a Time of Fatigue and Fragmentation",
+        "kind": "article",
+        "year": 2017,
+        "note": "in Questions Preachers Ask (Westminster John Knox, 2017)"
+      },
+      {
+        "title": "Reestablishing the Purpose and Power of the Preached Word through Black Church Studies",
+        "kind": "article",
+        "year": 2016,
+        "note": "The Black Church Studies Reader, Palgrave Macmillan, January 01, 2016"
+      },
+      {
+        "title": "Matthew 15:1-11, 12-20, 21-28: Homiletic Strategy Entries",
+        "kind": "article",
+        "year": 2013,
+        "note": "Feasting on the Gospels, Matthew vol 2, Westminster John Knox, December 09, 2013"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/teresa-l-fry-brown/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-goodman",
@@ -192,7 +857,47 @@
     "areas": [
       "pastoral-care-counseling"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/geoffrey-goodman/",
+    "degrees": [
+      "PhD, Northwestern University, 1991",
+      "MA, Columbia University, 1986",
+      "BS, MIT, 1983"
+    ],
+    "email": "ggoodm6@emory.edu",
+    "publications": [
+      {
+        "title": "Spiritual Interventions and Attachment: Alternative Models for Clergy and Mental Health Professionals",
+        "kind": "book",
+        "year": 2026,
+        "publisher": "Routledge, (coming 2026)"
+      },
+      {
+        "title": "Practical Applications of Transforming the Attachment Relationship to God",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "Routledge, 2025"
+      },
+      {
+        "title": "Using Psychoanalytic Techniques to Transform the Attachment Relationship to God",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "Routledge, 2025"
+      },
+      {
+        "title": "Pastoral Psychology",
+        "kind": "article",
+        "year": 2024,
+        "note": "2024"
+      },
+      {
+        "title": "Junk in the Trunk",
+        "kind": "book",
+        "year": 2022,
+        "publisher": "Walker Inspirations, 2022"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/geoffrey-goodman/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-greene",
@@ -202,7 +907,47 @@
     "areas": [
       "church-history"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/alison-collis-greene/",
+    "degrees": [
+      "PhD, Yale University, 2010",
+      "MA and MPhil, Yale University, 2008",
+      "BA, University of North Carolina at Chapel Hill, 2001"
+    ],
+    "email": "alison.collis.greene@emory.edu",
+    "publications": [
+      {
+        "title": "Reckoning with Southern Baptist Histories",
+        "kind": "article",
+        "year": 2019,
+        "note": "Southern Cultures, vol. 25, no. 2. (Fall 2019)"
+      },
+      {
+        "title": "Religion and the Great Depression",
+        "kind": "article",
+        "year": 2019,
+        "note": "In Oxford Research Encyclopedia of American History, Oxford University Press, April 29, 2019"
+      },
+      {
+        "title": "The Welfare of Faith",
+        "kind": "article",
+        "year": 2018,
+        "note": "In Religion in the Age of Obama, Bloomsbury, August 23, 2018"
+      },
+      {
+        "title": "Pine Knot Woman",
+        "kind": "article",
+        "year": 2018,
+        "note": "in The Immanent Frame, February 21, 2018"
+      },
+      {
+        "title": "The Great Depression and Religion in Mississippi",
+        "kind": "article",
+        "year": 2017,
+        "note": "in Mississippi History Now, April 2017"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/alison-collis-greene/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-hammond",
@@ -212,7 +957,47 @@
     "areas": [
       "wesleyan-studies"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/geordan-hammond/",
+    "degrees": [
+      "PhD, University of Manchester, 2008",
+      "MA, Fuller Theological Seminary, 2003",
+      "BA, Point Loma Nazarene University, 2000"
+    ],
+    "email": "g.hammond@emory.edu",
+    "publications": [
+      {
+        "title": "Social Engagement in the Holiness and Pentecostal Movements",
+        "kind": "book",
+        "year": 2026,
+        "publisher": "Penn State University Press, forthcoming, 2026"
+      },
+      {
+        "title": "Wesley and Methodist Studies, volume 18:1",
+        "kind": "book",
+        "year": 2026,
+        "publisher": "Penn State University Press, 2026"
+      },
+      {
+        "title": "The Imitation of Christ",
+        "kind": "article",
+        "year": 2026,
+        "note": "’, in Thomas à Kempis’s Imitation of Christ: The History of a Book, Brill’s Companions to the Christian Tradition, forthcoming, 2026"
+      },
+      {
+        "title": "We Believe in One God: Sixty Years of Methodists and Catholics Walking",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "Together, available online, 2025"
+      },
+      {
+        "title": "George Whitefield in America: A Documentary Journey",
+        "kind": "article",
+        "year": 2023,
+        "note": "’, a digital exhibition for Pitts Theology Library, Candler School of Theology, Emory University, featuring images and descriptions twelve rare books "
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/geordan-hammond/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-hanciles",
@@ -222,7 +1007,47 @@
     "areas": [
       "world-christianity"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/jehu-j-hanciles/",
+    "degrees": [
+      "PhD, University of Edinburgh, 1995",
+      "MTh, University of Edinburgh, 1991",
+      "BA, University of Sierra Leone, 1988"
+    ],
+    "email": "jjhanciles@emory.edu",
+    "publications": [
+      {
+        "title": "A Guide to Christianity Worldwide 1800–2000",
+        "kind": "book",
+        "year": 2021,
+        "publisher": "SPCK, 2021"
+      },
+      {
+        "title": "World Christianity: History, Methodologies, Horizons",
+        "kind": "book",
+        "year": 2021,
+        "publisher": "Orbis, 2021"
+      },
+      {
+        "title": "Migration and the Making of Global Christianity",
+        "kind": "book",
+        "year": 2021,
+        "publisher": "Eerdmans, 2021"
+      },
+      {
+        "title": "The Twentieth Century: Traditions in a Global Context (The Oxford History of Protestant Dissenting Traditions, Volume IV)",
+        "kind": "book",
+        "year": 2019,
+        "publisher": "Oxford University Press, 2019"
+      },
+      {
+        "title": "Introduction",
+        "kind": "article",
+        "year": 2019,
+        "note": "and “Emerging Streams of Dissent in Modern African Christianity,” in The Oxford History of Protestant Dissenting Traditions, Volume IV, Oxford Univers"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/jehu-j-hanciles/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-hessler",
@@ -232,7 +1057,49 @@
     "areas": [
       "congregational-leadership"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/soren-hessler/",
+    "degrees": [
+      "PhD, Boston University, 2021",
+      "EdM, Boston University, 2011",
+      "MDiv, Boston University, 2011",
+      "MA, Boston University, 2008",
+      "BA, Boston University, 2008"
+    ],
+    "email": "soren.michael.hessler@emory.edu",
+    "publications": [
+      {
+        "title": "Where Now for Visible Justice? Curriculum and Methodology Booklet North America – Turtle Island – Regional Ecumenical Theological Institute (NATI-RETI) 2026",
+        "kind": "article",
+        "year": 2026,
+        "note": "Canadian Council of Churches and National Council of Churches USA, 2026"
+      },
+      {
+        "title": "The Order for the Administration of the Lord’s Supper to the Sick: A History of the Development of the Ritual in the American Methodist Context",
+        "kind": "article",
+        "year": 2025,
+        "note": "Methodist History 63, no. 1 (2025): 40-64"
+      },
+      {
+        "title": "Relics in the Chapel: On the Dangers Inherent in Experiential Learning",
+        "kind": "article",
+        "year": 2023,
+        "note": "In With the Best of Intentions: Interreligious Missteps and Mistakes. Orbis Books, 2023"
+      },
+      {
+        "title": "Building Interfaith Leadership Initiative (BILI): A Student Leadership Development Model",
+        "kind": "article",
+        "year": 2022,
+        "note": "The Chronicle of Mentoring and Coaching 6, no. 15 (Dec 2022): 292-300"
+      },
+      {
+        "title": "The Consortium Institutional Archive: A Model for Preserving Memory at a Historically Black Seminary",
+        "kind": "article",
+        "year": 2022,
+        "note": "The International Journal of Equity and Social Justice in Higher Education 1 (2022): 21-24"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/soren-hessler/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-hylen",
@@ -242,7 +1109,47 @@
     "areas": [
       "new-testament"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/susan-e-hylen/",
+    "degrees": [
+      "PhD, Emory University, 2004",
+      "MDiv, Princeton Theological Seminary, 1995",
+      "BA, University of California San Diego, 1990"
+    ],
+    "email": "susan.hylen@emory.edu",
+    "publications": [
+      {
+        "title": "Revelation",
+        "kind": "article",
+        "year": 2026,
+        "note": "By Lynn R. Huber and Gail R. O’Day. Interpretation 80 (2026) 67-69"
+      },
+      {
+        "title": "Book review",
+        "kind": "article",
+        "year": 2026,
+        "note": "Perpetua: The Woman, the Martyr. By Sarah Ruden. Review of Biblical Literature, published online 2026"
+      },
+      {
+        "title": "Social History: Connecting Historical Methods and Social Concerns",
+        "kind": "article",
+        "year": 2026,
+        "note": "The Future of New Testament Studies. Edited by Clarissa Breu; Bloomsbury, 2026"
+      },
+      {
+        "title": "Gender Mobility: 7 Ideas about Gender in the New Testament Period",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "Oxford University Press, 2025"
+      },
+      {
+        "title": "Las Mujeres en el Mundo del Nuevo Testamento",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "Ediciones Sigueme, 2025"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/susan-e-hylen/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-johnson",
@@ -252,7 +1159,46 @@
     "areas": [
       "church-history"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/terrence-l-johnson/",
+    "degrees": [
+      "PhD, Brown University",
+      "MDiv, Harvard Divinity School",
+      "BA, Morehouse College"
+    ],
+    "email": "terrence.lamark.johnson@emory.edu",
+    "publications": [
+      {
+        "title": "Torn Asunder: Race and Religion in the Shadow of Law and Justice",
+        "kind": "book",
+        "publisher": "Columbia University Press, forthcoming"
+      },
+      {
+        "title": "Blacks and Jews in America: An Invitation to Dialogue",
+        "kind": "book",
+        "year": 2022,
+        "publisher": "Georgetown University Press, 2022"
+      },
+      {
+        "title": "We Testify with Our Lives: How Religion Transformed Radical Thought from Black Power to Black Lives Matter",
+        "kind": "book",
+        "year": 2021,
+        "publisher": "Columbia University Press, 2021"
+      },
+      {
+        "title": "Race, Politics, and Religion",
+        "kind": "book",
+        "year": 2021,
+        "publisher": "Georgetown University Press, 2021–Present"
+      },
+      {
+        "title": "Religious Cultures of African and African Diaspora People",
+        "kind": "book",
+        "year": 2014,
+        "publisher": "Duke University Press, 2014-present"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/terrence-l-johnson/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-jones",
@@ -262,7 +1208,47 @@
     "areas": [
       "evangelism-church-planting"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/arun-w-jones/",
+    "degrees": [
+      "PhD, Princeton Theological Seminary, 2001",
+      "MDiv, Yale University, 1988",
+      "BA, Yale University, 1980"
+    ],
+    "email": "arun.w.jones@emory.edu",
+    "publications": [
+      {
+        "title": "Mission in the World of Religions",
+        "kind": "article",
+        "year": 2022,
+        "note": "in Together in the Mission of God: Jubilee Reflections on the International Missionary Council, ed. Risto Jukko (Geneva: World Council of Churches, 20"
+      },
+      {
+        "title": "Christian Interculture: Texts and Voices from Colonial and Postcolonial Worlds",
+        "kind": "book",
+        "year": 2021,
+        "publisher": "Penn State University Press, 2021"
+      },
+      {
+        "title": "Bhakti and Christian Missions",
+        "kind": "article",
+        "year": 2020,
+        "note": "in Oxford Bibliographies in Hinduism, Oxford University Press, 2020"
+      },
+      {
+        "title": "The Virtues of Mission",
+        "kind": "article",
+        "year": 2020,
+        "note": "Methodist History, vol. 58, no. 1 and 2 (October 2019 and January 2020)"
+      },
+      {
+        "title": "Protestants and Anglicans in South-Central Asia",
+        "kind": "article",
+        "year": 2019,
+        "note": "in Edinburgh Companions in Global Christianity, Vol 3: South and Central Asia, edited by Kenneth Ross. Edinburgh University Press, 2019"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/arun-w-jones/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-kemp",
@@ -272,7 +1258,47 @@
     "areas": [
       "hebrew-bible"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/joel-b-kemp/",
+    "degrees": [
+      "PhD, Boston College, 2017",
+      "MDiv, Andover Newton Theological School, 2010",
+      "JD, Harvard Law School, 2000",
+      "BA, Harvard College, 1997"
+    ],
+    "email": "joel.bernard.kemp@emory.edu",
+    "publications": [
+      {
+        "title": "Amos” in New Oxford Annotated Bible",
+        "kind": "article",
+        "note": "6th edition, ed. Marc Brettler, Julia O’Brien, Emma Wasserman, and Michael Coogan (forthcoming)"
+      },
+      {
+        "title": "Chaos, Community, and Creativity",
+        "kind": "article",
+        "year": 2024,
+        "note": "Politics of Scripture on Political Theology (January 2024)"
+      },
+      {
+        "title": "Review of Jason Gile",
+        "kind": "article",
+        "year": 2024,
+        "note": "Ezekiel and The World of Deuteronomy in Review of Biblical Literature (January 2024)"
+      },
+      {
+        "title": "Beloved Daughter, Beleaguered Wife, and Covenant Fidelity in Ezekiel 16",
+        "kind": "article",
+        "year": 2023,
+        "note": "ZAR 29 (2023): 159 – 175"
+      },
+      {
+        "title": "Other, Otherness",
+        "kind": "article",
+        "year": 2023,
+        "note": "in Encyclopedia of the Bible and Its Reception (DeGruyter, 2023)"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/joel-b-kemp/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-kim",
@@ -282,7 +1308,47 @@
     "areas": [
       "church-history"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/helen-jin-kim/",
+    "degrees": [
+      "PhD, Harvard University, 2017",
+      "MDiv, Harvard University, 2012",
+      "BA, Stanford University, 2006"
+    ],
+    "email": "helenjkim@emory.edu",
+    "publications": [
+      {
+        "title": "Race for Revival: How Cold War South Korea Shaped the American Evangelical Empire",
+        "kind": "book",
+        "year": 2022,
+        "publisher": "Oxford University Press, 2022"
+      },
+      {
+        "title": "Jesus and John Wayne and the Shifting Grounds of Evangelical Historiography",
+        "kind": "article",
+        "year": 2022,
+        "note": "in Harvard Theological Review, Cambridge University Press, 2022"
+      },
+      {
+        "title": "Generational Transitions and New Conceptions",
+        "kind": "article",
+        "year": 2021,
+        "note": "in World Christianity: History, Methodologies, Horizons, Orbis Books, 2021"
+      },
+      {
+        "title": "Reconstructing Asian America’s Religious Past: A Historiography",
+        "kind": "article",
+        "year": 2020,
+        "note": "in Envisioning Religion, Race and Asian Americans, University of Hawaii Press, 2020"
+      },
+      {
+        "title": "Asian American Women’s History is American Religious History",
+        "kind": "article",
+        "year": 2020,
+        "note": "in Asian and Asian American Women in Theology and Religion, Palgrave, 2020"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/helen-jin-kim/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-lapena",
@@ -292,7 +1358,30 @@
     "areas": [
       "new-testament"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/jon-paul-lapena/",
+    "degrees": [
+      "PhD, Yale University, 2026",
+      "MDiv, Harvard University, 2019",
+      "BA, San Diego State",
+      "AA, College of the Desert"
+    ],
+    "email": "jon-paul.lapena@emory.edu",
+    "publications": [
+      {
+        "title": "Embodied Hermeneutics in the Borderlands: Reading New Testament Healing through Early Latino Pentecostalism",
+        "kind": "article",
+        "year": 2025,
+        "note": "In Brill Encyclopedia of Global Pentecostalism: Supplemental Volume, Brill, 2025"
+      },
+      {
+        "title": "The Hemorrhaging Woman Embodies Violence: Reading Gendered Health Barriers in Mark 5:26",
+        "kind": "article",
+        "year": 2025,
+        "note": "Journal of Biblical Literature 144, no. 1: 125-146, 2025"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/jon-paul-lapena/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-lartey",
@@ -302,7 +1391,46 @@
     "areas": [
       "pastoral-care-counseling"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/emmanuel-y-lartey/",
+    "degrees": [
+      "PhD, The University of Birmingham (England), 1984",
+      "BA Hons., University of Ghana, Legon, 1978"
+    ],
+    "email": "elartey@emory.edu",
+    "publications": [
+      {
+        "title": "Spiritual Care in African Religious Cultures: Sacred Wisdom for the Care of Persons in an Intercultural World",
+        "kind": "book",
+        "year": 2026,
+        "publisher": "Georgetown University Press, 2026"
+      },
+      {
+        "title": "What is Spiritual Care? Perspectives from different Professions and Religious Traditions",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "Eugene, Oregon: Pickwick Publications, 2025"
+      },
+      {
+        "title": "Postcolonial Practices of Care: A project of togetherness during Covid-19 and Racial Violence",
+        "kind": "book",
+        "year": 2022,
+        "publisher": "Wipf & Stock, Pickwick Publications, 2022"
+      },
+      {
+        "title": "International Handbook of Practical Theology",
+        "kind": "book",
+        "year": 2022,
+        "publisher": "Walter De Gruyter Publishers, 2022"
+      },
+      {
+        "title": "Postcolonial Images of Spiritual Care: Challenges of Care in a Neoliberal Age",
+        "kind": "book",
+        "year": 2020,
+        "publisher": "Wipf & Stock, 2020"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/emmanuel-y-lartey/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-lemon",
@@ -313,7 +1441,46 @@
       "hebrew-bible",
       "new-testament"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/joel-m-lemon/",
+    "degrees": [
+      "PhD, Emory University, 2007",
+      "MDiv, Princeton Theological Seminary, 2001",
+      "BA, Shenandoah Conservatory of Music, 1998"
+    ],
+    "email": "jmlemon@emory.edu",
+    "publications": [
+      {
+        "title": "Picturing Righteous Violence in the Psalms and Ancient Near Eastern Iconography",
+        "kind": "book",
+        "publisher": "(forthcoming)"
+      },
+      {
+        "title": "Encyclopedia of the Bible and Its Reception, Vol. 23: Parable, Parables – Peshat",
+        "kind": "book",
+        "year": 2025,
+        "publisher": "De Gruyter, 2025"
+      },
+      {
+        "title": "Encyclopedia of the Bible and Its Reception, Vol. 22: Og (King of Bashan)–Papyrus, Papyri",
+        "kind": "book",
+        "year": 2024,
+        "publisher": "DeGruyter, 2024"
+      },
+      {
+        "title": "The Garments of God: Iconographic Case Studies from Isaiah 6:1; 59:17; and 63:1-10",
+        "kind": "article",
+        "year": 2019,
+        "note": "in Clothing and Nudity in the Hebrew Bible, T&T Clark, 2019"
+      },
+      {
+        "title": "Religion in Eighth-Century Judah: The Case of Kuntillet ‘Ajrud (and Beyond)",
+        "kind": "article",
+        "year": 2018,
+        "note": "in Archaeology and History of Eighth-century Judah. Society of Biblical Literature, 2018"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/joel-m-lemon/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-losel",
@@ -323,7 +1490,47 @@
     "areas": [
       "systematic-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/steffen-losel/",
+    "degrees": [
+      "ThD, Eberhard-Karls-Universität, Tübingen, Germany, 1999",
+      "MDiv, Eberhard-Karls-Universität, Tübingen, Germany, 1994",
+      "MA, Lutheran Theological Seminary, Gettysburg, PA, 1991"
+    ],
+    "email": "sloesel@emory.edu",
+    "publications": [
+      {
+        "title": "Theological Anthropology in Mozart’s La clemenza di Tito, Sin, Grace, and Conversion",
+        "kind": "book",
+        "year": 2022,
+        "publisher": "Routledge, 2022"
+      },
+      {
+        "title": "Monostatos: Racism",
+        "kind": "article",
+        "year": 2019,
+        "note": "in Die Zauberflöte,” Soundings: An Interdisciplinary Journal 102, no. 4 November 01, 2019"
+      },
+      {
+        "title": "Church, Theology, and the Holiness of God",
+        "kind": "article",
+        "year": 2019,
+        "note": "The Scottish Journal of Theology, vol. 72, no. 2, Cambridge Core, April 03, 2019"
+      },
+      {
+        "title": "Clemency and Conversion: Theological Reflection on Mozart’s La Clemenza di Tito",
+        "kind": "article",
+        "year": 2018,
+        "note": "Modern Theology, vol. 34, no. 4, John Wiley & Sons, July 17, 2018"
+      },
+      {
+        "title": "Reformed Sacramentality",
+        "kind": "book",
+        "year": 2017,
+        "publisher": "Liturgical Press, 2017"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/steffen-losel/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-marshall",
@@ -334,7 +1541,48 @@
       "ethics-public-theology",
       "mission-social-justice"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/ellen-ott-marshall/",
+    "degrees": [
+      "PhD, Vanderbilt University, 2000",
+      "MA, Vanderbilt University, 1996",
+      "MA, University of Notre Dame, 1992",
+      "BA, Davidson College, 1991"
+    ],
+    "email": "ellen.marshall@emory.edu",
+    "publications": [
+      {
+        "title": "Accounting for Agency by Attending to Time",
+        "kind": "article",
+        "year": 2025,
+        "note": "Witnessing Peace: A Syndicate Symposium, November 24, 2025"
+      },
+      {
+        "title": "Art Lessons: Slow Pedagogy for the Moral Life",
+        "kind": "article",
+        "year": 2025,
+        "note": "Journal of the Society of Christian Ethics, 45.1 (2025): 59-73"
+      },
+      {
+        "title": "”Christian Arguments for Gun Violence Prevention: Reflections on Moral Claims in the Context of Advocacy",
+        "kind": "article",
+        "year": 2023,
+        "note": "in Journal of Moral Theology, vol. 12, issue SI 2, 2023, Oct. 24, 2023"
+      },
+      {
+        "title": "Parenting for a Better World: Social Justice Practices for Your Family and the Planet",
+        "kind": "article",
+        "year": 2022,
+        "note": "Chalice Press, 2022"
+      },
+      {
+        "title": "Meditation with Collage",
+        "kind": "article",
+        "year": 2022,
+        "note": "Parenting for a Better World: Social Justice Practices for Your Family and the Planet, Chalice Press, 2022"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/ellen-ott-marshall/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-mcdougall",
@@ -344,7 +1592,47 @@
     "areas": [
       "systematic-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/joy-ann-mcdougall/",
+    "degrees": [
+      "PhD, University of Chicago, 1998",
+      "MAR, Yale Divinity School, 1990",
+      "BA, Yale University, 1985"
+    ],
+    "email": "jamcdou@emory.edu",
+    "publications": [
+      {
+        "title": "An Anglican Theology of hope for a Common Future",
+        "kind": "article",
+        "year": 2026,
+        "note": "in Wisdom, Knowledge and Faith: New Essays on the Future of Theology and the Episcopal Church, eds Robert MacSwain and Kelli Joyce (New York: Seabury "
+      },
+      {
+        "title": "Book Panel on Katherine Sonderegger",
+        "kind": "article",
+        "year": 2020,
+        "note": "in Systematic Theology, vol. 1, The Doctrine of God, in Journal of Reformed Theology 14 (2020)"
+      },
+      {
+        "title": "Rising with Mary: Re-visioning a Feminist Theology of the Cross and Resurrection",
+        "kind": "article",
+        "year": 2016,
+        "note": "The Strength of Her Witness, Orbis Books, 2016"
+      },
+      {
+        "title": "A Trinitarian Grammar of Sin",
+        "kind": "article",
+        "year": 2016,
+        "note": "The Theological Anthropology of David Kelsey, Eerdmans, 2016"
+      },
+      {
+        "title": "Closed Eyes and Blocked Vision: Gendering Tanner’s Theology of Sin and Grace",
+        "kind": "article",
+        "year": 2015,
+        "note": "The Gift of Theology: The Contribution of Kathryn Tanner, Fortress Press, 2015"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/joy-ann-mcdougall/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-mcfarland",
@@ -354,7 +1642,48 @@
     "areas": [
       "systematic-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/ian-a-mcfarland/",
+    "degrees": [
+      "PhD, Yale University, 1995",
+      "ThM, The Lutheran School of Theology at Chicago, 1991",
+      "MDiv, Union Theological Seminary (NY), 1989",
+      "BA, Trinity College (Hartford), 1984"
+    ],
+    "email": "ian.mcfarland@emory.edu",
+    "publications": [
+      {
+        "title": "The Hope of Glory: A Theology of Redemption",
+        "kind": "book",
+        "year": 2024,
+        "publisher": "Westminster John Knox Press, 2024"
+      },
+      {
+        "title": "Being Trinitarian: A Response to Thomas Joseph White’s The Trinity",
+        "kind": "article",
+        "year": 2023,
+        "note": "The Thomist 87/4, pp. 635-44, October 2023"
+      },
+      {
+        "title": "Neue Zeitschrift für Systematische Theologie und Relgionsphilosophie",
+        "kind": "article",
+        "year": 2023,
+        "note": "65/3, pp. 307-18, 2023"
+      },
+      {
+        "title": "Response or Remedy? A Reflection on the Role of Contrition in the Economy of Salvation",
+        "kind": "article",
+        "year": 2023,
+        "note": "in International Journal of Systematic Theology, 25/1 (January 2023): 22-38"
+      },
+      {
+        "title": "Eschatology",
+        "kind": "article",
+        "year": 2023,
+        "note": "in The New Cambridge Companion to Christian Doctrine, ed. Michael Allen, Cambridge: Cambridge University Press, pp. 156-172, November 2023"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/ian-a-mcfarland/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-murriel",
@@ -364,7 +1693,13 @@
     "areas": [
       "practical-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/kevin-murriel/",
+    "degrees": [
+      "DMin, Duke University, 2014",
+      "MDiv, Emory University, 2011",
+      "BBA, Jackson State University, 2008"
+    ],
+    "email": "kevin.rashad.murriel@emory.edu"
   },
   {
     "id": "candler-nam",
@@ -374,7 +1709,49 @@
     "areas": [
       "hebrew-bible"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/roger-s-nam/",
+    "degrees": [
+      "PhD, UCLA, 2008",
+      "MA, UCLA, 2005",
+      "ThM, Fuller Theological Seminary, 2003",
+      "MDiv, General Assembly Presbyterian Theological Seminary (Seoul, Korea)",
+      "BA, UCLA, 1992"
+    ],
+    "email": "rnam@emory.edu",
+    "publications": [
+      {
+        "title": "The Theology of the Books of Ezra and Nehemiah",
+        "kind": "book",
+        "year": 2024,
+        "publisher": "Cambridge University Press, October, 2024"
+      },
+      {
+        "title": "Biblical Studies, COVID-19, and Our Response to Growing Inequality",
+        "kind": "article",
+        "year": 2020,
+        "note": "in Journal of Biblical Literature, Vol. 139, No. 3, 2020"
+      },
+      {
+        "title": "The Economy of Late Achaemenid and Seleucid Babylonia",
+        "kind": "article",
+        "year": 2019,
+        "note": "by Reinhard Pirngruber in The Journal of Near Eastern Studies, 78:1 (2019): 158-160"
+      },
+      {
+        "title": "‘Half Speak Ashdodite and None Can Speak Judean’: Code-Switching in Ezra- Nehemiah as an Identity Marker for Repatriate Judeans and Koreans",
+        "kind": "article",
+        "year": 2019,
+        "note": "In Landscapes of Korean and Korean-American Interpretation. Edited by John Ahn. SBL Press (2019): 119-131"
+      },
+      {
+        "title": "Design and Analysis Kinesthetic Language Learning: How an Oversight Led to a Revelation",
+        "kind": "article",
+        "year": 2017,
+        "note": "Teaching Theology and Religion, vol. 19, no. 4 (2017): 376-384"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/roger-s-nam/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-opalinski",
@@ -386,7 +1763,13 @@
       "congregational-leadership",
       "spiritual-formation"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/brett-opalinski/",
+    "degrees": [
+      "PhD, Iliff School of Theology, 2008",
+      "MDiv, Candler School of Theology, 1998",
+      "BS, Samford University, 1994"
+    ],
+    "email": "bopalin@emory.edu"
   },
   {
     "id": "candler-palmer",
@@ -396,7 +1779,14 @@
     "areas": [
       "preaching"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/shanise-n-palmer/",
+    "degrees": [
+      "PhD, Emory University, 2026",
+      "ThM, Emory University, 2020",
+      "MDiv, Shaw University, 2019",
+      "BS, University of North Carolina at Chapel Hill, 2001"
+    ],
+    "email": "shanise.palmer@emory.edu"
   },
   {
     "id": "candler-phillips",
@@ -406,7 +1796,49 @@
     "areas": [
       "ethics-public-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/nichole-r-phillips/",
+    "degrees": [
+      "MBA, Emory University, 2025",
+      "PhD, Vanderbilt University, 2012",
+      "MA, Vanderbilt University, 2009",
+      "MDiv, Harvard University, 1999",
+      "BA, Wellesley College, 1993"
+    ],
+    "email": "nichole.r.phillips@emory.edu",
+    "publications": [
+      {
+        "title": "Rituals of Commemoration: Sites for cultural memories as traumatic silences and memorial cries for social change",
+        "kind": "article",
+        "year": 2020,
+        "note": "in Judaism, Race, and Ethics, Penn State University Press, 2020"
+      },
+      {
+        "title": "Book Review: Prophets and Patriots: Faith in Democracy Across the Political Divide",
+        "kind": "article",
+        "year": 2019,
+        "note": "in American Journal of Sociology 125, no. 1, July 2019"
+      },
+      {
+        "title": "Patriotism Black and White: The Color of American Exceptionalism",
+        "kind": "book",
+        "year": 2018,
+        "publisher": "Baylor, 2018"
+      },
+      {
+        "title": "A ‘Spirituality of Improvisation’: Martin Luther King, Jr.’s ‘I Have a Dream’ in Rearticulating American National Identity",
+        "kind": "article",
+        "year": 2018,
+        "note": "In Revives My Soul Again: The Spirituality of Martin Luther King, Jr. Fortress Press, 2018"
+      },
+      {
+        "title": "Qualitative Research at Emory: Ethnographic Insights and Notes from the Field",
+        "kind": "article",
+        "year": 2018,
+        "note": "In Pedagogy in Practice: Qualitative Research and Theological Education. SCM Press, 2018"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/nichole-r-phillips/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-plowden",
@@ -416,7 +1848,36 @@
     "areas": [
       "black-church-studies"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/chandra-c-plowden/",
+    "degrees": [
+      "PhD, Harvard University, 2026",
+      "AM, Harvard University, 2021",
+      "MDiv, Harvard University, 2018",
+      "MPP, University of Minnesota, 2012",
+      "BA, Columbia College, 2010"
+    ],
+    "publications": [
+      {
+        "title": "A Case for Half-Lives: Ten Years after a Charleston Shooting",
+        "kind": "article",
+        "year": 2026,
+        "note": "American Religion, Fall 2026 (Forthcoming)"
+      },
+      {
+        "title": "Standing up for ‘Good-Work",
+        "kind": "article",
+        "year": 2023,
+        "note": "A History of Working-Class Black Women’s Labor Ethics.” Spirit House: A Crossroads Project. Crossroads Project at Princeton University; 2023. (Digital"
+      },
+      {
+        "title": "Child Care Assistance in Minnesota: Addressing Structural Racism",
+        "kind": "article",
+        "year": 2012,
+        "note": "YWCA of Minneapolis; 2012"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/chandra-c-plowden/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-quigley",
@@ -426,7 +1887,48 @@
     "areas": [
       "new-testament"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/jennifer-quigley/",
+    "degrees": [
+      "ThD, Harvard Divinity School, 2018",
+      "STM, Boston University, 2011",
+      "MDiv, Boston University, 2011",
+      "BA, Boston University, 2008"
+    ],
+    "email": "jennifer.quigley@emory.edu",
+    "publications": [
+      {
+        "title": "The Minutiae of Progress and the Detritus of Change: On Bond’s Labor History of the Ancient Mediterranean",
+        "kind": "article",
+        "year": 2026,
+        "note": "In “Strike: An SBL Review Panel,” Ancient Jew Review, Apr 20, 2026"
+      },
+      {
+        "title": "Philippians",
+        "kind": "article",
+        "year": 2025,
+        "note": "Lutheran Study Bible: NRSVue. Minneapolis: Augsburg Fortress Press, 2025"
+      },
+      {
+        "title": "Assembling Futures: Economy, Ecology, Democracy, and Religion",
+        "kind": "book",
+        "year": 2024,
+        "publisher": "Fordham University Press, 2024"
+      },
+      {
+        "title": "Intimate Labour: Gender, Labour, and the Letters of Paul",
+        "kind": "article",
+        "year": 2024,
+        "note": "Religion and the Roman Empire 10.1 (2024): 69-86"
+      },
+      {
+        "title": "The Costs of Citizenship: Politeuma in the Letter to the Philippians",
+        "kind": "article",
+        "year": 2024,
+        "note": "In Assembling Futures: Economy, Ecology, Democracy. New York: Fordham University Press, 2024"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/jennifer-quigley/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-rogers",
@@ -436,7 +1938,29 @@
     "areas": [
       "practical-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/p-alice-rogers/",
+    "degrees": [
+      "DMin, Emory University, 1998",
+      "MDiv, Duke University, 1986",
+      "BA, Converse College, 1983"
+    ],
+    "email": "alice.rogers@emory.edu",
+    "publications": [
+      {
+        "title": "Equipping the Saints: Best Practices in Contextual Theological Education",
+        "kind": "book",
+        "year": 2010,
+        "publisher": "Pilgrim Press, 2010"
+      },
+      {
+        "title": "Contextualizing Theological Education",
+        "kind": "book",
+        "year": 2008,
+        "publisher": "Pilgrim Press, 2008"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/p-alice-rogers/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-solis-walker",
@@ -446,7 +1970,12 @@
     "areas": [
       "congregational-leadership"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/joanne-solis-walker/",
+    "degrees": [
+      "PhD, Regent University (organizational leadership and development), 2014",
+      "MDiv, Asbury Theological Seminary, 2005"
+    ],
+    "email": "joanne.solis-walker@emory.edu"
   },
   {
     "id": "candler-soulen",
@@ -456,7 +1985,47 @@
     "areas": [
       "systematic-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/r-kendall-soulen/",
+    "degrees": [
+      "PhD, Yale University, 1992",
+      "MDiv, Emory University, 1986",
+      "BA, Yale University, 1982"
+    ],
+    "email": "kendall.soulen@emory.edu",
+    "publications": [
+      {
+        "title": "Irrevocable: The Name of God and the Unity of the Christian Bible",
+        "kind": "book",
+        "year": 2022,
+        "publisher": "Fortress Press, 2022"
+      },
+      {
+        "title": "The Father’s Voice: Recovering a Neglected Aspect of the Doctrine of the Trinity",
+        "kind": "article",
+        "year": 2022,
+        "note": "Pro Ecclesia, May 2022"
+      },
+      {
+        "title": "Supersessionism",
+        "kind": "article",
+        "year": 2019,
+        "note": "Israel,” in Encyclopedia of Jewish Christian Relations, in de Gruyter, 2019"
+      },
+      {
+        "title": "Christian Theology after the Holocaust",
+        "kind": "article",
+        "year": 2018,
+        "note": "in American Baptist Quarterly, vol. 37, no. 4, Winter 2018"
+      },
+      {
+        "title": "Gregory W. Lee, Today When You Hear His Voice: Scripture, the Covenants, and the People of God",
+        "kind": "article",
+        "year": 2018,
+        "note": "The Scottish Journal of Theology, August 15, 2018"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/r-kendall-soulen/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-strom",
@@ -466,7 +2035,47 @@
     "areas": [
       "church-history"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/jonathan-strom/",
+    "degrees": [
+      "PhD, University of Chicago, 1996",
+      "MTS, Harvard University, 1987",
+      "BA, St. Olaf College, 1984"
+    ],
+    "email": "candlerdean@emory.edu",
+    "publications": [
+      {
+        "title": "German Pietism and the Problem of Conversion",
+        "kind": "book",
+        "year": 2018,
+        "publisher": "Penn State Press, 2018"
+      },
+      {
+        "title": "Dictionary of Luther and the Lutheran Traditions",
+        "kind": "book",
+        "year": 2017,
+        "publisher": "Baker, 2017"
+      },
+      {
+        "title": "Pietism",
+        "kind": "article",
+        "year": 2016,
+        "note": "in The Oxford Handbook of Early Modern Theology, 1600-1800. Oxford University Press, 2016"
+      },
+      {
+        "title": "Pietism and Conversion in Dargun",
+        "kind": "article",
+        "year": 2014,
+        "note": "in Pietismus und Neuzeit. Pietismus und Neuzeit, 2014"
+      },
+      {
+        "title": "Krisenbewusstsein und Zukunftserwartung bei Friedrich Breckling",
+        "kind": "article",
+        "year": 2013,
+        "note": "in Geschichtsbewusstsein und Zukunftserwartung. Göttingen University Press, 2013"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/jonathan-strom/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-suna-koro",
@@ -476,7 +2085,44 @@
     "areas": [
       "liturgy-worship"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/kristine-suna-koro/",
+    "degrees": [
+      "PhD, Emory University, 2010",
+      "STM, Lutheran Theological Seminary at Philadelphia, 2003",
+      "ThM, University of Latvia, 1997",
+      "ThB, University of Latvia, 1995"
+    ],
+    "email": "kristine.suna-koro@emory.edu",
+    "publications": [
+      {
+        "title": "Liturgy as Migration: Reimagining the Borderlands of Liturgical and Political Theology",
+        "kind": "book",
+        "publisher": "Bloomsbury Press (Forthcoming)"
+      },
+      {
+        "title": "Borders, Religions, and Migration",
+        "kind": "book",
+        "publisher": "essay collection, Palgrave (Forthcoming)"
+      },
+      {
+        "title": "Liturgy, Corpus Mysticum and the Priesthood of All Believers in the Postcolonial World of Migratory Necropolitics",
+        "kind": "article",
+        "note": "Embodying Ecclesial Diversity, Palgrave (Forthcoming)"
+      },
+      {
+        "title": "Don Saliers: A Liturgical Method for All Seasons – In Season and Out of Season – With a Diasporic Twist",
+        "kind": "article",
+        "note": "Doing Liturgical Theology: Method in Context, Peeters/Liturgia Condenda, (Forthcoming)"
+      },
+      {
+        "title": "Silence as Liturgical Space for Lament: Praying and Listening on Christmas Eve Amidst Ecological and Migration Emergencies",
+        "kind": "article",
+        "year": 2026,
+        "note": "Dem Leiden Ausdruck verleien: Biblische und liturgiewissenschaftliche Perspektiven auf Klagetexte/ Giving Expression to Suffering: Biblical and Liturg"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/kristine-suna-koro/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-thompson-quartey",
@@ -486,7 +2132,12 @@
     "areas": [
       "congregational-leadership"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/john-thompson-quartey/",
+    "degrees": [
+      "MDiv, General Theological Seminary, 1997",
+      "BS, Rutgers University, 1993"
+    ],
+    "email": "chief.john.thompson-quartey@emory.edu"
   },
   {
     "id": "candler-hansen",
@@ -497,7 +2148,48 @@
       "pastoral-care-counseling",
       "practical-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/danielle-tumminio-hansen/",
+    "degrees": [
+      "PhD, Boston University, 2014",
+      "STM, Yale University, 2008",
+      "MDiv, Yale University, 2006",
+      "BA, Yale College, 2003"
+    ],
+    "email": "danielle.elizabeth.tumminio.hansen@emory.edu",
+    "publications": [
+      {
+        "title": "Sarah Mullally breaks the Anglican Communion’s glass ceiling",
+        "kind": "article",
+        "year": 2025,
+        "note": "The Christian Century (October, 2025)"
+      },
+      {
+        "title": "Trauma-Informed Spiritual Care",
+        "kind": "book",
+        "year": 2024,
+        "publisher": "Fortress Press, 2024"
+      },
+      {
+        "title": "Speaking of Rape: The Limits of Language in Sexual Violations",
+        "kind": "book",
+        "year": 2024,
+        "publisher": "Fortress Press, 2024"
+      },
+      {
+        "title": "Anglican Theologies of Reproductive Choice: Guest Editor’s Introduction",
+        "kind": "article",
+        "year": 2024,
+        "note": "Anglican Theological Review (106:3 Summer, 2024, guest editor)"
+      },
+      {
+        "title": "Surrogacy, Secrecy, and the Sin of the Autonomous Self",
+        "kind": "article",
+        "year": 2024,
+        "note": "Pregnancy and Birth: Critical Theological Conceptions. Eds. Karen O’Donnell & Claire Williams, SCM Press (September, 2024)"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/danielle-tumminio-hansen/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-williams",
@@ -507,7 +2199,14 @@
     "areas": [
       "practical-theology"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/damon-williams/",
+    "degrees": [
+      "MDiv, Columbia Theological Seminary, 2012",
+      "PhD, University of Michigan, 2009",
+      "MS, University of Michigan, 2004",
+      "BS, Georgia Institute of Technology, 2002"
+    ],
+    "email": "dwilliams@providenceatlanta.org"
   },
   {
     "id": "candler-williams-k",
@@ -518,7 +2217,48 @@
       "liturgy-worship",
       "spiritual-formation"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/khalia-j-williams/",
+    "degrees": [
+      "PhD, Graduate Theological Union, 2017",
+      "MA, Columbia Theological Seminary, 2011",
+      "MBA, Nova Southeastern University, 2003",
+      "BS, Florida Memorial University, 2001"
+    ],
+    "email": "khalia.j.williams@emory.edu",
+    "publications": [
+      {
+        "title": "Theological Foundations of Worship: Biblical, Systematic, and Practical Perspectives",
+        "kind": "book",
+        "year": 2021,
+        "publisher": "Baker Academic, 2021"
+      },
+      {
+        "title": "A Worship Workbook A Practical Guide for Extraordinary Liturgy",
+        "kind": "book",
+        "year": 2021,
+        "publisher": "Abingdon Press, 2021"
+      },
+      {
+        "title": "Love Your Flesh: The Power and Protest of Embodied Worship",
+        "kind": "article",
+        "year": 2020,
+        "note": "inLiturgy, vol. 35, no. 1, 2020"
+      },
+      {
+        "title": "Liturgical Undoing: Christ, Communion, and Commodified Bodies",
+        "kind": "article",
+        "year": 2018,
+        "note": "in Review & Expositor, vol. 115, no. 3, 2018"
+      },
+      {
+        "title": "Psalm 29",
+        "kind": "article",
+        "year": 2018,
+        "note": "Psalm 36:5-10,” and “Psalm 19,” in Connections: A Lectionary Commentary For Preaching and Worship, Year C, Volume 1, Westminster John Knox Press, Sept"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/khalia-j-williams/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-wilson",
@@ -528,7 +2268,47 @@
     "areas": [
       "new-testament"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/walter-t-wilson/",
+    "degrees": [
+      "PhD, University of Chicago, 1990",
+      "MA, University of Chicago, 1986",
+      "BA, Johns Hopkins University, 1985"
+    ],
+    "email": "walter.wilson@emory.edu",
+    "publications": [
+      {
+        "title": "Law, Wisdom, and the Poetics of Precarity in the Book of Baruch",
+        "kind": "article",
+        "year": 2025,
+        "note": "Journal for the Study of Judaism 56.3 (2025): 273–296"
+      },
+      {
+        "title": "Memory, Trauma, and Liturgies of Exile in Baruch 1:1–3:8",
+        "kind": "article",
+        "year": 2024,
+        "note": "Journal of Ancient Judaism 15.3 (2024): 440–471"
+      },
+      {
+        "title": "The Wisdom of Sirach",
+        "kind": "book",
+        "year": 2023,
+        "publisher": "Eerdmans, 2023"
+      },
+      {
+        "title": "The Gospel of Matthew, Volume I",
+        "kind": "book",
+        "year": 2022,
+        "publisher": "Eerdmans Critical Commentaries. Grand Rapids: Eerdmans, 2022"
+      },
+      {
+        "title": "The Gospel of Matthew, Volume II",
+        "kind": "book",
+        "year": 2022,
+        "publisher": "Eerdmans Critical Commentaries. Grand Rapids: Eerdmans, 2022"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/walter-t-wilson/",
+    "publicationsAsOf": "2026-08-07"
   },
   {
     "id": "candler-wright",
@@ -538,6 +2318,45 @@
     "areas": [
       "hebrew-bible"
     ],
-    "profileUrl": "https://candler.emory.edu/candler-faculty/faculty-directory/"
+    "profileUrl": "https://candler.emory.edu/faculty-profiles/jacob-l-wright/",
+    "degrees": [
+      "DrTheol, University of Göttingen, Germany, 2003",
+      "BA, University of Missouri, Kansas City, 1996"
+    ],
+    "email": "jacob.wright@emory.edu",
+    "publications": [
+      {
+        "title": "Why the Bible Began: An Alternative History of Scripture and Its Origins",
+        "kind": "book",
+        "year": 2023,
+        "publisher": "Cambridge University Press, 2023"
+      },
+      {
+        "title": "War, Memory, and National Identity in the Hebrew Bible",
+        "kind": "book",
+        "year": 2020,
+        "publisher": "Cambridge University Press, 2020"
+      },
+      {
+        "title": "’Fear (not)!’ –Emotion and Ethics in Deuteronomy",
+        "kind": "article",
+        "year": 2020,
+        "note": "in Journal of Ethics in Antiquity and Christianity, October 2020"
+      },
+      {
+        "title": "Rahab: Between Faith and Works",
+        "kind": "article",
+        "year": 2020,
+        "note": "in The Bible and Interpretation, August 2020"
+      },
+      {
+        "title": "Archaeology and History of Eighth-Century Judah",
+        "kind": "book",
+        "year": 2018,
+        "publisher": "Society of Biblical Literature, 2018"
+      }
+    ],
+    "publicationsSource": "https://candler.emory.edu/faculty-profiles/jacob-l-wright/",
+    "publicationsAsOf": "2026-08-07"
   }
 ]

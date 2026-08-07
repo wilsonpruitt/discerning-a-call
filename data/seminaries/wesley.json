@@ -4,7 +4,7 @@
   "city": "Washington",
   "state": "DC",
   "url": "https://www.wesleyseminary.edu/",
-  "lastVerified": "2026-08-06",
+  "lastVerified": "2026-08-07",
   "ordination": {
     "senateStanding": {
       "value": "approved-umc",
@@ -19,7 +19,7 @@
       "note": "GBHEM: all thirteen United Methodist schools of theology are approved to provide a fully online M.Div. that meets UM ordination requirements."
     },
     "coverageSource": "https://www.wesleyseminary.edu/wp-content/uploads/2026/07/WTS-Course-Catalog-AY-2026-2027_Final.pdf",
-    "coverageAsOf": "2026-08-06",
+    "coverageAsOf": "2026-08-07",
     "coverage": [
       {
         "area": "old-testament",
@@ -87,13 +87,13 @@
     "totalEnrollment": {
       "value": "410 students (275.20 FTE)",
       "source": "https://www.ats.edu/member-schools/wesley-theological-seminary",
-      "asOf": "2026-08-06",
+      "asOf": "2026-08-07",
       "note": "ATS's member-school page reports this as of Fall 2025, for the whole school, not M.Div. only. ATS also reports 11 full-time faculty (11.00 FTE) for the same period."
     },
     "studentFacultyRatio": {
       "value": "11 full-time faculty (11.00 FTE) against 410 students (275.20 FTE)",
       "source": "https://www.ats.edu/member-schools/wesley-theological-seminary",
-      "asOf": "2026-08-06",
+      "asOf": "2026-08-07",
       "note": "Raw counts, not a computed ratio — ATS does not publish one directly, and Wesley's own “Meet Our Faculty” grid lists more than 11 people once visiting/administrative faculty and the president are included, so the ATS full-time-faculty figure is narrower than this profile's faculty roster."
     }
   },
@@ -135,7 +135,7 @@
     "typicalAward": {
       "value": "Merit scholarships awarded during admissions, tiered by name: Bishop's (100% of tuition), Oxnam (75%), Governor's (60%), Next Call (50%), Presidential (40%), Wesley Merit (25%) — each up to 81 credit hours for the M.Div.",
       "source": "https://www.wesleyseminary.edu/admissions/scholarships/",
-      "asOf": "2026-08-06",
+      "asOf": "2026-08-07",
       "note": "Open to students of all denominations based on prior academic achievement and demonstrated leadership potential; apply for admission by February 1 for that fall's cohort to be considered. Not conditioned on UMC candidacy status."
     },
     "namedScholarships": [
