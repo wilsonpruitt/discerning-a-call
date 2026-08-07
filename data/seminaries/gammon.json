@@ -1,0 +1,109 @@
+{
+  "slug": "gammon",
+  "name": "Gammon Theological Seminary",
+  "city": "Atlanta",
+  "state": "GA",
+  "url": "https://www.thegammonseminary.org/",
+  "lastVerified": "2026-08-07",
+  "ordination": {
+    "senateStanding": {
+      "value": "approved-umc",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-08-06",
+      "note": "One of the 13 United Methodist schools of theology, and the only Historically Black Theological Institution (HBTI) of the UMC — Gammon's own words, on its Academics page. This University Senate standing is a separate approval track from ATS accreditation (see onlineCredit note): GBHEM's own Gammon profile page, captured 2026-06-28, still describes the school in the present tense as operating \"in partnership with The Interdenominational Theological Center\" and lists gammon-itc.org (a domain that now redirects to thegammonseminary.org) as its website. That framing is out of date. Gammon was ITC's United Methodist member school and had its degrees accredited through ITC from 1958 until ITC declared financial exigency in April 2023; Gammon relaunched as an independent institution in 2024, and in June 2026 secured its own accreditation from the Southern Association of Colleges and Schools Commission on Colleges (SACSCOC) plus Associate Membership in the Association of Theological Schools (ATS) — full ATS accreditation is still pending a 2026 self-study and peer review (thegammonseminary.org/accreditation). None of that affects the University Senate standing recorded here, which GBHEM continues to list Gammon under regardless of the ATS transition."
+    },
+    "onlineCredit": {
+      "value": "fully-counts",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-08-06",
+      "note": "GBHEM: all thirteen United Methodist schools of theology are approved to provide a fully online M.Div. that meets UM ordination requirements. Gammon's own Admissions FAQ independently confirms its M.Div. is offered in \"hybrid, online, and in-person intensive weeks\" formats."
+    },
+    "gapSummary": "Gammon states one clear, binding rule for United Methodist ordination candidates, in its own words: \"Students intending to seek ordination in the United Methodist church must complete 24 of those 72 [M.Div.] credit hours from Religious Heritage courses offered at GTS and outlined in The Book of Discipline of the United Methodist Church.\" That is real and binding — a UMC candidate cannot graduate without it — but Gammon does not publish, on any page found for this profile, which of ¶324.4's nine areas those 24 \"Religious Heritage\" hours map to, or which specific courses carry which area. This profile does not show a nine-area coverage table because there is no course-level breakdown to build one from honestly; showing a guessed table would read as more certain than the evidence supports. Gammon is one month past its own independent accreditation as of this writing, rebuilding a nine-person faculty largely hired since 2024 — a published curriculum map naming specific courses against specific requirements may simply not exist yet where an established school's does. Ask the Registrar for the current Religious Heritage course list and how it maps to old Testament, New Testament, theology, church history, mission, evangelism, worship, preaching, and UM studies specifically, and get the answer in writing before you register — then confirm the same list with your conference's Board of Ordained Ministry.",
+    "gapRemedies": [
+      {
+        "blurb": "Email the Office of the Registrar (registrar@thegammonseminary.org) and ask for the specific course list that fulfills the 24-credit-hour Religious Heritage requirement, broken out by ¶324.4 area. Gammon names the office as the point of contact for \"course registration, academic records, and degree completion requirements.\"",
+        "url": "https://www.thegammonseminary.org/academics"
+      },
+      {
+        "blurb": "Ask specifically about Dr. Mark Grafenreed's role as Coordinator of Wesleyan Studies and UMC Ministerial Formation — he is Gammon's named point person for how the Religious Heritage sequence is built, and is himself an ordained UMC elder.",
+        "url": "https://www.thegammonseminary.org/faculty"
+      },
+      {
+        "blurb": "Confirm the Religious Heritage course list with your conference's Board of Ordained Ministry registrar before you rely on it for your ordination file — Gammon states the requirement comes from the Book of Discipline, but your board decides what satisfies your particular file."
+      }
+    ]
+  },
+  "scale": {
+    "totalEnrollment": {
+      "value": "About 20 students in Fall 2024–2025, growing to an expected ~75 students for Fall 2026",
+      "source": "https://saportareport.com/gammon-theological-seminarys-new-chapter-prepares-leaders-for-todays-world/columnists/adrianne-murchison/",
+      "asOf": "2026-07-31",
+      "note": "Gammon relaunched as an independent institution in 2024 with about seven students; UMNews (umnews.org, reporting on the relaunch) put fall enrollment at about 20 the following year, and SaportaReport's July 31, 2026 report — the most recent figure found — puts expected Fall 2026 enrollment at about 75, with a stated five-year goal of 200–250. Gammon is not yet a full ATS member (Associate Member only, self-study underway as of this harvest), so it has no ATS Fall 2025 Standard Data Form to cite the way this project's other UMC-school profiles do — this figure comes from local press covering the school's own public statements, not from an ATS filing."
+    }
+  },
+  "cost": {
+    "tuitionPerCredit": {
+      "value": "$695 per credit hour (as stated in the Admissions page's \"Course Details\" section) — the same page's own FAQ states $690 per credit hour two sections later",
+      "source": "https://www.thegammonseminary.org/admissions",
+      "asOf": "2026-08-07",
+      "note": "Gammon's Admissions page disagrees with itself by $5 per credit hour between its \"Course Details\" callout and its FAQ answer to \"What are Gammon Tuition & Fees?\" — both fetched from the same page on the same date. Reported as both rather than silently picking one; confirm the current rate with the Financial Aid office before budgeting. At 72 credit hours, the gap between the two figures is $360 total."
+    },
+    "typicalAward": {
+      "value": "Gammon Presidential Excellence Award: full first-year tuition (fall, spring, and summer semesters), contingent on maintaining a 3.0 cumulative GPA through the first year",
+      "source": "https://www.thegammonseminary.org/financial-aid",
+      "asOf": "2026-08-07",
+      "note": "Gammon's own Office of Financial Aid page states the institution does not participate in federal financial aid programs (no FAFSA-based aid) and relies entirely on its own institutional aid, awarded through Populi."
+    },
+    "namedScholarships": [
+      {
+        "name": "Gammon Presidential Excellence Award",
+        "blurb": "A full-tuition scholarship covering a new student's first year (fall, spring, and summer), contingent on maintaining a 3.0 cumulative GPA.",
+        "url": "https://www.thegammonseminary.org/financial-aid"
+      },
+      {
+        "name": "Gammon Tuition Reduction Award",
+        "blurb": "Directly lowers tuition cost; Gammon states eligibility and award amounts vary and directs students to the financial aid office for specifics.",
+        "url": "https://www.thegammonseminary.org/financial-aid"
+      },
+      {
+        "name": "Gammon Academic Gift Award",
+        "blurb": "A direct monetary gift toward tuition and fees, based on academic excellence, financial need, or specific accomplishment.",
+        "url": "https://www.thegammonseminary.org/financial-aid"
+      }
+    ],
+    "honestNote": "Gammon does not participate in federal financial aid — no FAFSA-based grants or loans — so every dollar of aid here is institutional, church-based, or third-party (its Financial Aid Resource Guide points students toward denominational scholarships, GBHEM support for UMC candidates specifically, and the Fund for Theological Education). The seminary also announced a $975,000 grant from GBHEM around the time of its June 2026 accreditation (SaportaReport, 2026-07-31) — a real and recent infusion, but institutional funding for the school, not a named scholarship a candidate applies for directly; ask the Financial Aid office whether or how it affects individual awards."
+  },
+  "degrees": [
+    {
+      "name": "Master of Divinity",
+      "abbr": "MDiv",
+      "credits": 72,
+      "typicalYears": "3 years full-time at 12 credit hours per semester",
+      "modalities": [
+        "hybrid",
+        "online"
+      ],
+      "blurb": "72 credit hours across four broad areas Gammon names on its Academics page — biblical studies and languages; philosophy, theology, ethics, and history; persons, society, and culture; and the Church and its mission — with three named specializations (Leadership & Ethics, Womanist Theological Perspective, Social Justice & Advocacy). United Methodist ordination candidates must complete 24 of the 72 credit hours in Religious Heritage courses \"outlined in The Book of Discipline.\" Delivered hybrid and online, with an in-person MDiv Intensive each semester on Gammon's Atlanta campus.",
+      "url": "https://www.thegammonseminary.org/academics"
+    }
+  ],
+  "concentrations": [
+    "Leadership & Ethics",
+    "Womanist Theological Perspective",
+    "Social Justice & Advocacy"
+  ],
+  "partnerships": [
+    {
+      "kind": "consortium",
+      "partner": "Interdenominational Theological Center (ITC)",
+      "blurb": "Historical, not current, structure — worth naming precisely because most public descriptions of Gammon (including GBHEM's own profile page) haven't caught up. Gammon was the United Methodist member of ITC's consortium of historically Black seminaries and had its M.Div. accredited through ITC from 1958 until ITC declared financial exigency in April 2023. Gammon relaunched as an independent institution in 2024 and secured its own SACSCOC accreditation and ATS Associate Membership in June 2026. Gammon's own site makes no current claim of cross-registration, shared faculty, or shared library access with ITC post-independence; none is asserted here either, for the same reason no coverage table is shown — the evidence for the current, day-to-day relationship (if any remains) is not published.",
+      "url": "https://www.umnews.org/en/news/gammon-builds-on-legacy-as-it-looks-forward"
+    }
+  ],
+  "facultyNote": "All nine of Gammon's current full-time faculty, from the school's own Faculty page — a small roster built up almost entirely since the 2024 relaunch (only Renita Weems' 2024 hire as Chief Academic Officer is independently dated in press coverage; the rest are undated on Gammon's site). Gammon publishes no individual per-professor bio pages; every entry above links back to the single shared faculty page. Degrees are drawn from each person's own bio where Gammon's page states one (Weems, Ward); everywhere else, from that person's own CV, personal site, or institutional bio elsewhere, cited per-person in the harvest script's source comments — never from background knowledge. Two faculty (Danielle Buhuro, Mark Grafenreed) are currently pursuing doctorates not yet conferred; those are named in their own bios but deliberately left out of the `degrees` field here, since a Ph.D. candidacy is not a Ph.D.",
+  "contact": {
+    "admissionsUrl": "https://www.thegammonseminary.org/admissions",
+    "email": "communications@thegammonseminary.org",
+    "phone": "(404) 581-0300"
+  }
+}

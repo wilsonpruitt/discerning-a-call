@@ -1,0 +1,205 @@
+{
+  "slug": "iliff",
+  "name": "Iliff School of Theology",
+  "city": "Denver",
+  "state": "CO",
+  "url": "https://www.iliff.edu/",
+  "lastVerified": "2026-08-07",
+  "ordination": {
+    "senateStanding": {
+      "value": "approved-umc",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-08-06",
+      "note": "One of the 13 United Methodist schools of theology, and the only one of the 13 not embedded in or hosted by a university."
+    },
+    "onlineCredit": {
+      "value": "fully-counts",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-08-06",
+      "note": "GBHEM: all thirteen United Methodist schools of theology are approved to provide a fully online M.Div. that meets UM ordination requirements. Iliff itself offers full remote enrollment for the MDiv alongside on-campus study."
+    },
+    "coverageSource": "https://www.iliff.edu/united-methodist-church/",
+    "coverageAsOf": "2026-08-07",
+    "coverage": [
+      {
+        "area": "old-testament",
+        "status": "required-umc-track",
+        "note": "Iliff's United Methodist Church page states, in binding language, that “The United Methodist Church requires that students complete the Basic Graduate Theological Studies and the five United Methodist courses” — a course list Iliff developed “in consultation with the UMC General Board of Higher Education and Ministry (GBHEM).” That list names “One breadth course in Hebrew Bible” under Sacred Texts/Contextual Analysis. Iliff's own current, non-denominational MDiv marketing pages (Masters Degrees & Concentrations, last updated 2025-08-12) publish no course-level core requirements at all — the obligation to take a specific Hebrew Bible course exists for a UMC ordination candidate only because of this page, not because of Iliff's general degree structure. Confirmed still offered: Intro to the Hebrew Bible (ILF 2003) appears in Iliff's current 2025–2026 course catalog."
+      },
+      {
+        "area": "new-testament",
+        "status": "required-umc-track",
+        "note": "Same binding sentence as above, naming “One breadth course and one depth course in New Testament.” Iliff's current 2025–2026 catalog shows New Testament restructured since the UMC page was last updated (2022) into a two-part sequence — New Testament Narratives: Gospels & Acts (ILF 2007) and New Testament Narratives: Letters & Writings (ILF 2008) — which if anything gives a UMC candidate more assigned New Testament coursework than the older breadth-plus-depth framing implied, not less."
+      },
+      {
+        "area": "theology",
+        "status": "required-umc-track",
+        "note": "Bound on United Methodist students by the same binding sentence as old-testament above, naming “One breadth course and one depth course [in Constructive Theology]. A Christology course is highly recommended.” Introduction to Christian Theology (ILF 2510) is confirmed current in the 2025–2026 catalog; no separate depth-level Christology course could be confirmed by name from public pages alone — confirm the current depth-course option with your Iliff advisor."
+      },
+      {
+        "area": "church-history",
+        "status": "required-umc-track",
+        "note": "Bound on United Methodist students by the same binding sentence as old-testament above, naming “One breadth course [in Development and Expressions of Religious Traditions].” Introduction to the History of Christianity (ILF 2500) is listed as current in the 2025–2026 catalog, but its own course description in Iliff's catalog PDF is, verifiably, about preaching rather than church history — a title/description mismatch inside Iliff's own source document, not a parsing error on this site's part (checked with and without layout-preserving extraction). The course's existence and credit value are confirmed; its actual current content is not, from this document alone. Ask the registrar to confirm before planning around it."
+      },
+      {
+        "area": "preaching",
+        "status": "required-umc-track",
+        "note": "Bound on United Methodist students by the same binding sentence as old-testament above, which names “one course on preaching” under Theology and Religious Practices. No course with “preaching” in its title could be confirmed from Iliff's current public pages, but a preaching-focused course is demonstrably in the current catalog: the description that is misattributed to ILF 2500 (see church-history row) is explicitly about “preaching as an art of spiritual leadership” and helping students “become great spiritual preachers,” and Iliff's MDiv program page separately lists “Preacher as Self: Cultivating an Authentic Voice” as an example MDiv class. The obligation and the coursework both plainly exist; the exact current course code does not resolve cleanly from public documents — confirm with your advisor."
+      },
+      {
+        "area": "evangelism",
+        "status": "required-umc-track",
+        "note": "The UMC page names “Evangelism in Contemporary Contexts” as one of the five required United Methodist courses, with the binding “requires that students complete” language covering all five. Confirmed current and unchanged in the 2025–2026 catalog: Evangelism in Contemporary Contexts (ILF 2128)."
+      },
+      {
+        "area": "mission-of-the-church",
+        "status": "required-umc-track",
+        "note": "Named as “UM Mission of Church in the World,” one of the same five required United Methodist courses. Confirmed current in the 2025–2026 catalog as United Methodist Mission of the Church in the World (ILF 2127)."
+      },
+      {
+        "area": "um-studies",
+        "status": "required-umc-track",
+        "note": "The UMC page (2022) names three separate courses — United Methodist History, United Methodist Doctrine, United Methodist Discipline and Polity for Leadership — among the five required United Methodist courses. Iliff's current 2025–2026 catalog shows this consolidated into a two-course sequence, United Methodist History, Doctrine, Polity 1 and 2 (ILF 2024, prerequisite; ILF 2025), three credits each for six credits total — landing exactly on ¶324.4's six-semester-hour UM-studies floor, with no margin. A UMC candidate at Iliff needs both parts, in order, and should not treat the six hours as having any slack for a scheduling conflict."
+      },
+      {
+        "area": "worship-liturgy",
+        "status": "required-umc-track",
+        "note": "The UMC page names “one breadth course explicitly on Christian Worship” among the Basic Graduate Theological Studies requirements, under the same binding “requires” language. No course with “worship” in its title could be confirmed in Iliff's current, publicly available 2025–2026 catalog excerpt — unlike every other row on this table, this one could not be cross-checked against a live course code. The obligation itself is not in doubt (GBHEM co-authored this mapping and it has not been withdrawn), but the specific current course has to be confirmed with an Iliff advisor before you register — the source page predates Iliff's Fall 2025 curriculum redesign by three years."
+      }
+    ],
+    "gapSummary": "All nine ¶324.4 areas bind a United Methodist candidate at Iliff — there is no area left uncovered. But none of the nine sit in Iliff's own denomination-neutral MDiv core: Iliff's current marketing pages describe the 72-credit MDiv as concentration-based and publish no course-level requirements at all, so the obligation for every one of the nine exists only because of Iliff's own United Methodist Church page, which states it in binding language and was built “in consultation with” GBHEM. That page was last substantively updated in 2022, three years before Iliff's Fall 2025 curriculum redesign (the 72-credit, concentration-based MDiv now in effect). Every course this page names for history, worship, and UM studies was checked by hand against Iliff's current 2025–2026 catalog: seven of the nine areas' courses were confirmed current by name and code (two with course numbers changed since 2022, still covering the same ground); the worship course could not be confirmed by name at all, and the history course's own catalog description appears to describe preaching rather than history. None of this changes the underlying ¶324.4 obligation — it changes how much a candidate should treat the school's own summary page as the last word, versus a lead to confirm.",
+    "gapRemedies": [
+      {
+        "blurb": "Before registering, ask your Iliff advisor for the current course numbers behind the United Methodist Church page's Basic Graduate Theological Studies list — confirmed accurate for evangelism, mission, UM studies, Hebrew Bible, New Testament, and theology as of this catalog year; unconfirmed for the specific worship and church-history course titles.",
+        "url": "https://www.iliff.edu/united-methodist-church/"
+      },
+      {
+        "blurb": "United Methodist History, Doctrine, Polity 1 and 2 (ILF 2024, then ILF 2025) together satisfy ¶324.4's UM-studies floor exactly at six credits — plan for both, in sequence, with no scheduling margin to spare.",
+        "url": "https://www.iliff.edu/programs-mdiv/"
+      },
+      {
+        "blurb": "Confirm your specific course selections with your conference's Board of Ordained Ministry registrar as well as your Iliff advisor — GBHEM co-designed this mapping, but the page stating it predates Iliff's most recent curriculum redesign, and a board's own expectations can move independently of either.",
+        "url": "https://www.gbhem.org/education/schools-of-theology/"
+      }
+    ]
+  },
+  "scale": {
+    "totalEnrollment": {
+      "value": "154 students (104.80 FTE)",
+      "source": "https://www.ats.edu/member-schools/iliff-school-of-theology",
+      "asOf": "2025-11-01",
+      "note": "ATS's Fall 2025 report, all degree programs combined, not MDiv only. ATS also reports “Number of Full-Time Faculty (FTE): 14 (14.00)” for the same period — this profile counts 16 full-time faculty from Iliff's own current directory (see facultyNote); the two figures do not reconcile from public documents alone, the way Saint Paul's ATS-reported faculty count didn't match its own directory either."
+    }
+  },
+  "cost": {
+    "tuitionPerCredit": {
+      "value": "$918/credit (master's degrees, including the MDiv); $850/credit (Doctor of Ministry)",
+      "source": "https://www.iliff.edu/costsandfinancialaid/",
+      "asOf": "2026-06-01",
+      "note": "2025–2026 rate. Full-time master's tuition works out to $16,524/year (9 credits/semester, $8,262/semester); a 72-credit MDiv taken entirely at the per-credit rate runs roughly $66,096 in gross tuition before aid."
+    },
+    "fees": [
+      {
+        "label": "Mandatory student fees (tech, health, activity)",
+        "amount": "$491/year, master's and doctoral alike"
+      }
+    ],
+    "pctReceivingAid": {
+      "value": "More than 90% of applicants receive an internal, partial scholarship",
+      "source": "https://www.iliff.edu/costsandfinancialaid/",
+      "asOf": "2026-06-01",
+      "note": "Iliff's own figure. Every applicant to a degree program is automatically considered — no separate scholarship application."
+    },
+    "typicalAward": {
+      "value": "The Annual Iliff Scholarship: $5,000 up to nearly full tuition, for new students admissible to an Iliff degree program who enroll full-time",
+      "source": "https://www.iliff.edu/scholarships/",
+      "asOf": "2026-04-07",
+      "note": "A wide range, not a fixed percentage — Iliff does not publish the criteria that place a given student's award within that range. May be stacked with other Iliff, donor, grant, and external scholarships."
+    },
+    "namedScholarships": [
+      {
+        "name": "AUMTS Excellence in Clergy Leadership Scholarship",
+        "blurb": "A $2,500 scholarship funded by GBHEM, available at any of the 13 United Methodist seminaries (not Iliff-exclusive), for United Methodist seminarians who are pursuing or certified candidates for ordination as elder or deacon, enrolled full-time in an MDiv program, and can demonstrate financial need. Includes financial-literacy programming alongside the award. Direct evidence of a funding route tied specifically to UMC candidacy status, even though the amount is modest against Iliff's per-credit tuition.",
+        "url": "https://www.iliff.edu/scholarships/"
+      }
+    ],
+    "honestNote": "Iliff's 90%-of-applicants scholarship rate is real and automatic, but the award itself is a range ($5,000 to near-full-tuition) with no published formula for where a given applicant lands — unlike Wesley's flat Ministerial Education Fund subsidy or Saint Paul's universal 50% award, Iliff gives no floor a candidate can count on before applying. Ask the Office of Financial Aid directly what factors move an applicant toward the top versus the bottom of that range, and whether UMC candidacy status is one of them; the public pages don't say."
+  },
+  "degrees": [
+    {
+      "name": "Master of Divinity",
+      "abbr": "MDiv",
+      "credits": 72,
+      "typicalYears": "3 years full-time (8 semesters at 9 credits/semester); flexible pace up to 10 years",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "Redesigned for Fall 2025: a streamlined, concentration-based 72-credit degree (down from the prior 120-quarter-credit structure), built around four concentrations — Embodied Spirituality, Social Justice and Ethics, Religion, Trauma, and Healing, and Professional Ministries in Context (MDiv only). Iliff's own marketing pages describe shared learning outcomes and concentration outcomes rather than a published course-by-course core; see this profile's ordination/coverage notes for how that structure interacts with ¶324.4.",
+      "url": "https://www.iliff.edu/masters-degrees-and-concentrations/"
+    },
+    {
+      "name": "Master of Arts",
+      "abbr": "MA",
+      "credits": 36,
+      "typicalYears": "2 years full-time (4 semesters at 9 credits/semester); flexible pace, finish in as little as 3 semesters or take up to 7 years",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "Not an MDiv — a broad, flexible degree in religious and theological studies for academic research, non-profit work, or further study, sharing the same four redesigned concentrations as the MDiv.",
+      "url": "https://www.iliff.edu/masters-degrees-and-concentrations/"
+    },
+    {
+      "name": "Doctor of Ministry",
+      "abbr": "DMin",
+      "modalities": [
+        "hybrid"
+      ],
+      "blurb": "Combines online learning with on-campus intensives for experienced ministry professionals, culminating in a project applying new insight to a real-world context.",
+      "url": "https://www.iliff.edu/doctorates/"
+    },
+    {
+      "name": "Joint Doctoral Program",
+      "abbr": "JDP (PhD)",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "An interdisciplinary PhD offered in partnership with the University of Denver's Department for the Study of Religion — an academic research degree, not an ordination-track one.",
+      "url": "https://www.iliff.edu/doctorates/"
+    }
+  ],
+  "concentrations": [
+    "Embodied Spirituality",
+    "Social Justice and Ethics",
+    "Religion, Trauma, and Healing",
+    "Professional Ministries in Context (MDiv only)"
+  ],
+  "partnerships": [
+    {
+      "kind": "joint-degree",
+      "partner": "University of Denver",
+      "blurb": "The Joint Doctoral Program (JDP) is an interdisciplinary PhD run jointly with DU's Department for the Study of Religion — the closest thing Iliff has to a host-university relationship, though Iliff itself remains an independent institution, not embedded in DU the way Perkins is embedded in SMU or Candler in Emory.",
+      "url": "https://www.du.edu/duiliffjoint/"
+    },
+    {
+      "kind": "extension",
+      "partner": "United Methodist Church Course of Study School",
+      "blurb": "Iliff hosts a GBHEM-administered Course of Study School for licensed local pastors, separate from its degree programs.",
+      "url": "https://www.iliff.edu/united-methodist-church/"
+    }
+  ],
+  "courseOfStudy": {
+    "blurb": "Iliff hosts a Course of Study School under GBHEM for licensed local pastors pursuing the educational requirements toward provisional membership.",
+    "url": "https://www.iliff.edu/united-methodist-church/"
+  },
+  "facultyNote": "Limited to the 16 people on Iliff's “Core Faculty by Teaching Areas” listing on /all-faculty/ as of this capture. That figure does not match ATS's Fall 2025 “Number of Full-Time Faculty (FTE): 14 (14.00)” — recounted by hand rather than trimmed to fit; the gap could not be reconciled from public documents (the same kind of ATS/school's-own-directory mismatch found at Saint Paul). Iliff separately lists Professor Emeritus and Tinker Visiting Professorship faculty, both excluded here per this project's core-full-time-only scope. Two of the 16 (George Schmidt, Candice NunnTelfort) are named with “(Coming Soon)” in place of an individual profile page as of this capture — included as current full-time hires with the faculty directory itself as their profileUrl, and no degrees or publications, since none are published for them yet.",
+  "contact": {
+    "admissionsUrl": "https://www.iliff.edu/apply/",
+    "visitUrl": "https://www.iliff.edu/schedule-a-visit/",
+    "email": "admissions@iliff.edu",
+    "phone": "800-678-3360"
+  }
+}

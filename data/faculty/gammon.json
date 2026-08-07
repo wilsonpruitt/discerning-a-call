@@ -1,0 +1,169 @@
+[
+  {
+    "id": "gammon-weems",
+    "seminarySlug": "gammon",
+    "name": "Renita J. Weems",
+    "title": "Professor of Biblical Studies",
+    "areas": [
+      "hebrew-bible",
+      "womanist-feminist-theology"
+    ],
+    "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "otherRoles": [
+      "Chief Academic Officer & Dean"
+    ],
+    "degrees": [
+      "Ph.D. in Old Testament Studies, Princeton Theological Seminary"
+    ],
+    "publications": [
+      {
+        "title": "What Matters Most: Ten Lessons in Living Passionately from the Song of Solomon (Walk Worthy Press, 2004)",
+        "kind": "book",
+        "year": 2004
+      },
+      {
+        "title": "Battered Love: Marriage, Sex, and Violence in the Hebrew Prophets (Fortress Press, 1995)",
+        "kind": "book",
+        "year": 1995
+      },
+      {
+        "title": "Just a Sister Away: A Womanist Vision of Women's Relationships in the Bible (LuraMedia, 1988)",
+        "kind": "book",
+        "year": 1988
+      }
+    ],
+    "publicationsSource": "https://en.wikipedia.org/wiki/Renita_J._Weems",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "gammon-lewis",
+    "seminarySlug": "gammon",
+    "name": "Candace M. Lewis",
+    "title": "Professor in Wesleyan Studies",
+    "areas": [
+      "wesleyan-studies",
+      "congregational-leadership"
+    ],
+    "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "otherRoles": [
+      "President & Chief Executive Officer"
+    ],
+    "degrees": [
+      "D.Min. in Church Leadership Excellence, Wesley Theological Seminary (2014)",
+      "M.Div., Gammon Theological Seminary – ITC (1996)",
+      "B.A., University of Florida"
+    ]
+  },
+  {
+    "id": "gammon-buhuro",
+    "seminarySlug": "gammon",
+    "name": "Danielle J. Buhuro",
+    "title": "Assistant Professor of Pastoral Theology",
+    "areas": [
+      "pastoral-care-counseling",
+      "chaplaincy"
+    ],
+    "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "degrees": [
+      "D.Min., Chicago Theological Seminary",
+      "M.Div., Chicago Theological Seminary"
+    ]
+  },
+  {
+    "id": "gammon-rey",
+    "seminarySlug": "gammon",
+    "name": "Monica Isabel Rey",
+    "title": "Assistant Professor of Biblical Studies",
+    "areas": [
+      "hebrew-bible",
+      "latino-hispanic-ministry"
+    ],
+    "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "degrees": [
+      "Ph.D. in Hebrew Bible, Boston University (2023)"
+    ]
+  },
+  {
+    "id": "gammon-hunt",
+    "seminarySlug": "gammon",
+    "name": "C. Anthony Hunt",
+    "title": "Professor of Practice, Black Church & Wesleyan Studies",
+    "areas": [
+      "black-church-studies",
+      "wesleyan-studies"
+    ],
+    "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "otherRoles": [
+      "Ordained Elder, The United Methodist Church"
+    ],
+    "degrees": [
+      "Ph.D. in Theological Studies (Philosophical Theology and Ethics), Graduate Theological Foundation, in affiliation with the University of Oxford"
+    ]
+  },
+  {
+    "id": "gammon-laughinghouse",
+    "seminarySlug": "gammon",
+    "name": "Candace M. Laughinghouse",
+    "title": "Assistant Professor of Theology & Ethics",
+    "areas": [
+      "ethics-public-theology",
+      "womanist-feminist-theology"
+    ],
+    "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "degrees": [
+      "Ph.D. in Theological Ethics, Chicago Theological Seminary (2023)",
+      "Th.M., Duke Divinity School",
+      "M.Div., Candler School of Theology, Emory University (Black Church Studies certificate)"
+    ]
+  },
+  {
+    "id": "gammon-ward",
+    "seminarySlug": "gammon",
+    "name": "Stephen Ward",
+    "title": "Lecturer in Biblical Studies and Academic Support",
+    "areas": [
+      "hebrew-bible",
+      "black-church-studies"
+    ],
+    "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "degrees": [
+      "Ph.D. in Near Eastern Languages and Cultures, UCLA"
+    ]
+  },
+  {
+    "id": "gammon-grafenreed",
+    "seminarySlug": "gammon",
+    "name": "Mark Grafenreed",
+    "title": "Assistant Professor of Religious Heritage & Wesleyan/United Methodist Studies",
+    "areas": [
+      "wesleyan-studies",
+      "church-history"
+    ],
+    "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "otherRoles": [
+      "Coordinator of Wesleyan Studies and UMC Ministerial Formation",
+      "Ordained Elder in Full Connection, Texas Annual Conference",
+      "Licensed Texas attorney"
+    ],
+    "degrees": [
+      "M.Div., summa cum laude, Perkins School of Theology, Southern Methodist University (2018)",
+      "J.D., magna cum laude, Thurgood Marshall School of Law, Texas Southern University",
+      "B.A. in History, Southern Methodist University (1998)"
+    ]
+  },
+  {
+    "id": "gammon-young-scaggs",
+    "seminarySlug": "gammon",
+    "name": "Sakena Young-Scaggs",
+    "title": "Associate Professor of Contextual Theology and Director of Contextual Education",
+    "areas": [
+      "practical-theology",
+      "womanist-feminist-theology",
+      "black-church-studies"
+    ],
+    "profileUrl": "https://www.thegammonseminary.org/faculty",
+    "degrees": [
+      "Ph.D. in Women and Gender Studies, Arizona State University (2019)"
+    ]
+  }
+]

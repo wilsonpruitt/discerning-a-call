@@ -1,0 +1,219 @@
+{
+  "slug": "claremont",
+  "name": "Claremont School of Theology",
+  "city": "Los Angeles",
+  "state": "CA",
+  "url": "https://cst.edu/",
+  "lastVerified": "2026-08-07",
+  "ordination": {
+    "senateStanding": {
+      "value": "approved-umc",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "One of the 13 United Methodist schools of theology. Keeps the Claremont name, but the campus itself relocated: after 66 years in Claremont, CA, CST moved to 10497 Wilshire Blvd, Los Angeles, CA 90024 (shared with Westwood United Methodist Church), announced March 2023 and operating there since Spring 2024."
+    },
+    "onlineCredit": {
+      "value": "fully-counts",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "GBHEM: all thirteen United Methodist schools of theology are approved to provide a fully online M.Div. that meets UM ordination requirements. Claremont's own MDiv page independently confirms a Fully Remote modality is 'Available 100% online (not including internship)' for both MDiv tracks."
+    },
+    "coverageSource": "https://cst.edu/wp-content/uploads/2026/02/2025-2026-Catalog-Finalized-2.pdf",
+    "coverageAsOf": "2026-08-07",
+    "coverage": [
+      {
+        "area": "old-testament",
+        "status": "required",
+        "note": "THB3007 (The Hebrew Bible in Context) is one of five Required Theological Disciplines courses in the Ministerial Leadership track, for every student. (Non-Christian students substitute an equivalent Sacred Texts course in their own tradition — the requirement, not the specific course, is universal.)"
+      },
+      {
+        "area": "new-testament",
+        "status": "required",
+        "note": "TNT3003 (The New Testament in Context) is one of five Required Theological Disciplines courses in the Ministerial Leadership track, for every student, with the same non-Christian-student substitution option as Old Testament above."
+      },
+      {
+        "area": "theology",
+        "status": "required",
+        "note": "TTH3036 (Constructive Theology) is one of five Required Theological Disciplines courses in the Ministerial Leadership track, for every student, with the same substitution option."
+      },
+      {
+        "area": "church-history",
+        "status": "required",
+        "note": "THC3007 (History of World Christianities) is one of five Required Theological Disciplines courses in the Ministerial Leadership track, for every student, with the same substitution option."
+      },
+      {
+        "area": "worship-liturgy",
+        "status": "required",
+        "note": "TWP3015 (Introduction to Christian Worship and the Arts) is one of five Required Practical Theology courses in the Ministerial Leadership track, for every student. This applies to the Ministerial Leadership track only — Claremont's other MDiv track, Interfaith Chaplaincy, does not require a worship course at all; see the Degree Programs section below."
+      },
+      {
+        "area": "preaching",
+        "status": "required",
+        "note": "TWP3013 (Preaching in the Worship Context) is one of five Required Practical Theology courses in the Ministerial Leadership track, for every student. As with worship above, this is Ministerial Leadership-specific: Interfaith Chaplaincy does not require a preaching course."
+      },
+      {
+        "area": "evangelism",
+        "status": "required-umc-track",
+        "note": "Claremont's catalog states plainly, in its Ministerial Leadership section: \"United Methodist students seeking ordination have five required denominational studies courses: United Methodist History, Doctrine, and Polity (2 credits each), Evangelism, and Mission (3 credits each), 12 credits total.\" TDS3039 (Christian Evangelism) is named as the course, explicitly \"designed to meet denominational requirements for an evangelism course, including that of the United Methodist Church.\" These five courses are drawn from the MDiv's 21-credit \"Free Electives and Denominational Studies\" line — required of UMC students specifically, the same arrangement as Duke's PARISH 777/778."
+      },
+      {
+        "area": "mission-of-the-church",
+        "status": "required-umc-track",
+        "note": "Bound by the same \"five required denominational studies courses\" sentence as evangelism above. TDS3045 (Christian Mission) is named as the course, \"designed to meet various denomination requirements for mission, including that of the United Methodist Church.\""
+      },
+      {
+        "area": "um-studies",
+        "status": "required-umc-track",
+        "note": "The same sentence names all three: TDS3001 (United Methodist History), TDS3000 (United Methodist Doctrine), and TDS3002 (United Methodist Polity), 2 credits each — 6 credits total, landing exactly on ¶324.4's 6-hour UM-studies floor. Each course description states it is \"designed to meet the United Methodist Church's ordination requirements\" for that specific subject."
+      }
+    ]
+  },
+  "scale": {
+    "totalEnrollment": {
+      "value": "252 students (185.80 FTE)",
+      "source": "https://www.ats.edu/member-schools/claremont-school-of-theology",
+      "asOf": "2025-11-01",
+      "note": "ATS's Fall 2025 report for the whole school, not MDiv only. ATS also reports 19 full-time faculty (22.90 FTE) for the same period. Separately: in February 2026, ATS's Board of Commissioners placed Claremont on 24-month accreditation probation (to February 2028) for not meeting Standard 10.3 (Financial Resources) — a matter of ATS accreditation, not GBHEM Senate standing (the two are different bodies answering different questions; Claremont's Senate approval is untouched by this). Worth asking the admissions office about directly."
+    }
+  },
+  "cost": {
+    "tuitionPerCredit": {
+      "value": "$1,105 per credit (MDiv, MA, MTS)",
+      "source": "https://cst.edu/wp-content/uploads/2026/02/2025-2026-Catalog-Finalized-2.pdf",
+      "asOf": "2025-08-01",
+      "note": "2025–2026 rate. 72 credits × this rate is roughly $79,560 in gross MDiv tuition before aid. The catalog's own sample nine-month budget lists $19,890 in tuition for 18 credits (one year at half the degree's pace) plus $1,200 books, $19,206 room and board, $4,400 transportation, and $6,580 miscellaneous — $51,276 total estimated annual cost of attendance."
+    },
+    "namedScholarships": [
+      {
+        "name": "United Methodist Grant",
+        "blurb": "Awarded to United Methodist students upon entering CST. Renewal is conditioned on the student remaining a \"certified candidate\" in the UMC ordination process — proof must be submitted to the Financial Aid Office to continue receiving it each year. The catalog names no dollar amount or percentage.",
+        "url": "https://cst.edu/admissions/financial-aid-scholarships/"
+      }
+    ],
+    "honestNote": "Unlike Duke's or Saint Paul's catalogs, Claremont's does not publish a dollar amount or percentage for any of its merit scholarships (Presidential, Dean's, Korean Leadership, Claremont Scholarship) or its need-based Claremont Grant — only that students are automatically considered upon admission. The one figure specific to United Methodist candidates, the United Methodist Grant, is described the same way: awarded, tied to certified-candidate status, no amount stated. Ask the Financial Aid Office for a number before comparing this school's aid against one that publishes a percentage."
+  },
+  "degrees": [
+    {
+      "name": "Master of Divinity — Ministerial Leadership track",
+      "abbr": "MDiv",
+      "credits": 72,
+      "typicalYears": "3 years full-time; up to 6 years allowed",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "Required Interreligious Leadership course, five Required Practical Theology courses (incl. worship and preaching), five Required Theological Disciplines courses (Hebrew Bible, New Testament, church history, theology), a four-course Formation sequence including two semesters of Field Education, two Summative courses, and seven courses (21 credits) of Free Electives and Denominational Studies — the pool United Methodist students draw their five required UM/evangelism/mission courses from. Offered on-campus in West Los Angeles or fully remote.",
+      "url": "https://cst.edu/degree-programs/mdiv-future-church-modern-ministry-professional-coaching/ministerial-leadership-christian-wisdom-ethics-practice-future-leader/"
+    },
+    {
+      "name": "Master of Divinity — Interfaith Chaplaincy track",
+      "abbr": "MDiv",
+      "credits": 72,
+      "typicalYears": "3 years full-time; up to 6 years allowed",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "The same four Theological Disciplines courses as Ministerial Leadership (Hebrew Bible, New Testament, church history, theology), plus Interreligious Competencies, a Formation sequence built around Clinical Pastoral Education, and Spiritual Care coursework aimed at Association of Professional Chaplains certification.",
+      "flag": "Does not require a dedicated worship or preaching course. United Methodist students preparing for ordination still must take the same 12 credits of UM/evangelism/mission coursework, but here it has to fit inside a smaller 9–12 credit Free Electives line — worth confirming with a Board of Ordained Ministry registrar before choosing this track over Ministerial Leadership for a parish-ordination path.",
+      "url": "https://cst.edu/degree-programs/mdiv-future-church-modern-ministry-professional-coaching/interfaith-chaplaincy-interreligious-multifaith-pastoral-care/"
+    },
+    {
+      "name": "Concurrent/Dual Master of Divinity/Master of Theological Studies",
+      "abbr": "MDiv/MTS",
+      "credits": 96,
+      "typicalYears": "up to 7 years allowed",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "Two separate admissions processes leading to two diplomas, with shared credits between the MDiv and an MA/MTS program — built for students planning to pursue a PhD after ordination-track study.",
+      "url": "https://cst.edu/wp-content/uploads/2026/02/2025-2026-Catalog-Finalized-2.pdf"
+    },
+    {
+      "name": "Master of Theological Studies",
+      "abbr": "MTS",
+      "credits": 48,
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "Not an ordination degree — for further graduate study, specialized professional service, or vocational enrichment, in a Theological Disciplines or Interdisciplinary track.",
+      "url": "https://cst.edu/graduate-degree-programs-online-hybrid-remote-learning-parttime/"
+    },
+    {
+      "name": "Master of Arts in Ministry, Leadership, and Service",
+      "abbr": "MA",
+      "credits": 37,
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "Built for those seeking ordination as a Deacon in the United Methodist Church, ordination in a denomination that does not require the MDiv, or lay/non-professional ministry.",
+      "url": "https://cst.edu/graduate-degree-programs-online-hybrid-remote-learning-parttime/"
+    },
+    {
+      "name": "Doctor of Ministry",
+      "abbr": "DMin",
+      "credits": 30,
+      "modalities": [
+        "hybrid"
+      ],
+      "blurb": "Four avenues: a Mentoring DMin, a Korean-language track in conflict/healing/transformation, a Spiritual Renewal/Contemplative Practice/Strategic Leadership track, and an Innovation and Creativity in Ministry track.",
+      "url": "https://cst.edu/wp-content/uploads/2026/02/2025-2026-Catalog-Finalized-2.pdf"
+    },
+    {
+      "name": "Doctor of Philosophy",
+      "abbr": "PhD",
+      "credits": 48,
+      "modalities": [
+        "residential",
+        "hybrid"
+      ],
+      "blurb": "Two programs — PhD in Practical Theology (Education and Formation; Spiritual Care and Counseling) and PhD in Religion (seven concentrations, including Hebrew Bible and Jewish Studies and New Testament and Christian Origins). At least half the coursework must be taken in-person at the CST campus, except where a degree's own requirements note otherwise.",
+      "url": "https://cst.edu/wp-content/uploads/2026/02/2025-2026-Catalog-Finalized-2.pdf"
+    }
+  ],
+  "concentrations": [
+    "Interfaith Chaplaincy (MDiv track)",
+    "Ministerial Leadership (MDiv track)",
+    "Comparative Theology and Philosophy (PhD)",
+    "Contextual Theologies / Global PhD (PhD)",
+    "Hebrew Bible and Jewish Studies (PhD)",
+    "New Testament and Christian Origins (PhD)",
+    "Philosophy of Religion and Theology (PhD)",
+    "Process Studies (PhD)",
+    "Religion, Ethics, and Society (PhD)",
+    "Education and Formation (PhD in Practical Theology)",
+    "Spiritual Care and Counseling (PhD in Practical Theology)"
+  ],
+  "partnerships": [
+    {
+      "kind": "host-university",
+      "partner": "Westwood United Methodist Church",
+      "blurb": "Claremont's Los Angeles campus shares a building with Westwood UMC at 10497 Wilshire Blvd — a United Methodist congregation, not a university, hosting the school's physical location since its 2024 move, the same host-congregation arrangement Saint Paul School of Theology has with Church of the Resurrection in Kansas.",
+      "url": "https://cst.edu/directions/"
+    },
+    {
+      "kind": "extension",
+      "partner": "Western Jurisdiction Course of Study and Licensing School",
+      "blurb": "Claremont is \"affiliated with\" (its own phrase) the Western Jurisdiction's GBHEM Course of Study and Licensing School, rather than solely operating it — the 20-course basic Course of Study for local pastors, and an 80-hour Licensing School covering worship, preaching, administration, spiritual formation, mission, evangelism, pastoral care, educational ministries, and United Methodist tradition.",
+      "url": "https://cst.edu/course-of-study-and-licensing-school/"
+    }
+  ],
+  "courseOfStudy": {
+    "blurb": "Claremont is affiliated with the Western Jurisdiction Course of Study and Licensing School under GBHEM, and separately runs its own Advanced Course of Study (ACoS, 32 credit hours) and Basic Graduate Theological Studies (BGTS) non-degree programs for local pastors and deacon candidates pursuing ordination outside the MDiv.",
+    "url": "https://cst.edu/course-of-study-and-licensing-school/"
+  },
+  "facultyNote": "Limited to the 23 people on cst.edu/faculty/'s \"Our Faculty\" page — the school's own core-faculty cut, distinct from the Affiliate, Adjunct, and Emeritus faculty it lists on separate pages. That live directory is more current than the 2025-2026 print catalog: it includes Jibril Latif (not in the catalog at all) and lists Christopher Jain Miller as core faculty where the catalog still has him under Affiliate. Degrees are drawn from the catalog's CST Faculty section for the 22 of 23 who have an entry there.",
+  "contact": {
+    "admissionsUrl": "https://cst.edu/apply-now/",
+    "email": "admission@cst.edu",
+    "phone": "909-447-2500"
+  }
+}

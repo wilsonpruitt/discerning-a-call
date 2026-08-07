@@ -1,0 +1,219 @@
+{
+  "slug": "mtso",
+  "name": "Methodist Theological School in Ohio",
+  "city": "Delaware",
+  "state": "OH",
+  "url": "https://www.mtso.edu/",
+  "lastVerified": "2026-08-07",
+  "ordination": {
+    "senateStanding": {
+      "value": "approved-umc",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "One of the 13 United Methodist schools of theology. MTSO's own catalog states the same thing in its own words: \"MTSO is one of 13 United Methodist seminaries in the United States and is listed as an approved theological school for the education of United Methodist clergy by the University Senate.\""
+    },
+    "onlineCredit": {
+      "value": "fully-counts",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-07-07",
+      "note": "GBHEM: all thirteen United Methodist schools of theology are approved to provide a fully online M.Div. that meets UM ordination requirements. MTSO's own catalog independently confirms the M.Div. is delivered through HyFlex education, with the \"vast majority\" of courses offered in both in-person and online modes simultaneously — course format is not restricted by delivery mode."
+    },
+    "coverageSource": "https://www.mtso.edu/site/assets/files/2103/academic_catalog_2025-26_aug18.pdf",
+    "coverageAsOf": "2025-08-18",
+    "coverage": [
+      {
+        "area": "old-testament",
+        "status": "required",
+        "note": "HB600 Hebrew Bible is one of the M.Div.'s required Methods Core courses, taken by every student."
+      },
+      {
+        "area": "new-testament",
+        "status": "required",
+        "note": "NT600 New Testament is one of the M.Div.'s required Methods Core courses, taken by every student."
+      },
+      {
+        "area": "theology",
+        "status": "required",
+        "note": "CT600 Constructive Theology is one of the M.Div.'s required Methods Core courses, taken by every student."
+      },
+      {
+        "area": "church-history",
+        "status": "required",
+        "note": "CH510 Global Christian History is one of the M.Div.'s required Values Core courses, taken by every student."
+      },
+      {
+        "area": "preaching",
+        "status": "required",
+        "note": "HM610 Homiletics is one of the M.Div.'s required Methods Core courses, taken by every student."
+      },
+      {
+        "area": "worship-liturgy",
+        "status": "required",
+        "note": "WO600 Worship is one of the M.Div.'s required Methods Core courses, taken by every student."
+      },
+      {
+        "area": "evangelism",
+        "status": "elective",
+        "note": "No evangelism course is a required line anywhere in the 75-credit-hour M.Div. table. MTSO's own catalog names ME6## Evangelism Elective as one of several electives \"most commonly\" taken by United Methodist students, in language that disclaims the obligation rather than states it: \"Students pursuing ordination in the United Methodist Church should confirm with their annual conference regarding commissioning requirements and eligibility.\" The separate Course of Study and Ordination chapter repeats the same disclaiming shape for elders: \"Those seeking ordination in the United Methodist Church will choose courses in evangelism, mission of the church in the contemporary world, and United Methodist History, Doctrine, and Polity as electives in the M.Div. program\" — MTSO's word is \"electives,\" twice, in two different chapters of its own catalog."
+      },
+      {
+        "area": "mission-of-the-church",
+        "status": "elective",
+        "note": "Bound by the identical language as evangelism above — ME5## Mission Elective sits in the same unrestricted seven-course Vocational Core elective block, named as one of the courses \"most commonly\" taken by UMC students but never made a required line of the degree."
+      },
+      {
+        "area": "um-studies",
+        "status": "elective",
+        "note": "DS660 United Methodist History, DS665 United Methodist Doctrine, and DS670 United Methodist Polity are all real, specifically named courses — but, like evangelism and mission above, they sit in the M.Div.'s seven unrestricted Vocational Core elective slots, not its required core. MTSO's ordination chapter goes further than most schools in naming the actual stakes and still keeps the obligation off the degree itself: \"Two-thirds or all three of the denominational courses may be required to be completed prior to the interview\" — a requirement the annual conference's commissioning interview may impose, stated by MTSO as the conference's call, not the seminary's."
+      }
+    ],
+    "gapSummary": "Six of the nine ¶324.4 areas are in MTSO's required M.Div. core: Old Testament, New Testament, theology, church history, preaching, and worship. The other three — evangelism, mission of the church, and United Methodist studies — are real, specifically named courses (ME6## for evangelism, ME5## for mission, DS660/665/670 for UM history, doctrine, and polity) but sit entirely inside the degree's seven unrestricted Vocational Core electives. MTSO's catalog is unusually direct about this being your call, not the school's: it names the courses most UMC students take, then twice tells you to confirm the actual requirement with your annual conference, whose commissioning interview may require two-thirds or all three of them completed beforehand. Plan those seven electives with all five denominational courses in mind from the start — DS665 and DS670 alone clear ¶324.4's 6-hour UM-studies floor, but the interview requirement is broader than the floor.",
+    "gapRemedies": [
+      {
+        "blurb": "DS665 United Methodist Doctrine and DS670 United Methodist Polity together satisfy ¶324.4's 6-semester-hour UM-studies floor on their own; add DS660 United Methodist History, ME5## Mission Elective, and ME6## Evangelism Elective from the same seven-course elective pool to cover the two remaining areas without adding to the 75-credit total.",
+        "url": "https://www.mtso.edu/academics/registrar/academic-catalog/"
+      },
+      {
+        "blurb": "Ask MTSO's Registrar for the current M.Div. degree-progress worksheet, and ask your conference's Board of Ordained Ministry registrar directly which two-thirds (or all three) of the denominational courses your commissioning interview requires completed beforehand — the catalog states that this is the conference's call, not MTSO's, and does not name the fraction itself.",
+        "url": "https://www.mtso.edu/academics/registrar/"
+      }
+    ]
+  },
+  "scale": {
+    "totalEnrollment": {
+      "value": "217 students (128.70 FTE)",
+      "source": "https://www.ats.edu/member-schools/methodist-theological-school-in-ohio",
+      "asOf": "2025-11-01",
+      "note": "ATS's Fall 2025 report for the whole school, not M.Div. only. ATS also reports \"Full-Time Faculty (FTE): 20.67\" alongside a headcount of 13 full-time faculty for the same period — a higher FTE than headcount, and a headcount that disagrees by one with this profile's own count of 14 people on MTSO's current faculty directory page; reported as ATS states it rather than reconciled by guess, the same pattern Saint Paul's ATS figures showed."
+    }
+  },
+  "cost": {
+    "tuitionPerCredit": {
+      "value": "$1,112 per credit hour ($32,248/year full-time, 29 credit hours, for illustration)",
+      "source": "https://www.mtso.edu/site/assets/files/2748/tuition_sheet_2026-27.pdf",
+      "asOf": "2026-08-06",
+      "note": "2026-27 rate, master's degree programs (M.Div., MTS, MAPT, MASJ, MA Counseling Ministries). A flat per-credit rate — MTSO does not price by pace or delivery mode the way Duke does. 75 credit hours × this rate is roughly $83,400 in gross M.Div. tuition before aid."
+    },
+    "fees": [
+      {
+        "label": "Instruction fee",
+        "amount": "$500 per term, up to $1,000/year maximum"
+      },
+      {
+        "label": "Course auditing fee",
+        "amount": "$200 per course ($75 for auditors 60 and older)"
+      }
+    ],
+    "typicalAward": {
+      "value": "United Methodist certified candidates for ministry receive a full-tuition scholarship",
+      "source": "https://www.mtso.edu/admissions/scholarships-and-financial-aid/",
+      "asOf": "2026-08-06",
+      "note": "MTSO's own wording: \"If you are a United Methodist certified candidate for ministry, you are eligible to receive a full-tuition scholarship.\" A blanket, candidacy-linked commitment in the same family as Candler's and Duke's Rural Ministry Fellowships, but broader — not geographically restricted the way Duke's is."
+    },
+    "namedScholarships": [
+      {
+        "name": "Nathaniel H. McCartney Invitational Scholarship",
+        "blurb": "Full tuition, by nomination, for a United Methodist member with a cumulative GPA of 3.25 or higher who is a certified candidate for ordination — one of several MTSO Premier Scholarships stacking on top of the blanket certified-candidate award above.",
+        "url": "https://www.mtso.edu/admissions/scholarships-and-financial-aid/scholarships-for-new-students/premier-scholarships/"
+      },
+      {
+        "name": "William D. Van Nostran Family Scholarship",
+        "blurb": "Full tuition for an M.Div. student who is a United Methodist member planning parish ministry in an Ohio Conference, married with a spouse and children, holding at least a 3.0 GPA — one of the most specifically targeted named awards MTSO publishes.",
+        "url": "https://www.mtso.edu/admissions/scholarships-and-financial-aid/scholarships-for-new-students/premier-scholarships/"
+      },
+      {
+        "name": "Kleist Scholarships",
+        "blurb": "$7,500, renewable up to three years, for recent college graduates with a cumulative GPA of 3.0 or higher and demonstrated financial need and leadership ability, pursuing the M.Div. or MA in Practical Theology.",
+        "url": "https://www.mtso.edu/admissions/scholarships-and-financial-aid/scholarships-for-new-students/premier-scholarships/"
+      }
+    ],
+    "honestNote": "MTSO publishes an unusually long roster of named, mostly full-tuition Premier Scholarships (over twenty), many written for a specific United Methodist Ohio-conference student, but every one requires an application-strength or nomination review — the blanket certified-candidate full-tuition award above is the only one guaranteed by status alone. \"Up to full tuition\" merit aid still depends on GPA bands (2.5 and up, generally, with the strongest awards at 3.5+); MTSO does not publish what share of applicants clear the top bands."
+  },
+  "degrees": [
+    {
+      "name": "Master of Divinity",
+      "abbr": "M.Div.",
+      "credits": 75,
+      "typicalYears": "3 years full-time (12 credit hours/semester); 4 years at 9 credit hours/semester",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "75 credit hours: a Values Core, Methods Core, and Vocational Core (seven unrestricted electives), plus a required cross-cultural immersion, mid-program review, and capstone. HyFlex delivery — the vast majority of courses are offered simultaneously in person and online.",
+      "url": "https://www.mtso.edu/academics/academic-programs/masters-degree-programs/master-of-divinity-2024/"
+    },
+    {
+      "name": "Master of Arts in Public Theology",
+      "abbr": "M.A.P.T.",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "Includes every course in GBHEM's Certificate in Deacon Studies — MTSO's other named path to the deacon-ordination educational requirement alongside the M.Div.",
+      "url": "https://www.mtso.edu/academics/academic-programs/masters-degree-programs/"
+    },
+    {
+      "name": "Master of Arts in Practical Theology",
+      "abbr": "M.A.P.T. (Practical)",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "Not an ordination degree on its own — a practice-focused master's with specialization tracks including Youth and Young Adult Ministry, Parish and Community Ministry, and Ecology and Justice.",
+      "url": "https://www.mtso.edu/academics/academic-programs/masters-degree-programs/"
+    },
+    {
+      "name": "Master of Arts in Social Justice",
+      "abbr": "M.A.S.J.",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "Not an ordination degree — advocacy and justice-movement focused.",
+      "url": "https://www.mtso.edu/academics/academic-programs/masters-degree-programs/"
+    },
+    {
+      "name": "Master of Theological Studies",
+      "abbr": "M.T.S.",
+      "modalities": [
+        "residential",
+        "hybrid",
+        "online"
+      ],
+      "blurb": "Not an ordination degree — an academic degree with a declared 12-credit-hour concentration and thesis or concentration examination.",
+      "url": "https://www.mtso.edu/academics/academic-programs/masters-degree-programs/master-of-theological-studies-2024/"
+    },
+    {
+      "name": "Doctor of Ministry",
+      "abbr": "D.Min.",
+      "credits": 31,
+      "modalities": [
+        "hybrid"
+      ],
+      "blurb": "$630 per credit hour, $19,500 total — a flat program price rather than a per-credit rate that moves with pace, the way Duke's does.",
+      "url": "https://www.mtso.edu/academics/academic-programs/doctor-of-ministry/"
+    }
+  ],
+  "concentrations": [
+    "Spirituality Specialization",
+    "Biblical Languages and Texts Specialization",
+    "Interreligious Contexts Specialization",
+    "Chaplaincy Specialization",
+    "Unitarian Universalist Studies Specialization",
+    "Ecology and Justice Specialization"
+  ],
+  "facultyNote": "Limited to MTSO's 14 full-time faculty on its current Faculty Directory page; the school separately lists adjunct and emeritus faculty not counted here, per the core-full-time-only scope this project uses for every school. Three faculty (Baek, Gibson, Stroud) print only a downloadable CV link on their bio page rather than publications in the page body itself — their degrees are recorded here, their publications are not, rather than guessed from the unopened CV.",
+  "courseOfStudy": {
+    "blurb": "MTSO operates the Course of Study School of Ohio (Joon-Sik Park, director) — the regional five-year Course of Study for licensed local pastors, moving toward a Great Lakes Course of Study partnership with Garrett Seminary starting Fall 2026, and offers a separate Advanced Course of Study certificate for the 32-credit-hour graduate requirement.",
+    "url": "https://www.mtso.edu/academics/academic-programs/course-of-study-school-of-ohio/"
+  },
+  "contact": {
+    "admissionsUrl": "https://www.mtso.edu/admissions/",
+    "email": "admissions@mtso.edu",
+    "phone": "800-333-6876"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "slug": "boston",
+  "name": "Boston University School of Theology",
+  "city": "Boston",
+  "state": "MA",
+  "url": "https://www.bu.edu/sth/",
+  "lastVerified": "2026-08-07",
+  "ordination": {
+    "senateStanding": {
+      "value": "approved-umc",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-08-06",
+      "note": "One of the 13 United Methodist schools of theology, and the oldest — founded in 1839 as the first Methodist seminary in the United States."
+    },
+    "onlineCredit": {
+      "value": "fully-counts",
+      "source": "https://www.gbhem.org/education/schools-of-theology/",
+      "asOf": "2026-08-06",
+      "note": "GBHEM: all thirteen United Methodist schools of theology are approved to provide a fully online M.Div. that meets UM ordination requirements. BU's own Online MDiv (OMDiv) — launched as a distinct, separate degree from the residential MDiv, built around a single Ecclesial Ministry track, delivered entirely online with a weekly synchronous session — is a second, independent confirmation of the same fact from the school's own site."
+    },
+    "coverageSource": "https://www.bu.edu/sth/academics/denominational-studies/wesleyan-methodist/",
+    "coverageAsOf": "2026-08-07",
+    "coverage": [
+      {
+        "area": "old-testament",
+        "status": "required",
+        "note": "Part of the 30-unit MDiv core shared by all three vocational tracks (Sacred Texts and Interpretation: Hebrew Bible, New Testament). BU's own Denominational Studies page confirms the school 'requires MDiv students to take two courses each' in Hebrew Bible — one of only four areas it states as a flat requirement rather than something it merely offers."
+      },
+      {
+        "area": "new-testament",
+        "status": "required",
+        "note": "Same shared-core requirement and same 'requires... two courses each' language as Hebrew Bible, above."
+      },
+      {
+        "area": "theology",
+        "status": "required",
+        "note": "Theology and Meaning-Making is one of the six categories in the shared 30-unit MDiv core. The Denominational Studies page states the school requires two courses (6 credits) in Theology, half of which the required first-year sequence (Intro to Christian Traditions / Christianity Engaging Modernity) already provides."
+      },
+      {
+        "area": "church-history",
+        "status": "required",
+        "note": "History of Traditions and Institutions is part of the shared 30-unit core. As with Theology, the Denominational Studies page confirms the school requires two courses (6 credits) in Church History, half satisfied by the required first-year sequence, with 'MDiv students... then required to take an additional course in church history... bringing the total... to 6 credits.'"
+      },
+      {
+        "area": "mission-of-the-church",
+        "status": "elective",
+        "note": "TM-815 Christian Mission is not in the shared 30-unit core. BU's Denominational Studies page lists it, alongside UM Polity, UM History & Doctrine, and Evangelism, as something 'the school offers... which can be taken at any time' — offering language, not a stated requirement. It also appears as one of four options in the Ecclesial Ministry track's single 'Ecclesiastical Studies (Choose one)' slot, so even a student in that track can graduate without ever taking it."
+      },
+      {
+        "area": "evangelism",
+        "status": "elective",
+        "note": "TC-835 Evangelism and Contemporary Cultures sits in the same 'offers... which can be taken' list and the same 'choose one of four' Ecclesiastical Studies slot as Mission of the Church, above — available, never stated as binding."
+      },
+      {
+        "area": "worship-liturgy",
+        "status": "elective",
+        "note": "TC-817 Introduction to Christian Worship is a named, binding requirement — but only inside the Ecclesial Ministry track, one of three vocational tracks (Ecclesial Ministry, Chaplaincy, Global and Community Engagement) any MDiv student, of any denomination, may freely choose by the end of their first year. A student who declares Chaplaincy or Global and Community Engagement satisfies BU's MDiv without it. The Denominational Studies page also lists Worship among the courses the school merely 'offers... which can be taken at any time,' not among the four it states the school 'requires.'"
+      },
+      {
+        "area": "preaching",
+        "status": "elective",
+        "note": "STHTC 715 Introduction to Preaching is likewise a named, binding requirement only inside the Ecclesial Ministry track — not part of the shared 30-unit core, and not required of a student who chooses either of the other two tracks."
+      },
+      {
+        "area": "um-studies",
+        "status": "elective",
+        "note": "TC-723 United Methodist Polity and Ministry and TH-821 The History and Doctrine of the United Methodist Church are the two courses BU built to cover the Discipline's UM history/doctrine/polity requirement — but the Denominational Studies page describes them, together with Evangelism and Mission, as courses the school 'offers... which can be taken at any time,' never as something a UMC student 'must fulfill' (Duke's language) or is 'required to take' (Phillips'). They also sit inside the Ecclesial Ministry track's 'choose one of four' Ecclesiastical Studies slot: a student can clear that single required slot with UM Polity alone, or skip it entirely by choosing Evangelism or Mission instead."
+      }
+    ],
+    "gapSummary": "Four of the nine areas — Old Testament, New Testament, Theology, and Church History — are in the 30-unit core every MDiv student takes, regardless of which of BU's three vocational tracks they choose. The other five — Mission of the Church, Evangelism, Worship, Preaching, and United Methodist Studies — are not: BU's own Denominational Studies page describes the four UM-specific courses (UM Polity, UM History & Doctrine, Evangelism, Mission) as courses it 'offers... which can be taken at any time,' never as a stated obligation, and even Preaching and Worship — required by name inside the Ecclesial Ministry track — aren't required of a UMC student who chooses either of BU's other two tracks. Unlike Duke and Phillips, Boston University never states that a United Methodist student in particular is bound to cover these five areas; the responsibility is handed to the student and their annual conference from the start ('Students pursuing ordination should work closely with their advisors and their denominations... United Methodist students should take the time to be in conversation... with their district superintendent or member of the District Committee on Ordained Ministry'). A candidate has to build the remaining five areas into their own plan of study and confirm the specific courses with their conference's Board of Ordained Ministry — the courses exist and are named, but nothing in BU's plan of study puts them there automatically.",
+    "gapRemedies": [
+      {
+        "blurb": "Choosing the Ecclesial Ministry track (one of three, declared by the end of the first year) closes two of the five gaps outright: it names Preaching and Worship as binding track requirements. It does not close the other three — UM Polity, UM History & Doctrine, Evangelism, and Mission all sit in a single 'choose one of four' Ecclesiastical Studies slot within that same track, so even Ecclesial Ministry students must deliberately pick beyond the one the slot forces.",
+        "url": "https://www.bu.edu/sth/academics/degree-programs/master-of-divinity/"
+      },
+      {
+        "blurb": "TC-723 (UM Polity, 3 credits) and TH-821 (UM History & Doctrine, 4 credits) together clear ¶324.4's UM-studies requirement in two courses, with no prerequisites and no fixed term — plan them early rather than leaving them to compete for space against Evangelism and Mission inside a single elective slot.",
+        "url": "https://www.bu.edu/sth/academics/denominational-studies/wesleyan-methodist/"
+      },
+      {
+        "blurb": "United Methodist, AME, AMEZ, and CME candidates registered with GBHEM on the UMCares site before each term receive a 100% tuition scholarship — ask the STH Admissions Office how to register early, and confirm directly with your district superintendent or DCOM which specific electives your conference's Board of Ordained Ministry will accept for the five areas not built into BU's core.",
+        "url": "https://www.bu.edu/sth/academics/tuition-financial-aid/scholarships-fellowships/"
+      }
+    ]
+  },
+  "scale": {
+    "totalEnrollment": {
+      "value": "277 students (225.40 FTE)",
+      "source": "https://www.ats.edu/member-schools/boston-university-school-of-theology",
+      "asOf": "2025-11-01",
+      "note": "ATS's Fall 2025 report for the whole school, not MDiv only. ATS also reports 32.00 full-time faculty (FTE) for the same period — roughly 9 students per faculty FTE, though BU does not publish that ratio itself."
+    }
+  },
+  "cost": {
+    "tuitionPerCredit": {
+      "value": "$12,640/term for full-time residential MDiv, MTS, MSM, and STM students (9–18 units/term); $1,053/unit part-time (6–8 units/term). The Online MDiv (OMDiv) is priced lower: $9,480/term full-time (12–18 units), $790/unit part-time.",
+      "source": "https://www.bu.edu/sth/academics/tuition-financial-aid/tuition-fees/",
+      "asOf": "2026-08-07",
+      "note": "2026–2027 rates. Unlike Duke's pace-based pricing, BU prices by residential-vs-online delivery and by full-time-vs-part-time load rather than by a single flat per-credit figure."
+    },
+    "fees": [
+      {
+        "label": "Student Services Fee (full-time residential)",
+        "amount": "$229/term"
+      },
+      {
+        "label": "Health and Wellness Fee (full-time residential)",
+        "amount": "$295/term"
+      },
+      {
+        "label": "STH Community Fee",
+        "amount": "$75/term"
+      },
+      {
+        "label": "STH Graduate Program Fee",
+        "amount": "$140 (Fall) or $70 (Spring entry), charged once"
+      },
+      {
+        "label": "Student Health Insurance Plan (2026–2027, residential students not covered elsewhere)",
+        "amount": "$4,054/year"
+      }
+    ],
+    "pctReceivingAid": {
+      "value": "All master's-level students taking at least six units per term are eligible for financial aid in the form of tuition scholarships",
+      "source": "https://www.bu.edu/sth/academics/tuition-financial-aid/scholarships-fellowships/",
+      "asOf": "2026-08-07",
+      "note": "BU's own wording, not a rounded percentage it publishes — matching the pattern Duke's and Wesley's pages also use."
+    },
+    "typicalAward": {
+      "value": "A 70% tuition scholarship is the example BU's own chart uses, reducing full-time MDiv tuition to roughly $7,395/year (2025–2026 rates) before required fees; the school states final awards may vary by student.",
+      "source": "https://www.bu.edu/sth/academics/tuition-financial-aid/scholarships-fellowships/",
+      "asOf": "2026-08-07"
+    },
+    "namedScholarships": [
+      {
+        "name": "United Methodist Ordination Scholarship",
+        "blurb": "MDiv, MTS, and MSM students without a prior MDiv/MTS who are candidates for ordination as an elder or deacon in the United Methodist Church, and who are registered with GBHEM on the UMCares site before the start of classes each term, may receive a 100% tuition scholarship. The single strongest, most direct link this project has found yet between ¶310 candidacy status and full seminary funding — stronger than Duke's geographically-narrow Rural Ministry Fellowships or Candler's certified-candidate policy, since it is not capped by application strength or a priority deadline.",
+        "url": "https://www.bu.edu/sth/academics/tuition-financial-aid/scholarships-fellowships/"
+      },
+      {
+        "name": "AME/AMEZ/CME Ordination Scholarship",
+        "blurb": "The same 100% tuition scholarship extended to candidates for ordained ministry in the African Methodist Episcopal, African Methodist Episcopal Zion, and Christian Methodist Episcopal Churches — a direct expression of BU's stated commitment to the wider Wesleyan-Methodist-Holiness family beyond the UMC itself.",
+        "url": "https://www.bu.edu/sth/academics/tuition-financial-aid/scholarships-fellowships/"
+      },
+      {
+        "name": "UMC Leadership Fellowship",
+        "blurb": "A renewable fellowship (contingent on maintaining a 2.7 GPA and steady progress toward ordination) for students pursuing ordination as elder or deacon in the UMC who are registered with GBHEM on UMCares — awarded on top of, not instead of, the Ordination Scholarship above.",
+        "url": "https://www.bu.edu/sth/academics/tuition-financial-aid/scholarships-fellowships/"
+      }
+    ],
+    "honestNote": "BU's baseline is genuinely strong for United Methodist (and AME/AMEZ/CME) ordination candidates specifically — a 100% tuition scholarship with no application-strength tier or priority-deadline cutoff, conditioned only on GBHEM registration and steady progress. Every other student's baseline example is a 70% scholarship that still leaves roughly $7,400/year in tuition plus required fees and Boston's cost of living (BU itself budgets $900–$1,600/month for housing alone). If you are not a registered UMC/AME/AMEZ/CME ordination candidate, ask the Financial Aid Office directly what your realistic award looks like before comparing BU's headline scholarship against another school's."
+  },
+  "degrees": [
+    {
+      "name": "Master of Divinity",
+      "abbr": "MDiv",
+      "credits": 72,
+      "typicalYears": "3 years full-time (6 semesters); up to 5 academic years for financial-aid eligibility",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "72 units: a shared 30-unit core (Sacred Texts & Interpretation, History of Traditions & Institutions, Theology & Meaning-Making, Ethics & Lived Values, Spirituality, Religious Leadership Practices, First Year Formation, and a year-long Contextual Education placement), a 15-unit vocational track chosen by the end of the first year (Ecclesial Ministry, Chaplaincy, or Global and Community Engagement), and 27 free-elective units. Track choice determines which specific courses — including Preaching and Worship — are required.",
+      "url": "https://www.bu.edu/sth/academics/degree-programs/master-of-divinity/"
+    },
+    {
+      "name": "Online Master of Divinity",
+      "abbr": "OMDiv",
+      "credits": 72,
+      "typicalYears": "2–3 years, full- or part-time",
+      "modalities": [
+        "online"
+      ],
+      "blurb": "Launched in its inaugural year (2026) with a single Ecclesial Ministry track, delivered entirely online with a weekly synchronous 'live classroom.' A distinct, separate degree from the residential MDiv, priced at a base 25% discount to the residential rate. Its one track does require Preaching and Worship, unlike the residential MDiv's Chaplaincy and Global and Community Engagement tracks.",
+      "url": "https://www.bu.edu/sth/academics/degree-programs/online-master-of-divinity/"
+    },
+    {
+      "name": "Master of Theological Studies",
+      "abbr": "MTS",
+      "typicalYears": "2 years full-time (4 semesters)",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "Not an ordination degree — an academic master's for doctoral preparation, teaching, nonprofit work, or lay ministry.",
+      "url": "https://www.bu.edu/sth/academics/degree-programs/master-of-theological-studies/"
+    },
+    {
+      "name": "Master of Sacred Music",
+      "abbr": "MSM",
+      "typicalYears": "2 years full-time (4 semesters)",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "Choral conducting or organ concentrations, administered jointly with BU's College of Fine Arts.",
+      "url": "https://www.bu.edu/sth/academics/degree-programs/master-of-sacred-music/"
+    },
+    {
+      "name": "Master of Arts in Religion and Public Leadership",
+      "abbr": "MARPL",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "Not an ordination degree — trains religious and spiritual leadership for public-facing roles outside traditional congregational ministry.",
+      "url": "https://www.bu.edu/sth/academics/degree-programs/master-of-arts-in-religion-and-public-leadership-marpl/"
+    },
+    {
+      "name": "Master of Sacred Theology",
+      "abbr": "STM",
+      "typicalYears": "1 year full-time (2 semesters)",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "An advanced theological degree, typically for MDiv holders pursuing specialized study or doctoral preparation.",
+      "url": "https://www.bu.edu/sth/academics/degree-programs/master-of-sacred-theology/"
+    },
+    {
+      "name": "Doctor of Ministry in Transformational Leadership",
+      "abbr": "DMin",
+      "typicalYears": "3 years part-time (6 terms), with intensive residencies in Boston",
+      "modalities": [
+        "hybrid"
+      ],
+      "blurb": "A professional doctorate for religious leaders already in ministry, built around January and August intensive residencies rather than regular-term coursework; costs roughly $26,780 in tuition and fees over three years.",
+      "url": "https://www.bu.edu/sth/academics/degree-programs/doctor-of-ministry/"
+    },
+    {
+      "name": "Doctor of Philosophy",
+      "abbr": "PhD",
+      "typicalYears": "up to 10 academic years",
+      "modalities": [
+        "residential"
+      ],
+      "blurb": "Funded PhD fellowships cover 100% of tuition and required fees plus a stipend (currently $47,740.50/year) for the first five years, in exchange for teaching/research internships from year two onward.",
+      "url": "https://www.bu.edu/sth/academics/degree-programs/doctor-of-philosophy/"
+    }
+  ],
+  "concentrations": [
+    "Spirituality Studies",
+    "Theology and Latinx Studies",
+    "Global Christianity",
+    "Faith and Ecological Justice",
+    "Religion and Africana Studies",
+    "Religion and Conflict Transformation",
+    "Anglican and Episcopal Studies"
+  ],
+  "partnerships": [
+    {
+      "kind": "host-university",
+      "partner": "Boston University",
+      "blurb": "The School of Theology sits within Boston University proper (not a freestanding seminary on a host campus), giving students access to BU's broader library, research centers, and cross-school course offerings.",
+      "url": "https://www.bu.edu/sth/"
+    },
+    {
+      "kind": "joint-degree",
+      "partner": "BU School of Social Work",
+      "blurb": "The MDiv/MSW dual degree shares roughly a third of its coursework between the two schools, reducing the combined time to complete both degrees compared to taking them separately.",
+      "url": "https://www.bu.edu/sth/academics/degree-programs/master-of-divinity/"
+    },
+    {
+      "kind": "consortium",
+      "partner": "Boston Theological Interreligious Consortium (BTI)",
+      "blurb": "Cross-registration with other Boston-area theological schools, including for OMDiv students seeking elective credit online — capped at one quarter of a student's total credits from outside BU's own School of Theology.",
+      "url": "https://www.bu.edu/sth/academics/degree-programs/online-master-of-divinity/"
+    }
+  ],
+  "facultyNote": "Limited to the 30 people on BU's own \"Faculty\" tab at bu.edu/sth/about/faculty/ — its core full-time, regular-rank roster, distinct from the Adjunct Faculty, Affiliated Faculty (College of Arts & Sciences appointments), Lecturers, and Retired/Emeritus tabs the same page lists separately. A \"Methodist Faculty\" tab also appears on that page, but it is a cross-cutting subset of the same 30 core faculty (14 of them), not an additional roster, and was not double-counted here. Each has a real per-professor page, but most are long personal CVs rather than a curated \"Selected Publications\" list; publications below were hand-picked as the cleanest, most complete citations from each page, capped at five, favoring books and journal articles over lectionary columns, book reviews, and conference-paper listings that clutter several of these CVs.",
+  "contact": {
+    "admissionsUrl": "https://www.bu.edu/sth/admissions/apply/",
+    "email": "sthadmis@bu.edu",
+    "phone": "617-353-3036"
+  }
+}

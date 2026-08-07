@@ -241,6 +241,132 @@ export const seminaryEditorial: SeminaryEditorial[] = [
       "No online or distance course taken here counts toward ordination, because Vanderbilt is Senate-approved but not United Methodist.",
     ],
   },
+  {
+    slug: "boston",
+    draft: true,
+    lead: "Boston University School of Theology is the oldest United Methodist seminary in the country — founded in 1839 as the first Methodist seminary in the United States — and it is also the most candid of the thirteen about handing ¶324.4 back to you. Four of the nine areas are in the core every M.Div. student takes, full stop. The other five — worship, preaching, evangelism, mission, and United Methodist studies itself — BU 'offers,' in its own words, rather than requires. The courses exist, they're well-built, and nothing stops you from never touching most of them.",
+    distinctives: [
+      "BU's M.Div. runs on three vocational tracks — Ecclesial Ministry, Chaplaincy, Global and Community Engagement — chosen by the end of your first year. Only Ecclesial Ministry binds you to Preaching and Worship, and even there, UM Polity, UM History & Doctrine, Evangelism, and Mission all compete for a single elective slot.",
+      "United Methodist, AME, AMEZ, and CME ordination candidates registered with GBHEM get a 100% tuition scholarship on admission — the strongest, least-conditional funding link this project has found between candidacy status and seminary cost.",
+      "BU just launched a fully online M.Div. (OMDiv) as a separate degree from the residential one, priced at a 25% discount — and its single track does require Preaching and Worship, unlike two of the three residential tracks.",
+      "The Wesleyan-Methodist Community of Learning page is the most honest single paragraph in this whole project about where the school's obligation ends and your denomination's begins.",
+    ],
+    whoThrivesHere: [
+      "People who want a straight answer about what's optional, even when the answer is 'more than you'd expect' — and who will actually build the missing five areas into a plan rather than assume the school did it for them.",
+      "People drawn to a major research university's resources inside a historically Methodist school, in a city with an unusually dense concentration of theological schools (the BTI consortium) to cross-register around.",
+      "United Methodist, AME, AMEZ, or CME candidates for elder or deacon who register with GBHEM early — the 100% scholarship is close to unconditional once you clear that one procedural step.",
+    ],
+    weighThat: [
+      "Five of the nine are not built into the plan of study for most students. Choosing the Ecclesial Ministry track closes two of the five (Preaching, Worship); the other three — UM Polity, UM History & Doctrine, Evangelism, Mission — still compete for one shared elective slot even inside that track.",
+      "Track choice, not denomination, decides whether Preaching and Worship are required — a UMC student in the Chaplaincy or Global and Community Engagement track can graduate without either.",
+      "The 100% scholarship requires GBHEM/UMCares registration before each term starts, not just before enrolling — miss the window and you're on the standard 70% baseline like everyone else.",
+    ],
+  },
+  {
+    slug: "claremont",
+    draft: true,
+    lead: "Claremont keeps its name but not its old campus: after 66 years in Claremont, CA, the school moved to Los Angeles in 2024, sharing a building with Westwood United Methodist Church a few blocks from UCLA. Its M.Div. splits into two tracks with genuinely different curricula — Ministerial Leadership and Interfaith Chaplaincy — and only one of them requires worship and preaching. Ministerial Leadership covers all nine ¶324.4 areas: six in the universal core, and three more — United Methodist studies, evangelism, and mission — that Claremont's own catalog calls 'required denominational studies courses' for United Methodist students, naming the exact courses and credits.",
+    distinctives: [
+      "The MDiv's two tracks are not two flavors of the same degree. Interfaith Chaplaincy trades worship and preaching for Interreligious Competencies and Clinical Pastoral Education, built around chaplaincy certification rather than parish ministry.",
+      "Claremont names all five UM-track courses by number and credit weight — UM History, Doctrine, and Polity at 2 credits each, Evangelism and Mission at 3 each, 12 credits total, landing exactly on ¶324.4's 6-hour UM-studies floor with the doctrine/history/polity trio alone.",
+      "In February 2026, ATS placed Claremont on 24-month accreditation probation for not meeting its financial-resources standard — separate from GBHEM Senate standing, but worth asking admissions about directly.",
+      "The catalog states no dollar figure or percentage for any scholarship, including the United Methodist Grant tied to certified-candidate status.",
+    ],
+    whoThrivesHere: [
+      "People drawn to Los Angeles and to a small, financially candid conversation with admissions before enrolling.",
+      "Candidates who want the parish-ordination path (Ministerial Leadership track) rather than chaplaincy certification — the two tracks are not interchangeable for ¶324.4 purposes.",
+      "Students who value an interreligious, denominationally diverse faculty and student body alongside a UMC-specific course sequence.",
+    ],
+    weighThat: [
+      "Choose your MDiv track deliberately. Interfaith Chaplaincy does not require a worship or preaching course at all — fine for chaplaincy certification, a real gap to plan around if parish ordination is the goal.",
+      "The three UM-track areas are real courses with real numbers, but they still draw from the same pool as everyone else's free electives (21 credits in Ministerial Leadership, a tighter 9–12 in Interfaith Chaplaincy) — register for them early.",
+      "Ask about the ATS probation and get a specific aid number in writing before comparing Claremont's cost against a school that publishes its scholarship percentages.",
+    ],
+  },
+  {
+    slug: "drew",
+    draft: true,
+    lead: "Drew doesn't build its M.Div. the way the rest of this list does. Its six universal required courses aren't named Old Testament, New Testament, or Church History — they're cross-disciplinary seminars, and the testament- and practice-specific work instead comes from one of four vocational pathways every student chooses. Pick United Methodist Ministry — the pathway Drew's own admissions copy says meets UM ordination requirements for Elder or Deacon — and eight of the nine ¶324.4 areas end up binding, several of them named to the exact course. The one that doesn't: preaching, which no pathway at Drew actually guarantees.",
+    distinctives: [
+      "One of its required United Methodist Studies courses states its own ordination function in the catalog's own words: 'Fulfills the Division of Ordained Ministry requirement in evangelism for United Methodist students.'",
+      "Drew was chartered by the Methodist Episcopal Church's General Conference itself in 1867 — the only one of the thirteen with that particular founding.",
+      "Every full-time faculty member's CV is a linked PDF rather than a bio page; this profile didn't parse those, so no faculty member here carries a publication list.",
+      "The United Methodist Initiative scholarship is at least 100% tuition for any United Methodist applicant with a 3.2+ undergraduate GPA — no candidacy certification required by Drew's own published wording.",
+    ],
+    whoThrivesHere: [
+      "People who want a curriculum built around integrative, justice-oriented seminars rather than a classical discipline-by-discipline core — that's the whole shape of Drew's required six.",
+      "United Methodist candidates who want their conference's requirements named to the exact course, not left as a generic elective slot to plan around alone.",
+      "Candidates for whom a close-to-unconditional full-tuition scholarship changes whether seminary is affordable at all.",
+    ],
+    weighThat: [
+      "No pathway at Drew — including United Methodist Ministry — guarantees a preaching course. If you want dedicated homiletics training, you'll have to choose it yourself inside a 'pick three of several' elective block.",
+      "The vocational-pathway structure means a UMC candidate who picks a different pathway (Chaplaincy, say) may not automatically clear ¶324.4 the way the United Methodist Ministry pathway does — the choice of pathway matters, not just the choice of school.",
+      "This profile could not verify Drew's publication record for any faculty member; ask directly, or read their linked CVs, before assuming a silence here means someone isn't publishing.",
+    ],
+  },
+  {
+    slug: "gammon",
+    draft: true,
+    lead: "Gammon is the only Historically Black Theological Institution of the United Methodist Church, and it is in the middle of an unusual transition worth understanding before anything else about it. For decades it wasn't a standalone school at all: from 1958 to 2023, Gammon was the United Methodist member of the Interdenominational Theological Center (ITC), a consortium of historically Black seminaries in Atlanta, and ITC's accreditation covered Gammon's degree. When ITC declared financial exigency in 2023, Gammon left rather than go down with it, relaunched on its own in 2024, and — one month before this page was written — earned its own accreditation. It is now a genuinely independent school, still small, still building. Its own catalog states one clear United Methodist rule: 24 of the M.Div.'s 72 credit hours must come from \"Religious Heritage\" courses drawn from the Book of Discipline. What it doesn't yet publish is which of the nine ¶324.4 areas those 24 hours actually cover — so this page can't show you the usual nine-row table, and says so rather than guessing.",
+    distinctives: [
+      "The only HBTI (Historically Black Theological Institution) among the thirteen United Methodist schools of theology — its whole academic identity is built around Black church scholarship and Womanist theology.",
+      "Newly independent: relaunched in 2024 with about seven students after ITC's 2023 financial exigency, and reached roughly 75 expected students for Fall 2026 — a five-fold-plus jump in two years.",
+      "A nine-person faculty built almost entirely since the relaunch, led by biblical scholar Renita Weems as Chief Academic Officer.",
+      "Its own website disagrees with itself on the tuition rate by $5 a credit hour ($695 vs. $690) — small, but worth a call to Financial Aid before you budget.",
+    ],
+    whoThrivesHere: [
+      "People specifically drawn to a Black-church-centered, Womanist theological formation, at a school built explicitly around that identity rather than offering it as one track among many.",
+      "People comfortable being part of something being rebuilt — a small, growing community with a nine-person faculty, not a large established one.",
+      "People who want their United Methodist ordination requirement named plainly, even where the school can't yet hand them a course-by-course map — Gammon states the 24-hour Religious Heritage rule directly and points you to its registrar for the rest.",
+    ],
+    weighThat: [
+      "Gammon does not publish, on any page found for this profile, which specific courses inside its 24-hour Religious Heritage requirement cover which of the nine ¶324.4 areas. Get that mapping from the Registrar in writing before you build a degree plan.",
+      "It's one month past its own SACSCOC accreditation and still an ATS Associate Member, not yet a full ATS member — ask directly how that affects transfer credit or a future doctoral application if either matters to you.",
+      "As a newly independent, still-small school, expect less institutional infrastructure (published data, per-professor bio pages, a public ATS Standard Data Form) than an established university-embedded seminary. That's a fact about where it is in its own history, not about the quality of instruction.",
+    ],
+  },
+  {
+    slug: "iliff",
+    draft: true,
+    lead: "Iliff is the only one of the thirteen United Methodist schools that isn't embedded in or hosted by a university, and its M.Div. shows it: after a Fall 2025 redesign, the degree is organized entirely around four concentrations, and Iliff's own current marketing pages name no required course in Old Testament, New Testament, theology, history, worship, or preaching for anyone. All nine of ¶324.4's areas still bind a United Methodist candidate here — but every one of them binds through Iliff's own United Methodist Church page, not through anything in the general degree. That page was last substantively updated in 2022, three years before the redesign it now describes requirements for.",
+    distinctives: [
+      "Zero of the nine ¶324.4 areas sit in a denomination-neutral core — the first school in this project where that's true. Duke has five in its universal core; Saint Paul has seven. Iliff has none.",
+      "The United Methodist History/Doctrine/Polity sequence lands exactly on ¶324.4's six-credit UM-studies floor, with no margin: two three-credit courses, no substitute offered.",
+      "The GBHEM-funded AUMTS Excellence in Clergy Leadership Scholarship ($2,500, available at any of the 13 UMC schools) is the only UMC-candidacy-specific award Iliff's own scholarships page names — everything else is a general-pool award with no published formula for what a given applicant gets.",
+      "Iliff's own current course catalog appears to have a title/description mismatch: the course listed as 'Introduction to the History of Christianity' has a description that is unmistakably about preaching. Flagged, not resolved — see weighThat.",
+    ],
+    whoThrivesHere: [
+      "People drawn to a concentration-first degree (Embodied Spirituality, Social Justice and Ethics, Religion Trauma and Healing, Professional Ministries in Context) rather than a fixed discipline-by-discipline core.",
+      "United Methodist candidates comfortable doing a little more legwork with their advisor to map GBHEM's nine areas onto current course numbers, since Iliff's own summary page for that mapping is a few years stale.",
+      "Candidates who want an independent United Methodist school's own institutional voice, distinct from a Duke- or Emory-style university-embedded divinity school.",
+    ],
+    weighThat: [
+      "Iliff's United Methodist Church page — the ONLY place on its site naming which courses satisfy ¶324.4 — predates Iliff's own Fall 2025 curriculum redesign. Seven of the nine areas' named courses were confirmed still current by hand against the live 2025–2026 catalog; the worship course could not be confirmed by name at all, and the history course's own catalog description reads as being about preaching.",
+      "This isn't a case of a school leaving ¶324.4 elective or advisory the way Saint Paul or Wesley do — Iliff states the obligation as binding, in its own words, co-designed with GBHEM. The caution here is about a stale summary page inside an otherwise binding structure, not about weak coverage.",
+      "Iliff's scholarship range ($5,000 to near-full-tuition) has no published formula for where an applicant lands, unlike Wesley's flat MEF subsidy or Saint Paul's universal 50% award — ask directly before assuming the top of the range.",
+    ],
+  },
+  {
+    slug: "mtso",
+    draft: true,
+    lead: "MTSO is the smallest of the thirteen and the only one on this list that isn't attached to a university or a consortium — just a seminary, on its own campus outside Columbus. Its M.Div. covers six of the nine ¶324.4 areas outright. For the other three — evangelism, mission of the church, and United Methodist studies — MTSO's catalog says, in two separate chapters, that these are electives, and says so more plainly than any other school in this project. It names the exact courses most United Methodist students take, then tells you twice to go confirm the actual requirement with your annual conference. That's not a smaller commitment than Duke's or Phillips' — it's a different one, stated with unusual candor.",
+    distinctives: [
+      "MTSO names five specific denominational electives — DS660, DS665, DS670, plus a mission and an evangelism elective — but places every one of them in unrestricted elective space, not the required core.",
+      "The catalog states, twice and independently, that United Methodist students should confirm the actual course requirement with their annual conference — MTSO is candid that this isn't its call to make.",
+      "A blanket, no-application full-tuition scholarship for any United Methodist certified candidate for ministry — not geographically restricted, unlike Duke's Rural Ministry Fellowships.",
+      "Six named specializations (Spirituality, Biblical Languages and Texts, Interreligious Contexts, Chaplaincy, Unitarian Universalist Studies, Ecology and Justice) — MTSO also teaches Unitarian Universalist ordination candidates, alongside United Methodist ones.",
+    ],
+    whoThrivesHere: [
+      "People who want a small, single-purpose seminary rather than a university-embedded one — MTSO has no dual-degree partners or graduate schools to borrow from.",
+      "People who would rather be told plainly that a requirement is theirs to plan, and given the exact courses to plan it with, than have the school gesture at completeness it can't itself guarantee.",
+      "Certified UMC candidates for whom a full-tuition scholarship, guaranteed by status rather than competition, changes the math on attending.",
+    ],
+    weighThat: [
+      "Three of the nine ¶324.4 areas are electives by MTSO's own repeated description. Plan your seven Vocational Core electives around all five denominational courses from day one — there's no slack if you wait.",
+      "MTSO tells you your conference's commissioning interview may require two-thirds or all three of the denominational courses completed beforehand, but doesn't say which fraction — ask your board's registrar early, not MTSO's.",
+      "Most Premier Scholarships beyond the blanket certified-candidate award require GPA bands and a competitive review; \"up to full tuition\" merit aid is not guaranteed by application alone.",
+    ],
+  },
 ];
 
 export const seminaryEditorialBySlug = Object.fromEntries(

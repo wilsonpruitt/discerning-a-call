@@ -3,14 +3,26 @@ import perkinsProfile from "@/data/seminaries/perkins.json";
 import perkinsFaculty from "@/data/faculty/perkins.json";
 import austinProfile from "@/data/seminaries/austin-presbyterian.json";
 import austinFaculty from "@/data/faculty/austin-presbyterian.json";
+import bostonProfile from "@/data/seminaries/boston.json";
+import bostonFaculty from "@/data/faculty/boston.json";
 import briteProfile from "@/data/seminaries/brite.json";
 import briteFaculty from "@/data/faculty/brite.json";
 import candlerProfile from "@/data/seminaries/candler.json";
 import candlerFaculty from "@/data/faculty/candler.json";
+import claremontProfile from "@/data/seminaries/claremont.json";
+import claremontFaculty from "@/data/faculty/claremont.json";
+import drewProfile from "@/data/seminaries/drew.json";
+import drewFaculty from "@/data/faculty/drew.json";
 import dukeProfile from "@/data/seminaries/duke.json";
 import dukeFaculty from "@/data/faculty/duke.json";
+import gammonProfile from "@/data/seminaries/gammon.json";
+import gammonFaculty from "@/data/faculty/gammon.json";
 import garrettProfile from "@/data/seminaries/garrett.json";
 import garrettFaculty from "@/data/faculty/garrett.json";
+import iliffProfile from "@/data/seminaries/iliff.json";
+import iliffFaculty from "@/data/faculty/iliff.json";
+import mtsoProfile from "@/data/seminaries/mtso.json";
+import mtsoFaculty from "@/data/faculty/mtso.json";
 import phillipsProfile from "@/data/seminaries/phillips.json";
 import phillipsFaculty from "@/data/faculty/phillips.json";
 import saintPaulProfile from "@/data/seminaries/saint-paul.json";
@@ -27,10 +39,16 @@ import wesleyFaculty from "@/data/faculty/wesley.json";
 export const seminaryProfiles: SeminaryProfile[] = [
   perkinsProfile as SeminaryProfile,
   austinProfile as SeminaryProfile,
+  bostonProfile as SeminaryProfile,
   briteProfile as SeminaryProfile,
   candlerProfile as SeminaryProfile,
+  claremontProfile as SeminaryProfile,
+  drewProfile as SeminaryProfile,
   dukeProfile as SeminaryProfile,
+  gammonProfile as SeminaryProfile,
   garrettProfile as SeminaryProfile,
+  iliffProfile as SeminaryProfile,
+  mtsoProfile as SeminaryProfile,
   phillipsProfile as SeminaryProfile,
   saintPaulProfile as SeminaryProfile,
   vanderbiltProfile as SeminaryProfile,
@@ -44,10 +62,16 @@ export const seminaryProfileBySlug = Object.fromEntries(
 export const faculty: FacultyMember[] = [
   ...(perkinsFaculty as FacultyMember[]),
   ...(austinFaculty as FacultyMember[]),
+  ...(bostonFaculty as FacultyMember[]),
   ...(briteFaculty as FacultyMember[]),
   ...(candlerFaculty as FacultyMember[]),
+  ...(claremontFaculty as FacultyMember[]),
+  ...(drewFaculty as FacultyMember[]),
   ...(dukeFaculty as FacultyMember[]),
+  ...(gammonFaculty as FacultyMember[]),
   ...(garrettFaculty as FacultyMember[]),
+  ...(iliffFaculty as FacultyMember[]),
+  ...(mtsoFaculty as FacultyMember[]),
   ...(phillipsFaculty as FacultyMember[]),
   ...(saintPaulFaculty as FacultyMember[]),
   ...(vanderbiltFaculty as FacultyMember[]),

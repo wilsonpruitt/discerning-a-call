@@ -1,0 +1,468 @@
+[
+  {
+    "id": "iliff-lee",
+    "seminarySlug": "iliff",
+    "name": "Boyung Lee",
+    "title": "Professor of Practical Theology",
+    "areas": [
+      "practical-theology",
+      "womanist-feminist-theology"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/boyung-lee/",
+    "otherRoles": [
+      "Dean of the Faculty"
+    ],
+    "degrees": [
+      "Ph.D., Boston College",
+      "M.Div., Claremont School of Theology",
+      "Th.M., Yonsei University (Seoul, Korea)",
+      "B.A., Yonsei University (Seoul, Korea)"
+    ],
+    "publications": [
+      {
+        "title": "The Tyranny of the Myth of ‘We’: Racism and Christianity in Korea (co-authored with Nami Kim, Minah Cho, Jin-ho Kim, Jin Young Choi, and Eung Gyo Kim; Dongyeon Press, 2025)",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "Embodying Antiracist Christianity: Asian American Theological Resources for Just Racial Relations (co-edited with K. Christine Pae; Palgrave Macmillan, 2024)",
+        "kind": "edited-volume",
+        "year": 2024
+      },
+      {
+        "title": "From Campus Ministries to Enclaves of Asian/American Christian Model Minorities, Journal of Feminist Studies in Religion 40, no. 2 (Fall 2024): 97–102",
+        "kind": "article",
+        "year": 2024
+      },
+      {
+        "title": "AI and East Asian Philosophical and Religious Traditions: Relationality and Fluidity (co-authored with Tracy Trothen and Kwok Pui Lan), Religions 15, no. 5 (May 2024)",
+        "kind": "article",
+        "year": 2024
+      },
+      {
+        "title": "Transforming Congregations through Community: Faith Formation from the Seminary to the Church (Westminster John Knox Press, 2013)",
+        "kind": "book",
+        "year": 2013
+      }
+    ],
+    "publicationsSource": "https://www.iliff.edu/faculty/boyung-lee/",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "iliff-turpin",
+    "seminarySlug": "iliff",
+    "name": "Katherine Turpin",
+    "title": "Professor of Practical Theology and Religious Education",
+    "areas": [
+      "practical-theology",
+      "christian-education-formation",
+      "youth-ministry"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/katherine-turpin/",
+    "otherRoles": [
+      "Director of the Master of Divinity Program",
+      "Associate Dean for Curriculum and Assessment"
+    ],
+    "degrees": [
+      "Ph.D., Emory University",
+      "M.Div., Candler School of Theology",
+      "B.A., Birmingham-Southern College"
+    ],
+    "publications": [
+      {
+        "title": "Questioning Our Faith in Practice: Unlearning White Supremacy in Practical Theology (2025)",
+        "kind": "book",
+        "year": 2025
+      },
+      {
+        "title": "Drama Tweens: Engaging the Bible with Younger Adolescents (Wipf and Stock, 2016)",
+        "kind": "book",
+        "year": 2016
+      },
+      {
+        "title": "Nurturing Different Dreams: Youth Ministry Across Lines of Difference (co-authored with Anne Carter Walker; Pickwick Press, 2014)",
+        "kind": "book",
+        "year": 2014
+      },
+      {
+        "title": "Branded: Adolescents Converting from Consumer Faith (Pilgrim Press, 2006)",
+        "kind": "book",
+        "year": 2006
+      }
+    ],
+    "publicationsSource": "https://www.iliff.edu/faculty/katherine-turpin/",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "iliff-lizardy-hajbi",
+    "seminarySlug": "iliff",
+    "name": "Kristina Lizardy-Hajbi",
+    "title": "Associate Professor of Leadership and Formation",
+    "areas": [
+      "congregational-leadership",
+      "practical-theology"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/rev-dr-kristina-lizardy-hajbi/",
+    "otherRoles": [
+      "Associate Dean of Non-Degree Programs"
+    ],
+    "degrees": [
+      "Ph.D., University of Colorado",
+      "M.Div., Iliff School of Theology",
+      "B.A., University of Colorado"
+    ],
+    "publications": [
+      {
+        "title": "Emerging Trends in Congregational Engagement and Leadership (editor; MDPI, 2025)",
+        "kind": "edited-volume",
+        "year": 2025
+      },
+      {
+        "title": "Unraveling Religious Leadership: Power, Authority, and Decoloniality (Fortress, 2024)",
+        "kind": "book",
+        "year": 2024
+      },
+      {
+        "title": "Explore: Vocational Discovery in Ministry (co-editor; Rowman & Littlefield, 2022)",
+        "kind": "edited-volume",
+        "year": 2022
+      }
+    ],
+    "publicationsSource": "https://www.iliff.edu/faculty/rev-dr-kristina-lizardy-hajbi/",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "iliff-barlow",
+    "seminarySlug": "iliff",
+    "name": "Tom Barlow",
+    "title": "Term Assistant Professor in Methodist Studies",
+    "areas": [
+      "wesleyan-studies",
+      "evangelism-church-planting"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/tom-barlow/",
+    "degrees": [
+      "Ph.D., Iliff School of Theology and the University of Denver",
+      "M.Div., Asbury Theological Seminary",
+      "B.S., Colorado Christian University"
+    ]
+  },
+  {
+    "id": "iliff-hernandez",
+    "seminarySlug": "iliff",
+    "name": "Albert Hernández",
+    "title": "Associate Professor of the History of Christianity",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/albert-hernandez/",
+    "otherRoles": [
+      "Sr. Vice President of Academic Affairs and Academic Dean"
+    ],
+    "degrees": [
+      "Ph.D., Drew University",
+      "M.A., M.Phil., Drew University",
+      "M.S., Nova Southeastern University",
+      "B.A., Florida International University"
+    ],
+    "publications": [
+      {
+        "title": "Subversive Fire: The Untold Story of Pentecost (Emeth Press)",
+        "kind": "book"
+      },
+      {
+        "title": "The Quest for the Historical Satan (co-authored with Miguel De La Torre; Fortress Press)",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.iliff.edu/faculty/albert-hernandez/",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "iliff-butler",
+    "seminarySlug": "iliff",
+    "name": "Lee H. Butler, Jr.",
+    "title": "Bishop Henry White Warren and Elizabeth Iliff Warren Professor of Africana Pastoral Theology",
+    "areas": [
+      "pastoral-care-counseling",
+      "black-church-studies"
+    ],
+    "profileUrl": "https://www.iliff.edu/our-president/",
+    "otherRoles": [
+      "President and Chief Executive Officer"
+    ],
+    "degrees": [
+      "Ph.D., Psychology and Religion, Drew University",
+      "M.Phil., Psychology and Religion, Drew University",
+      "Th.M., Pastoral Theology, Princeton Theological Seminary",
+      "M.Div. (Pastoral Care and Counseling concentration), Eastern Baptist Theological Seminary (now Palmer Theological Seminary)",
+      "B.A., Religion, Bucknell University"
+    ],
+    "publications": [
+      {
+        "title": "The Edward Wimberly Reader: A Black Pastoral Theology (co-editor; Baylor University Press, 2020)",
+        "kind": "edited-volume",
+        "year": 2020
+      },
+      {
+        "title": "Listen, My Son: Wisdom to Help African American Fathers (Abingdon Press, 2010)",
+        "kind": "book",
+        "year": 2010
+      },
+      {
+        "title": "Liberating Our Dignity, Saving Our Souls (Chalice Press, 2006)",
+        "kind": "book",
+        "year": 2006
+      },
+      {
+        "title": "A Loving Home: Caring for African American Marriage and Families (Pilgrim Press, 2000)",
+        "kind": "book",
+        "year": 2000
+      }
+    ],
+    "publicationsSource": "https://www.iliff.edu/our-president/",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "iliff-torre",
+    "seminarySlug": "iliff",
+    "name": "Miguel A. De La Torre",
+    "title": "Professor of Social Ethics and Latinx Studies",
+    "areas": [
+      "ethics-public-theology",
+      "latino-hispanic-ministry"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/miguel-de-la-torre/",
+    "degrees": [
+      "Ph.D., Temple University",
+      "M.A., Temple University",
+      "M.Div., Southern Baptist Theological Seminary",
+      "M.P.A., American University",
+      "B.A., Florida International University"
+    ]
+  },
+  {
+    "id": "iliff-vial",
+    "seminarySlug": "iliff",
+    "name": "Theodore M. Vial, Jr.",
+    "title": "Harvey Potthoff Professor of Theology and Modern Western Religious Thought",
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/theodore-m-vial-jr/",
+    "degrees": [
+      "Ph.D., The University of Chicago",
+      "M.A., The University of Chicago",
+      "B.A., Brown University"
+    ],
+    "publications": [
+      {
+        "title": "Modern Religion, Modern Race (Oxford University Press, 2016)",
+        "kind": "book",
+        "year": 2016
+      },
+      {
+        "title": "Schleiermacher: A Guide for the Perplexed (T&T Clark, 2013)",
+        "kind": "book",
+        "year": 2013
+      }
+    ],
+    "publicationsSource": "https://www.iliff.edu/faculty/theodore-m-vial-jr/",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "iliff-p-butler",
+    "seminarySlug": "iliff",
+    "name": "Philip Butler",
+    "title": "Associate Professor of Theology and Black Post-human Artificial Intelligence Systems",
+    "areas": [
+      "systematic-theology",
+      "black-church-studies",
+      "religion-and-science"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/philip-butler/",
+    "otherRoles": [
+      "Director of the AI Institute"
+    ],
+    "degrees": [
+      "Ph.D., Claremont School of Theology",
+      "M.Div., Candler School of Theology, Emory University",
+      "B.A., Morehouse College"
+    ],
+    "publications": [
+      {
+        "title": "Black Transhuman Liberation Theology: Spirituality and Technology",
+        "kind": "book"
+      },
+      {
+        "title": "Critical Black Futures: Speculative Theories and Explorations (editor)",
+        "kind": "edited-volume"
+      }
+    ],
+    "publicationsSource": "https://www.iliff.edu/faculty/philip-butler/",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "iliff-alumkal",
+    "seminarySlug": "iliff",
+    "name": "Antony Alumkal",
+    "title": "Associate Professor of Sociology of Religion",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/antony-w-alumkal/",
+    "degrees": [
+      "Ph.D., Princeton University",
+      "M.A., Princeton University",
+      "B.A., University of California at Berkeley"
+    ],
+    "publications": [
+      {
+        "title": "Paranoid Science: The Christian Right's War on Reality",
+        "kind": "book"
+      }
+    ],
+    "publicationsSource": "https://www.iliff.edu/faculty/antony-w-alumkal/",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "iliff-mack",
+    "seminarySlug": "iliff",
+    "name": "April M. Mack",
+    "title": "Assistant Professor of Religion and Social Justice",
+    "areas": [
+      "mission-social-justice",
+      "womanist-feminist-theology"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/april-m-mack/",
+    "publications": [
+      {
+        "title": "“I Can’t Breathe”: Neocolonial Geotrauma and Violence in the Age of Trump, in Faith and Reckoning after Trump (Orbis, 2021)",
+        "kind": "chapter",
+        "year": 2021
+      },
+      {
+        "title": "Womanist Ethics as a Contribution to Bioethics, Hastings Center Special Issue: A Critical Moment in Bioethics: Reckoning with Anti-Blackness Racism Through Intergenerational Dialogue (2022)",
+        "kind": "article",
+        "year": 2022
+      }
+    ],
+    "publicationsSource": "https://www.iliff.edu/faculty/april-m-mack/",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "iliff-eisenbaum",
+    "seminarySlug": "iliff",
+    "name": "Pam Eisenbaum",
+    "title": "Professor of Biblical Studies and Christian Origins",
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/pam-eisenbaum/",
+    "degrees": [
+      "Ph.D., Columbia University",
+      "M.T.S., Harvard Divinity School",
+      "B.A., Katholieke Universiteit Leuven",
+      "B.F.A., Colorado State University"
+    ],
+    "publications": [
+      {
+        "title": "Paul Was Not a Christian",
+        "kind": "book"
+      },
+      {
+        "title": "The Jewish Heroes of Christian History: Hebrews 11 in Literary Context",
+        "kind": "book"
+      },
+      {
+        "title": "Invitation to Romans",
+        "kind": "book"
+      },
+      {
+        "title": "Contributor, The Jewish Annotated New Testament",
+        "kind": "chapter"
+      }
+    ],
+    "publicationsSource": "https://www.iliff.edu/faculty/pam-eisenbaum/",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "iliff-erickson",
+    "seminarySlug": "iliff",
+    "name": "Amy Erickson",
+    "title": "Professor of Hebrew Bible",
+    "areas": [
+      "hebrew-bible"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/amy-erickson/",
+    "degrees": [
+      "Ph.D., Princeton Theological Seminary",
+      "M.Div., Columbia Theological Seminary",
+      "B.A., Bates College"
+    ],
+    "publications": [
+      {
+        "title": "Jonah: Introduction and Commentary (Illuminations series; Eerdmans, 2021)",
+        "kind": "book",
+        "year": 2021
+      }
+    ],
+    "publicationsSource": "https://www.iliff.edu/faculty/amy-erickson/",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "iliff-smith",
+    "seminarySlug": "iliff",
+    "name": "Eric C. Smith",
+    "title": "Associate Professor of Early Christian Texts and Traditions",
+    "areas": [
+      "new-testament",
+      "church-history"
+    ],
+    "profileUrl": "https://www.iliff.edu/faculty/eric-c-smith/",
+    "degrees": [
+      "Ph.D., Iliff School of Theology and the University of Denver",
+      "M.T.S., Vanderbilt Divinity School",
+      "B.A., Mars Hill College"
+    ],
+    "publications": [
+      {
+        "title": "Sovereignties, Spaces, Subjects, and Spirits: The Necropolitics of the Acts of the Apostles (SBL Press, forthcoming)",
+        "kind": "book"
+      },
+      {
+        "title": "Paul the Progressive? The Compassionate Christian’s Guide to Reclaiming the Apostle as an Ally (Chalice Press, 2019)",
+        "kind": "book",
+        "year": 2019
+      },
+      {
+        "title": "Jewish Glass and Christian Stone: A Materialist Mapping of the Parting of the Ways (Routledge, 2018)",
+        "kind": "book",
+        "year": 2018
+      }
+    ],
+    "publicationsSource": "https://www.iliff.edu/faculty/eric-c-smith/",
+    "publicationsAsOf": "2026-08-07"
+  },
+  {
+    "id": "iliff-schmidt",
+    "seminarySlug": "iliff",
+    "name": "George Schmidt",
+    "title": "Assistant Professor of Chaplaincy and Spiritual Care",
+    "areas": [
+      "chaplaincy",
+      "pastoral-care-counseling"
+    ],
+    "profileUrl": "https://www.iliff.edu/all-faculty/"
+  },
+  {
+    "id": "iliff-nunntelfort",
+    "seminarySlug": "iliff",
+    "name": "Candice NunnTelfort",
+    "title": "Assistant Professor of Psychology, Culture, and Spiritual Care",
+    "areas": [
+      "pastoral-care-counseling"
+    ],
+    "profileUrl": "https://www.iliff.edu/all-faculty/"
+  }
+]

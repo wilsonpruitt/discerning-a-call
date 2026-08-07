@@ -1,0 +1,399 @@
+[
+  {
+    "id": "drew-aponte",
+    "seminarySlug": "drew",
+    "name": "Edwin David Aponte",
+    "title": "James W. Pearsall Professor of Religion and Culture",
+    "areas": [
+      "practical-theology",
+      "latino-hispanic-ministry"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "ThD (honoris causa), Catholic Theological Union",
+      "PhD, MA, Temple University",
+      "BA, Gordon College"
+    ]
+  },
+  {
+    "id": "drew-boesel",
+    "seminarySlug": "drew",
+    "name": "Chris Boesel",
+    "title": "Professor of Christian Theology",
+    "areas": [
+      "systematic-theology"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "MTS, PhD, Emory University",
+      "BA, Westmont College"
+    ]
+  },
+  {
+    "id": "drew-brown",
+    "seminarySlug": "drew",
+    "name": "Katherine Brown",
+    "title": "Teaching Professor of Language and Culture",
+    "areas": [
+      "spiritual-formation"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "otherRoles": [
+      "Director of Theological Language and Learning",
+      "Katherine Brown CV – 2026"
+    ]
+  },
+  {
+    "id": "drew-filler",
+    "seminarySlug": "drew",
+    "name": "Emily Filler",
+    "title": "Wallerstein Assistant Professor of Jewish Studies",
+    "areas": [
+      "interreligious"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "PhD, University of Virginia",
+      "MTS, Harvard Divinity School",
+      "BA, The George Washington University"
+    ]
+  },
+  {
+    "id": "drew-golden",
+    "seminarySlug": "drew",
+    "name": "Jonathan Golden",
+    "title": "Teaching Professor in Religious Studies",
+    "areas": [
+      "congregational-leadership"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "otherRoles": [
+      "Director, Center of Religion, Culture & Conflict",
+      "Convener, Conflict Resolution and Leadership Certificate"
+    ],
+    "degrees": [
+      "PhD, University of Pennsylvania",
+      "BA, Brandeis University"
+    ]
+  },
+  {
+    "id": "drew-schol",
+    "seminarySlug": "drew",
+    "name": "Meredith E. Hoxie Schol",
+    "title": "Associate Teaching Professor in Religious Education & Leadership",
+    "areas": [
+      "congregational-leadership",
+      "christian-education-formation"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "otherRoles": [
+      "Director of Doctoral Studies"
+    ],
+    "degrees": [
+      "PhD, Garrett-Evangelical Theological Seminary",
+      "MDiv, Boston University",
+      "BA, University of North Carolina Wilmington"
+    ]
+  },
+  {
+    "id": "drew-jathanna",
+    "seminarySlug": "drew",
+    "name": "Gladson Jathanna",
+    "title": "Associate Professor of the History of Christianities",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "ThD, Georg August Universität",
+      "MTh, Gurukul Lutheran Theological College and Research Institute",
+      "BD, Karnataka Theological College",
+      "BA, Mangalore University"
+    ]
+  },
+  {
+    "id": "drew-johnson-debaufre",
+    "seminarySlug": "drew",
+    "name": "Melanie Johnson-DeBaufre",
+    "title": "Henry Anson Buttz Professor of New Testament and Early Christianity",
+    "areas": [
+      "new-testament",
+      "church-history"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "MDiv, ThD, Harvard University",
+      "BA, Eastern College"
+    ]
+  },
+  {
+    "id": "drew-kearns",
+    "seminarySlug": "drew",
+    "name": "Laurel Kearns",
+    "title": "John Fletcher Hurst Professor of Ecology, Religion and Society",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "MA, PhD, Emory University",
+      "BA, Florida State University"
+    ]
+  },
+  {
+    "id": "drew-kim",
+    "seminarySlug": "drew",
+    "name": "Dong Sung Kim",
+    "title": "Assistant Professor of Hebrew Bible",
+    "areas": [
+      "hebrew-bible"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "PhD, Drew University",
+      "MDiv, Drew University",
+      "BA, Drew University"
+    ]
+  },
+  {
+    "id": "drew-lee",
+    "seminarySlug": "drew",
+    "name": "Hyo-Dong Lee",
+    "title": "Associate Professor of Comparative Theology",
+    "areas": [
+      "interreligious"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "PhD, Vanderbilt University",
+      "MDiv, United Theological College",
+      "BA, BTh, MA, McGill University",
+      "BA, Yonsei University"
+    ]
+  },
+  {
+    "id": "drew-mann",
+    "seminarySlug": "drew",
+    "name": "Jesse Mann",
+    "title": "Associate Teaching Professor in the History of Christianity and Practice of Theological Research",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "otherRoles": [
+      "Theological Librarian"
+    ],
+    "degrees": [
+      "MA, PhD, University of Chicago",
+      "BA, Dickinson College"
+    ]
+  },
+  {
+    "id": "drew-miller",
+    "seminarySlug": "drew",
+    "name": "Mark A. Miller",
+    "title": "Professor of Church Music",
+    "areas": [
+      "church-music"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "otherRoles": [
+      "Composer in Residence"
+    ],
+    "degrees": [
+      "MM, The Juilliard School",
+      "BA, Yale University"
+    ]
+  },
+  {
+    "id": "drew-moore",
+    "seminarySlug": "drew",
+    "name": "Stephen Moore",
+    "title": "Edmund S. Janes Professor of New Testament Studies",
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "PhD, University of Dublin",
+      "BA, University College, Galway"
+    ]
+  },
+  {
+    "id": "drew-newburg",
+    "seminarySlug": "drew",
+    "name": "Kevin Newburg",
+    "title": "Teaching Professor in the History of Christianity and Methodist Studies",
+    "areas": [
+      "church-history",
+      "wesleyan-studies"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "MPhil, PhD, Drew University",
+      "MA, Nazarene Theological Seminary",
+      "BA, MA, Point Loma Nazarene University"
+    ]
+  },
+  {
+    "id": "drew-noguiera-godsey",
+    "seminarySlug": "drew",
+    "name": "Elaine Noguiera-Godsey",
+    "title": "Assistant Professor of Religion, Society, & Ecofeminism",
+    "areas": [
+      "ethics-public-theology"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "PhD, University of Cape Town",
+      "MA, University of Cape Town",
+      "BA, Faculdade Teológica D’Oeste do Brasil"
+    ]
+  },
+  {
+    "id": "drew-pelaez-diaz",
+    "seminarySlug": "drew",
+    "name": "Francisco Pelaez-Diaz",
+    "title": "Assistant Teaching Professor in Latinx Studies and Ministries",
+    "areas": [
+      "latino-hispanic-ministry"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "PhD, Princeton Theological Seminary",
+      "ThM, Princeton Theological Seminary",
+      "Bachelor of Theology, Seminario Teológico Presbiteriano de México"
+    ]
+  },
+  {
+    "id": "drew-pressley",
+    "seminarySlug": "drew",
+    "name": "Arthur Pressley",
+    "title": "Associate Professor of Psychology and Religion",
+    "areas": [
+      "pastoral-care-counseling"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "PhD, Northwestern University",
+      "MDiv, Garrett-Evangelical Seminary",
+      "BA, Allegheny College"
+    ]
+  },
+  {
+    "id": "drew-seesengood",
+    "seminarySlug": "drew",
+    "name": "Robert Paul Seesengood",
+    "title": "Associate Dean for Academic Affairs at the Theological School",
+    "areas": [
+      "hebrew-bible",
+      "new-testament"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "otherRoles": [
+      "Teaching Professor of Bible and Cultures"
+    ],
+    "degrees": [
+      "PhD, Drew University",
+      "ThM, Princeton Theological Seminary",
+      "MDiv, Harding School of Theology",
+      "BA, Arkansas State University"
+    ]
+  },
+  {
+    "id": "drew-shin",
+    "seminarySlug": "drew",
+    "name": "Daniel D. Shin",
+    "title": "E. Stanley Jones Chair in Evangelism",
+    "areas": [
+      "systematic-theology",
+      "world-christianity",
+      "evangelism-church-planting"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "otherRoles": [
+      "Associate Professor of Theology and World Christianity"
+    ],
+    "degrees": [
+      "PhD, University of Chicago",
+      "MDiv, Yale University",
+      "BA, MA, Wheaton College"
+    ]
+  },
+  {
+    "id": "drew-simpson",
+    "seminarySlug": "drew",
+    "name": "Gary V. Simpson",
+    "title": "Associate Professor of Preaching and Pastoral Formation",
+    "areas": [
+      "preaching"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "DMin, United Theological Seminary",
+      "MDiv, Union Theological Seminary",
+      "BA, Denison University"
+    ]
+  },
+  {
+    "id": "drew-son",
+    "seminarySlug": "drew",
+    "name": "Angella M. Pak Son",
+    "title": "Professor of Psychology and Religion",
+    "areas": [
+      "pastoral-care-counseling"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "PhD, Princeton Theological Seminary",
+      "BSB, University of Minnesota"
+    ]
+  },
+  {
+    "id": "drew-spencer-miller",
+    "seminarySlug": "drew",
+    "name": "Althea Spencer-Miller",
+    "title": "Assistant Professor of New Testament",
+    "areas": [
+      "new-testament"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "PhD, Claremont Graduate University",
+      "ThM, Emory University",
+      "BA, University of the West Indies"
+    ]
+  },
+  {
+    "id": "drew-todd",
+    "seminarySlug": "drew",
+    "name": "J. Terry Todd",
+    "title": "Associate Professor of American Religious Studies",
+    "areas": [
+      "church-history"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "degrees": [
+      "PhD, Columbia University",
+      "MDiv, Harvard University",
+      "BA, Boston University"
+    ]
+  },
+  {
+    "id": "drew-winderweedle",
+    "seminarySlug": "drew",
+    "name": "Jess Winderweedle",
+    "title": "Louisville Institute Postdoctoral Fellow",
+    "areas": [
+      "preaching"
+    ],
+    "profileUrl": "https://drew.edu/theological-school/theological-school-academics/our-faculty-inspiring-leaders/",
+    "otherRoles": [
+      "Assistant Teaching Professor of Preaching"
+    ],
+    "degrees": [
+      "PhD, MDiv, Princeton Theological Seminary",
+      "BMA, Oklahoma Baptist University"
+    ]
+  }
+]
