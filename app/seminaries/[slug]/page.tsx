@@ -104,6 +104,11 @@ export default async function SeminaryProfilePage({
   const umcTrack =
     ordination.coverage?.filter((c) => c.status === "required-umc-track") ?? [];
   const pubSource = roster.find((m) => m.publicationsSource)?.publicationsSource;
+  // Some schools give every professor a real page; others have only a shared
+  // directory listing, in which case every roster member's profileUrl is
+  // identical and a per-card link would just repeat itself. >1 distinct URL
+  // is the tell.
+  const hasPerProfessorPages = new Set(roster.map((m) => m.profileUrl)).size > 1;
 
   return (
     <>
@@ -314,6 +319,28 @@ export default async function SeminaryProfilePage({
                             </ul>
                           </details>
                         ) : null}
+                        {hasPerProfessorPages || m.email ? (
+                          <p className="mt-1.5 flex flex-wrap gap-x-3 text-[12px] leading-snug">
+                            {hasPerProfessorPages ? (
+                              <a
+                                href={m.profileUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="unstyled text-reed-deep underline decoration-hairline-strong underline-offset-2"
+                              >
+                                Profile ↗
+                              </a>
+                            ) : null}
+                            {m.email ? (
+                              <a
+                                href={`mailto:${m.email}`}
+                                className="unstyled text-reed-deep underline decoration-hairline-strong underline-offset-2"
+                              >
+                                Email
+                              </a>
+                            ) : null}
+                          </p>
+                        ) : null}
                       </li>
                     ))}
                   </ul>
@@ -327,17 +354,27 @@ export default async function SeminaryProfilePage({
             ) : null}
             <p className="mt-4 text-[13px] text-muted">
               Titles and fields are the school&rsquo;s own; the grouping is ours.{" "}
-              {profile.name} does not publish a separate page per professor, so
-              there is nowhere deeper to link —{" "}
-              <a
-                href={roster[0].profileUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="unstyled underline decoration-hairline-strong underline-offset-2"
-              >
-                the full listing is here ↗
-              </a>
-              . Professors answer email from prospective students more often than
+              {hasPerProfessorPages ? (
+                <>
+                  Where {profile.name} publishes a page for someone, it&rsquo;s
+                  linked above as &ldquo;Profile.&rdquo;
+                </>
+              ) : (
+                <>
+                  {profile.name} does not publish a separate page per
+                  professor, so there is nowhere deeper to link —{" "}
+                  <a
+                    href={roster[0].profileUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="unstyled underline decoration-hairline-strong underline-offset-2"
+                  >
+                    the full listing is here ↗
+                  </a>
+                  .
+                </>
+              )}{" "}
+              Professors answer email from prospective students more often than
               you would guess.
               {pubSource ? (
                 <>
