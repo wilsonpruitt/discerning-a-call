@@ -52,7 +52,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "brite",
-    draft: true,
     lead: "Brite is the reason not to assume that a non–United Methodist school means a United Methodist problem. It is a Disciples-founded divinity school on the TCU campus in Fort Worth, and it says that after Disciples students, United Methodists are its largest group. It teaches United Methodist history, doctrine, mission, and polity in house, with denominational approval, and it has a Methodist studies chair to teach them. For a candidate weighing Senate-approved schools in Texas, Brite and Austin Seminary are an hour and a half apart and answer the ¶324.4 question very differently.",
     distinctives: [
       "United Methodist history, doctrine, mission, and polity are taught here and officially approved — at a school that is not United Methodist.",
@@ -75,7 +74,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "candler",
-    draft: true,
     lead: "Candler is a large, well-resourced divinity school inside Emory, in Atlanta, and it is one of the few places where getting certified as a candidate is worth money: certified UMC candidates who apply by the priority deadline receive full tuition. Its curriculum is unusually flexible, which is the best and the most demanding thing about it. Four of the nine ¶324.4 areas are guaranteed; the other five you assemble yourself out of a generous elective block and a set of choices.",
     distinctives: [
       "Certified UMC candidates who apply by the priority deadline receive scholarships covering 100% of tuition — the clearest financial reason on this site to get certified early.",
@@ -96,7 +94,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "garrett",
-    draft: true,
     lead: "Garrett sits on Northwestern's campus in Evanston, north of Chicago, and it has the best ¶324.4 coverage of any school looked at so far — eight of the nine areas are required of every M.Div. student. The ninth is United Methodist studies, and Garrett is unusually direct about it: its own curriculum guide says all the courses required for United Methodist ordination are in the program except the two denominational ones, which you take as general electives. That is a school telling you exactly where the hole is, which is more than most do.",
     distinctives: [
       "Eight of the nine ¶324.4 areas are required, including evangelism, worship, and preaching — each of which other schools leave to chance.",
@@ -117,7 +114,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "duke",
-    draft: true,
     lead: "Duke is the school most people picture when they picture a United Methodist divinity school, and its ¶324.4 arrangement is more particular than its reputation suggests. Five of the nine areas are in the core every M.Div. student takes. The other four — United Methodist studies, worship, evangelism, and mission — Duke requires of United Methodist students specifically, in a section of its bulletin headed Ordination Requirements. You cannot graduate without them. But they sit outside the courses the school schedules for everyone, which means nobody will schedule them for you.",
     distinctives: [
       "Duke names PARISH 777 and 778 for the year-long Methodist doctrine, history, and polity sequence, and LTS 730 for worship — no guessing on those two.",
@@ -138,7 +134,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "wesley",
-    draft: true,
     lead: "Wesley sits in Washington DC, and it is the most candid school in this set about what it does and does not require. Six of the nine ¶324.4 areas are in its M.Div. core. For the other three, Wesley says in its own catalogue that these are church requirements for ordination and not a Seminary requirement — and that students take them as electives. That sentence is worth more to a candidate than a higher score would be. It tells you precisely where the work falls to you, and then it names exactly which courses will do it.",
     distinctives: [
       "Wesley names full course menus for evangelism and mission, and a fixed pair — CM-251 with ST-463/464 — for United Methodist studies.",
@@ -159,7 +154,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "saint-paul",
-    draft: true,
     lead: "Saint Paul runs two campuses, in Leawood, Kansas and in Oklahoma City, and the degree plan and tuition are identical at both. What is not identical is who is there: eight of the ten core faculty work from the Kansas campus and two from Oklahoma. If you are choosing between them for in-person study, you are choosing between the same degree taught by very different numbers of people. Seven of the nine ¶324.4 areas are in the required core, which is strong — and unusually, evangelism and worship are among them.",
     distinctives: [
       "Evangelism and worship are required of every M.Div. student, not left to United Methodist students or to electives — rare in this set.",
@@ -180,7 +174,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "phillips",
-    draft: true,
     lead: "Phillips is in Tulsa, it is not a United Methodist school, and it is the only school on GBHEM's roster carrying University Senate Monitoring with Public Warning. That phrase should go to your board's registrar before you enrol, not after — GBHEM publishes the status but says nothing about what it means for a candidate part-way through a degree. Set against that: Phillips covers all nine ¶324.4 areas, seven in the universal core and two required of United Methodist students, which is better than any United Methodist school in this set.",
     distinctives: [
       "All nine areas are covered — the only school here where that is true.",
@@ -201,7 +194,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "vanderbilt",
-    draft: true,
     lead: "Vanderbilt Divinity began as the Methodist Episcopal Church, South's flagship school and has not been United Methodist since 1914. It still runs more Wesleyan infrastructure than most schools that are: a United Methodist Studies programme going back to 1985, two Cal Turner Chancellor's Chairs in Wesleyan Studies held by ordained United Methodists, and three named United Methodist courses. What it does not do, anywhere on its own pages, is require any of it, or claim denominational approval for it. Its catalogue writes binding ordination language for Presbyterian and United Church of Christ students, and never for United Methodists. That contrast is the whole story.",
     distinctives: [
       "Two chairs in Wesleyan Studies — Joerg Rieger and James P. Byrd, both ordained United Methodists — plus Herbert Marbury in Hebrew Bible.",
@@ -222,7 +214,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "boston",
-    draft: true,
     lead: "Boston University School of Theology is the oldest United Methodist seminary in the country — founded in 1839 as the first Methodist seminary in the United States — and it is also the most candid of the thirteen about handing ¶324.4 back to you. Four of the nine areas are in the core every M.Div. student takes, full stop. The other five — worship, preaching, evangelism, mission, and United Methodist studies itself — BU 'offers,' in its own words, rather than requires. The courses exist, they're well-built, and nothing stops you from never touching most of them.",
     distinctives: [
       "BU's M.Div. runs on three vocational tracks — Ecclesial Ministry, Chaplaincy, Global and Community Engagement — chosen by the end of your first year. Only Ecclesial Ministry binds you to Preaching and Worship, and even there, UM Polity, UM History & Doctrine, Evangelism, and Mission all compete for a single elective slot.",
@@ -243,7 +234,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "claremont",
-    draft: true,
     lead: "Claremont keeps its name but not its old campus: after 66 years in Claremont, CA, the school moved to Los Angeles in 2024, sharing a building with Westwood United Methodist Church a few blocks from UCLA. Its M.Div. splits into two tracks with genuinely different curricula — Ministerial Leadership and Interfaith Chaplaincy — and only one of them requires worship and preaching. Ministerial Leadership covers all nine ¶324.4 areas: six in the universal core, and three more — United Methodist studies, evangelism, and mission — that Claremont's own catalog calls 'required denominational studies courses' for United Methodist students, naming the exact courses and credits.",
     distinctives: [
       "The MDiv's two tracks are not two flavors of the same degree. Interfaith Chaplaincy trades worship and preaching for Interreligious Competencies and Clinical Pastoral Education, built around chaplaincy certification rather than parish ministry.",
@@ -264,7 +254,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "drew",
-    draft: true,
     lead: "Drew doesn't build its M.Div. the way the rest of this list does. Its six universal required courses aren't named Old Testament, New Testament, or Church History — they're cross-disciplinary seminars, and the testament- and practice-specific work instead comes from one of four vocational pathways every student chooses. Pick United Methodist Ministry — the pathway Drew's own admissions copy says meets UM ordination requirements for Elder or Deacon — and eight of the nine ¶324.4 areas end up binding, several of them named to the exact course. The one that doesn't: preaching, which no pathway at Drew actually guarantees.",
     distinctives: [
       "One of its required United Methodist Studies courses states its own ordination function in the catalog's own words: 'Fulfills the Division of Ordained Ministry requirement in evangelism for United Methodist students.'",
@@ -285,7 +274,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "gammon",
-    draft: true,
     lead: "Gammon is the only Historically Black Theological Institution of the United Methodist Church, and it is in the middle of an unusual transition worth understanding before anything else about it. For decades it wasn't a standalone school at all: from 1958 to 2023, Gammon was the United Methodist member of the Interdenominational Theological Center (ITC), a consortium of historically Black seminaries in Atlanta, and ITC's accreditation covered Gammon's degree. When ITC declared financial exigency in 2023, Gammon left rather than go down with it, relaunched on its own in 2024, and — one month before this page was written — earned its own accreditation. It is now a genuinely independent school, still small, still building. Its own catalog states one clear United Methodist rule: 24 of the M.Div.'s 72 credit hours must come from \"Religious Heritage\" courses drawn from the Book of Discipline. What it doesn't yet publish is which of the nine ¶324.4 areas those 24 hours actually cover — so this page can't show you the usual nine-row table, and says so rather than guessing.",
     distinctives: [
       "The only HBTI (Historically Black Theological Institution) among the thirteen United Methodist schools of theology — its whole academic identity is built around Black church scholarship and Womanist theology.",
@@ -306,7 +294,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "iliff",
-    draft: true,
     lead: "Iliff is the only one of the thirteen United Methodist schools that isn't embedded in or hosted by a university, and its M.Div. shows it: after a Fall 2025 redesign, the degree is organized entirely around four concentrations, and Iliff's own current marketing pages name no required course in Old Testament, New Testament, theology, history, worship, or preaching for anyone. All nine of ¶324.4's areas still bind a United Methodist candidate here — but every one of them binds through Iliff's own United Methodist Church page, not through anything in the general degree. That page was last substantively updated in 2022, three years before the redesign it now describes requirements for.",
     distinctives: [
       "Zero of the nine ¶324.4 areas sit in a denomination-neutral core — the first school in this project where that's true. Duke has five in its universal core; Saint Paul has seven. Iliff has none.",
@@ -327,7 +314,6 @@ export const seminaryEditorial: SeminaryEditorial[] = [
   },
   {
     slug: "mtso",
-    draft: true,
     lead: "MTSO is the smallest of the thirteen and the only one on this list that isn't attached to a university or a consortium — just a seminary, on its own campus outside Columbus. Its M.Div. covers six of the nine ¶324.4 areas outright. For the other three — evangelism, mission of the church, and United Methodist studies — MTSO's catalog says, in two separate chapters, that these are electives, and says so more plainly than any other school in this project. It names the exact courses most United Methodist students take, then tells you twice to go confirm the actual requirement with your annual conference. That's not a smaller commitment than Duke's or Phillips' — it's a different one, stated with unusual candor.",
     distinctives: [
       "MTSO names five specific denominational electives — DS660, DS665, DS670, plus a mission and an evangelism elective — but places every one of them in unrestricted elective space, not the required core.",
